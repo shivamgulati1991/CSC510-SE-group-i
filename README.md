@@ -12,4 +12,4 @@ requirement and a problem to solve as we live in a connected social world.
 Get opinion of people for the same, and draw conclusions regarding the same.
 
 Phase 2:
-Discussion  and buuilding 3 candidate solutions
+Discussion and building 3 candidate solutions
