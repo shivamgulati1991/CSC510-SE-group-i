@@ -1,6 +1,5 @@
 function generateEvents(){
 
-
 var mycal = "sgulati2@ncsu.edu";
 var cal = CalendarApp.getCalendarById(mycal);
 
@@ -26,7 +25,7 @@ var sheet = SpreadsheetApp.getActiveSheet();
 
 // Create a header record on the current spreadsheet in cells A1:N1 - Match the number of entries in the "header=" to the last parameter
 // of the getRange entry below
-var header = [["Calendar Address", "Event Title", "Event Description", "Event Location", "Event Start", "Event End", "Calculated Duration", "Visibility", "Date Created", "Last Updated", "MyStatus", "Created By", "All Day Event", "Recurring Event"]]
+var header = [["Calendar Address", "Title", "Description", "Location", "Start Time", "End Time", "Calculated Duration", "Visibility", "Date Created", "Last Updated", "MyStatus", "Created By", "All Day Event", "Recurring Event"]]
 var range = sheet.getRange(1,1,1,14);
 range.setValues(header);
 
@@ -49,10 +48,7 @@ cell.setNumberFormat('.00');
 
 }
 }
-function onOpen() {
-  Browser.msgBox('App Instructions - Please Read This Message', '1) Click Tools then Script Editor\\n2) Read/update the code with your desired values.\\n3) Then when ready click Run export_gcal_to_gsheet from the script editor.', Browser.Buttons.OK);
 
-}
 function sendEmails() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var startRow = 2;  // First row of data to process
@@ -69,7 +65,6 @@ function sendEmails() {
     MailApp.sendEmail("sgulati2@ncsu.edu", subject, message);
   }
 }
-
 function testMail(){
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var responses = ss.getActiveSheet();
@@ -95,7 +90,7 @@ function composeMessage(headers,values){
 
 
 function composeHtmlMsg(headers,values){
-  var message = 'Your event details :<br><br><table style="background-color:lightblue;border-collapse:collapse;" border = 1 cellpadding = 5><th>data</th><th>Values</th><tr>'
+  var message = 'Your event details :<br><br><table style="background-color:grey;border-collapse:collapse;" border = 1 cellpadding = 5><th>data</th><th>Values</th><tr>'
   for(var c=0;c<values[0].length;++c){
     message+='<tr><td>'+headers[0][c]+'</td><td>'+values[0][c]+'</td></tr>'
   }
