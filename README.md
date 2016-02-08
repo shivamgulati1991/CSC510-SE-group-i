@@ -13,3 +13,7 @@ Get opinion of people for the same, and draw conclusions regarding the same.
 
 Phase 2:
 Discussion and building 3 candidate solutions
+
+Solution 1: Android app
+Solution 2: Google Script for Webapp/Chrome plugin
+Solution 3: Still in progress
