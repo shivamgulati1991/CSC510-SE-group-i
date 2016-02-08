@@ -1,3 +1,7 @@
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('index')
+      .setSandboxMode(HtmlService.SandboxMode.IFRAME);
+}
 function generateEvents(){
 
 var mycal = "sgulati2@ncsu.edu";
@@ -49,35 +53,20 @@ cell.setNumberFormat('.00');
 }
 }
 
-function sendEmails() {
-  var sheet = SpreadsheetApp.getActiveSheet();
-  var startRow = 2;  // First row of data to process
-  var numRows = 6;   // Number of rows to process
-  // Fetch the range of cells A2:B3
-  var dataRange = sheet.getRange(startRow, 1, numRows, 7)
-  // Fetch values for each row in the Range.
-  var data = dataRange.getValues();
-  for (i in data) {
-    var row = data[i];
-    var emailAddress = row[0];  // First column
-    var message = row[1];       // Second column
-    var subject = "Sending emails from a Spreadsheet";
-    MailApp.sendEmail("sgulati2@ncsu.edu", subject, message);
-  }
-}
-function testMail(){
+/*function testMail(){
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var responses = ss.getActiveSheet();
+  
   var lastRow = responses.getLastRow();
-  var values = responses.getRange("A"+(lastRow)+":M"+(lastRow)).getValues();
+  var values = responses.getRange("A"+2+":N"+(lastRow)).getValues();
   var headers = responses.getRange("A1:AK6").getValues();
   var message = composeMessage(headers,values);
   var messageHTML = composeHtmlMsg(headers,values);
   Logger.log(messageHTML);
   MailApp.sendEmail("sgulati2@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
-  MailApp.sendEmail("ppradha3@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
-  MailApp.sendEmail("ngarg@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
-  MailApp.sendEmail("sjain7@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
+ // MailApp.sendEmail("ppradha3@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
+ // MailApp.sendEmail("ngarg@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
+ // MailApp.sendEmail("sjain7@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
 }
 
 function composeMessage(headers,values){
@@ -86,13 +75,30 @@ function composeMessage(headers,values){
     message+='\n'+headers[0][c]+' : '+values[0][c]
   }
   return message;
+}*/
+
+function test1() {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var responses = ss.getActiveSheet();
+  var lastRow = responses.getLastRow();
+  //var data = responses.getRange('A2:F6').getValues();
+  var data = responses.getRange("A"+2+":F"+(lastRow)).getValues();
+  var body = 'Your event details :<br><br><table style="background-color:lightgrey;border-collapse:collapse;" border = 1 cellpadding = 5><th>Calendar Address</th><th>Title</th><th>Description</th><th>Location</th><th>Start Time</th><th>End Time</th><tr>'
+  for( var row in data ) {
+    body += '<tr>';
+    for( var col in data[row] ) {
+      body += '<td>'+data[row][col] + '</td>\t';
+    }
+    body += '</tr>\n';
+  }
+  MailApp.sendEmail("sgulati2@ncsu.edu", 'Subject', body,{'htmlBody':body});
 }
 
 
-function composeHtmlMsg(headers,values){
-  var message = 'Your event details :<br><br><table style="background-color:grey;border-collapse:collapse;" border = 1 cellpadding = 5><th>data</th><th>Values</th><tr>'
+/*function composeHtmlMsg(headers,values){
+  var message = 'Your event details :<br><br><table style="background-color:lightgrey;border-collapse:collapse;" border = 1 cellpadding = 5><th>data</th><th>Values</th><tr>'
   for(var c=0;c<values[0].length;++c){
     message+='<tr><td>'+headers[0][c]+'</td><td>'+values[0][c]+'</td></tr>'
   }
   return message+'</table>';
-}
+}*/
