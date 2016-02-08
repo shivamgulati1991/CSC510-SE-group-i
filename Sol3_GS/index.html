@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h2>Please select the dates to extract events</h2>
+    <div>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <form id="form1">
+    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
+    Choose End Date : <input type="text" name="endDate" id="endDatepicker" />
+    <input type="submit" value="Submit" onclick='google.script.run.sendReport()'></input>
+  </form>
+<script>
+$("#startDatepicker").datepicker();
+$("#endDatepicker").datepicker();
+</script>
+
+</div>
+  </body>
+</html>
+
+
