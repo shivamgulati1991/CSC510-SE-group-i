@@ -1,0 +1,19 @@
+# CSC510-SE-group-i
+
+Team:
+Nishtha Garg
+Priysha Pradhan
+Shifali Jain
+Shivam Gulati
+
+Phase 1:
+Survey and research on how the personal information management is a big time 
+requirement and a problem to solve as we live in a connected social world.
+Get opinion of people for the same, and draw conclusions regarding the same.
+
+Phase 2:
+Discussion and building 3 candidate solutions
+
+Solution 1: Android app
+Solution 2: Google Script for Webapp/Chrome plugin
+Solution 3: Still in progress
