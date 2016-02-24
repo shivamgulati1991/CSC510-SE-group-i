@@ -4,13 +4,9 @@ function doGet() {
 }
 function generateEvents(){
 
-var mycal = "sgulati2@ncsu.edu";
-var cal = CalendarApp.getCalendarById(mycal);
-
-// Optional variations on getEvents
-// var events = cal.getEvents(new Date("January 3, 2014 00:00:00 CST"), new Date("January 14, 2014 23:59:59 CST"));
-// var events = cal.getEvents(new Date("January 3, 2014 00:00:00 CST"), new Date("January 14, 2014 23:59:59 CST"), {search: 'word1'});
-// 
+//var mycal = "sgulati2@ncsu.edu";
+var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
+ 
 // Explanation of how the search section works (as it is NOT quite like most things Google) as part of the getEvents function:
 //    {search: 'word1'}              Search for events with word1
 //    {search: '-word1'}             Search for events without word1
@@ -19,13 +15,13 @@ var cal = CalendarApp.getCalendarById(mycal);
 //    {search: 'word1 -word2'}       Search for events without word2
 //    {search: 'word1+word2'}        Search for events with word1 AND word2
 //    {search: 'word1+-word2'}       Search for events with word1 AND without word2
-//
-var events = cal.getEvents(new Date("January 12, 2016 00:00:00 CST"), new Date("January 18, 2016 23:59:59 CST"), {search: '-project123'});
-
+  
+var events = cal.getEvents(new Date("January 13, 2016 00:00:00 EST"), new Date("January 18, 2016 23:59:59 EST"), {search: '-project123'});
+//var events = cal.getEvents(new Date(startDate), new Date(endDate), {search: '-project123'});
 
 var sheet = SpreadsheetApp.getActiveSheet();
 // Uncomment this next line if you want to always clear the spreadsheet content before running - Note people could have added extra columns on the data though that would be lost
-// sheet.clearContents();  
+ sheet.clearContents();  
 
 // Create a header record on the current spreadsheet in cells A1:N1 - Match the number of entries in the "header=" to the last parameter
 // of the getRange entry below
@@ -76,7 +72,11 @@ function composeMessage(headers,values){
   }
   return message;
 }*/
-
+function submitDates(startDate,endDate) {
+  Logger.log(JSON.stringify(arguments));
+  // To send error messages, throw an exception.
+  // e.g. if (invalid) throw new error("Invalid date")
+}
 function sendReport() {
     var ss = SpreadsheetApp.getActiveSpreadsheet();
   var responses = ss.getActiveSheet();
