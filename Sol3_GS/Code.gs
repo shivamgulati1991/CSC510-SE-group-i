@@ -1,10 +1,14 @@
 function doGet() {
-  return HtmlService.createHtmlOutputFromFile('index')
+  //return HtmlService.createHtmlOutputFromFile('index')
+  return HtmlService.createTemplateFromFile('index')
+  .evaluate()
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
+
+
 function generateEvents(){
 
-//var mycal = "sgulati2@ncsu.edu";
+var mycal = "sgulati2@ncsu.edu";
 var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
  
 // Explanation of how the search section works (as it is NOT quite like most things Google) as part of the getEvents function:
@@ -102,3 +106,18 @@ function sendReport() {
   }
   return message+'</table>';
 }*/
+
+
+function onOpen() {
+  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+      .createMenu('Dialog')
+      .addItem('Open', 'openDialog')
+      .addToUi();
+}
+
+function openDialog() {
+  var html = HtmlService.createHtmlOutputFromFile('Index')
+      .setSandboxMode(HtmlService.SandboxMode.IFRAME);
+  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+      .showModalDialog(html, 'Dialog title');
+}

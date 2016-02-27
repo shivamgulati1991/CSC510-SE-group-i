@@ -2,11 +2,6 @@
 <html>
   <head>
     <base target="_top">
-    <script>
-    function sendData(){
-    google.script.run.withSuccessHandler(onSuccess).sendReport();
-    }
-    </script>
   </head>
   <body>
 
@@ -15,16 +10,37 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.9.1.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <input type="button" value="Submit" onclick="check()"></input>
   <form id="form1">
     Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
     Choose End Date : <input type="text" name="endDate" id="endDatepicker" />
-    <input type="submit" value="Submit" onclick="sendData()"></input>
+    <input type="submit" value="Submit" onclick="check()"></input>
+
   </form>
 <script>
 $("#startDatepicker").datepicker();
 $("#endDatepicker").datepicker();
 </script>
+<script>
+// Pass input dates to server-side submitDates()
+function submitDates() {
+  var startDate = $("#startDatePicker").val();
+  var endDate = $("#endDatePicker").val();
+
+  google.script.run
+        .withSuccessHandler(
+           // Dates delivered, close dialog
+           function() {
+             google.script.host.close();
+           })
+           // Display failure messages
+         .withFailureHandler(
+           function() {
+             var div = $('<div id="error" class="error">' + msg + '</div>');
+             $(element).after($("#demo"));
+           })
+         .submitDates(startDate,endDate);
+}
+</script>
   </body>
 </html>
-
-
