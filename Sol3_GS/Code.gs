@@ -88,12 +88,12 @@ function submitDates(startDate,endDate) {
   // e.g. if (invalid) throw new error("Invalid date")
 }
 function sendReport() {
-    var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
   var responses = ss.getActiveSheet();
   var lastRow = responses.getLastRow();
   //var data = responses.getRange('A2:F6').getValues();
   var data = responses.getRange("A"+2+":F"+(lastRow)).getValues();
-  var body = 'Your event details :<br><br><table style="background-color:lightgrey;border-collapse:collapse;" border = 1 cellpadding = 5><th>Calendar Address</th><th>Title</th><th>Description</th><th>Location</th><th>Start Time</th><th>End Time</th><tr>'
+  var body = 'Your event details :<br><br><table style="background-color:cream;border-collapse:collapse;" border = 1 cellpadding = 5><th>Calendar</th><th>Title</th><th>Description</th><th>Location</th><th>Start Time</th><th>End Time</th><tr>'
   for( var row in data ) {
     body += '<tr>';
     for( var col in data[row] ) {
@@ -101,7 +101,23 @@ function sendReport() {
     }
     body += '</tr>\n';
   }
-  MailApp.sendEmail("ppradha3@ncsu.edu", 'Subject', body,{'htmlBody':body});
+  MailApp.sendEmail(Session.getActiveUser().getEmail(), 'Subject', body,{'htmlBody':body});
+}
+
+function createTimeDrivenTriggers() {
+  // Trigger every 6 hours.
+  ScriptApp.newTrigger('sendReport')
+      .timeBased()
+      .everyMinutes(1)
+      .create();
+}
+
+function deleteTrigger() {
+  //delete all triggers
+ var triggers = ScriptApp.getProjectTriggers();
+ for (var i = 0; i < triggers.length; i++) {
+   ScriptApp.deleteTrigger(triggers[i]);
+ } 
 }
 
 
