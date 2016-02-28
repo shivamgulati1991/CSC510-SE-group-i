@@ -5,18 +5,19 @@ function doGet() {
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
 
-//added by Priysha
-function submitDates(startDate,endDate) {
-  Logger.log(JSON.stringify(arguments));
-  // To send error messages, throw an exception.
-  // e.g. if (invalid) throw new error("Invalid date")
+function dateToString(dateString) {
+  var dateArray = dateString.split("/");
+  var year = dateArray[2];
+  var month = dateArray[0];
+  var day = dateArray[1];
+  var date = new Date(year, month - 1, day);
+
+  return date;
 }
 
-function generateEvents(){
-
+function generateEvents(formObject){
 var mycal = "sgulati2@ncsu.edu";
 var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
- 
 // Explanation of how the search section works (as it is NOT quite like most things Google) as part of the getEvents function:
 //    {search: 'word1'}              Search for events with word1
 //    {search: '-word1'}             Search for events without word1
@@ -25,11 +26,15 @@ var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
 //    {search: 'word1 -word2'}       Search for events without word2
 //    {search: 'word1+word2'}        Search for events with word1 AND word2
 //    {search: 'word1+-word2'}       Search for events with word1 AND without word2
-  
-var events = cal.getEvents(new Date("January 13, 2016 00:00:00 EST"), new Date("January 18, 2016 23:59:59 EST"), {search: '-project123'});
-//var events = cal.getEvents(new Date(startDate), new Date(endDate), {search: '-project123'});
-
-var sheet = SpreadsheetApp.getActiveSheet();
+ 
+//var events = cal.getEvents(new Date("January 13, 2016 00:00:00 EST"), new Date("January 15, 2016 23:59:59 EST"), {search: '-project123'});
+var startDate = Utilities.formatDate(dateToString(formObject.startDate), "EST", "MMMM dd',' yyyy hh:mm:ss z");
+  var endDate = Utilities.formatDate(dateToString(formObject.endDate), "EST", "MMMM dd',' yyyy hh:mm:ss z");
+  Logger.log(startDate);
+  Logger.log(endDate);
+  var events = cal.getEvents(new Date(startDate),new Date(endDate), {search: '-project123'});
+ 
+ var sheet = SpreadsheetApp.openById('1fOKAKmTAYQFP8ESFPAUtFerhXdaOrX4BToxt_Tk5Jss').getActiveSheet();
 // Uncomment this next line if you want to always clear the spreadsheet content before running - Note people could have added extra columns on the data though that would be lost
  sheet.clearContents();  
 
@@ -38,7 +43,6 @@ var sheet = SpreadsheetApp.getActiveSheet();
 var header = [["Calendar Address", "Title", "Description", "Location", "Start Time", "End Time", "Calculated Duration", "Visibility", "Date Created", "Last Updated", "MyStatus", "Created By", "All Day Event", "Recurring Event"]]
 var range = sheet.getRange(1,1,1,14);
 range.setValues(header);
-
   
 // Loop through all calendar events found and write them out starting on calulated ROW 2 (i+2)
 for (var i=0;i<events.length;i++) {
@@ -49,7 +53,6 @@ var myformula_placeholder = '';
 var details=[[mycal,events[i].getTitle(), events[i].getDescription(), events[i].getLocation(), events[i].getStartTime(), events[i].getEndTime(), myformula_placeholder, ('' + events[i].getVisibility()), events[i].getDateCreated(), events[i].getLastUpdated(), events[i].getMyStatus(), events[i].getCreators(), events[i].isAllDayEvent(), events[i].isRecurringEvent()]];
 var range=sheet.getRange(row,1,1,14);
 range.setValues(details);
-
 // Writing formulas from scripts requires that you write the formulas separate from non-formulas
 // Write the formula out for this specific row in column 7 to match the position of the field myformula_placeholder from above: foumula over columns F-E for time calc
 var cell=sheet.getRange(row,7);
@@ -82,11 +85,13 @@ function composeMessage(headers,values){
   }
   return message;
 }*/
-function submitDates(startDate,endDate) {
-  Logger.log(JSON.stringify(arguments));
-  // To send error messages, throw an exception.
-  // e.g. if (invalid) throw new error("Invalid date")
+
+function submitDates(formObject) {
+  Logger.log(formObject.startDate);
+  Logger.log(formObject.endDate);
+  Logger.log('hey there');
 }
+
 function sendReport() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var responses = ss.getActiveSheet();
@@ -104,12 +109,26 @@ function sendReport() {
   MailApp.sendEmail(Session.getActiveUser().getEmail(), 'Subject', body,{'htmlBody':body});
 }
 
-function createTimeDrivenTriggers() {
+function createTimeDrivenTriggers(formObject) {
   // Trigger every 6 hours.
+  var interval = formObject.groupInterval;
+  if(interval=='Minute'){
+      Logger.log('Trigger created Minute');
   ScriptApp.newTrigger('sendReport')
       .timeBased()
-      .everyMinutes(1)
+      .everyMinutes(formObject.minuteInterval)
       .create();
+  }
+  else if(interval=='Hour'){
+  Logger.log('Trigger created Hour');
+  ScriptApp.newTrigger('sendReport')
+      .timeBased()
+      .everyHours(formObject.hourInterval)
+      .create();
+  }
+  else{
+    Logger.log('else');
+  }
 }
 
 function deleteTrigger() {
@@ -119,7 +138,6 @@ function deleteTrigger() {
    ScriptApp.deleteTrigger(triggers[i]);
  } 
 }
-
 
 /*function composeHtmlMsg(headers,values){
   var message = 'Your event details :<br><br><table style="background-color:lightgrey;border-collapse:collapse;" border = 1 cellpadding = 5><th>data</th><th>Values</th><tr>'

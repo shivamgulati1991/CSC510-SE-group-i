@@ -1,34 +1,46 @@
-<div class="demo" >
-<style type="text/css"> .demo { margin: 30px ; color : #AAA ; font-family : arial sans-serif ;font-size : 10pt } 
-                            p { color : black ; font-size : 11pt } 
-</style>
-<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/cupertino/jquery-ui.css">
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-<p>Please select a date below :</p>
-
-<p> Start Date : <input type="text" name="StartDate" id="startdatepicker" /> </p>
-<p> End Date :   <input type="text" name="EndDate" id="enddatepicker" /> </p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+  <script>
+  function handleFormSubmit(formObject) {
+        google.script.run.generateEvents(formObject);
+      }
+    function setupTriggers(formObject){
+        google.script.run.createTimeDrivenTriggers(formObject);
+      }
+  </script> 
+    <h2>Please select the dates to extract events</h2>
+    <div>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <form id="form1" onsubmit="handleFormSubmit(this)">
+    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
+    Choose End Date : <input type="text" name="endDate" id="endDatepicker" />
+    <input type="submit" value="Submit"></input>   
+  </form><br/><br/><br/><br/><br/><br/>
+  </div>
+  <div style="border: thin solid black">
+  <h2>Set email reminders</h2> 
+  <form id="form2" onsubmit="setupTriggers(this)">
+  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: <input type="text" name="minuteInterval" /><br/><br>
+<input type="radio" name="groupInterval" value="Hour"> Hour Interval: <input type="text" name="hourInterval" /><br>
+   &nbsp; &nbsp;<input type="submit" value="Setup reminder"></input>
+  </form>
+  <br/>
+  </div>
 <script>
-    $( "#startdatepicker" ).datepicker({
-      showWeek: true,
-      firstDay: 0,
-     });
+$("#startDatepicker").datepicker();
+$("#endDatepicker").datepicker();
 </script>
-<script>
-    $( "#enddatepicker" ).datepicker({
-      showWeek: true,
-      firstDay: 0,
-     });
-</script>
-<input type="button" value="Create" onclick="submitDates()" />
 <script>
 // Pass input dates to server-side submitDates()
 function submitDates() {
-  var startDate = $("#startdatepicker").val();
-  var endDate = $("#enddatepicker").val();
+  var startDate = $("#startDatePicker").val();
+  var endDate = $("#endDatePicker").val();
 
   google.script.run
         .withSuccessHandler(
@@ -44,6 +56,6 @@ function submitDates() {
            })
          .submitDates(startDate,endDate);
 }
-
 </script>
-</div>
+  </body>
+</html>
