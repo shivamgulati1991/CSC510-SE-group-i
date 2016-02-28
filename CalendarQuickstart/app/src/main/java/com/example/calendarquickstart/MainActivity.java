@@ -1,9 +1,8 @@
-/**
+package com.example.calendarquickstart; /**
  * Created by nisthagarg on 2/27/16.
  */
-package com.example.calendarquickstart;
 
-import com.facebook.FacebookSdk;
+
 import com.facebook.appevents.AppEventsLogger;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -35,6 +34,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -103,11 +103,18 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         AppEventsLogger.activateApp(this);
+        Log.i("Nishtha","onResume");
         if (isGooglePlayServicesAvailable()) {
+            Log.i("Nishtha","isGooglePlayServicesAvailable");
             refreshResults();
         } else {
             mOutputText.setText("Google Play Services required: " +
                     "after installing, close and relaunch this app.");
+        }
+        if(!("".equals(getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE)))){
+            Log.i("Nishtha",""+PREF_ACCOUNT_NAME+" "+getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE));
+            Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
+            startActivity(i);
         }
     }
 
@@ -164,15 +171,20 @@ public class MainActivity extends Activity {
      * user can pick an account.
      */
     private void refreshResults() {
+        Log.i("Nishtha", "refreshResults");
         if (mCredential.getSelectedAccountName() == null) {
+            Log.i("Nishtha","refreshResults if");
             chooseAccount();
-        } else {
+        }
+
             if (isDeviceOnline()) {
+                Log.i("Nishtha","refreshResults else if");
                 new MakeRequestTask(mCredential).execute();
             } else {
+                Log.i("Nishtha","refreshResults else else");
                 mOutputText.setText("No network connection available.");
             }
-        }
+
     }
 
     /**
@@ -205,10 +217,13 @@ public class MainActivity extends Activity {
     private boolean isGooglePlayServicesAvailable() {
         final int connectionStatusCode =
                 GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+        Log.i("Nishtha", "isGooglePlayServicesAvailable");
         if (GooglePlayServicesUtil.isUserRecoverableError(connectionStatusCode)) {
             showGooglePlayServicesAvailabilityErrorDialog(connectionStatusCode);
+            Log.i("Nishtha", "isGooglePlayServicesAvailable if");
             return false;
         } else if (connectionStatusCode != ConnectionResult.SUCCESS ) {
+            Log.i("Nishtha","isGooglePlayServicesAvailable else");
             return false;
         }
         return true;
@@ -238,6 +253,7 @@ public class MainActivity extends Activity {
         private Exception mLastError = null;
 
         public MakeRequestTask(GoogleAccountCredential credential) {
+            Log.i("Nishtha","MakeRequestTask");
             HttpTransport transport = AndroidHttp.newCompatibleTransport();
             JsonFactory jsonFactory = JacksonFactory.getDefaultInstance();
             mService = new com.google.api.services.calendar.Calendar.Builder(
@@ -253,6 +269,7 @@ public class MainActivity extends Activity {
         @Override
         protected List<String> doInBackground(Void... params) {
             try {
+                Log.i("Nishtha","doInBackground");
                 return getDataFromApi();
             } catch (Exception e) {
                 mLastError = e;
@@ -268,6 +285,7 @@ public class MainActivity extends Activity {
          */
         private List<String> getDataFromApi() throws IOException {
             // List the next 10 events from the primary calendar.
+            Log.i("Nishtha","getDataFromApi");
             DateTime now = new DateTime(System.currentTimeMillis());
             List<String> eventStrings = new ArrayList<String>();
             Events events = mService.events().list("primary")
@@ -277,8 +295,9 @@ public class MainActivity extends Activity {
                     .setSingleEvents(true)
                     .execute();
             List<Event> items = events.getItems();
-
+            Log.i("Nishtha","items.size: "+items.size());
             for (Event event : items) {
+                Log.i("Nishtha","events loop");
                 DateTime start = event.getStart().getDateTime();
                 if (start == null) {
                     // All-day events don't have start times, so just use
@@ -300,7 +319,8 @@ public class MainActivity extends Activity {
 
         @Override
         protected void onPostExecute(List<String> output) {
-            mProgress.hide();
+            Log.i("Nishtha","onPostExecute");
+            mProgress.dismiss();
             if (output == null || output.size() == 0) {
                 mOutputText.setText("No results returned.");
             } else {
