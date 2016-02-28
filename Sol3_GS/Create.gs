@@ -1,6 +1,6 @@
 //Create the GUI form
 
-function doGet() {
+function doGet2() {
   var app = UiApp.createApplication().setTitle('Form and Calendar Events');
   
   //Create a penel which holds all the form elelemnts
@@ -49,7 +49,7 @@ function createEvents(e){
     
     //Get the calendar
     var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
-    //var cal = CalendarApp.getCalendarsByName('sgulati2@ncsu.edu')[0];//Change the calendar name
+    //var cal = CalendarApp.getCalendarsByName('ppradha3@ncsu.edu')[0];//Change the calendar name
     var eventStartTime = eventDate;
     //End time is calculated by adding an hour in the event start time 
     var eventEndTime = new Date(eventDate.valueOf()+60*60*1000);
@@ -73,4 +73,22 @@ function createEvents(e){
     app.add(app.createLabel('Error occured: '+e));
     return app;
   }
+}
+
+function createEvent(formObject){
+  Logger.log(formObject.eventDate);
+  Logger.log(formObject.eventTitle);
+  Logger.log(formObject.eventDetails);
+      var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
+    //var cal = CalendarApp.getCalendarsByName('ppradha3@ncsu.edu')[0];//Change the calendar name
+    var eventStartTime = dateToString(formObject.eventDate);
+    var eventEndTime = dateToString(formObject.eventDate);
+        eventEndTime.setDate(eventEndTime.getDate() + 1);
+  Logger.log(eventStartTime);
+    //End time is calculated by adding an hour in the event start time 
+    //var eventEndTime = new Date(formObject.eventDate.valueOf()+60*60*1000);
+  Logger.log(eventEndTime);
+    //Create the events
+    cal.createEvent(formObject.eventTitle, eventStartTime,eventEndTime ,{description:formObject.eventDetails});
+  Logger.log('done');
 }

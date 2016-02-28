@@ -28,21 +28,32 @@ $(document).ready(function(){
         $("#panel2").slideToggle("slow");
     });
 });
+
+$(document).ready(function(){
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+});
 </script>
 <style> 
-#panel1, #flip1,#panel2, #flip2 {
+#panel1, #flip1,#panel2, #flip2,#panel3, #flip3 {
     padding: 5px;
-    background-color: #e5eecc;
     border: solid 1px #c3c3c3;
 }
 
-#panel1,#panel2 {
+#flip1,#flip2,#flip3 {
+    background-color: lightgrey;
+}
+#panel1,#panel2,#panel3 {
+    background-color: #e5eecc;
+    background-color: white;
     padding: 5px;
     display: none;
 }
 </style>
   </head>
   <body>
+  <h2> Effcal - Appointment reporting and scheduling</h2>
   <script>
   function handleFormSubmit(formObject) {
         google.script.run.generateEvents(formObject);
@@ -50,16 +61,18 @@ $(document).ready(function(){
     function setupTriggers(formObject){
         google.script.run.createTimeDrivenTriggers(formObject);
       }
-          function deleteTriggers(formObject){
-          
+    function deleteTriggers(formObject){
         google.script.run.deleteTrigger();
+      }
+    function handleEventCreate(formObject) {
+        google.script.run.createEvent(formObject);
       }
   </script> 
    <div id="flip1"><h4>Click to extract Appointments</h4></div>
   <div id="panel1">
   <form id="form1" onsubmit="handleFormSubmit(this);alert('Report has been sent to your e-mail.');">
-    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
-    Choose End Date : <input type="text" name="endDate" id="endDatepicker" /><br/><br/>
+    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" required/>
+    Choose End Date : <input type="text" name="endDate" id="endDatepicker" required/><br/><br/>
     Search Keyword : <input type="text" name="keyword" /><br/><br/>
     <input type="submit" value="Submit"/>   
   </form><br/>
@@ -68,7 +81,14 @@ $(document).ready(function(){
   <div id="flip2"><h4>Click to set daily appointment reminders</h4></div>
   <div id="panel2">
   <form id="form2" onsubmit="setupTriggers(this); alert('Reminders have been setup');">
-  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: <input type="text" name="minuteInterval" size="2" /><br/><br>
+  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: 
+  <select name='minuteInterval' >
+  <option value="1">1</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
+  <option value="15">15</option>
+  <option value="30">30</option>
+</select><br/><br/>
 <input type="radio" name="groupInterval" value="Hour"> Hour Interval: 
 <select name='hourInterval' >
   <option value="2">2</option>
@@ -83,9 +103,19 @@ $(document).ready(function(){
   </form>
   </div>
   <br/>
+  <div id="flip3"><h4>Click to add a new Appointments</h4></div>
+  <div id="panel3">
+  <form id="form3" onsubmit="handleEventCreate(this); alert('Event has been created in your Google calendar');">
+    Event Date : <input type="text" name="eventDate" id="eventDatepicker" required/><br/><br/>
+    Event Title : <input type="text" name="eventTitle" required /><br/><br/>
+    Event Details : <br/><textarea name="eventDetails" rows="4" cols="30">Enter details here..</textarea><br/><br/>
+    <input type="submit" value="Create"/>   
+  </form><br/>
+  </div>
 <script>
 $("#startDatepicker").datepicker();
 $("#endDatepicker").datepicker();
+$("#eventDatepicker").datepicker();
 </script>
 <script>
 // Pass input dates to server-side submitDates()
