@@ -1,31 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <base target="_top">
-  </head>
-  <body>
+<div class="demo" >
+<style type="text/css"> .demo { margin: 30px ; color : #AAA ; font-family : arial sans-serif ;font-size : 10pt } 
+                            p { color : black ; font-size : 11pt } 
+</style>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/cupertino/jquery-ui.css">
 
-    <h2>Please select the dates to extract events</h2>
-    <div>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <input type="button" value="Submit" onclick="check()"></input>
-  <form id="form1">
-    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
-    Choose End Date : <input type="text" name="endDate" id="endDatepicker" />
-    <input type="submit" value="Submit" onclick="check()"></input>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-  </form>
+<p>Please select a date below :</p>
+
+<p> Start Date : <input type="text" name="StartDate" id="startdatepicker" /> </p>
+<p> End Date :   <input type="text" name="EndDate" id="enddatepicker" /> </p>
 <script>
-$("#startDatepicker").datepicker();
-$("#endDatepicker").datepicker();
+    $( "#startdatepicker" ).datepicker({
+      showWeek: true,
+      firstDay: 0,
+     });
 </script>
+<script>
+    $( "#enddatepicker" ).datepicker({
+      showWeek: true,
+      firstDay: 0,
+     });
+</script>
+<input type="button" value="Create" onclick="submitDates()" />
 <script>
 // Pass input dates to server-side submitDates()
 function submitDates() {
-  var startDate = $("#startDatePicker").val();
-  var endDate = $("#endDatePicker").val();
+  var startDate = $("#startdatepicker").val();
+  var endDate = $("#enddatepicker").val();
 
   google.script.run
         .withSuccessHandler(
@@ -41,6 +44,6 @@ function submitDates() {
            })
          .submitDates(startDate,endDate);
 }
+
 </script>
-  </body>
-</html>
+</div>

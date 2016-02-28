@@ -5,6 +5,12 @@ function doGet() {
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
 
+//added by Priysha
+function submitDates(startDate,endDate) {
+  Logger.log(JSON.stringify(arguments));
+  // To send error messages, throw an exception.
+  // e.g. if (invalid) throw new error("Invalid date")
+}
 
 function generateEvents(){
 
@@ -63,7 +69,7 @@ cell.setNumberFormat('.00');
   var message = composeMessage(headers,values);
   var messageHTML = composeHtmlMsg(headers,values);
   Logger.log(messageHTML);
-  MailApp.sendEmail("sgulati2@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
+  MailApp.sendEmail("ppradha3@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
  // MailApp.sendEmail("ppradha3@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
  // MailApp.sendEmail("ngarg@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
  // MailApp.sendEmail("sjain7@ncsu.edu",'test html', message,{'htmlBody':messageHTML});
@@ -95,7 +101,7 @@ function sendReport() {
     }
     body += '</tr>\n';
   }
-  MailApp.sendEmail("sgulati2@ncsu.edu", 'Subject', body,{'htmlBody':body});
+  MailApp.sendEmail("ppradha3@ncsu.edu", 'Subject', body,{'htmlBody':body});
 }
 
 
