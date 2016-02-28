@@ -13,6 +13,34 @@
   ga('send', 'event', 'category', 'action');
 
 </script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script> 
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+});
+</script>
+<style> 
+#panel1, #flip1,#panel2, #flip2 {
+    padding: 5px;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1,#panel2 {
+    padding: 5px;
+    display: none;
+}
+</style>
   </head>
   <body>
   <script>
@@ -22,28 +50,39 @@
     function setupTriggers(formObject){
         google.script.run.createTimeDrivenTriggers(formObject);
       }
+          function deleteTriggers(formObject){
+          
+        google.script.run.deleteTrigger();
+      }
   </script> 
-    <h2>Please select the dates to extract events</h2>
-    <div>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <form id="form1" onsubmit="handleFormSubmit(this)">
+   <div id="flip1"><h4>Click to extract Appointments</h4></div>
+  <div id="panel1">
+  <form id="form1" onsubmit="handleFormSubmit(this);alert('Report has been sent to your e-mail.');">
     Choose Start Date : <input type="text" name="startDate" id="startDatepicker" />
-    Choose End Date : <input type="text" name="endDate" id="endDatepicker" />
-    <input type="submit" value="Submit"></input>   
-  </form><br/><br/><br/><br/><br/><br/>
+    Choose End Date : <input type="text" name="endDate" id="endDatepicker" /><br/><br/>
+    Search Keyword : <input type="text" name="keyword" /><br/><br/>
+    <input type="submit" value="Submit"/>   
+  </form><br/>
   </div>
-  <a href="http://www.google.com" onclick="trackOutboundLink('http://www.example.com'); return false;">Check out example.com</a>
-  <div style="border: thin solid black">
-  <h2>Set email reminders</h2> 
-  <form id="form2" onsubmit="setupTriggers(this)">
-  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: <input type="text" name="minuteInterval" /><br/><br>
-<input type="radio" name="groupInterval" value="Hour"> Hour Interval: <input type="text" name="hourInterval" /><br>
-   &nbsp; &nbsp;<input type="submit" value="Setup reminder"></input>
-  </form>
   <br/>
+  <div id="flip2"><h4>Click to set daily appointment reminders</h4></div>
+  <div id="panel2">
+  <form id="form2" onsubmit="setupTriggers(this); alert('Reminders have been setup');">
+  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: <input type="text" name="minuteInterval" size="2" /><br/><br>
+<input type="radio" name="groupInterval" value="Hour"> Hour Interval: 
+<select name='hourInterval' >
+  <option value="2">2</option>
+  <option value="4">4</option>
+  <option value="6">6</option>
+  <option value="8">8</option>
+  <option value="10">10</option>
+  <option value="12">12</option>
+</select><br/><br/>
+   &nbsp; &nbsp;<input type="submit" value="Setup reminder"/>
+   &nbsp; &nbsp;<input type="button" value="Delete existing reminders" onclick="deleteTriggers(); alert('Existing reminders deleted');"/>
+  </form>
   </div>
+  <br/>
 <script>
 $("#startDatepicker").datepicker();
 $("#endDatepicker").datepicker();
