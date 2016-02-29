@@ -107,11 +107,6 @@ var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
 //    {search: 'word1+word2'}        Search for events with word1 AND word2
 //    {search: 'word1+-word2'}       Search for events with word1 AND without word2
  
-//var events = cal.getEvents(new Date("January 13, 2016 00:00:00 EST"), new Date("January 15, 2016 23:59:59 EST"), {search: '-project123'});
-//var startDate = Utilities.formatDate(dateToString(formObject.startDate), "EST", "MMMM dd',' yyyy hh:mm:ss z");
-  //var endDate = Utilities.formatDate(dateToString(formObject.endDate), "EST", "MMMM dd',' yyyy hh:mm:ss z");
-  //Logger.log(startDate);
-  //Logger.log(endDate);
   var events = cal.getEvents(currDate,nextDate);
  
  var sheet = SpreadsheetApp.openById('1fOKAKmTAYQFP8ESFPAUtFerhXdaOrX4BToxt_Tk5Jss').getActiveSheet();
@@ -268,4 +263,9 @@ function getUsersActivity() {
 function testUrl(){
  var response = UrlFetchApp.fetch("https://www.facebook.com/ical/u.php?uid=651889283&key=AQC0MIPvXoumQhcM/");
  Logger.log(response.getContentText());
+}
+
+function getEmail(){
+  var email = Session.getActiveUser().getEmail();
+  return email;
 }
