@@ -16,13 +16,28 @@
     <CalendarView
         android:id="@+id/calendar_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></CalendarView>
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        ></CalendarView>
 
     <TextView
-        android:id="@+id/event_info"
+        android:id="@+id/event_title"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Events"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="placeholder"/>
+        android:background="#EEEEEE"/>
+    <TextView
+        android:padding="3dp"
+        android:id="@+id/event_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="No Events"
+        android:background="#EEEEEE"/>
 
 
 </LinearLayout>

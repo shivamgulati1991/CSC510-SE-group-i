@@ -35,7 +35,9 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -49,12 +51,18 @@ public class MainActivity extends Activity {
     private TextView mOutputText;
     ProgressDialog mProgress;
 
+    public static final String EVENT_INFO_BUNDLE = "Gevent_info";
+    public static final String EVENT_INFO_BUNDLE2 = "FBevent_info";
+
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
     private static final String PREF_ACCOUNT_NAME = "accountName";
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
-
+    private Button mGbutton;
+    private Button mFbButton;
+    private String googleEvents ="";
+    private String facebookEvents = "";
     /**
      * Create the main activity.
      * @param savedInstanceState previously saved instance data.
@@ -62,29 +70,31 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        LinearLayout activityLayout = new LinearLayout(this);
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.MATCH_PARENT);
-        activityLayout.setLayoutParams(lp);
-        activityLayout.setOrientation(LinearLayout.VERTICAL);
-        activityLayout.setPadding(16, 16, 16, 16);
+        LinearLayout activityLayout = (LinearLayout) findViewById(R.id.parent);
+//        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+//                LinearLayout.LayoutParams.MATCH_PARENT,
+//                LinearLayout.LayoutParams.MATCH_PARENT);
+//        activityLayout.setLayoutParams(lp);
+//        activityLayout.setOrientation(LinearLayout.VERTICAL);
+//        activityLayout.setPadding(16, 16, 16, 16);
 
-        ViewGroup.LayoutParams tlp = new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
+//        ViewGroup.LayoutParams tlp = new ViewGroup.LayoutParams(
+//                ViewGroup.LayoutParams.WRAP_CONTENT,
+//                ViewGroup.LayoutParams.WRAP_CONTENT);
 
-        mOutputText = new TextView(this);
-        mOutputText.setLayoutParams(tlp);
-        mOutputText.setPadding(16, 16, 16, 16);
-        mOutputText.setVerticalScrollBarEnabled(true);
-        mOutputText.setMovementMethod(new ScrollingMovementMethod());
-        activityLayout.addView(mOutputText);
+
+        setContentView(R.layout.activity_main);
+        mOutputText = (TextView) findViewById(R.id.progress);
+//        mOutputText.setLayoutParams(tlp);
+//        mOutputText.setPadding(16, 16, 16, 16);
+//        mOutputText.setVerticalScrollBarEnabled(true);
+//        mOutputText.setMovementMethod(new ScrollingMovementMethod());
+//        activityLayout.addView(mOutputText);
 
         mProgress = new ProgressDialog(this);
-        mProgress.setMessage("Calling Google Calendar API ...");
-
-        setContentView(activityLayout);
+        mProgress.setMessage("Calling Calendar API ...");
+        mGbutton = (Button) findViewById(R.id.google_button);
+        mFbButton = (Button) findViewById(R.id.fb_button);
 
         // Initialize credentials and service object.
         SharedPreferences settings = getPreferences(Context.MODE_PRIVATE);
@@ -92,18 +102,24 @@ public class MainActivity extends Activity {
                 getApplicationContext(), Arrays.asList(SCOPES))
                 .setBackOff(new ExponentialBackOff())
                 .setSelectedAccountName(settings.getString(PREF_ACCOUNT_NAME, null));
+
+        mGbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initGoogleCalendar();
+            }
+        });
+
+        mFbButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initFBCalendar();
+            }
+        });
+        Log.i("Nishtha","onCreate");
     }
 
-
-    /**
-     * Called whenever this activity is pushed to the foreground, such as after
-     * a call to onCreate().
-     */
-    @Override
-    protected void onResume() {
-        super.onResume();
-        AppEventsLogger.activateApp(this);
-        Log.i("Nishtha","onResume");
+    private void initGoogleCalendar(){
         if (isGooglePlayServicesAvailable()) {
             Log.i("Nishtha","isGooglePlayServicesAvailable");
             refreshResults();
@@ -111,11 +127,32 @@ public class MainActivity extends Activity {
             mOutputText.setText("Google Play Services required: " +
                     "after installing, close and relaunch this app.");
         }
-        if(!("".equals(getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE)))){
-            Log.i("Nishtha",""+PREF_ACCOUNT_NAME+" "+getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE));
-            Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
-            startActivity(i);
-        }
+    }
+
+    private void initFBCalendar(){
+        //add fetching events from FB calandar code here
+    }
+    /**
+     * Called whenever this activity is pushed to the foreground, such as after
+     * a call to onCreate().
+     */
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //AppEventsLogger.activateApp(this);
+        Log.i("Nishtha","onResume");
+//        if (isGooglePlayServicesAvailable()) {
+//            Log.i("Nishtha","isGooglePlayServicesAvailable");
+//            refreshResults();
+//        } else {
+//            mOutputText.setText("Google Play Services required: " +
+//                    "after installing, close and relaunch this app.");
+//        }
+//        if(!("".equals(getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE).getString(PREF_ACCOUNT_NAME,"")))){
+//            Log.i("Nishtha",""+PREF_ACCOUNT_NAME+" "+getSharedPreferences(PREF_ACCOUNT_NAME,MODE_PRIVATE).getString(PREF_ACCOUNT_NAME,""));
+////            Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
+////            startActivity(i);
+//        }
     }
 
     /**
@@ -176,15 +213,15 @@ public class MainActivity extends Activity {
             Log.i("Nishtha","refreshResults if");
             chooseAccount();
         }
-
+        else {
             if (isDeviceOnline()) {
-                Log.i("Nishtha","refreshResults else if");
+                Log.i("Nishtha", "refreshResults else if");
                 new MakeRequestTask(mCredential).execute();
             } else {
-                Log.i("Nishtha","refreshResults else else");
+                Log.i("Nishtha", "refreshResults else else");
                 mOutputText.setText("No network connection available.");
             }
-
+        }
     }
 
     /**
@@ -305,7 +342,7 @@ public class MainActivity extends Activity {
                     start = event.getStart().getDate();
                 }
                 eventStrings.add(
-                        String.format("%s (%s)", event.getSummary(), start));
+                        String.format("%s-----(%s)", event.getSummary(), start));
             }
             return eventStrings;
         }
@@ -324,8 +361,18 @@ public class MainActivity extends Activity {
             if (output == null || output.size() == 0) {
                 mOutputText.setText("No results returned.");
             } else {
-                output.add(0, "Data retrieved using the Google Calendar API:");
-                mOutputText.setText(TextUtils.join("\n", output));
+                //output.add(0, "Data retrieved using the Google Calendar API:");
+                mOutputText.setText("Fetched results");
+                googleEvents = TextUtils.join("\n", output);
+                facebookEvents = ""; //add results from FB calander here
+                Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
+                i.putExtra(EVENT_INFO_BUNDLE,googleEvents);
+                i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
+
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(i);
+                finish();
+
             }
         }
 
