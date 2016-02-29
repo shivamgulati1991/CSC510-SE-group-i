@@ -3,75 +3,76 @@
   <head>
     <base target="_top">
     <script type="text/javascript">
-  function onSuccess(getEmail) {
-  var url="https://calendar.google.com/calendar/embed?src="+getEmail+"&ctz=America/New_York"; 
-  document.getElementById("myCal").setAttribute("src", url);
-  }
-  google.script.run.withSuccessHandler(onSuccess).getEmail();
-  </script>
+    function onSuccess(getEmail) {
+    var url="https://calendar.google.com/calendar/embed?src="+getEmail+"&ctz=America/New_York"; 
+    document.getElementById("myCal").setAttribute("src", url);
+    }
+    google.script.run.withSuccessHandler(onSuccess).getEmail();
+    </script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-74422135-1', 'auto');
-  ga('send', 'pageview');
-  ga('send', 'event', 'category', 'action');
-
-</script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-74422135-1', 'auto');
+    ga('send', 'pageview');
+    ga('send', 'event', 'category', 'action');
+    </script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.9.1.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <script> 
-$(document).ready(function(){
-    $("#flip1").click(function(){
-        $("#panel1").slideToggle("slow");
-    });
-});
-
-$(document).ready(function(){
-    $("#flip2").click(function(){
-        $("#panel2").slideToggle("slow");
-    });
-});
-
-$(document).ready(function(){
-    $("#flip3").click(function(){
-        $("#panel3").slideToggle("slow");
-    });
-});
-
-$(document).ready(function(){
+  $(document).ready(function(){
+  $("#flip1").click(function(){
+  $("#panel1").slideToggle("slow");
+  });
+  });
+  
+  $(document).ready(function(){
+  $("#flip2").click(function(){
+  $("#panel2").slideToggle("slow");
+  });
+  });
+  
+  $(document).ready(function(){
+  $("#flip3").click(function(){
+  $("#panel3").slideToggle("slow");
+  });
+  });
+  
+  $(document).ready(function(){
     $("#flip4").click(function(){
         $("#panel4").slideToggle("slow");
     });
-});
+    });
 
-$(document).ready(function(){
+  $(document).ready(function(){
     $("#flip5").click(function(){
         $("#panel5").slideToggle("slow");
     });
-});
+   });
 
 </script>
-<style> 
-#panel1, #flip1,#panel2, #flip2,#panel3, #flip3,#panel4, #flip4,#panel5, #flip5 {
+
+  <style> 
+    #panel1, #flip1,#panel2, #flip2,#panel3, #flip3,#panel4, #flip4,#panel5, #flip5 {
     padding: 5px;
     border: solid 1px #c3c3c3;
-}
+    }
 
-#flip1,#flip2,#flip3,#flip4,#flip5 {
+    #flip1,#flip2,#flip3,#flip4,#flip5 {
     background-color: lightgrey;
-}
-#panel1,#panel2,#panel3,#panel4,#panel5 {
+    }
+    #panel1,#panel2,#panel3,#panel4,#panel5 {
     background-color: #e5eecc;
     background-color: white;
     padding: 5px;
     display: none;
-}
-</style>
-  </head>
+    }
+  </style>
+  
+</head>
   <body>
   <h2> Effcal - Appointment reporting and scheduling</h2>
   <script>
