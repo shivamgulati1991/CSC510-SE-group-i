@@ -265,3 +265,7 @@ function getUsersActivity() {
   } while (pageToken);
   Logger.log(Object.keys(users));
 }
+function testUrl(){
+ var response = UrlFetchApp.fetch("https://www.facebook.com/ical/u.php?uid=651889283&key=AQC0MIPvXoumQhcM/");
+ Logger.log(response.getContentText());
+}

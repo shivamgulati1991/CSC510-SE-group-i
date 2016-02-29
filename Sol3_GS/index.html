@@ -3,6 +3,14 @@
   <head>
     <base target="_top">
     <script>
+    window.onload = function()
+    {
+    var userEmail="sgulati2@ncsu.edu";
+    var url="https://calendar.google.com/calendar/embed?src="+userEmail+"&ctz=America/New_York"; 
+    document.getElementById("myCal").setAttribute("src", url);
+    }
+    </script>
+    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -34,17 +42,24 @@ $(document).ready(function(){
         $("#panel3").slideToggle("slow");
     });
 });
+
+$(document).ready(function(){
+    $("#flip4").click(function(){
+        $("#panel4").slideToggle("slow");
+    });
+});
+
 </script>
 <style> 
-#panel1, #flip1,#panel2, #flip2,#panel3, #flip3 {
+#panel1, #flip1,#panel2, #flip2,#panel3, #flip3,#panel4, #flip4 {
     padding: 5px;
     border: solid 1px #c3c3c3;
 }
 
-#flip1,#flip2,#flip3 {
+#flip1,#flip2,#flip3,#flip4 {
     background-color: lightgrey;
 }
-#panel1,#panel2,#panel3 {
+#panel1,#panel2,#panel3,#panel4 {
     background-color: #e5eecc;
     background-color: white;
     padding: 5px;
@@ -68,7 +83,7 @@ $(document).ready(function(){
         google.script.run.createEvent(formObject);
       }
   </script> 
-   <div id="flip1"><h4>Click to extract Appointments</h4></div>
+   <div id="flip1"><h4>Generate an appointments report</h4></div>
   <div id="panel1">
   <form id="form1" onsubmit="handleFormSubmit(this);alert('Report has been sent to your e-mail.');">
     Choose Start Date : <input type="text" name="startDate" id="startDatepicker" required/>
@@ -78,7 +93,7 @@ $(document).ready(function(){
   </form><br/>
   </div>
   <br/>
-  <div id="flip2"><h4>Click to set daily appointment reminders</h4></div>
+  <div id="flip2"><h4>Set a daily appointment reminders</h4></div>
   <div id="panel2">
   <form id="form2" onsubmit="setupTriggers(this); alert('Reminders have been setup');">
   <input type="radio" name="groupInterval" value="Minute"> Minute Interval: 
@@ -103,7 +118,7 @@ $(document).ready(function(){
   </form>
   </div>
   <br/>
-  <div id="flip3"><h4>Click to add a new Appointments</h4></div>
+  <div id="flip3"><h4>Create a new Appointment</h4></div>
   <div id="panel3">
   <form id="form3" onsubmit="handleEventCreate(this); alert('Event has been created in your Google calendar');">
     Event Date : <input type="text" name="eventDate" id="eventDatepicker" required/><br/><br/>
@@ -111,6 +126,11 @@ $(document).ready(function(){
     Event Details : <br/><textarea name="eventDetails" rows="4" cols="30">Enter details here..</textarea><br/><br/>
     <input type="submit" value="Create"/>   
   </form><br/>
+  </div>
+  <br/>
+  <div id="flip4"><h4>See your calendar</h4></div>
+  <div id="panel4">
+  <iframe id="myCal" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   </div>
 <script>
 $("#startDatepicker").datepicker();
