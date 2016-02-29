@@ -267,5 +267,13 @@ function testUrl(){
 
 function getEmail(){
   var email = Session.getActiveUser().getEmail();
+  Logger.log(CalendarApp.getAllCalendars());
   return email;
+}
+
+function subscribeCalendar(formObject){
+var calendar = CalendarApp.subscribeToCalendar(
+  formObject.calendarID,
+     { color: CalendarApp.Color.BLUE });
+ Logger.log('Subscribed to the calendar "%s".', calendar.getName());
 }
