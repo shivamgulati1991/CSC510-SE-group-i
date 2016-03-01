@@ -155,7 +155,7 @@
 		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 		</fb:login-button>
 		<div id="status">
-		</div>
+		</div><br/>
 		<input type="button" value="check" name="check" onClick="getList();"/>
 		<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>
 		<h3>Facebook list</h3>
@@ -241,9 +241,7 @@
     }
   }
 
-  // This function is called when someone finishes with the Login
-  // Button.  See the onlogin handler attached to it in the sample
-  // code below.
+  // Login status check
   function checkLoginState() {
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
@@ -264,11 +262,6 @@
   }
 </script>
 
-<!--
-  Below we include the Login Button social plugin. This button uses
-  the JavaScript SDK to present a graphical Login button that triggers
-  the FB.login() function when clicked.
--->
 
 <!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
