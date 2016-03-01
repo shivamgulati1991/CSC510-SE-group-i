@@ -448,5 +448,43 @@ public class MainActivity extends Activity {
         }
     }
 
+    private class MeetupRetrieveAccessTokenTask extends AsyncTask<Uri, Void, Void> {
+
+        @Override
+        protected Void doInBackground(Uri... params) {
+
+            Uri uri = params[0];
+            String code = uri.getQueryParameter("code");
+
+            OAuthClientRequest request = null;
+
+            try {
+                request = OAuthClientRequest.tokenLocation(TOKEN_URL)
+                        .setGrantType(GrantType.AUTHORIZATION_CODE).setClientId(
+                                CONSUMER_KEY).setClientSecret(
+                                CONSUMER_SECRET).setRedirectURI(
+                                REDIRECT_URI).setCode(code)
+                        .buildBodyMessage();
+
+                OAuthClient oAuthClient = new OAuthClient(new URLConnectionClient());
+
+                OAuthAccessTokenResponse response = oAuthClient.accessToken(request);
+
+                // do something with these like add them to _intent
+                Log.d(TAG, response.getAccessToken());
+                Log.d(TAG, response.getExpiresIn());
+                Log.d(TAG, response.getRefreshToken());
+
+            } catch (OAuthSystemException e) {
+                Log.e(TAG, "OAuth System Exception - Couldn't get access token: " + e.toString());
+                Toast.makeText(_context, "OAuth System Exception - Couldn't get access token: " + e.toString(), Toast.LENGTH_LONG).show();
+            } catch (OAuthProblemException e) {
+                Log.e(TAG, "OAuth Problem Exception - Couldn't get access token");
+                Toast.makeText(_context, "OAuth Problem Exception - Couldn't get access token", Toast.LENGTH_LONG).show();
+            }
+            return null;
+        }
+    }
+
 
 }
