@@ -140,6 +140,7 @@ public class MeetupAuthActivity extends Activity {
                 Log.d("Nishtha-meet", response.getAccessToken());
                 Log.d("Nishtha-meet", response.getExpiresIn());
                 Log.d("Nishtha-meet", response.getRefreshToken());
+               // Consumer c =
                 finish();
 
             } catch (OAuthSystemException e) {

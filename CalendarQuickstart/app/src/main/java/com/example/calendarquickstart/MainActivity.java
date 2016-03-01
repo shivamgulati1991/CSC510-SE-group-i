@@ -3,13 +3,19 @@ package com.example.calendarquickstart; /**
  */
 
 
+import com.facebook.CallbackManager;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.appevents.AppEventsLogger;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GooglePlayServicesAvailabilityIOException;
 import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
+//import org.firebirdsql.jdbc.FBConnection;
+
 
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
@@ -20,6 +26,8 @@ import com.google.api.services.calendar.CalendarScopes;
 import com.google.api.client.util.DateTime;
 
 import com.google.api.services.calendar.model.*;
+
+import com.facebook.FacebookSdk;
 
 import android.accounts.AccountManager;
 import android.app.Activity;
@@ -38,10 +46,13 @@ import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+//import FBSDKLoginKit;
 
 import net.smartam.leeloo.client.OAuthClient;
 import net.smartam.leeloo.client.URLConnectionClient;
@@ -51,12 +62,15 @@ import net.smartam.leeloo.common.exception.OAuthProblemException;
 import net.smartam.leeloo.common.exception.OAuthSystemException;
 import net.smartam.leeloo.common.message.types.GrantType;
 
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends Activity {
+    CallbackManager callbackManager;
     private static final int MEET_UP_REQ_CODE = 122;
     private static final String MEETUP_ACCOUNT_TOKEN = "meetup_accName";
     GoogleAccountCredential mCredential;
@@ -67,6 +81,7 @@ public class MainActivity extends Activity {
 
     public static final String EVENT_INFO_BUNDLE = "Gevent_info";
     public static final String EVENT_INFO_BUNDLE2 = "FBevent_info";
+    public static final String EVENT_INFO_BUNDLE3 = "meetupevent_info";
 
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
@@ -88,6 +103,8 @@ public class MainActivity extends Activity {
     private Button mMeetButton;
     private String googleEvents ="";
     private String facebookEvents = "";
+    private String meetupEvents = "";
+    private Button mShowCal;
 
     private Context _context;
     /**
@@ -97,7 +114,11 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        callbackManager = CallbackManager.Factory.create();
+        LoginButton loginButton = (LoginButton) view.findViewById(R.id.login_button);
         LinearLayout activityLayout = (LinearLayout) findViewById(R.id.parent);
+
 //        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
 //                LinearLayout.LayoutParams.MATCH_PARENT,
 //                LinearLayout.LayoutParams.MATCH_PARENT);
@@ -123,6 +144,8 @@ public class MainActivity extends Activity {
         mGbutton = (Button) findViewById(R.id.google_button);
         mFbButton = (Button) findViewById(R.id.fb_button);
         mMeetButton = (Button) findViewById(R.id.meetup_button);
+        mShowCal = (Button) findViewById(R.id.showCalendar);
+
 
         // Initialize credentials and service object.
         SharedPreferences settings = getPreferences(Context.MODE_PRIVATE);
@@ -145,6 +168,12 @@ public class MainActivity extends Activity {
             }
         });
         Log.i("Nishtha", "onCreate");
+        mShowCal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showCalendarActivity();
+            }
+        });
 
         mMeetButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -165,7 +194,10 @@ public class MainActivity extends Activity {
     }
 
     private void initFBCalendar(){
-        //add fetching events from FB calandar code here
+
+//        //add fetching events from FB calandar code here
+//        FBConnection fbConnection = new FBConnection();
+
     }
 
     private void initMeetupCalendar(){
@@ -194,6 +226,16 @@ public class MainActivity extends Activity {
 ////            Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
 ////            startActivity(i);
 //        }
+    }
+
+    void showCalendarActivity(){
+        Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
+        i.putExtra(EVENT_INFO_BUNDLE, googleEvents);
+        i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
+        i.putExtra(EVENT_INFO_BUNDLE3, meetupEvents);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivity(i);
+//        finish();
     }
 
     /**
@@ -417,13 +459,7 @@ public class MainActivity extends Activity {
                 googleEvents = TextUtils.join("\n", output);
 
 //                facebookEvents = ""; //add results from FB calander here
-//                Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
-//                i.putExtra(EVENT_INFO_BUNDLE,googleEvents);
-//                i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
-//
-//                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-//                startActivity(i);
-//                finish();
+
 
             }
         }
