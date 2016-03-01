@@ -30,6 +30,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -40,6 +41,15 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import net.smartam.leeloo.client.OAuthClient;
+import net.smartam.leeloo.client.URLConnectionClient;
+import net.smartam.leeloo.client.request.OAuthClientRequest;
+import net.smartam.leeloo.client.response.OAuthAccessTokenResponse;
+import net.smartam.leeloo.common.exception.OAuthProblemException;
+import net.smartam.leeloo.common.exception.OAuthSystemException;
+import net.smartam.leeloo.common.message.types.GrantType;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -51,6 +61,8 @@ public class MainActivity extends Activity {
     private TextView mOutputText;
     ProgressDialog mProgress;
 
+    private final String TAG = getClass().getName();
+
     public static final String EVENT_INFO_BUNDLE = "Gevent_info";
     public static final String EVENT_INFO_BUNDLE2 = "FBevent_info";
 
@@ -58,11 +70,27 @@ public class MainActivity extends Activity {
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
     private static final String PREF_ACCOUNT_NAME = "accountName";
+
+    public static final String AUTH_URL = "https://secure.meetup.com/oauth2/authorize";
+    public static final String TOKEN_URL = "https://secure.meetup.com/oauth2/access";
+
+    //     Consumer
+    //public static final String REDIRECT_URI_SCHEME = "oauthresponse";
+    //public static final String REDIRECT_URI_HOST = "com.yourpackage.app";
+    //public static final String REDIRECT_URI_HOST_APP = "yourapp";
+    //public static final String REDIRECT_URI = REDIRECT_URI_SCHEME + "://" + REDIRECT_URI_HOST + "/";
+    public static final String REDIRECT_URI = "your.redirect.com";
+    public static final String CONSUMER_KEY = "9j1i7d0lnb5kqgc4vdfv3mnrd2";
+    public static final String CONSUMER_SECRET = "r3fekr5g565d6gdic3gqvgv60j";
+
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
     private Button mGbutton;
     private Button mFbButton;
+    private Button mMeetButton;
     private String googleEvents ="";
     private String facebookEvents = "";
+
+    private Context _context;
     /**
      * Create the main activity.
      * @param savedInstanceState previously saved instance data.
@@ -95,6 +123,7 @@ public class MainActivity extends Activity {
         mProgress.setMessage("Calling Calendar API ...");
         mGbutton = (Button) findViewById(R.id.google_button);
         mFbButton = (Button) findViewById(R.id.fb_button);
+        mMeetButton = (Button) findViewById(R.id.meetup_button);
 
         // Initialize credentials and service object.
         SharedPreferences settings = getPreferences(Context.MODE_PRIVATE);
@@ -116,7 +145,14 @@ public class MainActivity extends Activity {
                 initFBCalendar();
             }
         });
-        Log.i("Nishtha","onCreate");
+        Log.i("Nishtha", "onCreate");
+
+        mMeetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initMeetupCalendar();
+            }
+        });
     }
 
     private void initGoogleCalendar(){
@@ -132,6 +168,20 @@ public class MainActivity extends Activity {
     private void initFBCalendar(){
         //add fetching events from FB calandar code here
     }
+
+    private void initMeetupCalendar(){
+        OAuthClientRequest request = null;
+        _context = getApplicationContext();
+        try {
+            request = OAuthClientRequest.authorizationLocation(
+                    AUTH_URL).setClientId(
+                    CONSUMER_KEY).setRedirectURI(
+                    REDIRECT_URI).buildQueryMessage();
+        } catch (OAuthSystemException e) {
+            Log.d(TAG, "OAuth request failed", e);
+        }
+    }
+
     /**
      * Called whenever this activity is pushed to the foreground, such as after
      * a call to onCreate().
@@ -397,4 +447,6 @@ public class MainActivity extends Activity {
             }
         }
     }
+
+
 }
