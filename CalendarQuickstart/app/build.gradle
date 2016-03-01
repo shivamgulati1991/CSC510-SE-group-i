@@ -5,7 +5,7 @@ android {
         configdebug {
             keyAlias 'debug'
             keyPassword 'android'
-            storeFile file('C:/Users/arjundatt.16/.android/debug.keystore')
+            storeFile file('C:/Users/Shifali/.android/debug.keystore')
             storePassword 'android'
         }
     }
@@ -42,7 +42,7 @@ dependencies {
     compile 'net.smartam.leeloo:oauth2-common:0.1'
     compile 'net.smartam.leeloo:oauth2-client:0.1'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.google.android.gms:play-services-identity:7.8.0'
+    compile 'com.google.android.gms:play-services-identity:8.4.0'
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     compile 'com.android.support:design:23.1.1'
 }

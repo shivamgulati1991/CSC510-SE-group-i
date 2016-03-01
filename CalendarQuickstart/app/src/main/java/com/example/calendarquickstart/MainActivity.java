@@ -57,6 +57,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends Activity {
+    private static final int MEET_UP_REQ_CODE = 122;
+    private static final String MEETUP_ACCOUNT_TOKEN = "meetup_accName";
     GoogleAccountCredential mCredential;
     private TextView mOutputText;
     ProgressDialog mProgress;
@@ -79,9 +81,6 @@ public class MainActivity extends Activity {
     //public static final String REDIRECT_URI_HOST = "com.yourpackage.app";
     //public static final String REDIRECT_URI_HOST_APP = "yourapp";
     //public static final String REDIRECT_URI = REDIRECT_URI_SCHEME + "://" + REDIRECT_URI_HOST + "/";
-    public static final String REDIRECT_URI = "your.redirect.com";
-    public static final String CONSUMER_KEY = "9j1i7d0lnb5kqgc4vdfv3mnrd2";
-    public static final String CONSUMER_SECRET = "r3fekr5g565d6gdic3gqvgv60j";
 
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
     private Button mGbutton;
@@ -170,16 +169,8 @@ public class MainActivity extends Activity {
     }
 
     private void initMeetupCalendar(){
-        OAuthClientRequest request = null;
-        _context = getApplicationContext();
-        try {
-            request = OAuthClientRequest.authorizationLocation(
-                    AUTH_URL).setClientId(
-                    CONSUMER_KEY).setRedirectURI(
-                    REDIRECT_URI).buildQueryMessage();
-        } catch (OAuthSystemException e) {
-            Log.d(TAG, "OAuth request failed", e);
-        }
+        Intent initMeetup = new Intent(this,MeetupAuthActivity.class);
+        startActivityForResult(initMeetup,MEET_UP_REQ_CODE);
     }
 
     /**
@@ -247,6 +238,16 @@ public class MainActivity extends Activity {
                     chooseAccount();
                 }
                 break;
+            case MEET_UP_REQ_CODE:
+                if (resultCode == RESULT_OK) {
+                    String accessToken = data.getStringExtra(MeetupAuthActivity.MEETUP_TOKEN);
+                    SharedPreferences settings =
+                            getPreferences(Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putString(MEETUP_ACCOUNT_TOKEN, accessToken);
+                    editor.apply();
+                    Log.i("MainAct","accesstoken:"+accessToken);
+                }
         }
 
         super.onActivityResult(requestCode, resultCode, data);
@@ -412,16 +413,17 @@ public class MainActivity extends Activity {
                 mOutputText.setText("No results returned.");
             } else {
                 //output.add(0, "Data retrieved using the Google Calendar API:");
-                mOutputText.setText("Fetched results");
+                mOutputText.setText("Fetched google results");
                 googleEvents = TextUtils.join("\n", output);
-                facebookEvents = ""; //add results from FB calander here
-                Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
-                i.putExtra(EVENT_INFO_BUNDLE,googleEvents);
-                i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
 
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                startActivity(i);
-                finish();
+//                facebookEvents = ""; //add results from FB calander here
+//                Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
+//                i.putExtra(EVENT_INFO_BUNDLE,googleEvents);
+//                i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
+//
+//                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+//                startActivity(i);
+//                finish();
 
             }
         }
@@ -448,43 +450,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    private class MeetupRetrieveAccessTokenTask extends AsyncTask<Uri, Void, Void> {
 
-        @Override
-        protected Void doInBackground(Uri... params) {
-
-            Uri uri = params[0];
-            String code = uri.getQueryParameter("code");
-
-            OAuthClientRequest request = null;
-
-            try {
-                request = OAuthClientRequest.tokenLocation(TOKEN_URL)
-                        .setGrantType(GrantType.AUTHORIZATION_CODE).setClientId(
-                                CONSUMER_KEY).setClientSecret(
-                                CONSUMER_SECRET).setRedirectURI(
-                                REDIRECT_URI).setCode(code)
-                        .buildBodyMessage();
-
-                OAuthClient oAuthClient = new OAuthClient(new URLConnectionClient());
-
-                OAuthAccessTokenResponse response = oAuthClient.accessToken(request);
-
-                // do something with these like add them to _intent
-                Log.d(TAG, response.getAccessToken());
-                Log.d(TAG, response.getExpiresIn());
-                Log.d(TAG, response.getRefreshToken());
-
-            } catch (OAuthSystemException e) {
-                Log.e(TAG, "OAuth System Exception - Couldn't get access token: " + e.toString());
-                Toast.makeText(_context, "OAuth System Exception - Couldn't get access token: " + e.toString(), Toast.LENGTH_LONG).show();
-            } catch (OAuthProblemException e) {
-                Log.e(TAG, "OAuth Problem Exception - Couldn't get access token");
-                Toast.makeText(_context, "OAuth Problem Exception - Couldn't get access token", Toast.LENGTH_LONG).show();
-            }
-            return null;
-        }
-    }
 
 
 }
