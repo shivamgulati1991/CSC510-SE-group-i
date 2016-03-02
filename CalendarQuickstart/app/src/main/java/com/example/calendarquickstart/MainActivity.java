@@ -116,8 +116,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         callbackManager = CallbackManager.Factory.create();
-        LoginButton loginButton = (LoginButton) view.findViewById(R.id.login_button);
-        LinearLayout activityLayout = (LinearLayout) findViewById(R.id.parent);
+
 
 //        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
 //                LinearLayout.LayoutParams.MATCH_PARENT,
@@ -140,9 +139,9 @@ public class MainActivity extends Activity {
 //        activityLayout.addView(mOutputText);
 
         mProgress = new ProgressDialog(this);
-        mProgress.setMessage("Calling Calendar API ...");
+        mProgress.setMessage("Please wait while we fetch your events.");
         mGbutton = (Button) findViewById(R.id.google_button);
-        mFbButton = (Button) findViewById(R.id.fb_button);
+        mFbButton = (Button) findViewById(R.id.login_button);
         mMeetButton = (Button) findViewById(R.id.meetup_button);
         mShowCal = (Button) findViewById(R.id.showCalendar);
 
@@ -182,6 +181,8 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+
 
     private void initGoogleCalendar(){
         if (isGooglePlayServicesAvailable()) {
@@ -228,7 +229,7 @@ public class MainActivity extends Activity {
 //        }
     }
 
-    void showCalendarActivity(){
+    void showCalendarActivity() {
         Intent i = new Intent(getApplicationContext(), com.example.calendarquickstart.Calendar.class);
         i.putExtra(EVENT_INFO_BUNDLE, googleEvents);
         i.putExtra(EVENT_INFO_BUNDLE2,facebookEvents);
