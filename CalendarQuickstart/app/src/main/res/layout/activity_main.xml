@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:id="@+id/google_button"
+        android:layout_gravity="center_horizontal" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meetup"
+        android:id="@+id/meetup_button"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No events yet"/>
+
+    <Button
+        android:layout_marginTop="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show events"
+        android:id="@+id/showCalendar"
+
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

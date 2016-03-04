@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iDiary</string>
+    <string name="facebook_app_id">1658939487713357</string>
+    <string name="title_activity_calendar">Calendar</string>
+</resources>
