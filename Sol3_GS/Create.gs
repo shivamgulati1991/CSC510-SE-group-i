@@ -1,94 +1,179 @@
-//Create the GUI form
-
-function doGet2() {
-  var app = UiApp.createApplication().setTitle('Form and Calendar Events');
-  
-  //Create a penel which holds all the form elelemnts
-  var panel = app.createVerticalPanel().setId('panel');
-  
-  //Create the form elelemnts
-  var eventDateLabel = app.createLabel('Event Date:');
-  var evenDate = app.createDateBox().setId('eventDate');
-  var eventTitleLabel = app.createLabel('Event title:');
-  var eventTitle = app.createTextBox().setName('eventTitle').setId('eventTitle');
-  var eventDeatilLabel = app.createLabel('Event Details:');
-  var eventDetail = app.createTextArea()
-      .setSize('200', '100').setId('eventDetail').setName('eventDetail');
-    var btn = app.createButton('createEvents');
-  
-  //Create handler which eill execute 'createEvents(e)' on clicking the button
-  var handler = app.createServerClickHandler('createEvents');
-  handler.addCallbackElement(panel);
-  //Add this handler to the button
-  btn.addClickHandler(handler);
-  
-  //Add all the elemnts to the panel 
-  panel.add(eventDateLabel)
-    .add(evenDate)
-    .add(eventTitleLabel)
-    .add(eventTitle)
-    .add(eventDeatilLabel)
-    .add(eventDetail)
-    .add(btn);
-  //Add this panel to the application
-  app.add(panel);
-  //return the application
-  return app;
-}
-
-function createEvents(e){
-  
-  //Get the active application
-  var app = UiApp.getActiveApplication();
-  
-  try{
-    //get the entries;
-    var eventDate = e.parameter.eventDate;
-    var eventTitle = e.parameter.eventTitle;
-    var eventDetails = e.parameter.eventDetail;
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <script type="text/javascript">
+    function onSuccess(getEmail) {
+    var url="https://calendar.google.com/calendar/embed?src="+getEmail+"&ctz=America/New_York"; 
+    document.getElementById("myCal").setAttribute("src", url);
+    }
+    google.script.run.withSuccessHandler(onSuccess).getEmail();
+    </script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     
-    //Get the calendar
-    var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
-    //var cal = CalendarApp.getCalendarsByName('ppradha3@ncsu.edu')[0];//Change the calendar name
-    var eventStartTime = eventDate;
-    //End time is calculated by adding an hour in the event start time 
-    var eventEndTime = new Date(eventDate.valueOf()+60*60*1000);
-    //Create the events
-    cal.createEvent(eventTitle, eventStartTime,eventEndTime ,{description:eventDetails});
-    
-    //Log the entries in a spreadsheet
-    /*var ss = SpreadsheetApp.openById('Spreadsheet-Key');//Change the spreadhseet key to yours
-    var sheet = ss.getSheets()[0];
-    sheet.getRange(sheet.getLastRow()+1, 1, 1, 5).setValues([[new Date(), eventDate,eventTitle, eventDetails, 'Event created']]);*/
-    
-    //Show the confirmation message
-    app.add(app.createLabel('Event created Successfully'));
-    //make the form panel invisible
-    app.getElementById('panel').setVisible(false);
-    return app;
-  }
+    ga('create', 'UA-74422135-1', 'auto');
+    ga('send', 'pageview');
+    ga('send', 'event', 'category', 'action');
+    </script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script> 
+  $(document).ready(function(){
+  $("#flip1").click(function(){
+  $("#panel1").slideToggle("slow");
+  });
+  });
   
-  //If an error occurs, show it on the panel
-  catch(e){
-    app.add(app.createLabel('Error occured: '+e));
-    return app;
-  }
-}
+  $(document).ready(function(){
+  $("#flip2").click(function(){
+  $("#panel2").slideToggle("slow");
+  });
+  });
+  
+  $(document).ready(function(){
+  $("#flip3").click(function(){
+  $("#panel3").slideToggle("slow");
+  });
+  });
+  
+  $(document).ready(function(){
+    $("#flip4").click(function(){
+        $("#panel4").slideToggle("slow");
+    });
+    });
 
-function createEvent(formObject){
-  Logger.log(formObject.eventDate);
-  Logger.log(formObject.eventTitle);
-  Logger.log(formObject.eventDetails);
-      var cal = CalendarApp.getCalendarById(Session.getActiveUser().getEmail());
-    //var cal = CalendarApp.getCalendarsByName('ppradha3@ncsu.edu')[0];//Change the calendar name
-    var eventStartTime = dateToString(formObject.eventDate);
-    var eventEndTime = dateToString(formObject.eventDate);
-        eventEndTime.setDate(eventEndTime.getDate() + 1);
-  Logger.log(eventStartTime);
-    //End time is calculated by adding an hour in the event start time 
-    //var eventEndTime = new Date(formObject.eventDate.valueOf()+60*60*1000);
-  Logger.log(eventEndTime);
-    //Create the events
-    cal.createEvent(formObject.eventTitle, eventStartTime,eventEndTime ,{description:formObject.eventDetails});
-  Logger.log('done');
+  $(document).ready(function(){
+    $("#flip5").click(function(){
+        $("#panel5").slideToggle("slow");
+    });
+   });
+
+</script>
+
+  <style> 
+    #panel1, #flip1,#panel2, #flip2,#panel3, #flip3,#panel4, #flip4,#panel5, #flip5 {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+    }
+
+    #flip1,#flip2,#flip3,#flip4,#flip5 {
+    background-color: lightgrey;
+    }
+    #panel1,#panel2,#panel3,#panel4,#panel5 {
+    background-color: #e5eecc;
+    background-color: white;
+    padding: 5px;
+    display: none;
+    }
+  </style>
+  
+</head>
+  <body>
+  <h2> Effcal - Appointment reporting and scheduling</h2>
+  <script>
+  function handleFormSubmit(formObject) {
+        google.script.run.generateEvents(formObject);
+      }
+    function setupTriggers(formObject){
+        google.script.run.createTimeDrivenTriggers(formObject);
+      }
+    function deleteTriggers(formObject){
+        google.script.run.deleteTrigger();
+      }
+    function handleEventCreate(formObject) {
+        google.script.run.createEvent(formObject);
+      }
+    function handleCalendarSubscribe(formObject) {
+        google.script.run.subscribeCalendar(formObject);
+      }
+  </script> 
+   <div id="flip1"><h4>Generate an appointments report</h4></div>
+  <div id="panel1">
+  <form id="form1" onsubmit="handleFormSubmit(this);alert('Report has been sent to your e-mail.');">
+    Choose Start Date : <input type="text" name="startDate" id="startDatepicker" required/>
+    Choose End Date : <input type="text" name="endDate" id="endDatepicker" required/><br/><br/>
+    Search Keyword : <input type="text" name="keyword" /><br/><br/>
+    <input type="submit" value="Submit"/>   
+  </form><br/>
+  </div>
+  <br/>
+  <div id="flip2"><h4>Set a daily appointment reminders</h4></div>
+  <div id="panel2">
+  <form id="form2" onsubmit="setupTriggers(this); alert('Reminders have been setup');">
+  <input type="radio" name="groupInterval" value="Minute"> Minute Interval: 
+  <select name='minuteInterval' >
+  <option value="1">1</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
+  <option value="15">15</option>
+  <option value="30">30</option>
+</select><br/><br/>
+<input type="radio" name="groupInterval" value="Hour"> Hour Interval: 
+<select name='hourInterval' >
+  <option value="2">2</option>
+  <option value="4">4</option>
+  <option value="6">6</option>
+  <option value="8">8</option>
+  <option value="10">10</option>
+  <option value="12">12</option>
+</select><br/><br/>
+   &nbsp; &nbsp;<input type="submit" value="Setup reminder"/>
+   &nbsp; &nbsp;<input type="button" value="Delete existing reminders" onclick="deleteTriggers(); alert('Existing reminders deleted');"/>
+  </form>
+  </div>
+  <br/>
+  <div id="flip3"><h4>Create a new Appointment</h4></div>
+  <div id="panel3">
+  <form id="form3" onsubmit="handleEventCreate(this); alert('Event has been created in your Google calendar');">
+    Event Date : <input type="text" name="eventDate" id="eventDatepicker" required/><br/><br/>
+    Event Title : <input type="text" name="eventTitle" required /><br/><br/>
+    Event Details : <br/><textarea name="eventDetails" rows="4" cols="30">Enter details here..</textarea><br/><br/>
+    <input type="submit" value="Create"/>   
+  </form><br/>
+  </div>
+  <br/>
+  <div id="flip5"><h4>Subscribe to calendars</h4></div>
+  <div id="panel5">
+  <form id="form5" onsubmit="handleCalendarSubscribe(this);">
+    Add Calendar ID : <input type="text" name="calendarID" required /><br/><br/>
+    <input type="submit" value="Subscribe"/>   
+  </form><br/>
+  </div>
+  <br/>
+  <div id="flip4"><h4>See your calendar</h4></div>
+  <div id="panel4">
+  <iframe id="myCal" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+<script>
+$("#startDatepicker").datepicker();
+$("#endDatepicker").datepicker();
+$("#eventDatepicker").datepicker();
+</script>
+<script>
+// Pass input dates to server-side submitDates()
+function submitDates() {
+  var startDate = $("#startDatePicker").val();
+  var endDate = $("#endDatePicker").val();
+
+  google.script.run
+        .withSuccessHandler(
+           // Dates delivered, close dialog
+           function() {
+             google.script.host.close();
+           })
+           // Display failure messages
+         .withFailureHandler(
+           function() {
+             var div = $('<div id="error" class="error">' + msg + '</div>');
+             $(element).after($("#demo"));
+           })
+         .submitDates(startDate,endDate);
 }
+</script>
+  </body>
+</html>
