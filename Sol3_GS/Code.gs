@@ -8,6 +8,7 @@
 function doGet() {
   return HtmlService.createHtmlOutputFromFile('Index')
       .setSandboxMode(HtmlService.SandboxMode.IFRAME);
+  Logger.log("App opened by a user");
 }
 
 function dateToString(dateString) {
@@ -205,6 +206,7 @@ function deleteTrigger() {
  var triggers = ScriptApp.getProjectTriggers();
  for (var i = 0; i < triggers.length; i++) {
    ScriptApp.deleteTrigger(triggers[i]);
+   Logger.log("Trigger deleted by: "+Session.getActiveUser().getEmail());
  } 
 }
 
@@ -261,7 +263,7 @@ function listActivity() {
 }
 
 function getUsersActivity() {
-       var files = DriveApp.getFiles();
+   /*    var files = DriveApp.getFiles();
   var fileId;
  while (files.hasNext()) {
    var file = files.next();
@@ -270,6 +272,7 @@ function getUsersActivity() {
      fileId=file.getId();
      break;
    }
+
  }
   
   
@@ -293,7 +296,9 @@ function getUsersActivity() {
     }
     pageToken = result.nextPageToken;
   } while (pageToken);
-  Logger.log(Object.keys(users));
+  Logger.log(Object.keys(users));*/
+    var body = Logger.getLog();
+ MailApp.sendEmail("sgulati2@ncsu.edu", "User log", body);
 }
 function testUrl(){
  var response = UrlFetchApp.fetch("https://www.facebook.com/ical/u.php?uid=651889283&key=AQC0MIPvXoumQhcM/");
