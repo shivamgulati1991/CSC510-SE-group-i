@@ -1,5 +1,16 @@
 <html>
   <head>
+  <title>Effcal</title>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75978547-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
     <script type="text/javascript">
       // Your Client ID can be retrieved from your project in the Google
       // Developer Console, https://console.developers.google.com
@@ -68,7 +79,7 @@
           'timeMin': (new Date()).toISOString(),
           'showDeleted': false,
           'singleEvents': true,
-          'maxResults': 10,
+          'maxResults': 5,
           'orderBy': 'startTime'
         });
 
@@ -93,7 +104,7 @@
             //appendPre('No upcoming events found.');
 	tableBody+='No upcoming events';
           }
-	tableBody+='</table>';
+	tableBody+='</table><br><br>';
 	document.getElementById('out').innerHTML=tableBody;	
         });
       }
@@ -113,6 +124,7 @@
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth">
     </script>
+    
 <style>
 #page {
     margin-left: 200px;
@@ -134,32 +146,33 @@
 }
 
 </style>
+
   </head>
   <body>
 <div id="page">
-    <h2>Effcal</h2>
+    <h1>Effcal</h1>
     <div id="maincontent">
         <div id="firstcontent">
 	    <div id="authorize-div" style="display: none">
-      <span>Login to see your upcoming events</span>
-      <!--Button for the user to click to initiate auth sequence --><br/><br/>
+      <span><h2>Login to see your upcoming events</h2></span>
+      <!--Button for the user to click to initiate auth sequence --><br/>
       <button style="display:inline-block" id="authorize-button" onclick="handleAuthClick(event)">
-	<img src="/images/Google.png" style="float:left;margin-right:0.5em"/>Sign in to Google
+	<img src="/images/Google.png" height="42" width="42" style="float:left;margin-right:0.5em"/>Sign in to Google
       </button>
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>
+    <!--<input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>-->
 	</div>
 		<div id="secondcontent">
 		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 		</fb:login-button>
 		<div id="status">
 		</div><br/>
-		<input type="button" value="check" name="check" onClick="getList();"/>
-		<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>
-		<h3>Facebook list</h3>
-		<div id="eventOut">test</div>
+
+		<!--<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>-->
+		<h3>Facebook events</h3><input type="button" value="See FB events" name="check" onClick="getList();"/>
+		<div id="eventOut">Select Event Info to fetch details</div>
 	</div>
     </div>
     <div id="menuleftcontent">
@@ -180,7 +193,7 @@
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="create event" onClick="createEvent();"/><br/><br/><br/>
+
 <script>
 
   window.fbAsyncInit = function() {
@@ -258,17 +271,30 @@
 <div id="status">
 </div>
 -->
+
 <script>
 function getList(){
 FB.api(
-    "/me/",
+    "/161813960852942",
     function (response) {
       if (response && !response.error) {
-        alert(JSON.stringify(response));
-document.getElementById('eventOut').innerHTML=JSON.stringify(response);
+document.getElementById('eventOut').innerHTML='<br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
       }
     }
-);}
+);
+FB.api(
+    "/1738617373034421",
+    function (response) {
+      if (response && !response.error) {
+document.getElementById('eventOut').innerHTML+='<br><br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
+      }
+    }
+);
+}
 
 function getPermissions(){
 FB.api(
