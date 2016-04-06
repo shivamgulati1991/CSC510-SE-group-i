@@ -6,18 +6,14 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 	  ga('create', 'UA-75978547-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
     <script type="text/javascript">
       // Your Client ID can be retrieved from your project in the Google
       // Developer Console, https://console.developers.google.com
       var CLIENT_ID = '603360305177-8sijq4vs3cpisl709pjmd600d90lv7jm.apps.googleusercontent.com';
-
       var SCOPES = ["https://www.googleapis.com/auth/calendar"];
-
       /**
        * Check if current user has authorized this application.
        */
@@ -29,7 +25,6 @@
             'immediate': true
           }, handleAuthResult);
       }
-
       /**
        * Handle response from authorization server.
        *
@@ -47,7 +42,6 @@
           authorizeDiv.style.display = 'inline';
         }
       }
-
       /**
        * Initiate auth flow in response to user clicking authorize button.
        *
@@ -55,12 +49,22 @@
        */
       function handleAuthClick(event) {
 	console.log("Google authentication");
+
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'Google Login',
+	  eventAction: 'Click'
+	});
+
         gapi.auth.authorize(
           {client_id: CLIENT_ID, scope: SCOPES, immediate: false},
           handleAuthResult);
         return false;
       }
-
       /**
        * Load Google Calendar client library. List upcoming events
        * once client library is loaded.
@@ -69,13 +73,23 @@
 	console.log("Loading Google events..");
         gapi.client.load('calendar', 'v3', listUpcomingEvents);
       }
-
       /**
        * Print the summary and start datetime/date of the next ten events in
        * the authorized user's calendar. If no events are found an
        * appropriate message is printed.
        */
       function listUpcomingEvents() {
+
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'ShowGoogleEvents',
+	  eventAction: 'Click'
+	});
+
 		console.log("Show Google events");
         var request = gapi.client.calendar.events.list({
           'calendarId': 'primary',
@@ -85,15 +99,14 @@
           'maxResults': 5,
           'orderBy': 'startTime'
         });
-
         request.execute(function(resp) {
           var events = resp.items;
          // appendPre('Upcoming events:');
 	document.getElementById('out').innerHTML='<h3>Upcoming events</h3>';
-	var tableBody=	'<h3>Upcoming events on your Google Calendar</h3><table border=1 cellspacing=2><tr><th>Event</th><th>Start Date and Time</th><th>End Date and Time</th><th>Creator</th></tr>';
+	var tableBody=	'<h3>Upcoming events on your Google Calendar</h3><div class="CSSTableGenerator"><table border=1 cellspacing=2><tr><th>Event</th><th>Start Date and Time</th><th>End Date and Time</th><th>Creator</th></tr>';
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
-		console.log("Upcoming event: "+i+1);
+		console.log("Upcoming event: "+i);
               var event = events[i];
               var when = event.start.dateTime;
               var when1 = event.end.dateTime;
@@ -108,11 +121,10 @@
             //appendPre('No upcoming events found.');
 	tableBody+='No upcoming events';
           }
-	tableBody+='</table><br><br>';
+	tableBody+='</table></div><br><br>';
 	document.getElementById('out').innerHTML=tableBody;	
         });
       }
-
       /**
        * Append a pre element to the body containing the given message
        * as its text node.
@@ -124,10 +136,61 @@
         var textContent = document.createTextNode(message + '\n');
         pre.appendChild(textContent);
       }
-
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth">
     </script>
+    <script src="//js.live.net/v5.0/wl.js"></script>
+<script>
+var OUTLOOK_APP_CLIENT_ID = "af062560-288f-42e3-b1e1-6b53fab62db8";
+var OUTLOOK_REDIRECT_URL = "https://effcal.herokuapp.com/";
+WL.Event.subscribe("auth.login", onLogin);
+WL.Event.subscribe("auth.logout", function(){document.getElementById("infoLabel").innerText = "";});
+var session = WL.getSession();
+if (session) {
+	document.getElementById("infoLabel").innerText ="You are already signed in!";
+} else {
+    WL.login({ scope: "wl.signin" });
+}
+            WL.init({
+                client_id: OUTLOOK_APP_CLIENT_ID,
+                redirect_uri: OUTLOOK_REDIRECT_URL,
+                scope: ["wl.signin", "wl.basic","wl.calendars"],
+                response_type: "token"
+            });
+            WL.ui({
+                name: "signin",
+                element: "signin"
+            });
+            function onLogin () {
+            	var session = WL.getSession();
+                if (!session.error) {
+                   WL.api({
+                      path: "me",
+                      method: "GET"
+                   }).then(
+                      function (response) {
+                                document.getElementById("infoLabel").innerText =
+                                    "Welcome, " +
+                                    response.first_name + " " + 
+                                    response.last_name + "!\n" + 
+                                    "Your list of events are: \n" +
+                                    "Test Event 1: start: 2016-04-02 06:00:00 end:2016-04-02 14:00:00 \n" +
+                                    "Test Event 2: start: 2016-04-03 06:00:00 end:2016-04-03 14:00:00\n" +
+                                    "Test Event 3: start: 2016-04-04 06:00:00 end:2016-04-04 14:00:00\n" ;
+                               
+                      },
+                      function (responseFailed) {
+                                document.getElementById("infoLabel").innerText =
+                                    "Error calling API: " + responseFailed.error.message;
+                      }
+                  );
+                }
+                else {
+                     document.getElementById("infoLabel").innerText =
+                             "Error signing in: " + session.error_description;
+                }
+          }
+       </script>
     
 <style>
 #page {
@@ -148,7 +211,98 @@
 #clearingdiv {
     clear: both;
 }
-
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSSTableGenerator tr:hover td{
+	
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#d3c2c2; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #1c0101 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1c0101), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #1c0101 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c0101", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#1c0101,bf5f00);
+	background-color:#1c0101;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #1c0101 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1c0101), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #1c0101 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c0101", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#1c0101,bf5f00);
+	background-color:#1c0101;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
 </style>
 
   </head>
@@ -178,11 +332,19 @@
 		<h3>Facebook events</h3><input type="button" value="See FB events" name="check" onClick="getList();"/>
 		<div id="eventOut">Select Event Info to fetch details</div>
 	</div>
+	<div class="nav navbar-nav navbar-right" style="padding-top: 15px;">
+	   <h3>Outlook events</h3> <div id="thirdcontent">
+		<div id="signin"></div>
+		<br />
+		<label id="infoLabel"></label>
+		</div></div>
     </div>
+
     <div id="menuleftcontent">
         <ul id="menu">
             <li><a href="#firstcontent"><h4>Google connect</h4></a></li>
             <li><a href="#secondcontent"><h4>Facebook connect</h4></a></li>
+            <li><a href="#thirdcontent"><h4>Outlook connect</h4></a></li>
         </ul>
     </div>
     <div id="clearingdiv"></div>
@@ -199,7 +361,6 @@
     <div id="out"></div>
 
 <script>
-
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '825565214222595',
@@ -208,13 +369,10 @@
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
   });
-
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
   });
-
   };
-
   // Load the SDK asynchronously
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -245,27 +403,32 @@
         'into Facebook.';
     }
   }
-
   // Login status check
   function checkLoginState() {
+
+		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'Facebook login',
+	  eventAction: 'Click'
+	});
+
 		console.log("Facebook login");
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
     });
   }
-
-
-
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
-
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
-
     });
   }
 </script>
@@ -273,8 +436,6 @@
 
 <!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
-
-
 <div id="status">
 </div>
 -->
@@ -282,8 +443,19 @@
 <script>
 function getList(){
 	console.log("See Facebook appointments");
+
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'SeeFacebookEvents',
+	  eventAction: 'Click'
+	});
+
 FB.api(
-    "/161813960852942",
+    "/780001448800563",
     function (response) {
       if (response && !response.error) {
 document.getElementById('eventOut').innerHTML='<br>Event name: '+JSON.stringify(response.name)+'<br>';
@@ -293,7 +465,7 @@ document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(res
     }
 );
 FB.api(
-    "/1738617373034421",
+    "/573084389517665",
     function (response) {
       if (response && !response.error) {
 document.getElementById('eventOut').innerHTML+='<br><br>Event name: '+JSON.stringify(response.name)+'<br>';
@@ -303,7 +475,6 @@ document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(res
     }
 );
 }
-
 function getPermissions(){
 FB.api(
     "/me/friends/",
