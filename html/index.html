@@ -1,5 +1,16 @@
 <html>
   <head>
+  <title>Effcal</title>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75978547-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
     <script type="text/javascript">
       // Your Client ID can be retrieved from your project in the Google
       // Developer Console, https://console.developers.google.com
@@ -43,6 +54,7 @@
        * @param {Event} event Button click event.
        */
       function handleAuthClick(event) {
+	console.log("Google authentication");
         gapi.auth.authorize(
           {client_id: CLIENT_ID, scope: SCOPES, immediate: false},
           handleAuthResult);
@@ -54,6 +66,7 @@
        * once client library is loaded.
        */
       function loadCalendarApi() {
+	console.log("Loading Google events..");
         gapi.client.load('calendar', 'v3', listUpcomingEvents);
       }
 
@@ -63,12 +76,13 @@
        * appropriate message is printed.
        */
       function listUpcomingEvents() {
+		console.log("Show Google events");
         var request = gapi.client.calendar.events.list({
           'calendarId': 'primary',
           'timeMin': (new Date()).toISOString(),
           'showDeleted': false,
           'singleEvents': true,
-          'maxResults': 10,
+          'maxResults': 5,
           'orderBy': 'startTime'
         });
 
@@ -76,9 +90,10 @@
           var events = resp.items;
          // appendPre('Upcoming events:');
 	document.getElementById('out').innerHTML='<h3>Upcoming events</h3>';
-	var tableBody=	'<h3>Upcoming events on your Google Calendar</h3><table border=1 cellspacing=2><tr><th>Event</th><th>Start Date and Time</th><th>End Date and Time</th><th>Creator</th></tr>';
+	var tableBody=	'<h3>Upcoming events on your Google Calendar</h3><div class="CSSTableGenerator"><table border=1 cellspacing=2><tr><th>Event</th><th>Start Date and Time</th><th>End Date and Time</th><th>Creator</th></tr>';
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
+		console.log("Upcoming event: "+i);
               var event = events[i];
               var when = event.start.dateTime;
               var when1 = event.end.dateTime;
@@ -93,7 +108,7 @@
             //appendPre('No upcoming events found.');
 	tableBody+='No upcoming events';
           }
-	tableBody+='</table>';
+	tableBody+='</table></div><br><br>';
 	document.getElementById('out').innerHTML=tableBody;	
         });
       }
@@ -113,6 +128,7 @@
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth">
     </script>
+    
 <style>
 #page {
     margin-left: 200px;
@@ -133,33 +149,130 @@
     clear: both;
 }
 
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSSTableGenerator tr:hover td{
+	
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#d3c2c2; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #1c0101 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1c0101), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #1c0101 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c0101", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#1c0101,bf5f00);
+
+	background-color:#1c0101;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #1c0101 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1c0101), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #1c0101 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c0101", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#1c0101,bf5f00);
+
+	background-color:#1c0101;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
 </style>
+
   </head>
   <body>
 <div id="page">
-    <h2>Effcal</h2>
+    <h1>Effcal</h1>
     <div id="maincontent">
         <div id="firstcontent">
 	    <div id="authorize-div" style="display: none">
-      <span>Login to see your upcoming events</span>
-      <!--Button for the user to click to initiate auth sequence --><br/><br/>
+      <span><h2>Login to see your upcoming events</h2></span>
+      <!--Button for the user to click to initiate auth sequence --><br/>
       <button style="display:inline-block" id="authorize-button" onclick="handleAuthClick(event)">
-	<img src="/images/Google.png" style="float:left;margin-right:0.5em"/>Sign in to Google
+	<img src="/images/Google.png" height="42" width="42" style="float:left;margin-right:0.5em"/>Sign in to Google
       </button>
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>
+    <!--<input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>-->
 	</div>
 		<div id="secondcontent">
 		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 		</fb:login-button>
 		<div id="status">
 		</div><br/>
-		<input type="button" value="check" name="check" onClick="getList();"/>
-		<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>
-		<h3>Facebook list</h3>
-		<div id="eventOut">test</div>
+
+		<!--<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>-->
+		<h3>Facebook events</h3><input type="button" value="See FB events" name="check" onClick="getList();"/>
+		<div id="eventOut">Select Event Info to fetch details</div>
 	</div>
     </div>
     <div id="menuleftcontent">
@@ -180,7 +293,7 @@
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="create event" onClick="createEvent();"/><br/><br/><br/>
+
 <script>
 
   window.fbAsyncInit = function() {
@@ -231,6 +344,7 @@
 
   // Login status check
   function checkLoginState() {
+		console.log("Facebook login");
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
     });
@@ -241,11 +355,13 @@
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
+
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
+
     });
   }
 </script>
@@ -258,17 +374,31 @@
 <div id="status">
 </div>
 -->
+
 <script>
 function getList(){
+	console.log("See Facebook appointments");
 FB.api(
-    "/me/",
+    "/780001448800563",
     function (response) {
       if (response && !response.error) {
-        alert(JSON.stringify(response));
-document.getElementById('eventOut').innerHTML=JSON.stringify(response);
+document.getElementById('eventOut').innerHTML='<br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
       }
     }
-);}
+);
+FB.api(
+    "/573084389517665",
+    function (response) {
+      if (response && !response.error) {
+document.getElementById('eventOut').innerHTML+='<br><br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
+      }
+    }
+);
+}
 
 function getPermissions(){
 FB.api(
