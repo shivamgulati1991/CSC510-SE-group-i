@@ -1,7 +1,7 @@
 # CSC510-SE-group-i  
   
   
-Effcal - A better appointment reporting and schedules solution
+Effcal - A better appointment tracking and reporting
 
 Team:  
 Nishtha Garg  
@@ -25,5 +25,3 @@ Other links
 * [Contribution](https://github.com/shivamgulati1991/CSC510-SE-group-i/graphs/contributors)
   Contributions are only visible for master. 2 solutions are in other branches.  
 * [Telemetry](https://github.com/shivamgulati1991/CSC510-SE-group-i/blob/master/Telemetry.pdf) [Questionnaire](https://github.com/shivamgulati1991/CSC510-SE-group-i/blob/master/Questionnaire.pdf)
-* [Evaluation Plan](https://github.com/shivamgulati1991/CSC510-SE-group-i/blob/master/Evaluation.plan.pdf)
-
