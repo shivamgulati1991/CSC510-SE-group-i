@@ -18,6 +18,8 @@ Solutions
 
 Other links
 
+* [Final Report](https://github.com/shivamgulati1991/CSC510-SE-group-i/blob/master/Final_Report.pdf)
+* [Presentation](https://github.com/shivamgulati1991/CSC510-SE-group-i/blob/master/Effcal_Presentation.pdf)
 * [Issues](https://github.com/shivamgulati1991/CSC510-SE-group-i/issues)
 * [Milestones](https://github.com/shivamgulati1991/CSC510-SE-group-i/milestones)
 * [Contribution](https://github.com/shivamgulati1991/CSC510-SE-group-i/graphs/contributors)
