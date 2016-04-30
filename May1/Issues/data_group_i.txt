@@ -1,0 +1,512 @@
+ISSUE 1
+what : Null Label,	when : 1453158241.0,	issuecreated_at : 1452630628.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 527364.0,	issueclosed_at : 1453157992.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1453157992.0,	issuecreated_at : 1452630628.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 527364.0,	issueclosed_at : 1453157992.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453157952.0,	issuecreated_at : 1452630628.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 527364.0,	issueclosed_at : 1453157992.0,	action : renamed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453157890.0,	issuecreated_at : 1452630628.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 527364.0,	issueclosed_at : 1453157992.0,	action : assigned,	user : shivamgulati1991
+
+ISSUE 2
+what : Null Label,	when : 1454321145.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453605810.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : renamed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158250.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158086.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : renamed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158033.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : renamed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158014.0,	issuecreated_at : 1452630702.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1690443.0,	issueclosed_at : 1454321145.0,	action : renamed,	user : shivamgulati1991
+
+ISSUE 3
+what : Null Label,	when : 1454321108.0,	issuecreated_at : 1453158194.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1162914.0,	issueclosed_at : 1454321108.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158246.0,	issuecreated_at : 1453158194.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1162914.0,	issueclosed_at : 1454321108.0,	action : milestoned,	user : shivamgulati1991
+
+ISSUE 4
+what : Null Label,	when : 1454321093.0,	issuecreated_at : 1453158316.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1162777.0,	issueclosed_at : 1454321093.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1453158322.0,	issuecreated_at : 1453158316.0,	comments : 1,	milestone : Feb 1 submission,	duration : 1162777.0,	issueclosed_at : 1454321093.0,	action : milestoned,	user : shivamgulati1991
+
+ISSUE 5
+what : Null Label,	when : 1454322195.0,	issuecreated_at : 1454321179.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 1016.0,	issueclosed_at : 1454322195.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1454321179.0,	issuecreated_at : 1454321179.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 1016.0,	issueclosed_at : 1454322195.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1454321179.0,	issuecreated_at : 1454321179.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Feb 1 submission,	duration : 1016.0,	issueclosed_at : 1454322195.0,	action : assigned,	user : shivamgulati1991
+
+ISSUE 6
+what : Null Label,	when : 1454379250.0,	issuecreated_at : 1454340129.0,	comments : 1,	duration : 39121.0,	issueclosed_at : 1454379250.0,	action : closed,	user : priysha
+
+what : proj1 feedback,	when : 1454340129.0,	issuecreated_at : 1454340129.0,	comments : 1,	duration : 39121.0,	issueclosed_at : 1454379250.0,	action : labeled,	user : timm
+
+ISSUE 7
+what : Null Label,	when : 1456624219.0,	issuecreated_at : 1454614828.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 2009391.0,	issueclosed_at : 1456624219.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456199835.0,	issuecreated_at : 1454614828.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 2009391.0,	issueclosed_at : 1456624219.0,	action : assigned,	user : shivamgulati1991
+
+what : Null Label,	when : 1454614893.0,	issuecreated_at : 1454614828.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 2009391.0,	issueclosed_at : 1456624219.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1454614885.0,	issuecreated_at : 1454614828.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 2009391.0,	issueclosed_at : 1456624219.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 8
+what : Null Label,	when : 1456624209.0,	issuecreated_at : 1454614947.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 2009262.0,	issueclosed_at : 1456624209.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1454798715.0,	issuecreated_at : 1454614947.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 2009262.0,	issueclosed_at : 1456624209.0,	action : assigned,	user : shivamgulati1991
+
+what : Null Label,	when : 1454614947.0,	issuecreated_at : 1454614947.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 2009262.0,	issueclosed_at : 1456624209.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1454614947.0,	issuecreated_at : 1454614947.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 2009262.0,	issueclosed_at : 1456624209.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 9
+what : Null Label,	when : 1454893319.0,	issuecreated_at : 1454632951.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 260368.0,	issueclosed_at : 1454893319.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1454893303.0,	issuecreated_at : 1454632951.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 260368.0,	issueclosed_at : 1454893319.0,	action : assigned,	user : shifalijain
+
+what : Null Label,	when : 1454633157.0,	issuecreated_at : 1454632951.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 260368.0,	issueclosed_at : 1454893319.0,	action : milestoned,	user : priysha
+
+ISSUE 10
+what : Null Label,	when : 1455946120.0,	issuecreated_at : 1454633205.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 1312915.0,	issueclosed_at : 1455946120.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1454798729.0,	issuecreated_at : 1454633205.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 1312915.0,	issueclosed_at : 1455946120.0,	action : assigned,	user : shifalijain
+
+what : Null Label,	when : 1454633205.0,	issuecreated_at : 1454633205.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 1312915.0,	issueclosed_at : 1455946120.0,	action : milestoned,	user : priysha
+
+ISSUE 11
+what : Null Label,	when : 1459907412.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : closed,	user : nishtha02
+
+what : Null Label,	when : 1456732778.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732778.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1456381739.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1454798739.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : assigned,	user : nishtha02
+
+what : Null Label,	when : 1454633322.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : milestoned,	user : nishtha02
+
+what : Null Label,	when : 1454633322.0,	issuecreated_at : 1454633239.0,	assignee : nishtha02,	comments : 1,	milestone : Apr 7,	duration : 5274173.0,	issueclosed_at : 1459907412.0,	action : milestoned,	user : nishtha02
+
+ISSUE 12
+what : Null Label,	when : 1459907279.0,	issuecreated_at : 1454633256.0,	comments : 1,	milestone : Apr 7,	duration : 5274023.0,	issueclosed_at : 1459907279.0,	action : closed,	user : nishtha02
+
+what : Discussion,	when : 1456042179.0,	issuecreated_at : 1454633256.0,	comments : 1,	milestone : Apr 7,	duration : 5274023.0,	issueclosed_at : 1459907279.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1454633256.0,	issuecreated_at : 1454633256.0,	comments : 1,	milestone : Apr 7,	duration : 5274023.0,	issueclosed_at : 1459907279.0,	action : milestoned,	user : shifalijain
+
+ISSUE 13
+what : Null Label,	when : 1456785235.0,	issuecreated_at : 1454893428.0,	assignee : nishtha02,	comments : 2,	milestone : Mar 1,	duration : 1891807.0,	issueclosed_at : 1456785235.0,	action : closed,	user : shivamgulati1991
+
+what : Implementation,	when : 1455946135.0,	issuecreated_at : 1454893428.0,	assignee : nishtha02,	comments : 2,	milestone : Mar 1,	duration : 1891807.0,	issueclosed_at : 1456785235.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1454893428.0,	issuecreated_at : 1454893428.0,	assignee : nishtha02,	comments : 2,	milestone : Mar 1,	duration : 1891807.0,	issueclosed_at : 1456785235.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1454893428.0,	issuecreated_at : 1454893428.0,	assignee : nishtha02,	comments : 2,	milestone : Mar 1,	duration : 1891807.0,	issueclosed_at : 1456785235.0,	action : assigned,	user : nishtha02
+
+ISSUE 14
+what : Null Label,	when : 1456784192.0,	issuecreated_at : 1454893466.0,	assignee : shivamgulati1991,	comments : 4,	milestone : Mar 1,	duration : 1890726.0,	issueclosed_at : 1456784192.0,	action : closed,	user : shivamgulati1991
+
+what : Implementation,	when : 1455946141.0,	issuecreated_at : 1454893466.0,	assignee : shivamgulati1991,	comments : 4,	milestone : Mar 1,	duration : 1890726.0,	issueclosed_at : 1456784192.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1454893470.0,	issuecreated_at : 1454893466.0,	assignee : shivamgulati1991,	comments : 4,	milestone : Mar 1,	duration : 1890726.0,	issueclosed_at : 1456784192.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1454893466.0,	issuecreated_at : 1454893466.0,	assignee : shivamgulati1991,	comments : 4,	milestone : Mar 1,	duration : 1890726.0,	issueclosed_at : 1456784192.0,	action : assigned,	user : shivamgulati1991
+
+ISSUE 15
+what : Null Label,	when : 1456624701.0,	issuecreated_at : 1455946018.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 678683.0,	issueclosed_at : 1456624701.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946018.0,	issuecreated_at : 1455946018.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 678683.0,	issueclosed_at : 1456624701.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946018.0,	issuecreated_at : 1455946018.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 678683.0,	issueclosed_at : 1456624701.0,	action : assigned,	user : shivamgulati1991
+
+what : Implementation,	when : 1455946018.0,	issuecreated_at : 1455946018.0,	assignee : shivamgulati1991,	comments : 2,	milestone : Mar 1,	duration : 678683.0,	issueclosed_at : 1456624701.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 16
+what : Null Label,	when : 1456624179.0,	issuecreated_at : 1455946183.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 677996.0,	issueclosed_at : 1456624179.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946183.0,	issuecreated_at : 1455946183.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 677996.0,	issueclosed_at : 1456624179.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946183.0,	issuecreated_at : 1455946183.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 677996.0,	issueclosed_at : 1456624179.0,	action : assigned,	user : shivamgulati1991
+
+what : Implementation,	when : 1455946183.0,	issuecreated_at : 1455946183.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 677996.0,	issueclosed_at : 1456624179.0,	action : labeled,	user : shivamgulati1991
+
+what : bug,	when : 1455946183.0,	issuecreated_at : 1455946183.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 677996.0,	issueclosed_at : 1456624179.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 17
+what : Null Label,	when : 1456708205.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946314.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946314.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946276.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946276.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : assigned,	user : shivamgulati1991
+
+what : Implementation,	when : 1455946276.0,	issuecreated_at : 1455946276.0,	assignee : shivamgulati1991,	comments : 1,	milestone : API call setups,	duration : 761929.0,	issueclosed_at : 1456708205.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 18
+what : Null Label,	when : 1456632596.0,	issuecreated_at : 1455946369.0,	assignee : shifalijain,	comments : 2,	milestone : API call setups,	duration : 686227.0,	issueclosed_at : 1456632596.0,	action : closed,	user : nishtha02
+
+what : Null Label,	when : 1455946369.0,	issuecreated_at : 1455946369.0,	assignee : shifalijain,	comments : 2,	milestone : API call setups,	duration : 686227.0,	issueclosed_at : 1456632596.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455946369.0,	issuecreated_at : 1455946369.0,	assignee : shifalijain,	comments : 2,	milestone : API call setups,	duration : 686227.0,	issueclosed_at : 1456632596.0,	action : assigned,	user : shifalijain
+
+what : Implementation,	when : 1455946369.0,	issuecreated_at : 1455946369.0,	assignee : shifalijain,	comments : 2,	milestone : API call setups,	duration : 686227.0,	issueclosed_at : 1456632596.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 19
+what : Null Label,	when : 1456732671.0,	issuecreated_at : 1455948393.0,	assignee : nishtha02,	comments : 2,	milestone : API call setups,	duration : 784278.0,	issueclosed_at : 1456732671.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456632686.0,	issuecreated_at : 1455948393.0,	assignee : nishtha02,	comments : 2,	milestone : API call setups,	duration : 784278.0,	issueclosed_at : 1456732671.0,	action : renamed,	user : shivamgulati1991
+
+what : Null Label,	when : 1455948393.0,	issuecreated_at : 1455948393.0,	assignee : nishtha02,	comments : 2,	milestone : API call setups,	duration : 784278.0,	issueclosed_at : 1456732671.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1455948393.0,	issuecreated_at : 1455948393.0,	assignee : nishtha02,	comments : 2,	milestone : API call setups,	duration : 784278.0,	issueclosed_at : 1456732671.0,	action : assigned,	user : nishtha02
+
+what : Implementation,	when : 1455948393.0,	issuecreated_at : 1455948393.0,	assignee : nishtha02,	comments : 2,	milestone : API call setups,	duration : 784278.0,	issueclosed_at : 1456732671.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 20
+what : Null Label,	when : 1456732694.0,	issuecreated_at : 1456042157.0,	assignee : shivamgulati1991,	comments : 2,	milestone : API call setups,	duration : 690537.0,	issueclosed_at : 1456732694.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456042157.0,	issuecreated_at : 1456042157.0,	assignee : shivamgulati1991,	comments : 2,	milestone : API call setups,	duration : 690537.0,	issueclosed_at : 1456732694.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456042157.0,	issuecreated_at : 1456042157.0,	assignee : shivamgulati1991,	comments : 2,	milestone : API call setups,	duration : 690537.0,	issueclosed_at : 1456732694.0,	action : assigned,	user : shivamgulati1991
+
+what : bug,	when : 1456042157.0,	issuecreated_at : 1456042157.0,	assignee : shivamgulati1991,	comments : 2,	milestone : API call setups,	duration : 690537.0,	issueclosed_at : 1456732694.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 21
+what : Null Label,	when : 1456708189.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456374423.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : milestoned,	user : shivamgulati1991
+
+what : Implementation,	when : 1456374421.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1456374400.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456273662.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : milestoned,	user : nishtha02
+
+what : Null Label,	when : 1456273662.0,	issuecreated_at : 1456273662.0,	assignee : nishtha02,	comments : 3,	milestone : API call setups,	duration : 434527.0,	issueclosed_at : 1456708189.0,	action : assigned,	user : nishtha02
+
+ISSUE 22
+what : Null Label,	when : 1456733235.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732766.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732766.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456274263.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : milestoned,	user : shifalijain
+
+what : Null Label,	when : 1456274263.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : assigned,	user : shifalijain
+
+what : Discussion,	when : 1456274263.0,	issuecreated_at : 1456274263.0,	assignee : shifalijain,	comments : 2,	milestone : Data Collection methods,	duration : 458972.0,	issueclosed_at : 1456733235.0,	action : labeled,	user : shifalijain
+
+ISSUE 23
+what : Null Label,	when : 1456890290.0,	issuecreated_at : 1456624368.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 265922.0,	issueclosed_at : 1456890290.0,	action : closed,	user : shifalijain
+
+what : Null Label,	when : 1456624368.0,	issuecreated_at : 1456624368.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 265922.0,	issueclosed_at : 1456890290.0,	action : milestoned,	user : shifalijain
+
+what : Null Label,	when : 1456624368.0,	issuecreated_at : 1456624368.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 265922.0,	issueclosed_at : 1456890290.0,	action : assigned,	user : shifalijain
+
+what : bug,	when : 1456624368.0,	issuecreated_at : 1456624368.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 265922.0,	issueclosed_at : 1456890290.0,	action : labeled,	user : shifalijain
+
+ISSUE 24
+what : Null Label,	when : 1456637293.0,	issuecreated_at : 1456624397.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 12896.0,	issueclosed_at : 1456637293.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456629623.0,	issuecreated_at : 1456624397.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 12896.0,	issueclosed_at : 1456637293.0,	action : assigned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456629621.0,	issuecreated_at : 1456624397.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 12896.0,	issueclosed_at : 1456637293.0,	action : milestoned,	user : shivamgulati1991
+
+what : bug,	when : 1456624410.0,	issuecreated_at : 1456624397.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 12896.0,	issueclosed_at : 1456637293.0,	action : labeled,	user : priysha
+
+ISSUE 25
+what : Null Label,	when : 1456785416.0,	issuecreated_at : 1456624756.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 160660.0,	issueclosed_at : 1456785416.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456624761.0,	issuecreated_at : 1456624756.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 160660.0,	issueclosed_at : 1456785416.0,	action : assigned,	user : priysha
+
+what : Null Label,	when : 1456624756.0,	issuecreated_at : 1456624756.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 160660.0,	issueclosed_at : 1456785416.0,	action : milestoned,	user : shivamgulati1991
+
+what : enhancement,	when : 1456624756.0,	issuecreated_at : 1456624756.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 160660.0,	issueclosed_at : 1456785416.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 26
+what : Null Label,	when : 1459712646.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456733193.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456733193.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456637319.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456637319.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : assigned,	user : shivamgulati1991
+
+what : enhancement,	when : 1456637319.0,	issuecreated_at : 1456637319.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 3075327.0,	issueclosed_at : 1459712646.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 27
+what : Null Label,	when : 1456805136.0,	issuecreated_at : 1456637429.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 167707.0,	issueclosed_at : 1456805136.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456637429.0,	issuecreated_at : 1456637429.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 167707.0,	issueclosed_at : 1456805136.0,	action : milestoned,	user : priysha
+
+what : Null Label,	when : 1456637429.0,	issuecreated_at : 1456637429.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 167707.0,	issueclosed_at : 1456805136.0,	action : assigned,	user : priysha
+
+what : enhancement,	when : 1456637429.0,	issuecreated_at : 1456637429.0,	assignee : priysha,	comments : 1,	milestone : Mar 1,	duration : 167707.0,	issueclosed_at : 1456805136.0,	action : labeled,	user : priysha
+
+ISSUE 28
+what : Null Label,	when : 1456782088.0,	issuecreated_at : 1456699403.0,	comments : 2,	milestone : Mar 1,	duration : 82685.0,	issueclosed_at : 1456782088.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456699403.0,	issuecreated_at : 1456699403.0,	comments : 2,	milestone : Mar 1,	duration : 82685.0,	issueclosed_at : 1456782088.0,	action : milestoned,	user : shivamgulati1991
+
+what : Implementation,	when : 1456699403.0,	issuecreated_at : 1456699403.0,	comments : 2,	milestone : Mar 1,	duration : 82685.0,	issueclosed_at : 1456782088.0,	action : labeled,	user : shivamgulati1991
+
+what : enhancement,	when : 1456699403.0,	issuecreated_at : 1456699403.0,	comments : 2,	milestone : Mar 1,	duration : 82685.0,	issueclosed_at : 1456782088.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 29
+what : Null Label,	when : 1456725769.0,	issuecreated_at : 1456708077.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 17692.0,	issueclosed_at : 1456725769.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456708077.0,	issuecreated_at : 1456708077.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 17692.0,	issueclosed_at : 1456725769.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456708077.0,	issuecreated_at : 1456708077.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 17692.0,	issueclosed_at : 1456725769.0,	action : assigned,	user : shivamgulati1991
+
+what : bug,	when : 1456708077.0,	issuecreated_at : 1456708077.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 17692.0,	issueclosed_at : 1456725769.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 30
+what : Null Label,	when : 1456890177.0,	issuecreated_at : 1456713452.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 176725.0,	issueclosed_at : 1456890177.0,	action : closed,	user : nishtha02
+
+what : Implementation,	when : 1456785265.0,	issuecreated_at : 1456713452.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 176725.0,	issueclosed_at : 1456890177.0,	action : labeled,	user : shivamgulati1991
+
+what : bug,	when : 1456785265.0,	issuecreated_at : 1456713452.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 176725.0,	issueclosed_at : 1456890177.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1456785256.0,	issuecreated_at : 1456713452.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 176725.0,	issueclosed_at : 1456890177.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456785250.0,	issuecreated_at : 1456713452.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 176725.0,	issueclosed_at : 1456890177.0,	action : assigned,	user : nishtha02
+
+ISSUE 31
+what : Null Label,	when : 1456805145.0,	issuecreated_at : 1456732817.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 72328.0,	issueclosed_at : 1456805145.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732840.0,	issuecreated_at : 1456732817.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 72328.0,	issueclosed_at : 1456805145.0,	action : assigned,	user : priysha
+
+what : Null Label,	when : 1456732817.0,	issuecreated_at : 1456732817.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 72328.0,	issueclosed_at : 1456805145.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1456732817.0,	issuecreated_at : 1456732817.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 72328.0,	issueclosed_at : 1456805145.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 32
+what : Null Label,	when : 1456890151.0,	issuecreated_at : 1456732896.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 157255.0,	issueclosed_at : 1456890151.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732896.0,	issuecreated_at : 1456732896.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 157255.0,	issueclosed_at : 1456890151.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456732896.0,	issuecreated_at : 1456732896.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 157255.0,	issueclosed_at : 1456890151.0,	action : assigned,	user : priysha
+
+what : Discussion,	when : 1456732896.0,	issuecreated_at : 1456732896.0,	assignee : priysha,	comments : 0,	milestone : Data Collection methods,	duration : 157255.0,	issueclosed_at : 1456890151.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 33
+what : Null Label,	when : 1456779702.0,	issuecreated_at : 1456775599.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 4103.0,	issueclosed_at : 1456779702.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456775599.0,	issuecreated_at : 1456775599.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 4103.0,	issueclosed_at : 1456779702.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456775599.0,	issuecreated_at : 1456775599.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 4103.0,	issueclosed_at : 1456779702.0,	action : assigned,	user : shivamgulati1991
+
+what : Implementation,	when : 1456775599.0,	issuecreated_at : 1456775599.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 4103.0,	issueclosed_at : 1456779702.0,	action : labeled,	user : shivamgulati1991
+
+what : enhancement,	when : 1456775599.0,	issuecreated_at : 1456775599.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Mar 1,	duration : 4103.0,	issueclosed_at : 1456779702.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 34
+what : Null Label,	when : 1456805160.0,	issuecreated_at : 1456781560.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 23600.0,	issueclosed_at : 1456805160.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456781560.0,	issuecreated_at : 1456781560.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 23600.0,	issueclosed_at : 1456805160.0,	action : milestoned,	user : priysha
+
+what : Null Label,	when : 1456781560.0,	issuecreated_at : 1456781560.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 23600.0,	issueclosed_at : 1456805160.0,	action : assigned,	user : priysha
+
+what : bug,	when : 1456781560.0,	issuecreated_at : 1456781560.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 23600.0,	issueclosed_at : 1456805160.0,	action : labeled,	user : priysha
+
+ISSUE 35
+what : Null Label,	when : 1456866988.0,	issuecreated_at : 1456784241.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 82747.0,	issueclosed_at : 1456866988.0,	action : closed,	user : nishtha02
+
+what : Null Label,	when : 1456784241.0,	issuecreated_at : 1456784241.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 82747.0,	issueclosed_at : 1456866988.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456784241.0,	issuecreated_at : 1456784241.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 82747.0,	issueclosed_at : 1456866988.0,	action : assigned,	user : nishtha02
+
+what : Implementation,	when : 1456784241.0,	issuecreated_at : 1456784241.0,	assignee : nishtha02,	comments : 1,	milestone : Mar 1,	duration : 82747.0,	issueclosed_at : 1456866988.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 36
+what : Null Label,	when : 1456814327.0,	issuecreated_at : 1456784266.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 30061.0,	issueclosed_at : 1456814327.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456784266.0,	issuecreated_at : 1456784266.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 30061.0,	issueclosed_at : 1456814327.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456784266.0,	issuecreated_at : 1456784266.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 30061.0,	issueclosed_at : 1456814327.0,	action : assigned,	user : shifalijain
+
+what : bug,	when : 1456784266.0,	issuecreated_at : 1456784266.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 30061.0,	issueclosed_at : 1456814327.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 37
+what : Null Label,	when : 1459712657.0,	issuecreated_at : 1456785360.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2927297.0,	issueclosed_at : 1459712657.0,	action : closed,	user : shivamgulati1991
+
+what : testing,	when : 1456785389.0,	issuecreated_at : 1456785360.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2927297.0,	issueclosed_at : 1459712657.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1456785360.0,	issuecreated_at : 1456785360.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2927297.0,	issueclosed_at : 1459712657.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456785360.0,	issuecreated_at : 1456785360.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2927297.0,	issueclosed_at : 1459712657.0,	action : assigned,	user : shifalijain
+
+ISSUE 38
+what : Null Label,	when : 1456804866.0,	issuecreated_at : 1456804283.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 583.0,	issueclosed_at : 1456804866.0,	action : closed,	user : nishtha02
+
+what : Null Label,	when : 1456804283.0,	issuecreated_at : 1456804283.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 583.0,	issueclosed_at : 1456804866.0,	action : milestoned,	user : shifalijain
+
+what : Null Label,	when : 1456804283.0,	issuecreated_at : 1456804283.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 583.0,	issueclosed_at : 1456804866.0,	action : assigned,	user : shifalijain
+
+what : Implementation,	when : 1456804283.0,	issuecreated_at : 1456804283.0,	assignee : shifalijain,	comments : 1,	milestone : Mar 1,	duration : 583.0,	issueclosed_at : 1456804866.0,	action : labeled,	user : shifalijain
+
+ISSUE 39
+what : Null Label,	when : 1456871112.0,	issuecreated_at : 1456805030.0,	assignee : nishtha02,	comments : 0,	milestone : Mar 1,	duration : 66082.0,	issueclosed_at : 1456871112.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456805030.0,	issuecreated_at : 1456805030.0,	assignee : nishtha02,	comments : 0,	milestone : Mar 1,	duration : 66082.0,	issueclosed_at : 1456871112.0,	action : milestoned,	user : nishtha02
+
+what : Null Label,	when : 1456805030.0,	issuecreated_at : 1456805030.0,	assignee : nishtha02,	comments : 0,	milestone : Mar 1,	duration : 66082.0,	issueclosed_at : 1456871112.0,	action : assigned,	user : nishtha02
+
+ISSUE 40
+what : Null Label,	when : 1459712681.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456890209.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456890209.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456814246.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456814246.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : assigned,	user : shivamgulati1991
+
+what : bug,	when : 1456814246.0,	issuecreated_at : 1456814246.0,	assignee : shivamgulati1991,	comments : 1,	milestone : Improvement to-do's,	duration : 2898435.0,	issueclosed_at : 1459712681.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 41
+what : Null Label,	when : 1456890316.0,	issuecreated_at : 1456814290.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 76026.0,	issueclosed_at : 1456890316.0,	action : closed,	user : priysha
+
+what : Null Label,	when : 1456814290.0,	issuecreated_at : 1456814290.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 76026.0,	issueclosed_at : 1456890316.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456814290.0,	issuecreated_at : 1456814290.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 76026.0,	issueclosed_at : 1456890316.0,	action : assigned,	user : priysha
+
+what : Implementation,	when : 1456814290.0,	issuecreated_at : 1456814290.0,	assignee : priysha,	comments : 0,	milestone : Mar 1,	duration : 76026.0,	issueclosed_at : 1456890316.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 42
+what : Null Label,	when : 1459712753.0,	issuecreated_at : 1456984938.0,	assignee : priysha,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727815.0,	issueclosed_at : 1459712753.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456984938.0,	issuecreated_at : 1456984938.0,	assignee : priysha,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727815.0,	issueclosed_at : 1459712753.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456984938.0,	issuecreated_at : 1456984938.0,	assignee : priysha,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727815.0,	issueclosed_at : 1459712753.0,	action : assigned,	user : priysha
+
+what : Discussion,	when : 1456984938.0,	issuecreated_at : 1456984938.0,	assignee : priysha,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727815.0,	issueclosed_at : 1459712753.0,	action : labeled,	user : shivamgulati1991
+
+what : proj1 feedback,	when : 1456984938.0,	issuecreated_at : 1456984938.0,	assignee : priysha,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727815.0,	issueclosed_at : 1459712753.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 43
+what : Null Label,	when : 1459712673.0,	issuecreated_at : 1456984966.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727707.0,	issueclosed_at : 1459712673.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1456984966.0,	issuecreated_at : 1456984966.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727707.0,	issueclosed_at : 1459712673.0,	action : milestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1456984966.0,	issuecreated_at : 1456984966.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727707.0,	issueclosed_at : 1459712673.0,	action : assigned,	user : shifalijain
+
+what : Discussion,	when : 1456984966.0,	issuecreated_at : 1456984966.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727707.0,	issueclosed_at : 1459712673.0,	action : labeled,	user : shivamgulati1991
+
+what : proj1 feedback,	when : 1456984966.0,	issuecreated_at : 1456984966.0,	assignee : shifalijain,	comments : 0,	milestone : User response study initial survey on apps usage,	duration : 2727707.0,	issueclosed_at : 1459712673.0,	action : labeled,	user : shivamgulati1991
+
+ISSUE 44
+what : Null Label,	when : 1460076133.0,	issuecreated_at : 1459724451.0,	assignee : priysha,	comments : 0,	milestone : Analysis of solutions,	duration : 351682.0,	issueclosed_at : 1460076133.0,	action : closed,	user : priysha
+
+what : Null Label,	when : 1459724451.0,	issuecreated_at : 1459724451.0,	assignee : priysha,	comments : 0,	milestone : Analysis of solutions,	duration : 351682.0,	issueclosed_at : 1460076133.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1459724451.0,	issuecreated_at : 1459724451.0,	assignee : priysha,	comments : 0,	milestone : Analysis of solutions,	duration : 351682.0,	issueclosed_at : 1460076133.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724451.0,	issuecreated_at : 1459724451.0,	assignee : priysha,	comments : 0,	milestone : Analysis of solutions,	duration : 351682.0,	issueclosed_at : 1460076133.0,	action : assigned,	user : priysha
+
+ISSUE 45
+what : Null Label,	when : 1459907240.0,	issuecreated_at : 1459724474.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 182766.0,	issueclosed_at : 1459907240.0,	action : closed,	user : nishtha02
+
+what : Null Label,	when : 1459724474.0,	issuecreated_at : 1459724474.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 182766.0,	issueclosed_at : 1459907240.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1459724474.0,	issuecreated_at : 1459724474.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 182766.0,	issueclosed_at : 1459907240.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724474.0,	issuecreated_at : 1459724474.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 182766.0,	issueclosed_at : 1459907240.0,	action : assigned,	user : nishtha02
+
+ISSUE 46
+what : Null Label,	when : 1460083009.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907756.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : assigned,	user : nishtha02
+
+what : Null Label,	when : 1459907756.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : unassigned,	user : shifalijain
+
+what : testing,	when : 1459907362.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724518.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1459724518.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724518.0,	issuecreated_at : 1459724518.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 358491.0,	issueclosed_at : 1460083009.0,	action : assigned,	user : shifalijain
+
+ISSUE 47
+what : Null Label,	when : 1460083003.0,	issuecreated_at : 1459724848.0,	assignee : shifalijain,	comments : 2,	milestone : Apr 7,	duration : 358155.0,	issueclosed_at : 1460083003.0,	action : closed,	user : shivamgulati1991
+
+what : Report,	when : 1459907510.0,	issuecreated_at : 1459724848.0,	assignee : shifalijain,	comments : 2,	milestone : Apr 7,	duration : 358155.0,	issueclosed_at : 1460083003.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724848.0,	issuecreated_at : 1459724848.0,	assignee : shifalijain,	comments : 2,	milestone : Apr 7,	duration : 358155.0,	issueclosed_at : 1460083003.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1459724848.0,	issuecreated_at : 1459724848.0,	assignee : shifalijain,	comments : 2,	milestone : Apr 7,	duration : 358155.0,	issueclosed_at : 1460083003.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459724848.0,	issuecreated_at : 1459724848.0,	assignee : shifalijain,	comments : 2,	milestone : Apr 7,	duration : 358155.0,	issueclosed_at : 1460083003.0,	action : assigned,	user : shifalijain
+
+ISSUE 48
+what : Null Label,	when : 1460065384.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : closed,	user : nishtha02
+
+what : Report,	when : 1459907492.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907393.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : milestoned,	user : nishtha02
+
+what : testing,	when : 1459907393.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : labeled,	user : nishtha02
+
+what : Discussion,	when : 1459907393.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : labeled,	user : nishtha02
+
+what : Null Label,	when : 1459907393.0,	issuecreated_at : 1459907393.0,	assignee : nishtha02,	comments : 1,	milestone : Analysis of solutions,	duration : 157991.0,	issueclosed_at : 1460065384.0,	action : assigned,	user : nishtha02
+
+ISSUE 49
+what : Null Label,	when : 1460076120.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : closed,	user : priysha
+
+what : proj1 feedback,	when : 1459907481.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : unlabeled,	user : shivamgulati1991
+
+what : Report,	when : 1459907481.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907446.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : milestoned,	user : shivamgulati1991
+
+what : Discussion,	when : 1459907446.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : labeled,	user : shivamgulati1991
+
+what : proj1 feedback,	when : 1459907446.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907446.0,	issuecreated_at : 1459907446.0,	assignee : priysha,	comments : 0,	milestone : Apr 7,	duration : 168674.0,	issueclosed_at : 1460076120.0,	action : assigned,	user : priysha
+
+ISSUE 50
+what : Null Label,	when : 1460075783.0,	issuecreated_at : 1459907710.0,	assignee : priysha,	comments : 2,	milestone : Apr 7,	duration : 168073.0,	issueclosed_at : 1460075783.0,	action : closed,	user : shivamgulati1991
+
+what : Report,	when : 1459907722.0,	issuecreated_at : 1459907710.0,	assignee : priysha,	comments : 2,	milestone : Apr 7,	duration : 168073.0,	issueclosed_at : 1460075783.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907710.0,	issuecreated_at : 1459907710.0,	assignee : priysha,	comments : 2,	milestone : Apr 7,	duration : 168073.0,	issueclosed_at : 1460075783.0,	action : milestoned,	user : priysha
+
+what : Null Label,	when : 1459907710.0,	issuecreated_at : 1459907710.0,	assignee : priysha,	comments : 2,	milestone : Apr 7,	duration : 168073.0,	issueclosed_at : 1460075783.0,	action : assigned,	user : priysha
+
+ISSUE 51
+what : Null Label,	when : 1460065585.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : closed,	user : shifalijain
+
+what : Null Label,	when : 1459907790.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : milestoned,	user : shivamgulati1991
+
+what : Report,	when : 1459907790.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : labeled,	user : shivamgulati1991
+
+what : testing,	when : 1459907790.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : labeled,	user : shivamgulati1991
+
+what : Discussion,	when : 1459907790.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : labeled,	user : shivamgulati1991
+
+what : Null Label,	when : 1459907790.0,	issuecreated_at : 1459907790.0,	assignee : shifalijain,	comments : 1,	milestone : Analysis of solutions,	duration : 157795.0,	issueclosed_at : 1460065585.0,	action : assigned,	user : shifalijain
+
+ISSUE 52
+what : Null Label,	when : 1460083077.0,	issuecreated_at : 1460076175.0,	assignee : priysha,	comments : 0,	duration : 6902.0,	issueclosed_at : 1460083077.0,	action : closed,	user : shivamgulati1991
+
+what : Null Label,	when : 1460083025.0,	issuecreated_at : 1460076175.0,	assignee : priysha,	comments : 0,	duration : 6902.0,	issueclosed_at : 1460083077.0,	action : demilestoned,	user : shivamgulati1991
+
+what : Null Label,	when : 1460076175.0,	issuecreated_at : 1460076175.0,	assignee : priysha,	comments : 0,	duration : 6902.0,	issueclosed_at : 1460083077.0,	action : milestoned,	user : priysha
+
+what : Report,	when : 1460076175.0,	issuecreated_at : 1460076175.0,	assignee : priysha,	comments : 0,	duration : 6902.0,	issueclosed_at : 1460083077.0,	action : labeled,	user : priysha
+
+what : Null Label,	when : 1460076175.0,	issuecreated_at : 1460076175.0,	assignee : priysha,	comments : 0,	duration : 6902.0,	issueclosed_at : 1460083077.0,	action : assigned,	user : priysha
+
