@@ -1,0 +1,43 @@
+"ID","TEAM","IDENT","M_ID","M_TITLE","M_DESCRIPTION","CREATED_AT","DUE_AT","CLOSED_AT","CREATOR"
+"1","1","1513803","1","Feb 1 submission","Identify problem and analysis","1453158230","1454302800","1454614905","user4"
+"2","1","1564280","2","3/1/2016","","1454614841","","1456890327","user4"
+"3","1","1564281","3","4/7/2016","","1454614846","1460001600","1460083032","user4"
+"4","1","1594446","4","API call setups","","1455946298","1456635600","1456732615","user4"
+"5","1","1611066","5","Data Collection methods","","1456732733","1456808400","1456890324","user4"
+"6","1","1611075","6","Improvement to-do's","","1456733071","1459656000","1459712709","user4"
+"7","1","1611076","7","User response study initial survey on apps usage","","1456733136","1457586000","1459712782","user4"
+"8","1","1611081","8","Adaptation as per feedback","Work on the apps to accommodate user suggestions as per trials","1456733322","1459742400","1459880152","user4"
+"9","1","1680494","9","Analysis of solutions","","1459712779","1460001600","1460083018","user4"
+"10","2","1573893","1","Solution 1: Web Scraping Application","Develop a web application that scrapes the reviews from the top 3 websites of the user survey.","1455063234","1456722000","1456893446","user4"
+"11","2","1573934","2","Solution 2: Plugin Development(Basic functionality)","To create a plugin for chrome that pops up the reviews from other websites.","1455065176","1456722000","1456894057","user3"
+"12","2","1576386","3","Solution 3: Android application for reviews","","1455135071","1456635600","1456893351","user2"
+"13","2","1616609","4","Telemetry","#Log of data collected from your user trials for better user experience and improvement of the solution","1456873101","1456808400","1456893417","user2"
+"14","2","1616971","5","4/1/2016","","1456893376","","1460053812","user3"
+"15","2","1688649","6","Evaluation plan","","1460000214","1460088000","1461986674","user2"
+"16","2","1688666","7","Bad smell code","","1460001204","1460088000","1460053827","user2"
+"17","3","1553325","1","Feb1 - Report Due for Data Collection","Create the report and submit before 1st Feb","1454208784","","1454388659","user3"
+"18","3","1592217","2","Complete Android Setup and Tutorial","","1455856433","1455858000","1456210050","user2"
+"19","3","1592241","3","Complete basic app building using Android Studio","","1455857944","1455944400","1456210056","user1"
+"20","3","1592276","4","basic simple app","","1455860618","1455944400","1456210058","user3"
+"21","3","1592277","5","basic simple app with google maps API","","1455860636","1456030800","1456210069","user3"
+"22","3","1592278","6","check the possibility of having publish subscribe","","1455860663","1456808400","","user3"
+"23","3","1595216","7","Basic app created - integrate google maps with it","""The basic app has been created and pushed to branch 'kagarwa'
+Need to integrate this with google maps.""","1456024316","1456030800","1456210062","user2"
+"24","3","1599066","8","create map object to use the methods","","1456210218","","1456210526","user3"
+"25","3","1599084","9","App opens with a biased location wrt campus","","1456211534","1456635600","","user3"
+"26","3","1599338","10","Locate all NCSU parking sites and reflect them on the map","","1456223176","1456290000","1456347478","user2"
+"27","3","1599561","11","Implement User Current Location Feature","","1456231568","1456376400","1456347789","user2"
+"28","3","1603855","12","Save NCSU Parking Locations","To save Parking locations in NCSU as a sql table/csv file/hard code/any other option.","1456347396","1456635600","","user2"
+"29","3","1603874","13","Implement Cloud feature","Implement cloud feature for saving any kind of USER Data and APP Data which are presently using native app databases.","1456347629","1456808400","","user2"
+"30","3","1603879","14","Introduce DESIGN to parking lots","""Features:
+Total Space:
+Available Space:
+Reserved Spaces:
+Unusable Spaces:
+
+Future design for March:
+Rate of Charges:
+and idea of user charges per day.
+""","1456347754","1456635600","","user2"
+"31","3","1609039","15","Have a login and Signup","have a login and sign up screen","1456531760","","","user3"
+"32","3","1621564","16","Include Telemetry in the system","","1457066519","1457067600","","user2"

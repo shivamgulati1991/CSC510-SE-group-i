@@ -1,0 +1,359 @@
+"ID","TEAM","IDENT","CREATOR","TEXT","CREATED_AT","UPDATED_AT"
+"1","1","172676169","user4","""The idea is to solve a personal collaborative time management problem which we deal with from multiple sources. 
+eg. Personal appointments clashing with facebook events. Users would benefit if they can have a single source of information to manage their day-to-day time and schedules.""","1453157992","1453605683"
+"2","1","172676377","user4","""Suggestions could be like , facebook events, office outlook appointments, personal events, etc.""","1453158073","1453605857"
+"3","1","177887565","user4","Completed","1454321099","1454321099"
+"4","1","177887805","user4","Study completed and deductions noted down","1454321133","1454321133"
+"5","1","177895969","user4","Report submitted","1454322204","1454322204"
+"6","1","178313930","user2","Mentioned changed made in the report.","1454379250","1454379250"
+"7","1","180877313","user4","""An Android app, a google script app and one yet to be finalised""","1454798706","1454893290"
+"8","1","181149921","user4","Android environment has been set up","1454893319","1454893319"
+"9","1","181149982","user4","""Idea for 1 in progress, 2 implementation can start""","1454893394","1454893394"
+"10","1","181150058","user4","Implementation started","1454893478","1454893478"
+"11","1","186514236","user4","Collection Discussion","1455945930","1455945930"
+"12","1","186514248","user4","Basic layout in progress for fixed screensize","1455945960","1455945960"
+"13","1","186514298","user4","""Basic HTML for date picker to extract appointments, improvements to work upon""","1455946043","1455946043"
+"14","1","186514512","user4","3rd solution in discussion on lines of JavaScript or VBA macro","1455946092","1455946092"
+"15","1","186514662","user4","""Setup works fine, so closing the issue""","1455946120","1455946120"
+"16","1","186774300","user4","""Facebook ID and token created, calling error in code.""","1456042133","1456042133"
+"17","1","187984826","user1","https://developers.facebook.com/docs/android This link might help","1456273523","1456273523"
+"18","1","188608190","user4","Token call not responding. Solution to be looked into","1456374359","1456374359"
+"19","1","189763085","user4","In progress","1456624132","1456624132"
+"20","1","189763164","user4","Setup in progress for facebook","1456624149","1456624149"
+"21","1","189763248","user4","Fixed","1456624179","1456624179"
+"22","1","189763291","user4","""Reporting in progress, email schedulers next""","1456624244","1456624244"
+"23","1","189763602","user1","API setup for fb done","1456624321","1456624321"
+"24","1","189764054","user4","Basic setup works","1456624701","1456624701"
+"25","1","189774697","user4","Default script added to send email every minute. Enhancements required","1456629618","1456629618"
+"26","1","189781613","user4","API setup in progress for Android","1456632675","1456632675"
+"27","1","189781785","user4","""Email shows calendar addesss, email, start date, end date and description""","1456632718","1456632718"
+"28","1","189785602","user2","Scheduler implementation in progress. User can input date for report extraction","1456637396","1456637396"
+"29","1","189885288","user1","testing the code for setup","1456670891","1456670891"
+"30","1","189896643","user1","meetup api integration completed","1456675674","1456675674"
+"31","1","189961264","user4","JQuery toggle added","1456699326","1456699326"
+"32","1","189961372","user4","Work in progress","1456699336","1456699336"
+"33","1","189986550","user4","""Added google analytics script to GS for user tracking.
+This is just a basic idea to be worked on next month""","1456708137","1456708137"
+"34","1","190008272","user1","Sync with google events completed","1456713226","1456713226"
+"35","1","190058164","user4","Fixed.","1456725769","1456725769"
+"36","1","190058221","user4","Code to see active users added","1456725795","1456725795"
+"37","1","190084286","user4","done","1456732671","1456732671"
+"38","1","190086299","user4","Basic idea discussed","1456733235","1456733235"
+"39","1","190389071","user4","Added and fixed","1456779702","1456779702"
+"40","1","190408383","user4","""base scripts added, to be extended further next month""","1456782088","1456782088"
+"41","1","190423258","user4","Completed.","1456784192","1456784192"
+"42","1","190529037","user1","completed","1456804866","1456804866"
+"43","1","190574279","user4","App has to be submitted for review for permissions. Closing since not possible.","1456814327","1456814327"
+"44","1","190908832","user1","to be done later(enhancment)","1456866988","1456866988"
+"45","1","191042431","user1","completed","1456890177","1456890177"
+"46","1","191042686","user4","Enhancement ahead","1456890221","1456890221"
+"47","1","191043161","user3","Issue resolved.","1456890290","1456890290"
+"48","1","205927456","user4","In progress","1459880189","1459880189"
+"49","1","206069098","user1","Completed","1459907240","1459907240"
+"50","1","206069724","user1","Done","1459907412","1459907412"
+"51","1","206069919","user4","My work in progress.","1459907508","1459907508"
+"52","1","207099657","user1","Surveys and interviews recorded and stats created","1460065384","1460065384"
+"53","1","207100618","user1","Introduction and analysis completed","1460065491","1460065491"
+"54","1","207101044","user1","working on it","1460065529","1460065529"
+"55","1","207101472","user3","The logs were captured and analysed.","1460065580","1460065580"
+"56","1","207149217","user4","Revised and done","1460075783","1460075783"
+"57","2","185880265","user4","""[sample_json.txt](https://github.com/moharnab123saikia/CSC510-group-f/files/136803/sample_json.txt)
+""","1455823819","1455823819"
+"58","2","185881061","user4","I have shared the sample JSON for saving the reviews. Could you all please check it once and let me know if anything else has to be added?","1455823920","1455823920"
+"59","2","185885090","user4","""{""""restaurants"""" :[
+{
+""""restaurant_id_1"""" : {
+""""name"""" : """"el cerro"""",
+""""data"""" : {
+""""yelp"""" : {
+""""rating"""" : """"4.5"""",
+""""count"""" : """"45"""",
+""""reviews"""" : [""""test"""", """"tst2""""]
+},
+""""googleratings"""" : {
+""""rating"""" : """"5"""",
+""""count"""" : """"34"""",
+""""reviews"""" : [""""sample""""]
+},
+""""tripadvisor"""" : {
+""""rating"""" : """""""",
+""""count"""" : """""""",
+""""reviews"""" : [""""test"""", """"test2""""]
+}
+}
+}
+}, 
+{
+""""restaurant_id_2"""" : {
+""""name"""" : """"ruckus"""",
+""""data"""" : {
+""""yelp"""" : {
+""""rating"""" : """"5"""",
+""""count"""" : """"23"""",
+""""reviews"""" : [""""sample""""]
+},
+""""googleratings"""" : {
+""""rating"""" : """"4.7"""",
+""""count"""" : """"56"""",
+""""reviews"""" : [""""sample2""""]
+},
+""""tripadvisor"""" : {
+""""rating"""" : """"4.6"""",
+""""count"""" : """"27"""",
+""""reviews"""" : [""""test""""]
+}
+}
+}
+}
+]}""","1455824393","1455824393"
+"60","2","185897185","user1","Is the review scale not needed?","1455826666","1455826666"
+"61","2","185897226","user4","""Let's implement the back-end in Python which has some good APIs to crawl web pages. Ex: Scrapy, BeautifulSoup, etc.""","1455826675","1455826675"
+"62","2","185898963","user4","""Yes, you are right. I will update the JSON.""","1455827033","1455827033"
+"63","2","185907968","user4","""""""reviews"""" : [{
+""""scale"""" : """"4"""",
+""""review"""" : """"test""""
+},{
+""""scale"""" : """"4.2"""",
+""""review"""" : """"test1""""
+}]
+
+Modified the value for the reviews.""","1455827935","1455828150"
+"64","2","185908138","user4","Will this be okay?","1455827945","1455827945"
+"65","2","185912457","user1","Are we using lollipop or any latest API like marshmallow","1455828474","1455828474"
+"66","2","186233545","user4","Can we change the delimiter in the csv file? Google ratings url has multiple commas which is causing a problem in extracting.","1455891640","1455891640"
+"67","2","186280620","user4","Beautiful Soup can be used to crawl and extract reviews.","1455898329","1455898329"
+"68","2","186351311","user4","Also is it possible to add the restaurant name in one column?","1455906548","1455906548"
+"69","2","186356017","user1","Created basic structure for manifest.json","1455907375","1455907375"
+"70","2","186358574","user3","We willl be designing for kitkat now. It will work for all with a minor change in menifest.xml.","1455907802","1455907802"
+"71","2","186925349","user2","https://github.com/moharnab123saikia/CSC510-group-f/commit/dce61af04ceeebca2281cbf27c7f2cc20ee7ec62","1456091227","1456091227"
+"135","2","206004895","user3","Implementation done","1459894293","1459894293"
+"136","2","206005080","user3","done","1459894315","1459894315"
+"137","2","206005239","user3","enhancement done","1459894336","1459894336"
+"138","2","206092496","user1","3d1315898921796cc2761aea1463dcef9e250ae6","1459911112","1459911112"
+"139","2","206093180","user1","we have decided to redirect to restaurant web page for booking","1459911179","1459911179"
+"140","2","206684695","user2","can this be closed ?","1460000960","1460000960"
+"141","2","206995668","user3","Implemented","1460048602","1460048602"
+"142","2","206995740","user3","Done Done Done","1460048617","1460048617"
+"143","2","206995860","user3","can we close this?","1460048640","1460048640"
+"144","2","206996002","user3","Refactoring done","1460048669","1460048669"
+"145","2","206996207","user3","Already implemented as part of other enhancements","1460048711","1460048711"
+"146","2","206996385","user3","No need for this","1460048748","1460048748"
+"147","2","206996567","user3","clickcount getting populated in a test file","1460048788","1460048788"
+"148","2","206996643","user3","Done","1460048802","1460048802"
+"149","2","207033247","user3","Done","1460052758","1460052758"
+"150","2","207033398","user3","Already done.","1460052790","1460052790"
+"151","2","207033474","user3","yes done.","1460052807","1460052807"
+"152","2","207033580","user3","Done","1460052832","1460052832"
+"153","2","207033630","user3","Done","1460052844","1460052844"
+"154","2","207033699","user3","done","1460052857","1460052857"
+"155","2","207033770","user3","done","1460052871","1460052871"
+"156","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"157","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"158","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"159","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"160","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"161","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"162","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"163","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"164","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"165","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"166","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"167","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"168","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"169","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"170","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"171","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"172","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"173","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"174","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"175","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"176","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"177","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"178","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"179","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"180","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"181","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"182","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"183","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"184","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"185","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"186","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"187","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"188","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"189","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"190","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"191","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"192","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"193","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"194","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"195","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"196","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"197","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"198","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"199","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"200","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"201","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"202","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"203","3","177365100","user3","""Topic Decided...
+Develop Parking Management system..
+""","1454208539","1454208539"
+"72","2","187081866","user2","https://github.com/moharnab123saikia/CSC510-group-f/commit/2ffdbf4a61f95f664f9efb1d2f89e1cc832b974d","1456132201","1456132201"
+"73","2","187086127","user3","created the AndroidManifest.xml file","1456132770","1456132770"
+"74","2","187089097","user3","As of now designed for Android 5.0 (lollipop)- minimum sdk version required is 21","1456133094","1456133094"
+"75","2","187090560","user3","tested the initial app on emulator as well as on running device","1456133230","1456133230"
+"76","2","187305161","user4","Three websites are parsed and reviews and ratings are stored in JSON","1456165383","1456165383"
+"77","2","188812718","user4","We have to check if there is some means of uploading it to the server through script.","1456410972","1456410972"
+"78","2","189783046","user3","Hosted the json file on Amazon s3 and fetching the file through http","1456634163","1456634163"
+"79","2","189783075","user3","The sample version of app is running fine in emulator and working device..","1456634210","1456634210"
+"80","2","189783188","user3","All these files are created and are working properly.","1456634420","1456634420"
+"81","2","189783223","user3","Take top reviews from each of the websites??","1456634481","1456634481"
+"82","2","189783434","user3","Wrote a routine for running a background thread to fetch json data using http get and post and used json parser APIs to extract the reviews","1456634722","1456634722"
+"83","2","189817706","user2","https://github.com/moharnab123saikia/CSC510-group-f/commit/470b8c8c8621c64f097a9b579c0a9548288eec8f","1456646729","1456646729"
+"84","2","189818981","user2","Closing it as we have decided to use foursquare instead of google ratings","1456647977","1456647977"
+"85","2","189819051","user2","Closing it as we have chosen Rails for front end development","1456648047","1456648047"
+"86","2","189831372","user1","commit 5a14c3afe93439142f6eb771f2207c082aee3176","1456651750","1456651750"
+"87","2","189873557","user4","Can we use any inbuilt views in Android? List view or so.","1456666819","1456666819"
+"88","2","190086964","user2","@moharnab123saikia Please add a background image and make some UI changes like displaying individual reviews","1456733355","1456790913"
+"89","2","190087681","user2","Is this done ?","1456733459","1456733459"
+"90","2","190088341","user2","Done","1456733522","1456733522"
+"91","2","190102298","user3","yeah this is done.","1456734855","1456734855"
+"92","2","190102745","user3","list of restaurants are displayed in listview and reviews in textview.","1456735012","1456735012"
+"93","2","190102904","user3","Displaying three reviews per restaurant name","1456735058","1456735058"
+"94","2","190103502","user3","Are we able to fetch the image url??","1456735135","1456735135"
+"95","2","190103794","user1","666caffd3449223cf4db761df1972f1665bdac42","1456735230","1456735230"
+"96","2","190104172","user1","currently using the context script environment","1456735288","1456735288"
+"97","2","190147484","user2","https://github.com/moharnab123saikia/CSC510-group-f/commit/e6e2fba4969094071f365c5d23a517dd5336799f","1456742301","1456742301"
+"98","2","190147771","user2","@rashmisandilya Can this be closed ?","1456742383","1456789056"
+"99","2","190148118","user2","Done. We are able to fetch the reviews from each website","1456742491","1456742491"
+"100","2","190408142","user1","currently using scraped JSON data","1456782040","1456782040"
+"101","2","190450462","user2","I think this is working properly. @moharnab123saikia Please close it if you think the implementation is complete","1456788905","1456788923"
+"102","2","190451343","user2","@sbalakr2 Can you look into this ?","1456789033","1456789033"
+"103","2","190474480","user4","""Yes I will look into it. Should I fetch the restaurants in one area or something like that?
+""","1456793948","1456793948"
+"104","2","190474983","user2","Yes. I think as of now out scope should be limited to an area.","1456794080","1456794080"
+"105","2","190476896","user4","""So if I search based on area, only few restaurants are found in a page. So looks like I have to trigger a UI call to access pagination.
+""","1456794573","1456794573"
+"106","2","190477993","user2","""Yes. have a look. If it is too much work, we can skip it.""","1456794925","1456794925"
+"107","2","190479298","user4","""We can do web interactions with selenium, let me try doing a POC on it. If it works then I will populate the csv.""","1456795241","1456795241"
+"108","2","190483721","user1","6a803620f1fb8f68dcee40010d95d5ab3cf6783d","1456796098","1456796098"
+"109","2","190483904","user1","Will update when the implementation changes","1456796172","1456796172"
+"110","2","190491670","user3","The list of restaurants is not that big so and this is added legacy.. For now focussing more on functionality.. So closing this","1456797229","1456797229"
+"111","2","190491843","user3","Isn't this done?","1456797307","1456797307"
+"112","2","190492450","user2","""Some minor UI editing is left (like background image, individual reviews). @moharnab123saikia will be working on this tomorrow.""","1456797391","1456797391"
+"113","2","190605804","user3","Adding this to March work. Beautification and enhancement for better user experience","1456819750","1456819750"
+"114","2","190740120","user4","""It is relatively getting complicated, can be taken as an enhancement in the next deliverable. Closing it right now, added additional restaurants in the csv file.
+""","1456842267","1456842267"
+"115","2","190953560","user1","Would be an enhancement in the next iteration","1456873472","1456873472"
+"116","2","190958582","user4","We should track the type of browser users are using which will help us to understand the requirements.","1456874424","1456874424"
+"117","2","190960833","user4","We can get the logs of user surveys in the mobile from the users of the android app and understand how the app is used and what features can be improved/added.","1456874686","1456874686"
+"118","2","190969885","user2","we will be using this survey for telemetry purpose https://docs.google.com/forms/u/0/d/1JJj4uUI6TubhzHoF6ydFe7us__1kgEDo7gDa03Y4riE/viewform?ntd=1&ths=true&edit_requested=true&pli=1#password","1456875632","1456875632"
+"119","2","190970202","user3","Google Analytics data for pulling the log for the web scrapper website.","1456875733","1456875733"
+"120","2","190970336","user3","Google analytics is another way out for data log.","1456875778","1456875778"
+"121","2","190970522","user3","[Google Analytics for browser](https://analytics.google.com/analytics/web/?authuser=0#report/visitors-browser/a74501177w112681598p117712609/)","1456875834","1456875834"
+"122","2","190970791","user4","""Yes that would be great, we just need to check the feasibility.""","1456875913","1456875913"
+"123","2","190984484","user3","Sample log file for this issue and google analytic link uploaded. closing!!!!","1456877830","1456877830"
+"124","2","191055717","user3","Done","1456893127","1456893127"
+"125","2","191055781","user3","""@moharnab123saikia done, right?""","1456893166","1456893166"
+"126","2","191055839","user3","developed the resto-extension chrome plugin","1456893209","1456893209"
+"127","2","191056727","user2","https://github.com/moharnab123saikia/CSC510-group-f/commit/174f38dd67d1e35d4502f0ff0e534050c4b6d170","1456893419","1456893419"
+"128","2","204178392","user4","Json updated","1459468270","1459468270"
+"129","2","204264778","user2","nothing to be done on this one. The view can read the review object directly. Need changes in UI only","1459490949","1459490949"
+"130","2","204266195","user2","Is this done ?","1459491413","1459491413"
+"131","2","204266227","user2","Can this be closed ?","1459491434","1459491434"
+"132","2","204547382","user4","""Yes, closing it.""","1459541037","1459541037"
+"133","2","204547516","user4","Yes","1459541056","1459541056"
+"134","2","204878512","user1","1f35d62b7bd559b25f5958f37add2d53a713fad0","1459660969","1459660969"
