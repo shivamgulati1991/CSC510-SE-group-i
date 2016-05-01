@@ -1,0 +1,307 @@
+ident : 174226238,	user : boyzhirui,	text : Good Job! The form looks good.,	created_at : 1453587063.0,	issue : 8,	updated_at : 1453587063.0
+
+ident : 174227479,	user : lintingting,	text : nicely done! Thanks. i just did the survey. ,	created_at : 1453588361.0,	issue : 8,	updated_at : 1453588361.0
+
+ident : 174309042,	user : YihuanDong,	text : Here is the paper based questionnaire. Please take a look: https://www.sharelatex.com/project/56a18049714506014cb7b633
+
+I added a question: "Why did you learn git?" as question 3, to get people's intention to learn Git. This may possibly affect our solutions. Please leave your comments and possible options if you agree with adding the question.,	created_at : 1453648799.0,	issue : 8,	updated_at : 1453648799.0
+
+ident : 174339301,	user : nikign,	text : I think the question and its options are great.
+Thanks,	created_at : 1453667730.0,	issue : 8,	updated_at : 1453667730.0
+
+ident : 174788361,	user : lintingting,	text : NICE. I am ok with it. tks,	created_at : 1453776443.0,	issue : 8,	updated_at : 1453776443.0
+
+ident : 175179208,	user : lintingting,	text : 1. https://github.com/cpliakas/git-wrapper
+ A PHP wrapper for github that provides a new interface for github, you can access github through their predefined commands instead of executing git commands.
+2. Advanced version of 1.
+https://github.com/teqneers/PHP-Stream-Wrapper-for-Git,	created_at : 1453834775.0,	issue : 9,	updated_at : 1453840541.0
+
+ident : 175207287,	user : boyzhirui,	text : https://github.com/golbin/git-commander
+A git tool with an easy terminal interface.,	created_at : 1453839400.0,	issue : 9,	updated_at : 1453839400.0
+
+ident : 176465231,	user : lintingting,	text : https://www.sharelatex.com/project/569dae4c6ad1a28d480e78a3
+,	created_at : 1454021284.0,	issue : 2,	updated_at : 1454021284.0
+
+ident : 176508331,	user : boyzhirui,	text : Well done.,	created_at : 1454029937.0,	issue : 8,	updated_at : 1454029937.0
+
+ident : 176525966,	user : lintingting,	text : Haaranen, Lassi, and Teemu Lehtinen. "Teaching git on the side: Version control system as a course platform." Proceedings of the 2015 ACM Conference on Innovation and Technology in Computer Science Education. ACM, 2015.
+
+This describe how to incrementally present features of Git and incorporate them into the course workflow.,	created_at : 1454033603.0,	issue : 9,	updated_at : 1454033603.0
+
+ident : 176541717,	user : lintingting,	text : githug
+
+http://www.tobscore.com/githug-what-is-it/,	created_at : 1454035650.0,	issue : 9,	updated_at : 1454131139.0
+
+ident : 177289706,	user : boyzhirui,	text : Finish,	created_at : 1454185121.0,	issue : 5,	updated_at : 1454185121.0
+
+ident : 177299429,	user : lintingting,	text : done,	created_at : 1454187214.0,	issue : 9,	updated_at : 1454187214.0
+
+ident : 177692915,	user : boyzhirui,	text : Finish,	created_at : 1454291123.0,	issue : 7,	updated_at : 1454291123.0
+
+ident : 178085515,	user : boyzhirui,	text : finish,	created_at : 1454347868.0,	issue : 2,	updated_at : 1454347868.0
+
+ident : 180125591,	user : nikign,	text : Error will look like this:
+CONFLICT (content): Merge conflict in README.md,	created_at : 1454632659.0,	issue : 13,	updated_at : 1454632659.0
+
+ident : 181564430,	user : boyzhirui,	text : https://github.com/gitpython-developers/GitPython
+# GitPython
+GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
+
+It provides abstractions of git objects for easy access of repository data, and additionally allows you to access the git repository more directly using either a pure python implementation, or the faster, but more resource intensive git command implementation.
+
+The object database implementation is optimized for handling large quantities of objects and large datasets, which is achieved by using low-level structures and data streaming.,	created_at : 1454964931.0,	issue : 12,	updated_at : 1454964992.0
+
+ident : 182121952,	user : lintingting,	text : https://pypi.python.org/pypi/googlesearch/0.7.0,	created_at : 1455058557.0,	issue : 14,	updated_at : 1455058557.0
+
+ident : 182124504,	user : YihuanDong,	text : First version of mock up on Google Drive: https://goo.gl/IKutNj,	created_at : 1455058879.0,	issue : 13,	updated_at : 1455058879.0
+
+ident : 182539146,	user : YihuanDong,	text : Updated mock ups according to discussion on 2/9/2016 meeting.,	created_at : 1455132324.0,	issue : 13,	updated_at : 1455132324.0
+
+ident : 182682371,	user : lintingting,	text : GREAT JOB!!!
+,	created_at : 1455160550.0,	issue : 13,	updated_at : 1455160550.0
+
+ident : 182717871,	user : nikign,	text : Looks great.
+Thanks,	created_at : 1455168215.0,	issue : 13,	updated_at : 1455168215.0
+
+ident : 183698704,	user : nikign,	text : Updated solutions:
+
+1. If user wants open browser, search stack-overflow and show the results in our order
+2. If user wants, send the error message to our email-bot and reply with the answer
+3. Change git help to show more useful information on errors,	created_at : 1455380562.0,	issue : 10,	updated_at : 1455380562.0
+
+ident : 183699762,	user : boyzhirui,	text : Discuss with @lintingting about the code interface.,	created_at : 1455381168.0,	issue : 16,	updated_at : 1455381168.0
+
+ident : 183699769,	user : nikign,	text : https://github.com/hrs/python-tf-idf,	created_at : 1455381176.0,	issue : 15,	updated_at : 1455381176.0
+
+ident : 183700500,	user : nikign,	text : http://stackoverflow.com/questions/4216985/call-to-operating-system-to-open-url,	created_at : 1455381752.0,	issue : 16,	updated_at : 1455381752.0
+
+ident : 183701299,	user : boyzhirui,	text : Use google app engine to build our search engine website.,	created_at : 1455381915.0,	issue : 16,	updated_at : 1455381915.0
+
+ident : 183701516,	user : boyzhirui,	text : [10 things I hate about Git](http://stevebennett.me/2012/02/24/10-things-i-hate-about-git/)
+,	created_at : 1455382128.0,	issue : 17,	updated_at : 1455382128.0
+
+ident : 184981315,	user : YihuanDong,	text : Got response from Dr. Heckman. She is interested in the experiment. Continue communicating about when and how to do the experiment.,	created_at : 1455676022.0,	issue : 23,	updated_at : 1455676022.0
+
+ident : 185341010,	user : boyzhirui,	text : done.,	created_at : 1455734210.0,	issue : 27,	updated_at : 1455734210.0
+
+ident : 185536898,	user : nikign,	text : There aren't many errors happening about merge.
+Done as much as I could find.,	created_at : 1455769324.0,	issue : 26,	updated_at : 1455769324.0
+
+ident : 186013200,	user : boyzhirui,	text : http://bit.ly/1SVhCuE,	created_at : 1455847788.0,	issue : 15,	updated_at : 1455847788.0
+
+ident : 186380766,	user : boyzhirui,	text : http://git-helper-2016.appspot.com,	created_at : 1455911951.0,	issue : 21,	updated_at : 1455911951.0
+
+ident : 186482320,	user : lintingting,	text : done,	created_at : 1455932878.0,	issue : 25,	updated_at : 1455932878.0
+
+ident : 186487506,	user : lintingting,	text : http://stackapps.com/questions/198/py-stackexchange-an-api-wrapper-for-python,	created_at : 1455934671.0,	issue : 16,	updated_at : 1455934671.0
+
+ident : 186521937,	user : nikign,	text : pushed,	created_at : 1455950350.0,	issue : 18,	updated_at : 1455950350.0
+
+ident : 186523396,	user : nikign,	text : For now, can you push it on the repo?,	created_at : 1455950633.0,	issue : 21,	updated_at : 1455950633.0
+
+ident : 186670122,	user : boyzhirui,	text : I pushed it yesterday within my branch,	created_at : 1455997673.0,	issue : 21,	updated_at : 1455997673.0
+
+ident : 186908263,	user : boyzhirui,	text : - [x] Show the result according to a JSON file.,	created_at : 1456086497.0,	issue : 33,	updated_at : 1456176141.0
+
+ident : 187368391,	user : boyzhirui,	text : http://git-helper-2016.appspot.com/
+Have a try.,	created_at : 1456172635.0,	issue : 28,	updated_at : 1456172635.0
+
+ident : 188003795,	user : nikign,	text : Answers parser added too. Please check and merge @lintingting .,	created_at : 1456278226.0,	issue : 37,	updated_at : 1456278236.0
+
+ident : 188073428,	user : YihuanDong,	text : Fixed bug in commit: 5914fd63fafb3a0d0cfbe19769affd0593bcd361,	created_at : 1456290307.0,	issue : 38,	updated_at : 1456290307.0
+
+ident : 188351761,	user : YihuanDong,	text : Fixed in this commit: a9e0aac589dec89c80285c2e5a7ce1e0491c932c,	created_at : 1456332956.0,	issue : 40,	updated_at : 1456332956.0
+
+ident : 188864986,	user : lintingting,	text : http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch
+http://stackoverflow.com/questions/20909667/git-pull-origin-master-gives-merge-conflict-what-should-i-do
+http://stackoverflow.com/questions/25019943/having-trouble-with-git-merge-upstream-master-how-to-handle-a-conflict-conten
+http://stackoverflow.com/questions/32454934/git-squashed-merge-with-conflicts-missing-commit-message-content
+http://stackoverflow.com/questions/25018602/issue-with-kdiff3-mergetool/25086772
+http://stackoverflow.com/questions/22686886/git-subtree-pull-p-whatever-repo-ref-always-merge-conflict
+http://stackoverflow.com/questions/4157189/git-pull-while-ignoring-local-changes
+http://stackoverflow.com/questions/15986680/openshift-deploying-local-application
+http://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
+http://stackoverflow.com/questions/linked/161813?page=4&sort=votes
+Traceback (most recent call last):
+  File "/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py", line 61, in <module>
+    TopResult = main(Query)
+  File "/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py", line 57, in main
+    [QuestionDic, AnswerList] = scrape_webs()
+  File "/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py", line 42, in scrape_webs
+    QuestionDic = QuesParser.make_question()
+  File "/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/stack_overflow_parser/QuestionParser.py", line 23, in make_question
+    question_text = self.get_question_text(input_str)
+  File "/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/stack_overflow_parser/QuestionParser.py", line 35, in get_question_text
+    question_tr = question_soup.findAll("div", {'class': "post-text"})[0]
+IndexError: list index out of range,	created_at : 1456417874.0,	issue : 31,	updated_at : 1456417874.0
+
+ident : 188866816,	user : lintingting,	text : Google search stactover , it returns link of over all result, http://stackoverflow.com/questions/linked/161813?pagesize=30&sort=unanswered
+which is not what we what. 
+,	created_at : 1456418041.0,	issue : 31,	updated_at : 1456418041.0
+
+ident : 189049222,	user : YihuanDong,	text : Added in this commit: 7e7e2e25b65be2f303d7fdd94e32625c0a95a669,	created_at : 1456446055.0,	issue : 41,	updated_at : 1456446055.0
+
+ident : 189049317,	user : YihuanDong,	text : Done,	created_at : 1456446091.0,	issue : 22,	updated_at : 1456446091.0
+
+ident : 189085816,	user : YihuanDong,	text : Solved in this commit: a1da270675972f3d72e9431bab904b06bb4bf43a,	created_at : 1456454613.0,	issue : 46,	updated_at : 1456454613.0
+
+ident : 189098990,	user : boyzhirui,	text : http://stackoverflow.com/questions/14850853/how-to-include-third-party-python-libraries-in-google-app-engine
+
+Try this approach
+https://cloud.google.com/appengine/docs/python/tools/libraries27,	created_at : 1456458212.0,	issue : 48,	updated_at : 1456511958.0
+
+ident : 189099240,	user : lintingting,	text : Install: python model of 
+sklearn 
+nltk
+pandas
+google,	created_at : 1456458333.0,	issue : 48,	updated_at : 1456458333.0
+
+ident : 189099338,	user : lintingting,	text : google: https://breakingcode.wordpress.com/2010/06/29/google-search-python/
+,	created_at : 1456458401.0,	issue : 48,	updated_at : 1456458401.0
+
+ident : 189100017,	user : lintingting,	text : for parser script, you need install:
+BeautifulSoup4
+utils
+,	created_at : 1456458721.0,	issue : 48,	updated_at : 1456458721.0
+
+ident : 189100093,	user : boyzhirui,	text : Packaging Python modules
+https://pip.readthedocs.org/en/latest/user_guide/#requirements-files
+,	created_at : 1456458753.0,	issue : 48,	updated_at : 1456458753.0
+
+ident : 189100359,	user : lintingting,	text : Problem solved. ,	created_at : 1456458863.0,	issue : 31,	updated_at : 1456458863.0
+
+ident : 189100388,	user : lintingting,	text : Problem solved. ,	created_at : 1456458880.0,	issue : 31,	updated_at : 1456458880.0
+
+ident : 189102370,	user : boyzhirui,	text : Install package into a specific folder:
+http://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip,	created_at : 1456459733.0,	issue : 48,	updated_at : 1456459733.0
+
+ident : 189387521,	user : boyzhirui,	text :  change nltk package to stopwords package,	created_at : 1456508601.0,	issue : 48,	updated_at : 1456508601.0
+
+ident : 189392576,	user : boyzhirui,	text : Update files to install those pakcage.,	created_at : 1456509136.0,	issue : 48,	updated_at : 1456509136.0
+
+ident : 189401355,	user : boyzhirui,	text : Find solutions to install sklearn on Google App Engine .,	created_at : 1456509976.0,	issue : 48,	updated_at : 1456509976.0
+
+ident : 189405463,	user : boyzhirui,	text : https://scikits.appspot.com/learn,	created_at : 1456510472.0,	issue : 48,	updated_at : 1456510472.0
+
+ident : 189425091,	user : boyzhirui,	text : http://www.datacommunitydc.org/blog/2013/12/a-tutorial-for-deploying-a-django-application-that-uses-numpy-and-scipy-to-google-compute-engine-using-apache2-and-modwsgi,	created_at : 1456513240.0,	issue : 48,	updated_at : 1456513240.0
+
+ident : 189434472,	user : boyzhirui,	text : Natural Language Toolkit (NLTK) for App Engine
+https://github.com/rutherford/nltk-gae,	created_at : 1456513983.0,	issue : 48,	updated_at : 1456513997.0
+
+ident : 189447026,	user : boyzhirui,	text : Google App Engine don't support third library which uses other extensions such as C, Fortran,etc ,	created_at : 1456515416.0,	issue : 48,	updated_at : 1456515416.0
+
+ident : 189494394,	user : boyzhirui,	text : Finally get rid of those complex packages. Use simple tfidf.py instead.,	created_at : 1456523329.0,	issue : 48,	updated_at : 1456523329.0
+
+ident : 189498717,	user : boyzhirui,	text : http://stackoverflow.com/questions/2693081/does-google-app-engine-allow-creation-of-files-and-folders-on-the-server,	created_at : 1456523759.0,	issue : 50,	updated_at : 1456523759.0
+
+ident : 189498974,	user : boyzhirui,	text : TypeError: expected httplib.Message, got \<type 'instance'\>.
+https://github.com/shazow/urllib3/issues/618,	created_at : 1456523776.0,	issue : 48,	updated_at : 1456523806.0
+
+ident : 189560144,	user : boyzhirui,	text : http://stackoverflow.com/sitemap-questions-62.xml
+![screen shot 2016-02-26 at 9 34 44 pm](https://cloud.githubusercontent.com/assets/6066749/13370288/207489ec-dcd1-11e5-9cc3-639a915fcdc2.png)
+,	created_at : 1456540647.0,	issue : 50,	updated_at : 1456540647.0
+
+ident : 189560278,	user : boyzhirui,	text : Solution One:
+![screen shot 2016-02-26 at 9 38 10 pm](https://cloud.githubusercontent.com/assets/6066749/13370294/5aba7878-dcd1-11e5-8401-6ad0de999b16.png)
+,	created_at : 1456540745.0,	issue : 10,	updated_at : 1456540745.0
+
+ident : 189560659,	user : boyzhirui,	text : Change to string instead of using files.,	created_at : 1456541016.0,	issue : 50,	updated_at : 1456541016.0
+
+ident : 189561093,	user : boyzhirui,	text : # Fixed
+![screen shot 2016-02-26 at 9 34 44 pm](https://cloud.githubusercontent.com/assets/6066749/13370329/37cb3bc6-dcd2-11e5-85eb-cfbac6819189.png)
+,	created_at : 1456541119.0,	issue : 51,	updated_at : 1456542263.0
+
+ident : 189561144,	user : boyzhirui,	text : # Fixed
+![screen shot 2016-02-26 at 9 44 49 pm](https://cloud.githubusercontent.com/assets/6066749/13370334/402a51e4-dcd2-11e5-9fdf-cb3b9d7d04b6.png)
+,	created_at : 1456541129.0,	issue : 51,	updated_at : 1456542286.0
+
+ident : 189564402,	user : boyzhirui,	text : # Fixed
+![screen shot 2016-02-26 at 10 03 11 pm](https://cloud.githubusercontent.com/assets/6066749/13370428/c6e577ac-dcd4-11e5-8251-4997235b28e8.png)
+,	created_at : 1456542214.0,	issue : 51,	updated_at : 1456544282.0
+
+ident : 189565776,	user : boyzhirui,	text : http://git-helper-2016.appspot.com,	created_at : 1456542675.0,	issue : 52,	updated_at : 1456542675.0
+
+ident : 189565791,	user : lintingting,	text : we r doing great job.
+,	created_at : 1456542697.0,	issue : 52,	updated_at : 1456542697.0
+
+ident : 189566241,	user : boyzhirui,	text : Request link is so slow.... Big issue,	created_at : 1456542927.0,	issue : 52,	updated_at : 1456542927.0
+
+ident : 189573274,	user : boyzhirui,	text : ![screen shot 2016-02-26 at 10 55 38 pm](https://cloud.githubusercontent.com/assets/6066749/13370641/1b1eebf8-dcdc-11e5-8e7a-cce91fffa55e.png)
+,	created_at : 1456545363.0,	issue : 52,	updated_at : 1456545363.0
+
+ident : 189574255,	user : boyzhirui,	text : Fixed all the issues. Deployed successfully.,	created_at : 1456546509.0,	issue : 51,	updated_at : 1456546509.0
+
+ident : 189574750,	user : lintingting,	text : solution: rank with 0.7* tifidf similarty + 0.6*question votes,	created_at : 1456546862.0,	issue : 15,	updated_at : 1456546862.0
+
+ident : 189574813,	user : boyzhirui,	text : Commit https://github.com/nikign/Git-Helper/commit/b3b77924d76c894de3be29750848a9f84cab0f1f,	created_at : 1456546946.0,	issue : 48,	updated_at : 1456546964.0
+
+ident : 189574877,	user : boyzhirui,	text : simple dynamic website https://github.com/nikign/Git-Helper/commit/781a00550d73c94bd42a8d7a4e69be1192b8a770,	created_at : 1456547047.0,	issue : 16,	updated_at : 1456547047.0
+
+ident : 189574969,	user : boyzhirui,	text : fix normlization error https://github.com/nikign/Git-Helper/commit/5a5ae68eaac38c31c22796a98e0cc50d92ccbec0,	created_at : 1456547193.0,	issue : 51,	updated_at : 1456547193.0
+
+ident : 189576121,	user : boyzhirui,	text : Text Banner
+http://patorjk.com/software/taag/#p=display&f=Caligraphy&t=Solution,	created_at : 1456547788.0,	issue : 17,	updated_at : 1456547788.0
+
+ident : 189715242,	user : lintingting,	text : Refactor google search code has improved request speed,	created_at : 1456603439.0,	issue : 53,	updated_at : 1456603439.0
+
+ident : 189721507,	user : boyzhirui,	text : Finished,	created_at : 1456605929.0,	issue : 35,	updated_at : 1456605929.0
+
+ident : 189725909,	user : YihuanDong,	text : Finished in this commit: beeeb467733dccb63686626aba33821fc5ac63e8,	created_at : 1456606926.0,	issue : 54,	updated_at : 1456606926.0
+
+ident : 189783149,	user : YihuanDong,	text : Finished in this commit: d80acf696fdd843933e306a075637aa86b72155b,	created_at : 1456634346.0,	issue : 56,	updated_at : 1456634346.0
+
+ident : 189783446,	user : YihuanDong,	text : Split into three issues for people to work on simultaneously. ,	created_at : 1456634746.0,	issue : 60,	updated_at : 1456634746.0
+
+ident : 190034419,	user : YihuanDong,	text : Finished in this commit: 27a2482ba136fb10f5fa4229150d7a41b239b463
+
+log = {
+    'time': None,
+    'userCmd': None,
+    'isGitCommand': None,
+    'gitCommand': None,
+    'isError': None,
+    'result': None,
+    'hasSolution': None,
+    'satisfy': None
+}
+
+,	created_at : 1456720585.0,	issue : 61,	updated_at : 1456720585.0
+
+ident : 190034700,	user : YihuanDong,	text : Finished in this commit: d80acf696fdd843933e306a075637aa86b72155b,	created_at : 1456720653.0,	issue : 42,	updated_at : 1456720653.0
+
+ident : 190034868,	user : lintingting,	text : in my googlesearch.py code, 
+def google_search_engine(query):
+   """
+   Google search stackoverflow, return links
+   """
+   Links = []
+   QueryStackover = 'site:stackoverflow.com %s' % query
+   #print QueryStackover
+   for url in search(QueryStackover, tld='es', lang='es', stop=15):
+       Links.append(url)
+   return Links
+try to change the stop =1 then test it.
+,	created_at : 1456720760.0,	issue : 39,	updated_at : 1456720760.0
+
+ident : 190035099,	user : lintingting,	text : in my local, if i give the error message as "CONFLICT (content): Merge conflict in README.md.Automatic merge failed: fix conflicts and then commit the result",i print the get_email_result(errormessage), i got the following.
+<div class="post-text" itemprop="text">
+<p>If you mean you want the pull to overwrite local changes, doing the merge as if the working tree were clean, well, clean the working tree:</p>
+<pre><code>git reset --hard
+git pull
+</code></pre>
+<p>If there are untracked local files you could use <code>git clean</code> to remove them. Use <code>git clean -f</code> to remove untracked files, <code>-df</code> to remove untracked files and directories, and <code>-xdf</code> to remove untracked or ignored files or directories.</p>
+<p>If on the other hand you want to keep the local modifications somehow, you'd use stash to hide them away before pulling, then reapply them afterwards:</p>
+<pre><code>git stash
+git pull
+git stash pop
+</code></pre>
+<p>I don't think it makes any sense to literally <em>ignore</em> the changes, though - half of pull is merge, and it needs to merge the committed versions of content with the versions it fetched.</p>
+</div>
+,	created_at : 1456720870.0,	issue : 39,	updated_at : 1456720870.0
+
+ident : 190383740,	user : boyzhirui,	text : Finished https://github.com/nikign/Git-Helper/commit/91d432c58fbc7f83ed56647a1f419d2345d340e0,	created_at : 1456779140.0,	issue : 63,	updated_at : 1456779140.0
+
+ident : 190395661,	user : boyzhirui,	text : <img width="749" alt="screen shot 2016-02-29 at 4 07 39 pm" src="https://cloud.githubusercontent.com/assets/6066749/13409001/a9bf29d0-defe-11e5-901f-2a8f61f59a14.png">
+<img width="729" alt="screen shot 2016-02-29 at 4 07 18 pm" src="https://cloud.githubusercontent.com/assets/6066749/13409003/aba7b71c-defe-11e5-97bf-08d36a0eb388.png">
+,	created_at : 1456780110.0,	issue : 63,	updated_at : 1456780110.0
+

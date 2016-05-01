@@ -1,5 +1,5 @@
 var APP_CLIENT_ID = "0000000048189A6D";
-var REDIRECT_URL = "http://localhost";       
+var REDIRECT_URL = "http://localhost/";       
 WL.Event.subscribe("auth.login", onLogin);
             WL.init({
                 client_id: APP_CLIENT_ID,

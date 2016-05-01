@@ -1,0 +1,258 @@
+ISSUE 1
+what : Null label,	when : 2016-02-10T00:17:22Z,	issuecreated_at : 1455063442.0,	assignee : sbalakr2,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 1101941.0,	issueclosed_at : 2016-02-22T18:23:03Z,	action : milestoned,	user : sbalakr2
+
+ISSUE 2
+what : enhancement,	when : 2016-02-10T00:55:11Z,	issuecreated_at : 1455065711.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 841664.0,	issueclosed_at : 2016-02-19T18:42:55Z,	action : labeled,	user : moharnab123saikia
+
+ISSUE 3
+what : enhancement,	when : 2016-02-10T01:39:25Z,	issuecreated_at : 1455068354.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 1583540.0,	issueclosed_at : 2016-02-28T09:31:34Z,	action : labeled,	user : sbalakr2
+
+ISSUE 4
+what : enhancement,	when : 2016-02-18T03:01:02Z,	issuecreated_at : 1455764462.0,	assignee : sbalakr2,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 62213.0,	issueclosed_at : 2016-02-18T20:17:55Z,	action : labeled,	user : sbalakr2
+
+ISSUE 5
+what : enhancement,	when : 2016-02-18T03:01:34Z,	issuecreated_at : 1455764494.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 391091.0,	issueclosed_at : 2016-02-22T15:39:45Z,	action : labeled,	user : sbalakr2
+
+ISSUE 6
+what : enhancement,	when : 2016-02-18T03:01:55Z,	issuecreated_at : 1455764515.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 327383.0,	issueclosed_at : 2016-02-21T21:58:18Z,	action : labeled,	user : sbalakr2
+
+ISSUE 7
+what : enhancement,	when : 2016-02-18T03:02:16Z,	issuecreated_at : 1455764536.0,	assignee : moharnab123saikia,	comments : 5,	milestone : Solution 1: Web Scraping Application,	duration : 1128883.0,	issueclosed_at : 2016-03-02T04:36:59Z,	action : labeled,	user : sbalakr2
+
+ISSUE 8
+what : Null label,	when : 2016-02-18T05:38:42Z,	issuecreated_at : 1455773895.0,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 52584.0,	issueclosed_at : 2016-02-18T20:14:39Z,	action : milestoned,	user : pranjaldeka
+
+ISSUE 9
+what : Null label,	when : 2016-02-18T05:39:32Z,	issuecreated_at : 1455773972.0,	assignee : moharnab123saikia,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 847196.0,	issueclosed_at : 2016-02-28T00:59:28Z,	action : milestoned,	user : pranjaldeka
+
+ISSUE 10
+what : Null label,	when : 2016-02-18T05:42:18Z,	issuecreated_at : 1455774138.0,	assignee : moharnab123saikia,	comments : 2,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 1022034.0,	issueclosed_at : 2016-03-01T01:36:12Z,	action : milestoned,	user : pranjaldeka
+
+ISSUE 11
+what : Null label,	when : 2016-02-18T05:43:11Z,	issuecreated_at : 1455774191.0,	assignee : rashmisandilya,	comments : 2,	milestone : Solution 3: Android application for reviews,	duration : 960664.0,	issueclosed_at : 2016-02-29T08:34:15Z,	action : milestoned,	user : pranjaldeka
+
+ISSUE 12
+what : enhancement,	when : 2016-02-18T05:59:44Z,	issuecreated_at : 1455775184.0,	assignee : pranjaldeka,	comments : 2,	milestone : Solution 1: Web Scraping Application,	duration : 53239.0,	issueclosed_at : 2016-02-18T20:47:03Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 13
+what : enhancement,	when : 2016-02-18T19:01:26Z,	issuecreated_at : 1455822086.0,	assignee : pranjaldeka,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 825961.0,	issueclosed_at : 2016-02-28T08:27:27Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 14
+what : Android,	when : 2016-02-18T19:03:08Z,	issuecreated_at : 1455822188.0,	assignee : rashmisandilya,	comments : 1,	milestone : Solution 3: Android application for reviews,	duration : 812534.0,	issueclosed_at : 2016-02-28T04:45:22Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 15
+what : Android,	when : 2016-02-18T19:05:17Z,	issuecreated_at : 1455822317.0,	assignee : rashmisandilya,	comments : 4,	milestone : April 1,	duration : 4226431.0,	issueclosed_at : 2016-04-07T17:05:48Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 16
+what : enhancement,	when : 2016-02-18T19:06:17Z,	issuecreated_at : 1455822377.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 333226.0,	issueclosed_at : 2016-02-22T15:40:03Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 17
+what : enhancement,	when : 2016-02-18T19:08:11Z,	issuecreated_at : 1455822491.0,	assignee : sbalakr2,	comments : 7,	milestone : Solution 1: Web Scraping Application,	duration : 75870.0,	issueclosed_at : 2016-02-19T16:12:41Z,	action : labeled,	user : sbalakr2
+
+ISSUE 18
+what : Null label,	when : 2016-02-18T19:52:38Z,	issuecreated_at : 1455825158.0,	assignee : moharnab123saikia,	comments : 0,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 267166.0,	issueclosed_at : 2016-02-21T22:05:24Z,	action : assigned,	user : moharnab123saikia
+
+ISSUE 19
+what : Null label,	when : 2016-02-18T19:53:21Z,	issuecreated_at : 1455825201.0,	assignee : moharnab123saikia,	comments : 0,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 268798.0,	issueclosed_at : 2016-02-21T22:33:19Z,	action : assigned,	user : moharnab123saikia
+
+ISSUE 20
+what : Null label,	when : 2016-02-18T19:58:40Z,	issuecreated_at : 1455825520.0,	assignee : sbalakr2,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 72809.0,	issueclosed_at : 2016-02-19T16:12:09Z,	action : assigned,	user : moharnab123saikia
+
+ISSUE 21
+what : Null label,	when : 2016-02-18T20:43:50Z,	issuecreated_at : 1455828230.0,	assignee : moharnab123saikia,	comments : 2,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 1045242.0,	issueclosed_at : 2016-03-01T23:04:32Z,	action : assigned,	user : moharnab123saikia
+
+ISSUE 22
+what : Android,	when : 2016-02-18T20:45:02Z,	issuecreated_at : 1455828302.0,	assignee : rashmisandilya,	comments : 3,	milestone : Solution 3: Android application for reviews,	duration : 304792.0,	issueclosed_at : 2016-02-22T09:24:54Z,	action : labeled,	user : sbalakr2
+
+ISSUE 23
+what : Android,	when : 2016-02-18T20:45:18Z,	issuecreated_at : 1455828318.0,	assignee : rashmisandilya,	comments : 2,	milestone : Solution 3: Android application for reviews,	duration : 906740.0,	issueclosed_at : 2016-02-29T08:37:38Z,	action : labeled,	user : sbalakr2
+
+ISSUE 24
+what : enhancement,	when : 2016-02-18T20:52:02Z,	issuecreated_at : 1455828722.0,	assignee : pranjaldeka,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 913769.0,	issueclosed_at : 2016-02-29T10:41:31Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 25
+what : enhancement,	when : 2016-02-18T20:53:44Z,	issuecreated_at : 1455828824.0,	assignee : moharnab123saikia,	comments : 2,	milestone : Solution 1: Web Scraping Application,	duration : 967274.0,	issueclosed_at : 2016-03-01T01:34:58Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 26
+what : Plugin,	when : 2016-02-18T20:54:42Z,	issuecreated_at : 1455828882.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 303319.0,	issueclosed_at : 2016-02-22T09:10:01Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 27
+what : Android,	when : 2016-02-18T20:55:39Z,	issuecreated_at : 1455828939.0,	assignee : rashmisandilya,	comments : 1,	milestone : Solution 3: Android application for reviews,	duration : 303832.0,	issueclosed_at : 2016-02-22T09:19:31Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 28
+what : Web App,	when : 2016-02-19T14:21:25Z,	issuecreated_at : 1455891685.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 263881.0,	issueclosed_at : 2016-02-22T15:39:26Z,	action : labeled,	user : sbalakr2
+
+ISSUE 29
+what : help wanted,	when : 2016-02-19T17:48:55Z,	issuecreated_at : 1455904135.0,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 743842.0,	issueclosed_at : 2016-02-28T08:26:17Z,	action : labeled,	user : sbalakr2
+
+ISSUE 30
+what : Web App,	when : 2016-02-19T23:56:59Z,	issuecreated_at : 1455926219.0,	assignee : pranjaldeka,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 807303.0,	issueclosed_at : 2016-02-29T08:12:02Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 31
+what : Web App,	when : 2016-02-19T23:57:27Z,	issuecreated_at : 1455926247.0,	assignee : moharnab123saikia,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 725531.0,	issueclosed_at : 2016-02-28T09:29:38Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 32
+what : Android,	when : 2016-02-20T09:04:31Z,	issuecreated_at : 1455959071.0,	comments : 1,	milestone : Solution 3: Android application for reviews,	duration : 675349.0,	issueclosed_at : 2016-02-28T04:40:20Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 33
+what : Android,	when : 2016-02-20T09:04:55Z,	issuecreated_at : 1455959095.0,	assignee : rashmisandilya,	comments : 2,	milestone : Solution 3: Android application for reviews,	duration : 675115.0,	issueclosed_at : 2016-02-28T04:36:50Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 34
+what : Android,	when : 2016-02-21T21:43:46Z,	issuecreated_at : 1456091026.0,	assignee : pranjaldeka,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 201.0,	issueclosed_at : 2016-02-21T21:47:07Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 35
+what : Web App,	when : 2016-02-22T07:09:04Z,	issuecreated_at : 1456124944.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 131.0,	issueclosed_at : 2016-02-22T07:11:15Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 36
+what : Android,	when : 2016-02-22T09:29:42Z,	issuecreated_at : 1456133382.0,	comments : 2,	milestone : Solution 3: Android application for reviews,	duration : 500781.0,	issueclosed_at : 2016-02-28T04:36:03Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 37
+what : Web App,	when : 2016-02-22T18:23:32Z,	issuecreated_at : 1456165412.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 244733.0,	issueclosed_at : 2016-02-25T14:22:25Z,	action : labeled,	user : sbalakr2
+
+ISSUE 38
+what : Web App,	when : 2016-02-22T18:24:00Z,	issuecreated_at : 1456165440.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 244741.0,	issueclosed_at : 2016-02-25T14:23:01Z,	action : labeled,	user : sbalakr2
+
+ISSUE 39
+what : Web App,	when : 2016-02-22T18:24:29Z,	issuecreated_at : 1456165469.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 244665.0,	issueclosed_at : 2016-02-25T14:22:14Z,	action : labeled,	user : sbalakr2
+
+ISSUE 40
+what : bug,	when : 2016-02-25T14:37:05Z,	issuecreated_at : 1456411025.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 5594.0,	issueclosed_at : 2016-02-25T16:10:19Z,	action : labeled,	user : sbalakr2
+
+ISSUE 41
+what : question,	when : 2016-02-25T15:21:14Z,	issuecreated_at : 1456413674.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 218166.0,	issueclosed_at : 2016-02-28T03:57:20Z,	action : labeled,	user : sbalakr2
+
+ISSUE 42
+what : Web App,	when : 2016-02-26T20:58:33Z,	issuecreated_at : 1456520313.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 111540.0,	issueclosed_at : 2016-02-28T03:57:33Z,	action : labeled,	user : sbalakr2
+
+ISSUE 43
+what : Web App,	when : 2016-02-28T00:42:14Z,	issuecreated_at : 1456620134.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 11684.0,	issueclosed_at : 2016-02-28T03:56:58Z,	action : labeled,	user : sbalakr2
+
+ISSUE 44
+what : enhancement,	when : 2016-02-28T04:39:28Z,	issuecreated_at : 1456634368.0,	comments : 2,	milestone : Solution 3: Android application for reviews,	duration : 100644.0,	issueclosed_at : 2016-02-29T08:36:52Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 45
+what : Web App,	when : 2016-02-28T06:24:19Z,	issuecreated_at : 1456640659.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 2554.0,	issueclosed_at : 2016-02-28T07:06:53Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 46
+what : Web App,	when : 2016-02-28T08:00:51Z,	issuecreated_at : 1456646451.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 35.0,	issueclosed_at : 2016-02-28T08:01:26Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 47
+what : Web App,	when : 2016-02-28T08:02:51Z,	issuecreated_at : 1456646571.0,	assignee : pranjaldeka,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 158.0,	issueclosed_at : 2016-02-28T08:05:29Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 48
+what : Web App,	when : 2016-02-28T08:04:15Z,	issuecreated_at : 1456646655.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 5098.0,	issueclosed_at : 2016-02-28T09:29:13Z,	action : labeled,	user : moharnab123saikia
+
+ISSUE 49
+what : enhancement,	when : 2016-02-28T13:41:05Z,	issuecreated_at : 1456666865.0,	assignee : sbalakr2,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 1520.0,	issueclosed_at : 2016-02-28T14:06:25Z,	action : labeled,	user : sbalakr2
+
+ISSUE 50
+what : enhancement,	when : 2016-02-28T13:42:26Z,	issuecreated_at : 1456666946.0,	assignee : sbalakr2,	comments : 2,	milestone : Solution 1: Web Scraping Application,	duration : 75355.0,	issueclosed_at : 2016-02-29T10:38:21Z,	action : labeled,	user : sbalakr2
+
+ISSUE 51
+what : bug,	when : 2016-02-29T00:48:07Z,	issuecreated_at : 1456706887.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Solution 1: Web Scraping Application,	duration : 28343.0,	issueclosed_at : 2016-02-29T08:40:30Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 52
+what : bug,	when : 2016-02-29T00:49:16Z,	issuecreated_at : 1456706956.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 3304.0,	issueclosed_at : 2016-02-29T01:44:20Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 53
+what : enhancement,	when : 2016-02-29T00:49:51Z,	issuecreated_at : 1456706991.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 2293.0,	issueclosed_at : 2016-02-29T01:28:04Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 54
+what : enhancement,	when : 2016-02-29T08:05:08Z,	issuecreated_at : 1456733108.0,	assignee : pranjaldeka,	comments : 0,	milestone : Solution 1: Web Scraping Application,	duration : 20.0,	issueclosed_at : 2016-02-29T08:05:28Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 55
+what : Null label,	when : 2016-02-29T10:35:36Z,	issuecreated_at : 1456742125.0,	assignee : moharnab123saikia,	comments : 0,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 48168.0,	issueclosed_at : 2016-02-29T23:58:13Z,	action : milestoned,	user : moharnab123saikia
+
+ISSUE 56
+what : enhancement,	when : 2016-02-29T23:32:36Z,	issuecreated_at : 1456788756.0,	assignee : sbalakr2,	comments : 7,	milestone : Solution 1: Web Scraping Application,	duration : 53511.0,	issueclosed_at : 2016-03-01T14:24:27Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 57
+what : enhancement,	when : 2016-02-29T23:37:50Z,	issuecreated_at : 1456789070.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Solution 2: Plugin Development(Basic functionality),	duration : 104139.0,	issueclosed_at : 2016-03-02T04:33:29Z,	action : labeled,	user : moharnab123saikia
+
+ISSUE 58
+what : Web App,	when : 2016-03-01T22:55:10Z,	issuecreated_at : 1456872910.0,	assignee : sbalakr2,	comments : 2,	milestone : Telemetry ,	duration : 4941.0,	issueclosed_at : 2016-03-02T00:17:31Z,	action : labeled,	user : sbalakr2
+
+ISSUE 59
+what : enhancement,	when : 2016-03-01T22:59:25Z,	issuecreated_at : 1456873165.0,	assignee : moharnab123saikia,	comments : 3,	milestone : Telemetry ,	duration : 19962.0,	issueclosed_at : 2016-03-02T04:32:07Z,	action : labeled,	user : pranjaldeka
+
+ISSUE 60
+what : enhancement,	when : 2016-03-01T23:03:45Z,	issuecreated_at : 1456873425.0,	comments : 4,	milestone : Telemetry ,	duration : 4405.0,	issueclosed_at : 2016-03-02T00:17:10Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 61
+what : Null label,	when : 2016-03-31T05:42:02Z,	issuecreated_at : 1459402922.0,	assignee : sbalakr2,	comments : 1,	milestone : April 1,	duration : 65348.0,	issueclosed_at : 2016-03-31T23:51:10Z,	action : assigned,	user : sbalakr2
+
+ISSUE 62
+what : Null label,	when : 2016-03-31T16:21:48Z,	issuecreated_at : 1459441308.0,	assignee : sbalakr2,	comments : 2,	milestone : April 1,	duration : 99748.0,	issueclosed_at : 2016-04-01T20:04:16Z,	action : assigned,	user : sbalakr2
+
+ISSUE 63
+what : Null label,	when : 2016-03-31T20:46:03Z,	issuecreated_at : 1459457163.0,	assignee : pranjaldeka,	comments : 0,	milestone : April 1,	duration : 887.0,	issueclosed_at : 2016-03-31T21:00:50Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 64
+what : Null label,	when : 2016-03-31T20:46:41Z,	issuecreated_at : 1459457201.0,	assignee : pranjaldeka,	comments : 0,	milestone : April 1,	duration : 1825.0,	issueclosed_at : 2016-03-31T21:17:06Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 65
+what : Null label,	when : 2016-03-31T20:47:17Z,	issuecreated_at : 1459457237.0,	assignee : pranjaldeka,	comments : 3,	milestone : April 1,	duration : 595620.0,	issueclosed_at : 2016-04-07T18:14:17Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 66
+what : Null label,	when : 2016-03-31T20:47:55Z,	issuecreated_at : 1459457274.0,	assignee : rashmisandilya,	comments : 1,	milestone : April 1,	duration : 437062.0,	issueclosed_at : 2016-04-05T22:12:16Z,	action : assigned,	user : rashmisandilya
+
+ISSUE 67
+what : Null label,	when : 2016-03-31T20:48:20Z,	issuecreated_at : 1459457300.0,	assignee : rashmisandilya,	comments : 1,	milestone : April 1,	duration : 437015.0,	issueclosed_at : 2016-04-05T22:11:55Z,	action : assigned,	user : rashmisandilya
+
+ISSUE 68
+what : Null label,	when : 2016-03-31T20:48:56Z,	issuecreated_at : 1459457336.0,	assignee : moharnab123saikia,	comments : 1,	milestone : April 1,	duration : 203633.0,	issueclosed_at : 2016-04-03T05:22:49Z,	action : assigned,	user : moharnab123saikia
+
+ISSUE 69
+what : Android,	when : 2016-03-31T21:08:54Z,	issuecreated_at : 1459458534.0,	assignee : rashmisandilya,	comments : 1,	milestone : Bad smell code,	duration : 435761.0,	issueclosed_at : 2016-04-05T22:11:35Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 70
+what : enhancement,	when : 2016-03-31T21:09:40Z,	issuecreated_at : 1459458580.0,	assignee : moharnab123saikia,	comments : 1,	milestone : April 1,	duration : 594291.0,	issueclosed_at : 2016-04-07T18:14:31Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 71
+what : enhancement,	when : 2016-03-31T21:10:23Z,	issuecreated_at : 1459458623.0,	assignee : moharnab123saikia,	comments : 1,	milestone : April 1,	duration : 452490.0,	issueclosed_at : 2016-04-06T02:51:53Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 72
+what : Null label,	when : 2016-03-31T22:12:53Z,	issuecreated_at : 1459462373.0,	assignee : sbalakr2,	comments : 2,	milestone : April 1,	duration : 78664.0,	issueclosed_at : 2016-04-01T20:03:57Z,	action : assigned,	user : sbalakr2
+
+ISSUE 73
+what : Null label,	when : 2016-03-31T22:17:03Z,	issuecreated_at : 1459462623.0,	assignee : pranjaldeka,	comments : 0,	milestone : April 1,	duration : 27861.0,	issueclosed_at : 2016-04-01T06:01:24Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 74
+what : Null label,	when : 2016-03-31T22:17:30Z,	issuecreated_at : 1459462650.0,	assignee : pranjaldeka,	comments : 1,	milestone : April 1,	duration : 28299.0,	issueclosed_at : 2016-04-01T06:09:09Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 75
+what : enhancement,	when : 2016-04-06T03:23:19Z,	issuecreated_at : 1459912999.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Evaluation plan,	duration : 139833.0,	issueclosed_at : 2016-04-07T18:13:52Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 76
+what : enhancement,	when : 2016-04-06T03:24:14Z,	issuecreated_at : 1459913054.0,	comments : 1,	milestone : Evaluation plan,	duration : 135748.0,	issueclosed_at : 2016-04-07T17:06:42Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 77
+what : enhancement,	when : 2016-04-06T20:17:51Z,	issuecreated_at : 1459973871.0,	comments : 1,	milestone : Evaluation plan,	duration : 74917.0,	issueclosed_at : 2016-04-07T17:06:28Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 78
+what : enhancement,	when : 2016-04-06T20:18:30Z,	issuecreated_at : 1459973910.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Evaluation plan,	duration : 74801.0,	issueclosed_at : 2016-04-07T17:05:11Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 79
+what : enhancement,	when : 2016-04-06T20:20:11Z,	issuecreated_at : 1459974011.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Evaluation plan,	duration : 78796.0,	issueclosed_at : 2016-04-07T18:13:27Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 80
+what : enhancement,	when : 2016-04-06T20:24:05Z,	issuecreated_at : 1459974245.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Evaluation plan,	duration : 78545.0,	issueclosed_at : 2016-04-07T18:13:10Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 81
+what : Web App,	when : 2016-04-07T02:44:11Z,	issuecreated_at : 1459997051.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Evaluation plan,	duration : 55721.0,	issueclosed_at : 2016-04-07T18:12:52Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 82
+what : Android,	when : 2016-04-07T02:44:29Z,	issuecreated_at : 1459997069.0,	assignee : rashmisandilya,	comments : 1,	milestone : Evaluation plan,	duration : 51548.0,	issueclosed_at : 2016-04-07T17:03:37Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 83
+what : Android,	when : 2016-04-07T02:47:00Z,	issuecreated_at : 1459997220.0,	assignee : rashmisandilya,	comments : 1,	milestone : Evaluation plan,	duration : 51382.0,	issueclosed_at : 2016-04-07T17:03:22Z,	action : labeled,	user : rashmisandilya
+
+ISSUE 84
+what : Null label,	when : 2016-04-07T03:55:26Z,	issuecreated_at : 1460001326.0,	assignee : pranjaldeka,	comments : 1,	milestone : Bad smell code,	duration : 51518.0,	issueclosed_at : 2016-04-07T18:14:04Z,	action : assigned,	user : pranjaldeka
+
+ISSUE 85
+what : Null label,	when : 2016-04-07T03:56:24Z,	issuecreated_at : 1460001384.0,	assignee : rashmisandilya,	comments : 1,	milestone : Bad smell code,	duration : 47285.0,	issueclosed_at : 2016-04-07T17:04:29Z,	action : assigned,	user : rashmisandilya
+
+ISSUE 86
+what : Null label,	when : 2016-04-07T03:57:54Z,	issuecreated_at : 1460001474.0,	assignee : moharnab123saikia,	comments : 1,	milestone : Bad smell code,	duration : 51284.0,	issueclosed_at : 2016-04-07T18:12:38Z,	action : assigned,	user : moharnab123saikia
+

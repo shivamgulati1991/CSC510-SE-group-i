@@ -1,5 +1,16 @@
 <html>
   <head>
+  <title>Effcal</title>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75978547-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
     <script type="text/javascript">
       // Your Client ID can be retrieved from your project in the Google
       // Developer Console, https://console.developers.google.com
@@ -43,6 +54,7 @@
        * @param {Event} event Button click event.
        */
       function handleAuthClick(event) {
+	console.log("Google authentication");
         gapi.auth.authorize(
           {client_id: CLIENT_ID, scope: SCOPES, immediate: false},
           handleAuthResult);
@@ -54,6 +66,7 @@
        * once client library is loaded.
        */
       function loadCalendarApi() {
+	console.log("Loading Google events..");
         gapi.client.load('calendar', 'v3', listUpcomingEvents);
       }
 
@@ -63,12 +76,13 @@
        * appropriate message is printed.
        */
       function listUpcomingEvents() {
+		console.log("Show Google events");
         var request = gapi.client.calendar.events.list({
           'calendarId': 'primary',
           'timeMin': (new Date()).toISOString(),
           'showDeleted': false,
           'singleEvents': true,
-          'maxResults': 10,
+          'maxResults': 5,
           'orderBy': 'startTime'
         });
 
@@ -79,6 +93,7 @@
 	var tableBody=	'<h3>Upcoming events on your Google Calendar</h3><table border=1 cellspacing=2><tr><th>Event</th><th>Start Date and Time</th><th>End Date and Time</th><th>Creator</th></tr>';
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
+		console.log("Upcoming event: "+i+1);
               var event = events[i];
               var when = event.start.dateTime;
               var when1 = event.end.dateTime;
@@ -93,7 +108,7 @@
             //appendPre('No upcoming events found.');
 	tableBody+='No upcoming events';
           }
-	tableBody+='</table>';
+	tableBody+='</table><br><br>';
 	document.getElementById('out').innerHTML=tableBody;	
         });
       }
@@ -113,6 +128,7 @@
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth">
     </script>
+    
 <style>
 #page {
     margin-left: 200px;
@@ -134,32 +150,33 @@
 }
 
 </style>
+
   </head>
   <body>
 <div id="page">
-    <h2>Effcal</h2>
+    <h1>Effcal</h1>
     <div id="maincontent">
         <div id="firstcontent">
 	    <div id="authorize-div" style="display: none">
-      <span>Login to see your upcoming events</span>
-      <!--Button for the user to click to initiate auth sequence --><br/><br/>
+      <span><h2>Login to see your upcoming events</h2></span>
+      <!--Button for the user to click to initiate auth sequence --><br/>
       <button style="display:inline-block" id="authorize-button" onclick="handleAuthClick(event)">
-	<img src="/images/Google.png" style="float:left;margin-right:0.5em"/>Sign in to Google
+	<img src="/images/Google.png" height="42" width="42" style="float:left;margin-right:0.5em"/>Sign in to Google
       </button>
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>
+    <!--<input type="button" value="Create an event" onClick="createEvent();"/><br/><br/><br/>-->
 	</div>
 		<div id="secondcontent">
 		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 		</fb:login-button>
 		<div id="status">
 		</div><br/>
-		<input type="button" value="check" name="check" onClick="getList();"/>
-		<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>
-		<h3>Facebook list</h3>
-		<div id="eventOut">test</div>
+
+		<!--<input type="button" value="getPermit" name="permission" onClick="getPermissions();"/>-->
+		<h3>Facebook events</h3><input type="button" value="See FB events" name="check" onClick="getList();"/>
+		<div id="eventOut">Select Event Info to fetch details</div>
 	</div>
     </div>
     <div id="menuleftcontent">
@@ -180,7 +197,7 @@
     </div>
     <pre id="output"></pre>
     <div id="out"></div>
-    <input type="button" value="create event" onClick="createEvent();"/><br/><br/><br/>
+
 <script>
 
   window.fbAsyncInit = function() {
@@ -191,18 +208,6 @@
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
   });
-
-  // Now that we've initialized the JavaScript SDK, we call 
-  // FB.getLoginStatus().  This function gets the state of the
-  // person visiting this page and can return one of three states to
-  // the callback you provide.  They can be:
-  //
-  // 1. Logged into your app ('connected')
-  // 2. Logged into Facebook, but not your app ('not_authorized')
-  // 3. Not logged into Facebook and can't tell if they are logged into
-  //    your app or not.
-  //
-  // These three cases are handled in the callback function.
 
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
@@ -243,6 +248,7 @@
 
   // Login status check
   function checkLoginState() {
+		console.log("Facebook login");
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
     });
@@ -253,11 +259,13 @@
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
+
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
+
     });
   }
 </script>
@@ -270,17 +278,31 @@
 <div id="status">
 </div>
 -->
+
 <script>
 function getList(){
+	console.log("See Facebook appointments");
 FB.api(
-    "/me/",
+    "/161813960852942",
     function (response) {
       if (response && !response.error) {
-        alert(JSON.stringify(response));
-document.getElementById('eventOut').innerHTML=JSON.stringify(response);
+document.getElementById('eventOut').innerHTML='<br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
       }
     }
-);}
+);
+FB.api(
+    "/1738617373034421",
+    function (response) {
+      if (response && !response.error) {
+document.getElementById('eventOut').innerHTML+='<br><br>Event name: '+JSON.stringify(response.name)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event location: '+JSON.stringify(response.description)+'<br>';
+document.getElementById('eventOut').innerHTML+='Event time: '+JSON.stringify(response.start_time);
+      }
+    }
+);
+}
 
 function getPermissions(){
 FB.api(
