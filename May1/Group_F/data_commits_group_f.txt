@@ -1,0 +1,296 @@
+sha : 5590088ab968f7864cda57ebdc82c64d9c556845,	message : Added files via upload,	user : moharnab123saikia,	time : 1460088042.0
+
+sha : 10313b74a337b53bb3240480d0240a2660d50687,	message : Added files via upload,	user : moharnab123saikia,	time : 1460087694.0
+
+sha : fc9a350a77cf47911667fcd025761ded8d8fa5b7,	message : Delete RestoScrapper_Apr1_Report.pdf,	user : moharnab123saikia,	time : 1460087545.0
+
+sha : 24abae9bf9d3edf3ff5157e15be0f3402975d8af,	message : Added files via upload,	user : moharnab123saikia,	time : 1460087469.0
+
+sha : 160fe56107de648ed5322dfb9eda55eff192c55f,	message : refactoring,	user : moharnab123saikia,	time : 1460056331.0
+
+sha : c0c51aed3bc1a48db8e35bfb3e572b0e3ae8bd5c,	message : report changes,	user : sbalakr2,	time : 1460080127.0
+
+sha : 5de93fa708802bfdbac2cb83311c2fce6e753e5d,	message : Update README.md,	user : rashmisandilya,	time : 1460070427.0
+
+sha : 5104b8769e4704a4fa633bfe91d4fb08bbf15fe7,	message : Updated presentation link,	user : sbalakr2,	time : 1460060247.0
+
+sha : 19c3a0a8cc1f92c902d8d3e99253622b80f04995,	message : presentation,	user : sbalakr2,	time : 1460060134.0
+
+sha : 7b85814ddf164ab41ad58859494c03540c3ff4d0,	message : font changes,	user : pranjaldeka,	time : 1460059266.0
+
+sha : 7c719346110495c9ded4b171ca8314e27d331d1d,	message : Changes to the images in report,	user : sbalakr2,	time : 1460059121.0
+
+sha : 8d425bd25d961933f28bd2509d3dda8805406550,	message : Added link to report,	user : sbalakr2,	time : 1460055229.0
+
+sha : fc37dd06b3c33559438971117a45c4b365652c54,	message : Added link to report,	user : sbalakr2,	time : 1460055150.0
+
+sha : be7a46a71c30d317261d14da4daea553ebd7b341,	message : Added link to report,	user : sbalakr2,	time : 1460055127.0
+
+sha : 351e1b896b738661efee17ae16acb56394b9cb6f,	message : Project report april 1,	user : sbalakr2,	time : 1460054985.0
+
+sha : 97bcc2115a6230b874678dabc10681aea33e8a5f,	message : Update README.md,	user : rashmisandilya,	time : 1460053726.0
+
+sha : 47adecabf45f187ec193d4fa98552b8ded208136,	message : Update README.md,	user : rashmisandilya,	time : 1460053120.0
+
+sha : c3b33626fb2797cf2bf0ca1d29cbafeca3dc5892,	message : onclick for yelp tripA and foursq,	user : rashmisandilya,	time : 1460048536.0
+
+sha : d93259e018f3f44802b870de1749e2ed972f131a,	message : layout and color change based on feedback,	user : rashmisandilya,	time : 1460048314.0
+
+sha : 75b762a900d163fc15e8b9f9223960ea71323d93,	message : modified code for time log,	user : rashmisandilya,	time : 1460015493.0
+
+sha : 2e1ff22a4c13458be3c58d71eac87b3c528bb234,	message : added stats display page,	user : pranjaldeka,	time : 1460015040.0
+
+sha : d41d87033146f65313fbe341a4bec6730412be6c,	message : code for collecting user click logs per seesion,	user : rashmisandilya,	time : 1460014575.0
+
+sha : d2ccad6a70b9c41f3da62cafc09bcc277f12948a,	message : stats for web,	user : pranjaldeka,	time : 1460012904.0
+
+sha : 1f66e6a1e3a17f1bc2f0a8bfee2f6c05439e1398,	message : fixed links in show page,	user : moharnab123saikia,	time : 1460010517.0
+
+sha : 92fd650250abe778f3646bb7964cbd196ec9044e,	message : added Book Now Button,	user : moharnab123saikia,	time : 1459961109.0
+
+sha : 3d1315898921796cc2761aea1463dcef9e250ae6,	message : added Book Now,	user : moharnab123saikia,	time : 1459910899.0
+
+sha : 42c8e4184a1b50fd568b879e2916bc1c57a7b190,	message : added hyperlinks,	user : moharnab123saikia,	time : 1459889322.0
+
+sha : 93db4cda15c847bf2d6d247f991b5dfd55a1293e,	message : changed the placement of the reviews,	user : moharnab123saikia,	time : 1459662005.0
+
+sha : 8604b2634f799e35f3294f015c412b27c7cb2cb2,	message : added star ratings to individual reviews,	user : moharnab123saikia,	time : 1459660882.0
+
+sha : 1f35d62b7bd559b25f5958f37add2d53a713fad0,	message : added negative reviews,	user : moharnab123saikia,	time : 1459660716.0
+
+sha : ab289b54de28573d0a47e06bfad06d5612e2a400,	message : book now implementation,	user : rashmisandilya,	time : 1459492607.0
+
+sha : 07739c5310f13c142c703733090f9cac3dcd7781,	message : layout changes in restaurant view,	user : rashmisandilya,	time : 1459492376.0
+
+sha : f3500041a224adf231cdbd37285d404244996caa,	message : added restaurant url to schema closes #73,	user : pranjaldeka,	time : 1459490458.0
+
+sha : 95fd0a10d93e1058a7c655c24cbe88d8f777c6c0,	message : negative review implementation,	user : rashmisandilya,	time : 1459488749.0
+
+sha : 29f8df4cdeb79be41e45c139e135ec44cbb649da,	message : removed aws access key from the code,	user : sbalakr2,	time : 1459483391.0
+
+sha : a7837ee3ff4dc97248b36a534f942930127cdc93,	message : updated the restaurant url in json,	user : sbalakr2,	time : 1459468512.0
+
+sha : 39f03d957dd7926722be0cd4fdc7b99aa78c2f8f,	message : Updated review controller to parse negative reviews from db closes #64,	user : pranjaldeka,	time : 1459459013.0
+
+sha : e46176e4eb534d61c0542217df0b61c9aee21df2,	message : Added negative reviews to db schema closes #63,	user : pranjaldeka,	time : 1459458010.0
+
+sha : 117ed9f6c1c188a28f03453bf6c18eb8a4dac6bd,	message : updated json and code,	user : sbalakr2,	time : 1459442114.0
+
+sha : 9a1f041109f1005ec20a05bc6fad516be57a92bc,	message : updated csv file,	user : sbalakr2,	time : 1459441988.0
+
+sha : 8e03ae862de19f7ecbce605294d667066ac27d27,	message : code for parsing newgative reviews,	user : sbalakr2,	time : 1459402927.0
+
+sha : bba1b3d1ddfb0f726f843b79202632960feac9c1,	message : Merge branch 'master' of https://github.com/moharnab123saikia/CSC510-group-f,	user : sbalakr2,	time : 1459402770.0
+
+sha : 0b02b125b50cd6b0c154cb52a49a9c321547e8c3,	message : updated the json with negative reviews,	user : sbalakr2,	time : 1459402731.0
+
+sha : 69d3f859147eb32a6040592e3d471972a0074784,	message : added google map and bug fixed in chrome ext,	user : pranjaldeka,	time : 1459397743.0
+
+sha : 86f60dc67e4d453535eef74bc2c0d760190b7bf9,	message : removing sample.json from app home; temp file,	user : pranjaldeka,	time : 1456894146.0
+
+sha : b0cfae70d55a44091966e314eac80e147fe6fc91,	message : fixed background alignment,	user : moharnab123saikia,	time : 1456893559.0
+
+sha : 37e2b069433699586dc98189fb56f499af477dd5,	message : added total review count to display,	user : moharnab123saikia,	time : 1456892976.0
+
+sha : 408a831c2307ec4b2a3c7f3e631951cdd4236f44,	message : Minor update in milestone,	user : rashmisandilya,	time : 1456892808.0
+
+sha : 174f38dd67d1e35d4502f0ff0e534050c4b6d170,	message : redesigned the search and display page; added reviews,	user : moharnab123saikia,	time : 1456891923.0
+
+sha : 424209a024acdd03929bf315b2457ac0abe63ea0,	message : Update README.md,	user : sbalakr2,	time : 1456885727.0
+
+sha : 9c45d32708f0fc32b24d2eea0e99e569da50627b,	message : Update README.md,	user : sbalakr2,	time : 1456885636.0
+
+sha : 1096b51ef14ea6f3239f38568caba6e377fcafa9,	message : Update README.md,	user : sbalakr2,	time : 1456885489.0
+
+sha : 8e552ba73e2cd49bc68ba3b02005bc88a2083eca,	message : Updated the evaluation plan in the read me file,	user : sbalakr2,	time : 1456885078.0
+
+sha : 13e4f0b9664d214e02571433e1ddeb741d7fb19a,	message : Added the evaluation plan in the read me file,	user : sbalakr2,	time : 1456884354.0
+
+sha : 8cf6fa813f3a90b88c10fe881de6b822645afeba,	message : added hyperlink to ratings,	user : pranjaldeka,	time : 1456880389.0
+
+sha : 0577f02b783b1024e18f9b58ca6886295654ffb5,	message : Updated Readme,	user : rashmisandilya,	time : 1456879390.0
+
+sha : 5205156a8e53b31c4f62cb40e57fb50bae944a0b,	message : added no. of reviews and changed styling,	user : moharnab123saikia,	time : 1456878978.0
+
+sha : fbeddbe387356371a60a08ea2eccff2c16c93a18,	message : Updated readme file with code base directory,	user : rashmisandilya,	time : 1456878815.0
+
+sha : c64e9d622ad6ac905e772b43f34100324b3cf1fa,	message : sample telemetry data log for plugin,	user : moharnab123saikia,	time : 1456877771.0
+
+sha : 78db461698392a6c1f55004434de4ed1a029b66a,	message : added telemetry sample files pdf,	user : sbalakr2,	time : 1456877712.0
+
+sha : 1ab35bf5e1fe9d99ec8b9d1aa404413d3c620a0d,	message : sample log data for user overview,	user : pranjaldeka,	time : 1456877523.0
+
+sha : b122e5f3a96e4e044e0649e8710f086971867050,	message : Adding sample log data from user trial,	user : rashmisandilya,	time : 1456877346.0
+
+sha : 2e851bb940df5d161d9bcf0c75c098d8082e76da,	message : added pagination to the list view of restaurants,	user : pranjaldeka,	time : 1456876577.0
+
+sha : 8fbdd85bf07fa4599270e01ae620dafcaf103f60,	message : Updated readme file with logging information
+
+Using google analytics information for log. As of now we don't have much statistics as deployment has been just done but going forward we will have large logs,	user : rashmisandilya,	time : 1456875201.0
+
+sha : b71e03d7d9fdaafa057cec25efe5d927cf2969a3,	message : deleting temporary files,	user : sbalakr2,	time : 1456875129.0
+
+sha : 5319694ba41bb23b4764f601347e1e525a8f7304,	message : Delete the temporary readme,	user : rashmisandilya,	time : 1456874227.0
+
+sha : 77439bfb9f73e9d94ecbfdd0ca45aac6bcdebde8,	message : Update README.md,	user : rashmisandilya,	time : 1456872316.0
+
+sha : fca377f4b97b5e856a4ec4ef15e369c64065ddd7,	message : removed compilation python files,	user : sbalakr2,	time : 1456865998.0
+
+sha : 3b48fa749c9b71949fe82552fd634644c2996715,	message : updated json file,	user : sbalakr2,	time : 1456842424.0
+
+sha : 7c5dcbd6c961099acd2124b20ae026c0b8907ed1,	message : added additional restaurants in csv file,	user : sbalakr2,	time : 1456842034.0
+
+sha : 83b2bd8a6d2b017b4f9aeca01cef399cbc5e4c96,	message : code cleanup and minor variable changes for the keys,	user : sbalakr2,	time : 1456840918.0
+
+sha : 12b7625d1a6de31d7b232ae8c8fd14c40630fd0d,	message : updated demo time,	user : sbalakr2,	time : 1456840215.0
+
+sha : d6487dc24fb57e07266cff5f063c29076ab0ea17,	message : updates to the individual poc,	user : sbalakr2,	time : 1456795379.0
+
+sha : 2cdfe53c60940c34b9c534693c8794729b5c3e4c,	message : corrected aggregate calculation fixes #55,	user : moharnab123saikia,	time : 1456790259.0
+
+sha : 0959ff1ab4ffe7310bdb3804c5bbea6bf2d9ec49,	message : get JSON data and display ratings including aggregate,	user : moharnab123saikia,	time : 1456781962.0
+
+sha : 6fdef88bc193e562c3ace8e625275d550035b8eb,	message : extract individual reviews from db,	user : pranjaldeka,	time : 1456740284.0
+
+sha : 84ebf38db477a06888dfd4b8bfdf19f58bb02aae,	message : modification in strings xml file,	user : rashmisandilya,	time : 1456737763.0
+
+sha : 73b491f3a831e519a40a7652427dd8b280ea214d,	message : layout modification,	user : rashmisandilya,	time : 1456737689.0
+
+sha : 6b7f6cfc316feaaec035e035adbe80f5afb8ce5e,	message : non clickable rating bar with reduced step size,	user : rashmisandilya,	time : 1456734712.0
+
+sha : 303647fd779b8b7776850031fabef26ee108968f,	message : edit text for main activity,	user : rashmisandilya,	time : 1456734405.0
+
+sha : d0d0901efa7c0124b4398ec1a84893bf9cb530a4,	message : resize the thumbnail fixes #54,	user : pranjaldeka,	time : 1456733114.0
+
+sha : 59fd2fe4acfe664f2f5a4018d9cb0dd0baa6146f,	message : added code to parse ratings and display in a pop-up,	user : moharnab123saikia,	time : 1456732214.0
+
+sha : 39454cc83ff15828f8ab76362c5ea6bd74f0be90,	message : updated manifest file,	user : rashmisandilya,	time : 1456731537.0
+
+sha : b6676828c31b840bff7e7aacb2554a2fac0f9232,	message : MainActivity data store and string add,	user : rashmisandilya,	time : 1456731292.0
+
+sha : 6c23b90821c724a740da556f9bb9da5fe4e35320,	message : Menu list addition,	user : rashmisandilya,	time : 1456727538.0
+
+sha : d2951288fa0a630e360b8652366d3483b6018147,	message : layout design for each of the item or restaurant view,	user : rashmisandilya,	time : 1456727333.0
+
+sha : 073007cf24b955c26f2d076308e87768e3c10d27,	message : Launch new activity on click of restaurant in list,	user : rashmisandilya,	time : 1456725911.0
+
+sha : 8d1e3b2d5ce67ccf6de4b0db80c5618f5c04656a,	message : data holder class for storing the the parsed data in hashmap,	user : rashmisandilya,	time : 1456725709.0
+
+sha : e1cc0e4ac94dbe87cd03b182ae4431bed9fee9d8,	message : getter and setter methods to fetch data in another activity,	user : rashmisandilya,	time : 1456725496.0
+
+sha : 7697c23f9af7a726c5f4983af7d00dff55cb9bea,	message : added hyperlink to thumbnail,	user : pranjaldeka,	time : 1456712848.0
+
+sha : 6050f0c1b77f1fb47ff8f424b46641c0ad061067,	message : fixed the weighted average calculation fixes #52,	user : pranjaldeka,	time : 1456710247.0
+
+sha : 2c4951679d4996d54a126ab48c9936cc86b21cf1,	message : added ratings count to schema and script closes #53,	user : pranjaldeka,	time : 1456709268.0
+
+sha : 54cfbf6a1424624dd82ba2e0f8865d96cbbcbef8,	message : fixed fractional stars display on review page,	user : moharnab123saikia,	time : 1456708317.0
+
+sha : 666caffd3449223cf4db761df1972f1665bdac42,	message : fix stars display issue,	user : moharnab123saikia,	time : 1456707637.0
+
+sha : e6e2fba4969094071f365c5d23a517dd5336799f,	message : added photo url links to the restaurants json closes #49,	user : sbalakr2,	time : 1456668342.0
+
+sha : 7f65385bca3ff13a1273c4ce1295c90bb8124a51,	message : added aggregate metric,	user : moharnab123saikia,	time : 1456654542.0
+
+sha : 9df2c4e8e6f9ead91c1dba6fc429bfc964525344,	message : added visual star to ratings,	user : moharnab123saikia,	time : 1456654394.0
+
+sha : b016425eaa7d830dab092d8bd850076fb5c59b22,	message : page for displaying individual reviews closes #3,	user : moharnab123saikia,	time : 1456651878.0
+
+sha : 5a14c3afe93439142f6eb771f2207c082aee3176,	message : changed homepage design to new specs,	user : moharnab123saikia,	time : 1456650888.0
+
+sha : 52389468cc06ac525c0c5be14f21bd5f1b7f3044,	message : Sample output file for reviews,	user : pranjaldeka,	time : 1456647587.0
+
+sha : 470b8c8c8621c64f097a9b579c0a9548288eec8f,	message : update migrate script to support thumbnail url,	user : pranjaldeka,	time : 1456646545.0
+
+sha : 0b52af42a2a6e99b817abcbe1b93ff82daed2c5f,	message : Added image to restaurant index views closes #46,	user : pranjaldeka,	time : 1456646458.0
+
+sha : 512bff4bae438da40a09ab705c634aaccf8d5bc9,	message : script to migrate json data to rails db closes #45,	user : pranjaldeka,	time : 1456643202.0
+
+sha : 6a803620f1fb8f68dcee40010d95d5ab3cf6783d,	message : display/ search list of restaurants,	user : moharnab123saikia,	time : 1456642824.0
+
+sha : 252024cb769cd389eac45dcb713a483ce6cf959e,	message : Fetching real time data from amazon s3,	user : rashmisandilya,	time : 1456637631.0
+
+sha : a70593ed00b55153fa11dbc28d6c421614828bdb,	message : Added code to push the json file to Amazon s3 closes #43,	user : sbalakr2,	time : 1456631806.0
+
+sha : 7de7d63c503e77b950677ccdf793b72d9488c991,	message : added migrations for yelp/TA/FS closes #9,	user : moharnab123saikia,	time : 1456621142.0
+
+sha : 552b5d0f9d56c1449facf83f522b7d54b864c85e,	message : added resto_scrapper controller,	user : pranjaldeka,	time : 1456607406.0
+
+sha : 36b1190d0df0b58b7cac06daf270f826a3b126b2,	message : search box implementation,	user : rashmisandilya,	time : 1456601689.0
+
+sha : f2e1a9c7050bfee6a8d8afd70d505caaf6b4e67c,	message : Layout modification,	user : rashmisandilya,	time : 1456600707.0
+
+sha : 679e1d2e58bca07bae19399ca6b1aa73b6184dc8,	message : updated json file,	user : sbalakr2,	time : 1456417132.0
+
+sha : 0ca8983f091fe8629ff5fd4845061ca784267bc2,	message : added code to remove unnecessary unicode characters from the reviews closes #40,	user : sbalakr2,	time : 1456416598.0
+
+sha : f5f713d32d03f6fd2ce712ee6ce110512b7b6dda,	message : added individual module code and output json,	user : sbalakr2,	time : 1456165672.0
+
+sha : 7e3c19276cb202dbf8c708a2e45e8d1519be76d7,	message : adding code to crawl the reviews closes #19,	user : sbalakr2,	time : 1456155978.0
+
+sha : 75ab7d65135425330b01a8fc517cca7edb8b235b,	message : delted duplicate folder,	user : rashmisandilya,	time : 1456132536.0
+
+sha : 12ab14f3f17880cd214cfd4ade858c31b946a151,	message : initial commit,	user : rashmisandilya,	time : 1456131906.0
+
+sha : 6b695823ca333e14c63853431f7180d5fa7d2ec4,	message : initial commit android solution closes,	user : rashmisandilya,	time : 1456131642.0
+
+sha : fed481e621923b1a0567827c5ac0b2627eafcaff,	message : added schema file for webscrapper app,	user : pranjaldeka,	time : 1456127197.0
+
+sha : fb5055e2edc7b2c093235813f62785459aee9702,	message : Create a webscrapper app for frontend closes #35,	user : pranjaldeka,	time : 1456125053.0
+
+sha : 5850eba3bac8fe586ccd21be34a6ac5962921b47,	message : added url to sample json output,	user : sbalakr2,	time : 1456096324.0
+
+sha : e426318bb30f7cac6e67d0a1eae550adcc5925f2,	message : updated the name of the sample output file,	user : pranjaldeka,	time : 1456094086.0
+
+sha : 2ffdbf4a61f95f664f9efb1d2f89e1cc832b974d,	message : added basic popup structure closes #19 and #26,	user : moharnab123saikia,	time : 1456093633.0
+
+sha : 3c4cf9a09c58509c9193555b5c3f17c065ac21f7,	message : renamed sample json file,	user : pranjaldeka,	time : 1456093971.0
+
+sha : ecce55883048ad5498029bbd326dd360c4cc3aad,	message : formatted the sample json file ouput,	user : pranjaldeka,	time : 1456093691.0
+
+sha : 48de589132b8527d821dd41897d6b09f5a12f8db,	message : Update sample_json.txt,	user : sbalakr2,	time : 1456093171.0
+
+sha : a71d433432bcc6f33330ffc70a80b02881b2b10f,	message : Update sample_json.txt,	user : sbalakr2,	time : 1456092994.0
+
+sha : 08e0891a2ac7307720e16645cc2c3c62d3485531,	message : added logo fixes #18,	user : moharnab123saikia,	time : 1456092257.0
+
+sha : 90fb6fe2eb6cbb48fd392fbd449673012690824f,	message : stub dir for webscrapper frontend,	user : pranjaldeka,	time : 1456092159.0
+
+sha : b4bcaaf1edfbeb1141322bdde565a08d8f347681,	message : crawler script for fetching ratings closes #6,	user : sbalakr2,	time : 1456091796.0
+
+sha : dce61af04ceeebca2281cbf27c7f2cc20ee7ec62,	message : added foursquare links,	user : pranjaldeka,	time : 1456090944.0
+
+sha : 5c22dbd24b564301a76899e3b8e5065702e508f4,	message : added manifest,	user : moharnab123saikia,	time : 1455907302.0
+
+sha : 2ba1f03e6b0f3d06dea17837bc2999e3a7ffa9a9,	message : Rename sample_json.txt to samples/sample_json.txt,	user : sbalakr2,	time : 1455846378.0
+
+sha : 514fe3a82cf2835c57b030235ed8ce357ed98356,	message : Sample JSON
+
+Sample text file containing the JSON format for storing the reviews,	user : sbalakr2,	time : 1455829641.0
+
+sha : d88c5018d1efe4d3fadb3eb1f269b267739caa43,	message : Update README.md,	user : moharnab123saikia,	time : 1455828792.0
+
+sha : 18d14d43f40bcdd3d3bbc355b43417f59fc138d5,	message : Update README.md,	user : moharnab123saikia,	time : 1455828726.0
+
+sha : 24c666bc9de3f7db3226e7d459ca10e93f9445a5,	message : sample csv file for review URL from different websites closes #12,	user : pranjaldeka,	time : 1455828404.0
+
+sha : 9f06be6c21e8ce695ee211d30fb0434716e4ac99,	message : Update README.md
+
+Contents for Mar 1 deliverable,	user : sbalakr2,	time : 1454601396.0
+
+sha : 5979257304bc3150989c7e232bcc3f577d5183ec,	message : Merge branch 'master' of https://github.com/moharnab123saikia/CSC510-group-f,	user : rashmisandilya,	time : 1454365734.0
+
+sha : 9ceecefce30b2dac2b212769d250976ed1913c5b,	message : Updated feb1 report,	user : rashmisandilya,	time : 1454365648.0
+
+sha : 475544226f5416db91d0ee486b38a4b77d7f5bb6,	message : Update README.md,	user : moharnab123saikia,	time : 1454365071.0
+
+sha : fdd6b65204a29335c235a46684db14ca7b2783f6,	message : Update README.md,	user : rashmisandilya,	time : 1454364998.0
+
+sha : 86004ee0f914a277890a7453bcea87dd08d7b20f,	message : Updated Readme.md
+
+Added the project description,	user : rashmisandilya,	time : 1454364983.0
+
+sha : 1ebcc523d505b522773696fb16dbfddcf9027ed8,	message : Report for Feb1 Deliverable,	user : rashmisandilya,	time : 1454320124.0
+
+sha : 323b1b81e9b637c2f7e94c896b7e9c52ddd16fcc,	message : Initial commit : created README.md,	user : pranjaldeka,	time : 1452293386.0
+

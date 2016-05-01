@@ -1,0 +1,114 @@
+ident : 172676169,	user : shivamgulati1991,	text : The idea is to solve a personal collaborative time management problem which we deal with from multiple sources. 
+eg. Personal appointments clashing with facebook events. Users would benefit if they can have a single source of information to manage their day-to-day time and schedules.,	created_at : 1453157992.0,	issue : 1,	updated_at : 1453605683.0
+
+ident : 172676377,	user : shivamgulati1991,	text : Suggestions could be like , facebook events, office outlook appointments, personal events, etc.,	created_at : 1453158073.0,	issue : 2,	updated_at : 1453605857.0
+
+ident : 177887565,	user : shivamgulati1991,	text : Completed,	created_at : 1454321099.0,	issue : 4,	updated_at : 1454321099.0
+
+ident : 177887805,	user : shivamgulati1991,	text : Study completed and deductions noted down,	created_at : 1454321133.0,	issue : 3,	updated_at : 1454321133.0
+
+ident : 177895969,	user : shivamgulati1991,	text : Report submitted,	created_at : 1454322204.0,	issue : 5,	updated_at : 1454322204.0
+
+ident : 178313930,	user : priysha,	text : Mentioned changed made in the report.,	created_at : 1454379250.0,	issue : 6,	updated_at : 1454379250.0
+
+ident : 180877313,	user : shivamgulati1991,	text : An Android app, a google script app and one yet to be finalised,	created_at : 1454798706.0,	issue : 8,	updated_at : 1454893290.0
+
+ident : 181149921,	user : shivamgulati1991,	text : Android environment has been set up,	created_at : 1454893319.0,	issue : 9,	updated_at : 1454893319.0
+
+ident : 181149982,	user : shivamgulati1991,	text : Idea for 1 in progress, 2 implementation can start,	created_at : 1454893394.0,	issue : 7,	updated_at : 1454893394.0
+
+ident : 181150058,	user : shivamgulati1991,	text : Implementation started,	created_at : 1454893478.0,	issue : 14,	updated_at : 1454893478.0
+
+ident : 186514236,	user : shivamgulati1991,	text : Collection Discussion,	created_at : 1455945930.0,	issue : 12,	updated_at : 1455945930.0
+
+ident : 186514248,	user : shivamgulati1991,	text : Basic layout in progress for fixed screensize,	created_at : 1455945960.0,	issue : 13,	updated_at : 1455945960.0
+
+ident : 186514298,	user : shivamgulati1991,	text : Basic HTML for date picker to extract appointments, improvements to work upon,	created_at : 1455946043.0,	issue : 15,	updated_at : 1455946043.0
+
+ident : 186514512,	user : shivamgulati1991,	text : 3rd solution in discussion on lines of JavaScript or VBA macro,	created_at : 1455946092.0,	issue : 7,	updated_at : 1455946092.0
+
+ident : 186514662,	user : shivamgulati1991,	text : Setup works fine, so closing the issue,	created_at : 1455946120.0,	issue : 10,	updated_at : 1455946120.0
+
+ident : 186774300,	user : shivamgulati1991,	text : Facebook ID and token created, calling error in code.,	created_at : 1456042133.0,	issue : 17,	updated_at : 1456042133.0
+
+ident : 187984826,	user : nishtha02,	text : https://developers.facebook.com/docs/android This link might help,	created_at : 1456273523.0,	issue : 18,	updated_at : 1456273523.0
+
+ident : 188608190,	user : shivamgulati1991,	text : Token call not responding. Solution to be looked into,	created_at : 1456374359.0,	issue : 20,	updated_at : 1456374359.0
+
+ident : 189763085,	user : shivamgulati1991,	text : In progress,	created_at : 1456624132.0,	issue : 21,	updated_at : 1456624132.0
+
+ident : 189763164,	user : shivamgulati1991,	text : Setup in progress for facebook,	created_at : 1456624149.0,	issue : 20,	updated_at : 1456624149.0
+
+ident : 189763248,	user : shivamgulati1991,	text : Fixed,	created_at : 1456624179.0,	issue : 16,	updated_at : 1456624179.0
+
+ident : 189763291,	user : shivamgulati1991,	text : Reporting in progress, email schedulers next,	created_at : 1456624244.0,	issue : 14,	updated_at : 1456624244.0
+
+ident : 189763602,	user : nishtha02,	text : API setup for fb done,	created_at : 1456624321.0,	issue : 18,	updated_at : 1456624321.0
+
+ident : 189764054,	user : shivamgulati1991,	text : Basic setup works,	created_at : 1456624701.0,	issue : 15,	updated_at : 1456624701.0
+
+ident : 189774697,	user : shivamgulati1991,	text : Default script added to send email every minute. Enhancements required,	created_at : 1456629618.0,	issue : 24,	updated_at : 1456629618.0
+
+ident : 189781613,	user : shivamgulati1991,	text : API setup in progress for Android,	created_at : 1456632675.0,	issue : 19,	updated_at : 1456632675.0
+
+ident : 189781785,	user : shivamgulati1991,	text : Email shows calendar addesss, email, start date, end date and description,	created_at : 1456632718.0,	issue : 25,	updated_at : 1456632718.0
+
+ident : 189785602,	user : priysha,	text : Scheduler implementation in progress. User can input date for report extraction,	created_at : 1456637396.0,	issue : 14,	updated_at : 1456637396.0
+
+ident : 189885288,	user : nishtha02,	text : testing the code for setup,	created_at : 1456670891.0,	issue : 21,	updated_at : 1456670891.0
+
+ident : 189896643,	user : nishtha02,	text : meetup api integration completed,	created_at : 1456675674.0,	issue : 21,	updated_at : 1456675674.0
+
+ident : 189961264,	user : shivamgulati1991,	text : JQuery toggle added ,	created_at : 1456699326.0,	issue : 27,	updated_at : 1456699326.0
+
+ident : 189961372,	user : shivamgulati1991,	text : Work in progress,	created_at : 1456699336.0,	issue : 26,	updated_at : 1456699336.0
+
+ident : 189986550,	user : shivamgulati1991,	text : Added google analytics script to GS for user tracking.
+This is just a basic idea to be worked on next month ,	created_at : 1456708137.0,	issue : 22,	updated_at : 1456708137.0
+
+ident : 190008272,	user : nishtha02,	text : Sync with google events completed,	created_at : 1456713226.0,	issue : 13,	updated_at : 1456713226.0
+
+ident : 190058164,	user : shivamgulati1991,	text : Fixed.,	created_at : 1456725769.0,	issue : 29,	updated_at : 1456725769.0
+
+ident : 190058221,	user : shivamgulati1991,	text : Code to see active users added,	created_at : 1456725795.0,	issue : 28,	updated_at : 1456725795.0
+
+ident : 190084286,	user : shivamgulati1991,	text : done,	created_at : 1456732671.0,	issue : 19,	updated_at : 1456732671.0
+
+ident : 190086299,	user : shivamgulati1991,	text : Basic idea discussed,	created_at : 1456733235.0,	issue : 22,	updated_at : 1456733235.0
+
+ident : 190389071,	user : shivamgulati1991,	text : Added and fixed,	created_at : 1456779702.0,	issue : 33,	updated_at : 1456779702.0
+
+ident : 190408383,	user : shivamgulati1991,	text : base scripts added, to be extended further next month,	created_at : 1456782088.0,	issue : 28,	updated_at : 1456782088.0
+
+ident : 190423258,	user : shivamgulati1991,	text : Completed.,	created_at : 1456784192.0,	issue : 14,	updated_at : 1456784192.0
+
+ident : 190529037,	user : nishtha02,	text : completed,	created_at : 1456804866.0,	issue : 38,	updated_at : 1456804866.0
+
+ident : 190574279,	user : shivamgulati1991,	text : App has to be submitted for review for permissions. Closing since not possible.,	created_at : 1456814327.0,	issue : 36,	updated_at : 1456814327.0
+
+ident : 190908832,	user : nishtha02,	text : to be done later(enhancment),	created_at : 1456866988.0,	issue : 35,	updated_at : 1456866988.0
+
+ident : 191042431,	user : nishtha02,	text : completed,	created_at : 1456890177.0,	issue : 30,	updated_at : 1456890177.0
+
+ident : 191042686,	user : shivamgulati1991,	text : Enhancement ahead,	created_at : 1456890221.0,	issue : 40,	updated_at : 1456890221.0
+
+ident : 191043161,	user : shifalijain,	text : Issue resolved.,	created_at : 1456890290.0,	issue : 23,	updated_at : 1456890290.0
+
+ident : 205927456,	user : shivamgulati1991,	text : In progress,	created_at : 1459880189.0,	issue : 46,	updated_at : 1459880189.0
+
+ident : 206069098,	user : nishtha02,	text : Completed,	created_at : 1459907240.0,	issue : 45,	updated_at : 1459907240.0
+
+ident : 206069724,	user : nishtha02,	text : Done,	created_at : 1459907412.0,	issue : 11,	updated_at : 1459907412.0
+
+ident : 206069919,	user : shivamgulati1991,	text : My work in progress.,	created_at : 1459907508.0,	issue : 47,	updated_at : 1459907508.0
+
+ident : 207099657,	user : nishtha02,	text : Surveys and interviews recorded and stats created,	created_at : 1460065384.0,	issue : 48,	updated_at : 1460065384.0
+
+ident : 207100618,	user : nishtha02,	text : Introduction and analysis completed,	created_at : 1460065491.0,	issue : 47,	updated_at : 1460065491.0
+
+ident : 207101044,	user : nishtha02,	text : working on it,	created_at : 1460065529.0,	issue : 50,	updated_at : 1460065529.0
+
+ident : 207101472,	user : shifalijain,	text : The logs were captured and analysed.,	created_at : 1460065580.0,	issue : 51,	updated_at : 1460065580.0
+
+ident : 207149217,	user : shivamgulati1991,	text : Revised and done,	created_at : 1460075783.0,	issue : 50,	updated_at : 1460075783.0
+

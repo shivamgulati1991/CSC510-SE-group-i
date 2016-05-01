@@ -1,0 +1,3 @@
+shivamgulati1991/CSC510-SE-group-i,.\Group_I\data_issues_group_i.txt,.\Group_I\data_commits_group_i.txt,.\Group_I\data_milestones_group_i.txt,.\Group_I\data_comments_group_i.txt
+moharnab123saikia/CSC510-group-f,.\Group_F\data_issues_group_f.txt,.\Group_F\data_commits_group_f.txt,.\Group_F\data_milestones_group_f.txt,.\Group_F\data_comments_group_f.txt
+nikraina/CSC510-Group-M,.\Group_M\data_issues_group_m.txt,.\Group_M\data_commits_group_m.txt,.\Group_M\data_milestones_group_m.txt,.\Group_M\data_comments_group_m.txt
