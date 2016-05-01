@@ -1,0 +1,105 @@
+ISSUE 1
+what : proj1 feedback,	when : 2016-02-01T16:04:26Z,	issuecreated_at : 1454342666.0,	comments : 1,	duration : 1324107.0,	issueclosed_at : 2016-02-16T23:52:53Z,	action : labeled,	user : timm
+
+ISSUE 2
+what : data-collection,	when : 2016-02-08T00:58:42Z,	issuecreated_at : 1454893026.0,	assignee : ankitkumar93,	comments : 4,	milestone : Data Collection,	duration : 760166.0,	issueclosed_at : 2016-02-16T20:06:32Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 3
+what : data-collection,	when : 2016-02-08T01:04:09Z,	issuecreated_at : 1454893413.0,	assignee : ayushgupta90,	comments : 2,	milestone : Data Collection,	duration : 774246.0,	issueclosed_at : 2016-02-17T00:07:39Z,	action : labeled,	user : ayushgupta90
+
+ISSUE 4
+what : Text mining,	when : 2016-02-08T01:10:28Z,	issuecreated_at : 1454893828.0,	assignee : ashutoshchaturvedi,	comments : 2,	milestone : Text Mining using NLTK,	duration : 1799846.0,	issueclosed_at : 2016-02-28T21:07:54Z,	action : labeled,	user : ashutoshchaturvedi
+
+ISSUE 5
+what : Text mining,	when : 2016-02-08T01:13:29Z,	issuecreated_at : 1454893990.0,	assignee : hkaur4,	comments : 1,	milestone : Text Mining using NLTK,	duration : 1813977.0,	issueclosed_at : 2016-02-29T01:06:07Z,	action : labeled,	user : hkaur4
+
+ISSUE 6
+what : Null label,	when : 2016-02-08T01:15:09Z,	issuecreated_at : 1454894098.0,	assignee : ankitkumar93,	comments : 2,	milestone : Creating the Plugin that uses the Recommendation System,	duration : 1297401.0,	issueclosed_at : 2016-02-23T01:38:19Z,	action : milestoned,	user : ankitkumar93
+
+ISSUE 7
+what : enhancement,	when : 2016-02-08T01:35:59Z,	issuecreated_at : 1454895359.0,	comments : 0,	duration : 758560.0,	issueclosed_at : 2016-02-16T20:18:39Z,	action : labeled,	user : ashutoshchaturvedi
+
+ISSUE 8
+what : Null label,	when : 2016-02-16T20:08:20Z,	issuecreated_at : 1455653262.0,	comments : 0,	milestone : Data Collection,	duration : 538260.0,	issueclosed_at : 2016-02-23T01:38:42Z,	action : milestoned,	user : ankitkumar93
+
+ISSUE 9
+what : Null label,	when : 2016-02-20T05:32:21Z,	issuecreated_at : 1455654845.0,	comments : 0,	duration : 291496.0,	issueclosed_at : 2016-02-20T05:32:21Z,	action : closed,	user : ayushgupta90
+
+ISSUE 10
+what : data-collection,	when : 2016-02-20T06:07:47Z,	issuecreated_at : 1455948467.0,	comments : 0,	milestone : Data Collection,	duration : 243061.0,	issueclosed_at : 2016-02-23T01:38:48Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 11
+what : data-collection,	when : 2016-02-20T07:02:31Z,	issuecreated_at : 1455951740.0,	comments : 0,	milestone : Data Collection,	duration : 239803.0,	issueclosed_at : 2016-02-23T01:39:03Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 12
+what : Text mining,	when : 2016-02-20T17:58:45Z,	issuecreated_at : 1455991113.0,	comments : 0,	duration : 716844.0,	issueclosed_at : 2016-02-29T01:05:57Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 13
+what : data-collection,	when : 2016-02-21T20:22:59Z,	issuecreated_at : 1456086167.0,	comments : 0,	milestone : Data Collection,	duration : 377861.0,	issueclosed_at : 2016-02-26T05:20:28Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 14
+what : data-collection,	when : 2016-02-21T20:24:41Z,	issuecreated_at : 1456086281.0,	comments : 0,	milestone : Data Collection,	duration : 107062.0,	issueclosed_at : 2016-02-23T02:09:03Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 15
+what : data-collection,	when : 2016-02-21T21:04:05Z,	issuecreated_at : 1456088640.0,	comments : 1,	milestone : Data Collection,	duration : 104690.0,	issueclosed_at : 2016-02-23T02:08:50Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 16
+what : plugin-development,	when : 2016-02-23T01:54:49Z,	issuecreated_at : 1456192489.0,	comments : 3,	milestone : Creating the Plugin that uses the Recommendation System,	duration : 271592.0,	issueclosed_at : 2016-02-26T05:21:21Z,	action : labeled,	user : ashutoshchaturvedi
+
+ISSUE 17
+what : plugin-development,	when : 2016-02-23T01:56:12Z,	issuecreated_at : 1456192572.0,	comments : 1,	milestone : Creating the Plugin that uses the Recommendation System,	duration : 594.0,	issueclosed_at : 2016-02-23T02:06:06Z,	action : labeled,	user : ashutoshchaturvedi
+
+ISSUE 18
+what : Null label,	when : 2016-02-23T02:11:01Z,	issuecreated_at : 1456193438.0,	comments : 0,	milestone : Text Mining using NLTK,	duration : 514572.0,	issueclosed_at : 2016-02-29T01:06:50Z,	action : milestoned,	user : ayushgupta90
+
+ISSUE 19
+what : Null label,	when : 2016-02-29T01:06:54Z,	issuecreated_at : 1456442806.0,	comments : 0,	duration : 265208.0,	issueclosed_at : 2016-02-29T01:06:54Z,	action : closed,	user : ankitkumar93
+
+ISSUE 20
+what : Null label,	when : 2016-02-26T05:20:02Z,	issuecreated_at : 1456463971.0,	comments : 1,	duration : 31.0,	issueclosed_at : 2016-02-26T05:20:02Z,	action : closed,	user : ankitkumar93
+
+ISSUE 21
+what : Null label,	when : 2016-02-26T05:23:08Z,	issuecreated_at : 1456464177.0,	comments : 1,	milestone : Front End,	duration : 7239.0,	issueclosed_at : 2016-02-26T07:23:36Z,	action : milestoned,	user : ankitkumar93
+
+ISSUE 22
+what : Null label,	when : 2016-02-29T01:08:28Z,	issuecreated_at : 1456556088.0,	comments : 0,	duration : 152020.0,	issueclosed_at : 2016-02-29T01:08:28Z,	action : closed,	user : ankitkumar93
+
+ISSUE 23
+what : Null label,	when : 2016-02-29T02:36:48Z,	issuecreated_at : 1456556475.0,	comments : 0,	duration : 156933.0,	issueclosed_at : 2016-02-29T02:36:48Z,	action : closed,	user : ankitkumar93
+
+ISSUE 24
+what : Null label,	when : 2016-03-01T04:20:59Z,	issuecreated_at : 1456694201.0,	comments : 0,	duration : 111858.0,	issueclosed_at : 2016-03-01T04:20:59Z,	action : referenced,	user : ashutoshchaturvedi
+
+ISSUE 25
+what : front-end,	when : 2016-02-29T04:11:29Z,	issuecreated_at : 1456719089.0,	comments : 1,	duration : 136592.0,	issueclosed_at : 2016-03-01T18:08:01Z,	action : labeled,	user : ayushgupta90
+
+ISSUE 26
+what : Text mining,	when : 2016-02-29T15:54:40Z,	issuecreated_at : 1456761280.0,	assignee : hkaur4,	comments : 0,	milestone : Solution #1,	duration : 94424.0,	issueclosed_at : 2016-03-01T18:08:24Z,	action : labeled,	user : hkaur4
+
+ISSUE 27
+what : Text mining,	when : 2016-02-29T15:56:17Z,	issuecreated_at : 1456761377.0,	assignee : ashutoshchaturvedi,	comments : 0,	milestone : Solution #1,	duration : 94333.0,	issueclosed_at : 2016-03-01T18:08:30Z,	action : labeled,	user : hkaur4
+
+ISSUE 28
+what : help wanted,	when : 2016-02-29T16:01:16Z,	issuecreated_at : 1456761676.0,	assignee : hkaur4,	comments : 1,	milestone : Solution #2,	duration : 2645112.0,	issueclosed_at : 2016-03-31T06:46:28Z,	action : labeled,	user : ashutoshchaturvedi
+
+ISSUE 29
+what : help wanted,	when : 2016-03-01T18:07:11Z,	issuecreated_at : 1456855617.0,	comments : 1,	milestone : Solution #1,	duration : 277.0,	issueclosed_at : 2016-03-01T18:11:34Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 30
+what : front-end,	when : 2016-03-01T18:12:12Z,	issuecreated_at : 1456855932.0,	comments : 1,	milestone : Solution #1,	duration : 12051.0,	issueclosed_at : 2016-03-01T21:33:03Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 31
+what : front-end,	when : 2016-03-01T21:34:15Z,	issuecreated_at : 1456868034.0,	comments : 1,	milestone : Solution #2,	duration : 12204.0,	issueclosed_at : 2016-03-02T00:57:18Z,	action : labeled,	user : ayushgupta90
+
+ISSUE 32
+what : Text mining,	when : 2016-03-03T21:25:40Z,	issuecreated_at : 1457040327.0,	comments : 1,	milestone : Solution #2,	duration : 26148.0,	issueclosed_at : 2016-03-04T04:41:15Z,	action : labeled,	user : ankitkumar93
+
+ISSUE 33
+what : data-collection,	when : 2016-04-15T05:13:37Z,	issuecreated_at : 1460697217.0,	assignee : hkaur4,	comments : 0,	milestone : Project 2 - Data Collection,	duration : 1460697217.0,	issueclosed_at : 0,	action : labeled,	user : ankitkumar93
+
+ISSUE 34
+what : Null label,	when : 2016-04-15T05:14:46Z,	issuecreated_at : 1460697286.0,	assignee : ashutoshchaturvedi,	comments : 0,	milestone : Project 2 - Data Collection,	duration : 1460697286.0,	issueclosed_at : 0,	action : assigned,	user : ashutoshchaturvedi
+
+ISSUE 35
+what : Null label,	when : 2016-04-15T05:16:09Z,	issuecreated_at : 1460697369.0,	assignee : ayushgupta90,	comments : 0,	milestone : Project 2 - Data Collection,	duration : 1460697369.0,	issueclosed_at : 0,	action : assigned,	user : ankitkumar93
+

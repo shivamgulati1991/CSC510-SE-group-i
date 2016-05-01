@@ -1,0 +1,15 @@
+ident : 1554654,	created_at : 1454301893.0,	m_title : 1,	m_id : 1,	user : DharmendraVaghela,	closed_at : 1455839885.0
+
+ident : 1591971,	due_at : 1454648400.0,	created_at : 1455839987.0,	m_title : Mozilla plugin study,	m_id : 2,	user : rupajsoni,	closed_at : 1455840033.0,	m_description : Learn and the understand the mozilla Add-on SDK
+
+ident : 1592124,	due_at : 1456808400.0,	created_at : 1455848393.0,	m_title : Develop three chrome plugins,	m_id : 3,	user : DharmendraVaghela,	closed_at : 1458687442.0,	m_description : Building three chrome extensions justifying image access in a webpage.
+
+
+ident : 1660970,	due_at : 1460001600.0,	created_at : 1458687294.0,	m_title : Make plugin available for download,	m_id : 4,	user : rupajsoni,	m_description : Figuring out how to implement the plugin installation funcitonality
+
+ident : 1660971,	due_at : 1459051200.0,	created_at : 1458687321.0,	m_title : Functionality to collect and store logs on Server,	m_id : 5,	user : adityamandhare,	closed_at : 1459988120.0,	m_description : Its better if we can collect logs from the users in an automated manner. With this functionality, users can run the plugin on their own browsers in their PCs and we can collect more number of logs.
+
+ident : 1677362,	due_at : 1460001600.0,	created_at : 1459480220.0,	m_title : Modify solutions according to users specification,	m_id : 6,	user : DharmendraVaghela,	closed_at : 1459988111.0,	m_description : Modification in three solutions based on data collected from users.
+
+ident : 1686311,	due_at : 1460001600.0,	created_at : 1459911266.0,	m_title : Prepare a report for submission,	m_id : 7,	user : rupajsoni,	closed_at : 1459988116.0,	m_description : 
+

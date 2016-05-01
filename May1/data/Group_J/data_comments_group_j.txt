@@ -1,0 +1,105 @@
+ident : 172395092,	user : arnabsaha1011,	text : 1. We can find the problems one has to deal with using different map applications.
+2. Count the number of clicks. Less number of clicks is better.,	created_at : 1453073130.0,	issue : 3,	updated_at : 1453073188.0
+
+ident : 172395519,	user : arnabsaha1011,	text : Travelling salesman problem,	created_at : 1453073564.0,	issue : 2,	updated_at : 1453073564.0
+
+ident : 172962390,	user : arnabsaha1011,	text : Didn't find any essential disadvantages in the web but found a paper which can be interesting while writing documents. "Crowdsensing Maps of On-Street Parking Spaces".,	created_at : 1453232344.0,	issue : 4,	updated_at : 1453232344.0
+
+ident : 175900764,	user : arnabsaha1011,	text : Can you update the results from all the surveys onto a file on github?,	created_at : 1453935016.0,	issue : 7,	updated_at : 1453935016.0
+
+ident : 175913671,	user : YiqiaoXu-Joe,	text : Sure. I'll do it.,	created_at : 1453938364.0,	issue : 7,	updated_at : 1453938364.0
+
+ident : 176214296,	user : arnabsaha1011,	text : Added the introduction to the docs,	created_at : 1453992149.0,	issue : 6,	updated_at : 1453992163.0
+
+ident : 177028460,	user : arnabsaha1011,	text : Added description of the problems,	created_at : 1454112975.0,	issue : 6,	updated_at : 1454112975.0
+
+ident : 177622466,	user : YiqiaoXu-Joe,	text : [SE .pdf](https://github.com/arnabsaha1011/mypackse/files/111523/SE.pdf)
+,	created_at : 1454276422.0,	issue : 9,	updated_at : 1454276422.0
+
+ident : 180513756,	user : asaha1,	text : I know Joe has configured git with C9. For others please complete this part. I have a midterm and 2 assignments due next week so I am taking the weekend off from this project. Also, use Github to indicate how much progress you guys have done. Song and Ye don't have any Github commits as of yet, so try to focus on that as well.,	created_at : 1454700761.0,	issue : 10,	updated_at : 1454700761.0
+
+ident : 180597883,	user : YiqiaoXu-Joe,	text : I just put my solutions. But it might be changed these days whenever I come up a new idea.,	created_at : 1454711114.0,	issue : 10,	updated_at : 1454711114.0
+
+ident : 180795386,	user : sju88,	text : I have configured with C9.,	created_at : 1454773522.0,	issue : 10,	updated_at : 1454773522.0
+
+ident : 181178211,	user : yemao616,	text : I have configured git with Cloud 9.,	created_at : 1454901220.0,	issue : 10,	updated_at : 1454901220.0
+
+ident : 182135223,	user : YiqiaoXu-Joe,	text : All the solutions can be found in mar16 folder,	created_at : 1455061329.0,	issue : 10,	updated_at : 1455061329.0
+
+ident : 183781717,	user : asaha1,	text : I've made an android application which can search for a location and show using google maps. Next up Itinerary and time addition,	created_at : 1455411112.0,	issue : 12,	updated_at : 1455411112.0
+
+ident : 183967813,	user : YiqiaoXu-Joe,	text : http://www.w3schools.com/googleapi/google_maps_basic.asp.
+Here is a tutorial of Google Maps API for website.
+It seems like javascript API.,	created_at : 1455481090.0,	issue : 11,	updated_at : 1455481090.0
+
+ident : 185269285,	user : asaha1,	text : Refer to this [link](http://stackoverflow.com/questions/35459877/github-commit-and-import-project-from-a-folder-in-a-repository/35460042#35460042) for solution,	created_at : 1455724612.0,	issue : 13,	updated_at : 1455724641.0
+
+ident : 185269572,	user : YiqiaoXu-Joe,	text : Each branch seems has everything we have in master branch. That's really bad.,	created_at : 1455724644.0,	issue : 13,	updated_at : 1455724654.0
+
+ident : 185270802,	user : asaha1,	text : Check out the first solution which is great. You create a separate repo and then create a symbolic link to refer to that repo. Just awesome. I'm using this for sol2.,	created_at : 1455724779.0,	issue : 13,	updated_at : 1455724779.0
+
+ident : 186945730,	user : asaha1,	text : Currently it can take in two places and search for it and draw a line between them,	created_at : 1456098489.0,	issue : 15,	updated_at : 1456098489.0
+
+ident : 186947654,	user : asaha1,	text : Currently lines can be drawn between two places,	created_at : 1456098867.0,	issue : 19,	updated_at : 1456098867.0
+
+ident : 188271209,	user : asaha1,	text : This is the funniest issue ever,	created_at : 1456323075.0,	issue : 33,	updated_at : 1456323075.0
+
+ident : 188816240,	user : asaha1,	text : Couldn't configure any so decided to work on it from scratch,	created_at : 1456411606.0,	issue : 39,	updated_at : 1456411606.0
+
+ident : 188816427,	user : asaha1,	text : Finally managed to work on multiple projects under different folders using git shell,	created_at : 1456411646.0,	issue : 13,	updated_at : 1456411646.0
+
+ident : 188873329,	user : yemao616,	text : how to keep the marker?,	created_at : 1456418923.0,	issue : 27,	updated_at : 1456418923.0
+
+ident : 188923543,	user : yemao616,	text : done! ,	created_at : 1456425779.0,	issue : 27,	updated_at : 1456425779.0
+
+ident : 188923739,	user : yemao616,	text : fixed the marker problem!,	created_at : 1456425823.0,	issue : 28,	updated_at : 1456425823.0
+
+ident : 188924279,	user : yemao616,	text : done!,	created_at : 1456425933.0,	issue : 24,	updated_at : 1456425933.0
+
+ident : 188924390,	user : yemao616,	text : Goes well!,	created_at : 1456425959.0,	issue : 14,	updated_at : 1456425959.0
+
+ident : 188924732,	user : yemao616,	text : I think we have solved it.,	created_at : 1456426003.0,	issue : 26,	updated_at : 1456426003.0
+
+ident : 188926395,	user : yemao616,	text : 1, 2, 3, 4 and 7 had been solved yet.,	created_at : 1456426267.0,	issue : 12,	updated_at : 1456426267.0
+
+ident : 189993578,	user : asaha1,	text : Things to do this week:
+Layout
+Multiple places directions in the map,	created_at : 1456710526.0,	issue : 11,	updated_at : 1456710526.0
+
+ident : 190001797,	user : asaha1,	text : It displays real path now,	created_at : 1456712298.0,	issue : 35,	updated_at : 1456712298.0
+
+ident : 191285637,	user : asaha1,	text : Currently multiple places can be added and deleted.
+Shows the map with actual path.,	created_at : 1456932160.0,	issue : 22,	updated_at : 1456932160.0
+
+ident : 191322097,	user : asaha1,	text : Currently working on the layout,	created_at : 1456937440.0,	issue : 25,	updated_at : 1456937440.0
+
+ident : 191895541,	user : asaha1,	text : @yemao616 Finish this work by today please,	created_at : 1457029588.0,	issue : 51,	updated_at : 1457029588.0
+
+ident : 191913879,	user : yemao616,	text : done,	created_at : 1457031577.0,	issue : 51,	updated_at : 1457031577.0
+
+ident : 191921139,	user : asaha1,	text : I added a point to it. Maybe you want to take a look.,	created_at : 1457032498.0,	issue : 51,	updated_at : 1457032498.0
+
+ident : 191921464,	user : asaha1,	text : Finished these slides,	created_at : 1457032528.0,	issue : 53,	updated_at : 1457032528.0
+
+ident : 198984357,	user : yemao616,	text : Done with calculation, but how to display it properly?,	created_at : 1458498938.0,	issue : 56,	updated_at : 1458498938.0
+
+ident : 205114737,	user : asaha1,	text : Didn't work,	created_at : 1459739440.0,	issue : 50,	updated_at : 1459739440.0
+
+ident : 206030078,	user : sju88,	text : start solution 2 test,	created_at : 1459898301.0,	issue : 70,	updated_at : 1459898301.0
+
+ident : 206505835,	user : yemao616,	text : Done!,	created_at : 1459967525.0,	issue : 70,	updated_at : 1459967525.0
+
+ident : 206622397,	user : asaha1,	text : Conducted box plots, anova and t tests,	created_at : 1459985998.0,	issue : 62,	updated_at : 1459985998.0
+
+ident : 206622478,	user : asaha1,	text : Abstract and results done,	created_at : 1459986025.0,	issue : 79,	updated_at : 1459986025.0
+
+ident : 206622522,	user : asaha1,	text : data collected,	created_at : 1459986045.0,	issue : 63,	updated_at : 1459986045.0
+
+ident : 210244668,	user : asaha1,	text : Fixed it,	created_at : 1460685131.0,	issue : 82,	updated_at : 1460685131.0
+
+ident : 212167408,	user : asaha1,	text : Not fixing.,	created_at : 1461107739.0,	issue : 69,	updated_at : 1461107739.0
+
+ident : 214822981,	user : yemao616,	text : done.,	created_at : 1461692334.0,	issue : 83,	updated_at : 1461692334.0
+
+ident : 215998258,	user : yemao616,	text : already done!,	created_at : 1462054182.0,	issue : 86,	updated_at : 1462054182.0
+

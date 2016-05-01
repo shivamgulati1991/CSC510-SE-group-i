@@ -1,0 +1,1352 @@
+ident : 171388541,	user : cleebp,	text : Here are some more links I found, it seems like most tutorials and guides were written back in 2002-2003 so I am trying to only choose from the more recent ones.
+
+IBM Plug-In Basics (2008): http://www.ibm.com/developerworks/library/os-eclipse-plugindev1/index.html
+O'Reilly Intro (2005): http://www.onjava.com/pub/a/onjava/2005/02/09/eclipse.html
+,	created_at : 1452709628.0,	issue : 2,	updated_at : 1452709628.0
+
+ident : 171391518,	user : cleebp,	text : Also a note on which version of Eclipse to download, there is a bundled version of Eclipse called, "Eclipse IDE for Eclipse Committers" and it has a whole set of tools already loaded into it that would make our lives easier. For example it has Git integration and something called the PDE which is the Plug-in Development Environment. Here is a link to that specific bundled version of Eclipse (not that the download links are on the right, not the big button at the top): http://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers-451/mars1
+
+Eclipse has a good document (but old) on using the PDE to develop plug-ins here: http://www.eclipse.org/articles/Article-PDE-does-plugins/PDE-intro.html,	created_at : 1452710179.0,	issue : 2,	updated_at : 1452710179.0
+
+ident : 171398945,	user : trueblue2704,	text : Here are a couple of useful papers:
+
+
+Revealing the Copy and Paste Habits of End Users - 
+http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5295296
+Managing Code Clones Using Dynamic Change Tracking and Resolution - http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5306336,	created_at : 1452711761.0,	issue : 1,	updated_at : 1452711761.0
+
+ident : 171416434,	user : reachspirit,	text : Here are some papers on code cloning. It turns out that code clone is quite different from our goal of an efficient clipboard manager. 
+Clone management: Clone analysis tool with tag cloud visualization. Jump to the picture. It gives a description of the procedure of clone management.
+http://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/962/962.pdf
+Another paper on clone management. 
+http://www.cs.usask.ca/~croy/papers/2011/Zibran_IWSC2011_Management.pdf
+But these papers may help us understand cloning itself better. Although that's quite beyond the scope of this project, we know that we can do more with the clipboard.
+
+,	created_at : 1452715352.0,	issue : 1,	updated_at : 1452715352.0
+
+ident : 172654122,	user : trueblue2704,	text : I just discovered that when you open this version of Eclipse, there's a tutorial on how to build an Eclipse plugin. Going to be working on that in a bit, and I'll post an update when I'm done.
+
+
+UPDATE: It takes about half an hour to get a basic hello world extension running. It's pretty much the same set of steps from Eclipse document on using the PDE. Also if you're using Eclipse Neon (the latest version), the documentation has an error. "org.eclipse.ui.actionSets" is deprecated and is now "org.eclipse.ui.command".,	created_at : 1453151280.0,	issue : 2,	updated_at : 1453155629.0
+
+ident : 173336094,	user : effat,	text : A study of copy and pasting habits in OOP programmars.
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1334896,	created_at : 1453318772.0,	issue : 1,	updated_at : 1453318772.0
+
+ident : 173690002,	user : cleebp,	text : Paper on Code Clone Genealogies (cited by 396, from 2005) that proposes that its not always best to immediately refactor code clones, because instead they will either work themselves out eventually, or they are actually pretty necessary.
+http://web.cs.ucla.edu/~miryung/Publications/esecfse05-clonegenealogy.pdf 
+
+Paper on 'A study of developer work habits'. (Cited by 367, from 2006) Section 5.4 and Table 3 specifically talk about 6 different types of code duplication (including copy and pasting) and have survey/interviews with developers on each of these times - interesting read and opens up other possibilities to consider for our plug-in, plus this was study based.
+https://cs.gmu.edu/~tlatoza/papers/icse2006.pdf 
+
+Another term I'm finding that could be worth investigating is 'Code Duplication' (covers more than just copy and pasting so we may get a different result of papers).,	created_at : 1453406043.0,	issue : 1,	updated_at : 1453406043.0
+
+ident : 173699472,	user : trueblue2704,	text : Paper on Reverse Engineering Design Patterns in Java (cited by 188, from 2006): 
+There are a few common design patterns which are the "best practices" to follow while coding. It's possible this would be out of scope for the extension, but something to consider is detecting whether code being pasted is one of these design patters. The paper talks about detecting these patterns.
+http://web.cs.ucdavis.edu/~shini/research/pinot/reverseJavaPatterns.pdf
+
+,	created_at : 1453408359.0,	issue : 1,	updated_at : 1453408359.0
+
+ident : 174566839,	user : reachspirit,	text : Revealing the copy and paste habits of end users (cited by 11, from 2009):
+Specific talks on copy and paste habits of end users with a clipboard. By logging interactions while performing everyday tasks, the paper reveals some patterns related to copy and paste. 
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5295296&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5295296
+
+Copy-and-paste between overlapping windows (cited by 28, since 2007):
+Window management technique that facilitate copy and paste in the particular case of partially overlapping windows.
+http://dl.acm.org/citation.cfm?id=1240657
+
+Smarter cut-and-paste for programming text editors (cited by 14, since 2001):
+Discussion on how to improve cut and paste within text editor for programming. Give a prototype tool for better cut and paste practice.
+http://dl.acm.org/citation.cfm?id=545654
+
+,	created_at : 1453739306.0,	issue : 1,	updated_at : 1453739306.0
+
+ident : 177067425,	user : cleebp,	text : I definitely agree, having our project goals towards the end might be the best idea because like you said then our whole report sort of builds the argument for our project.,	created_at : 1454129729.0,	issue : 5,	updated_at : 1454129729.0
+
+ident : 178106730,	user : cleebp,	text : I'll start with one question, in regards to mentioning "Clipit" throughout the paper, should we just mention it in regular plain text, Clipit, or should we italicize it, _Clipit_?
+
+If anyone has some thoughts one way or the other feel free to chime in, if no one cares we can just leave it plain text!,	created_at : 1454350443.0,	issue : 6,	updated_at : 1454350443.0
+
+ident : 178109513,	user : reachspirit,	text : I think the font doesn't matter as long as they are in consistent with each
+other. Well, I would prefer italic : )
+
+Ran
+On Feb 1, 2016 1:14 PM, "Brian Clee" <notifications@github.com> wrote:
+
+> I'll start with one question, in regards to mentioning "Clipit" throughout
+> the paper, should we just mention it in regular plain text, Clipit, or
+> should we italicize it, *Clipit*?
+>
+> If anyone has some thoughts one way or the other feel free to chime in, if
+> no one cares we can just leave it plain text!
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/6#issuecomment-178106730>
+> .
+>
+,	created_at : 1454351023.0,	issue : 6,	updated_at : 1454351023.0
+
+ident : 178109933,	user : trueblue2704,	text : I think italics would be nice.,	created_at : 1454351089.0,	issue : 6,	updated_at : 1454351089.0
+
+ident : 178131760,	user : cleebp,	text : Alright changing it to Italics throughout :D
+
+Unfortunately when you try to italicize it in the subtitle it makes the font super tiny so that will be the only instance of it where it won't be italicized.,	created_at : 1454353450.0,	issue : 6,	updated_at : 1454353533.0
+
+ident : 178205951,	user : cleebp,	text : Just finished up my first round of edits, I changed up a lot of little things here and there mostly to make sure our grammar was consistent throughout. I also spent a lot of time on the project features section so that it flows better with the rest of the paper.
+
+I just reread it again and it looks super good and I'm happy with it, but I will look at it again in a couple hours to see if I can find any more grammar problems, etc. At that point if we don't see anything else I'll push the pdf to our main repo and add the bit.ly url to the submission page - we will still have until midnight though to change anything if anyone finds something wrong!,	created_at : 1454362682.0,	issue : 6,	updated_at : 1454362682.0
+
+ident : 180059391,	user : cleebp,	text : Here is a bare bones clipboard manager for sublime that is basically just a history of your copies from within sublime itself:
+
+Github = https://github.com/kemayo/sublime-text-2-clipboard-history
+Package = https://packagecontrol.io/packages/Clipboard%20History,	created_at : 1454621087.0,	issue : 7,	updated_at : 1454621654.0
+
+ident : 180060950,	user : effat,	text : Sublime does system wide copying.
+https://github.com/atom/find-and-replace/issues/162,	created_at : 1454621447.0,	issue : 8,	updated_at : 1454621447.0
+
+ident : 180061545,	user : reachspirit,	text : Here are some other great clipboards written in javascript:
+
+https://github.com/zenorocha/clipboard.js/
+
+https://github.com/zeroclipboard/zeroclipboard
+
+The cool thing here is that they provide functions in visualization, so that would be a great help for display option and intelligent context ordering.,	created_at : 1454621589.0,	issue : 7,	updated_at : 1454621589.0
+
+ident : 180061762,	user : cleebp,	text : Here is another seemingly larger clipboard manager:
+
+Github = https://github.com/colinta/SublimeClipboardManager
+Package = https://packagecontrol.io/packages/Clipboard%20Manager,	created_at : 1454621636.0,	issue : 7,	updated_at : 1454621636.0
+
+ident : 180063378,	user : cleebp,	text : And here is the last big sublime clipboard manager I could find, well featured:
+
+Github = https://github.com/Jimbly/SublimeClipboardHistory
+Package = https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History,	created_at : 1454621927.0,	issue : 7,	updated_at : 1454621927.0
+
+ident : 180064712,	user : effat,	text : Clipboard history for intelligent display management:
+http://www.outertech.com/en/clipboard-history,	created_at : 1454622233.0,	issue : 11,	updated_at : 1454622233.0
+
+ident : 180072736,	user : trueblue2704,	text : Some info on having  GUI:
+https://www.reddit.com/r/SublimeText/comments/1tyhgf/sublime_text_plugin_with_custom_ui_elements/,	created_at : 1454623605.0,	issue : 7,	updated_at : 1454623605.0
+
+ident : 180072859,	user : trueblue2704,	text : Tutorial for building a sublime plugin from scratch:
+http://code.tutsplus.com/tutorials/how-to-create-a-sublime-text-2-plugin--net-22685,	created_at : 1454623636.0,	issue : 7,	updated_at : 1454623636.0
+
+ident : 180077093,	user : trueblue2704,	text : Atom (https://atom.io) might be the way to go, to overcome some GUI limitations with the Sublime API.
+
+https://atom.io/docs/api/v1.4.3/Panel is something we could use.,	created_at : 1454624451.0,	issue : 7,	updated_at : 1454624451.0
+
+ident : 180081556,	user : trueblue2704,	text : Duplicate.,	created_at : 1454625133.0,	issue : 15,	updated_at : 1454625133.0
+
+ident : 181161116,	user : effat,	text : More clipboard for Eclipse can be helpful
+http://moreclipboard.sourceforge.net/,	created_at : 1454897220.0,	issue : 12,	updated_at : 1454897220.0
+
+ident : 181161359,	user : effat,	text : Two more resources:
+https://github.com/eclipse/swtbot/blob/master/org.eclipse.swt.examples/src/org/eclipse/swt/examples/clipboard/ClipboardExample.java,	created_at : 1454897475.0,	issue : 12,	updated_at : 1454897475.0
+
+ident : 181161370,	user : effat,	text : https://github.com/google/windowtester/blob/master/com.windowtester_test/src-example/org/eclipse/swt/examples/clipboard/ClipboardExample.java,	created_at : 1454897489.0,	issue : 12,	updated_at : 1454897489.0
+
+ident : 181944559,	user : cleebp,	text : Moving over the links to those 3 sublime clipboard managers here...
+
+Clipboard Manager = https://packagecontrol.io/packages/Clipboard%20Manager
+Clipboard History = https://packagecontrol.io/packages/Clipboard%20History
+Jimbly's Clipboard History = https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History,	created_at : 1455035489.0,	issue : 13,	updated_at : 1455036689.0
+
+ident : 181952869,	user : cleebp,	text : Here are my thoughts on the ['Clipboard Manager'](https://packagecontrol.io/packages/Clipboard%20Manager) plugin.
+
+Install isn't too bad, you have to re-register your ctrl-c/ctrl-p (or for mac cmd-c/cmd-p) commands to use the managers commands. Once you are using their copies and pastes however it performs just like normal copy and paste; however, you can choose to show your history at the bottom of the screen like so:
+
+![screen shot 2016-02-09 at 11 47 21 am](https://cloud.githubusercontent.com/assets/3922117/12923245/fe09324c-cf22-11e5-8266-5f4126ec303f.png)
+
+As you can see in the screenshot it handles indents through a special backslash, so while you can just fast copy from this box at the bottom if you want to preserve indents you must use their special commands for traversing the history and paste from that (an inconvenience). You can see where the history is currently pointed at from the big arrow on line 1.
+
+Overall the plugin is nice but I don't like how it goes as far as to add a visual GUI component but you can only interact with it correctly through commands. This may be a larger problem with Sublime extensions on the whole though.
+,	created_at : 1455036620.0,	issue : 13,	updated_at : 1455037627.0
+
+ident : 181956109,	user : cleebp,	text : Here are my thoughts on the ['Clipboard History'](https://packagecontrol.io/packages/Clipboard%20History) plugin.
+
+Install is way easier, don't have to remap commands it just works with your native ctrl-c/ctrl-v (or cmd-c/cmd-v) which is nice. Basically as you copy your history is build and by using a complex command (⌘⎇⌃V on mac) you can show your history and it appears in the command box at the top like so:
+
+![screen shot 2016-02-09 at 11 55 27 am](https://cloud.githubusercontent.com/assets/3922117/12923564/37b4404e-cf24-11e5-882f-e7fde47a60dd.png)
+
+From here you can simply click an item and it will show up at your cursor location. Alternatively like the other plug-in you can use commands to navigate the history so your next paste pastes from the current  index. Unlike the other plugin your history doesn't stay visible as you work so you have to enter the command to see the history, then use commands to navigate and paste which is a huge pain.,	created_at : 1455037093.0,	issue : 13,	updated_at : 1455037644.0
+
+ident : 181959636,	user : cleebp,	text : Here are my thoughts on the ['Jimbly's Clipboard History'](https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History) plugin.
+
+So this just seems like a more updated version of the ['Clipboard History'](https://packagecontrol.io/packages/Clipboard%20History) plugin with an easier command to access the clipboard history. But seriously besides that it seems identical on the surface level:
+
+![screen shot 2016-02-09 at 12 04 34 pm](https://cloud.githubusercontent.com/assets/3922117/12923884/74bf74e4-cf25-11e5-8058-ce40b9c8555e.png)
+
+Its last update was 8 months ago compared to the other plugins last update 3 years ago so really it just seems like the same project with a couple more recent tweaks. Same problem as before with the history not being static.
+
+This is probably our best bet to start working from if we choose to go down the sublime route, my immediate changes to consider making would be:
+- Making the history static, in other words have the history always be an active window, right now when you perform any action the history disappears 
+- Having the history show automatically after first copy/paste
+- Allow dragging from the history rather than just clicking to paste at cursor
+- Provide contextual options on the history options, i.e. right-click on the item gives you options to delete it, favorite it, etc.
+- Perhaps new display options with more context on where the item came from
+- Flag items in the history as 'stickies' or 'favorites' so that they don't disappear
+- add contextual options to the history window itself, i.e. right click on the window and there is an option to clear all non favorite items etc.,	created_at : 1455037590.0,	issue : 13,	updated_at : 1455037897.0
+
+ident : 182003279,	user : trueblue2704,	text : Found this online:
+API docs for developing with Sublime. They have something called a 'panel'. Not too sure what it is though. Will explore further later.
+
+https://www.sublimetext.com/docs/3/api_reference.html,	created_at : 1455044111.0,	issue : 13,	updated_at : 1455044111.0
+
+ident : 182069388,	user : trueblue2704,	text : clipboard-plus:
+- Allows storing multiple items.
+- cmd shift v displays a menu with items copied and allows pasting.
+- needs keyboard bindings to work.
+
+More info:
+https://atom.io/packages/clipboard-plus,	created_at : 1455052308.0,	issue : 14,	updated_at : 1455052388.0
+
+ident : 182070250,	user : trueblue2704,	text : textmate-clipboard:
+
+- Stores multiple items.
+- No gui. Use different commands to access previous/next item.
+- No manual keybindings required.
+
+More info:
+https://atom.io/packages/textmate-clipboard,	created_at : 1455052489.0,	issue : 14,	updated_at : 1455052506.0
+
+ident : 182071548,	user : trueblue2704,	text : clipboard-history
+
+- Similar to clipboard-plus
+- Shows time when copied
+- Shows minimal context
+
+
+More info:
+https://atom.io/packages/clipboard-history,	created_at : 1455052783.0,	issue : 14,	updated_at : 1455052783.0
+
+ident : 182503537,	user : reachspirit,	text : Lucidchart software, an extension to get system wide copying and pasting. The software is browser based and support copying and pasting of both images and various formats. It also provide a context menu:
+
+https://www.lucidchart.com/techblog/2014/12/02/definitive-guide-copying-pasting-javascript/,	created_at : 1455126998.0,	issue : 12,	updated_at : 1455126998.0
+
+ident : 182506450,	user : reachspirit,	text : W3C provides a detailed tutorial for learning Clipboard API in Javascript and HTML. We can build our application on this API.
+
+https://w3c.github.io/clipboard-apis/
+
+Also, the source code is public on github.
+
+https://github.com/w3c/clipboard-apis/
+
+,	created_at : 1455127532.0,	issue : 12,	updated_at : 1455127532.0
+
+ident : 182534668,	user : trueblue2704,	text : Some docs with examples on building packages for Atom: https://atom.io/docs/latest/,	created_at : 1455131546.0,	issue : 14,	updated_at : 1455131546.0
+
+ident : 182540738,	user : effat,	text : Implementing panel in Atom,	created_at : 1455132606.0,	issue : 11,	updated_at : 1455132606.0
+
+ident : 182541409,	user : effat,	text : Atom --Clipboard Plus  for our base of project.,	created_at : 1455132752.0,	issue : 7,	updated_at : 1455132752.0
+
+ident : 182543671,	user : effat,	text : Base -- Clipboard Plus of Atom
+1. Add command features like Textmate.
+2. Display panel feature.
+3. Clipboard history-- search, hover, time, clear, sticky notes.,	created_at : 1455133057.0,	issue : 17,	updated_at : 1455133057.0
+
+ident : 182547450,	user : effat,	text : 
+![pic](https://cloud.githubusercontent.com/assets/1575219/12959575/0a1e3266-d005-11e5-8fa5-7104b5fca4bc.jpg)
+
+,	created_at : 1455133616.0,	issue : 17,	updated_at : 1455133616.0
+
+ident : 182560129,	user : cleebp,	text : ![img_4302](https://cloud.githubusercontent.com/assets/3922117/12960357/da308c62-d008-11e5-887f-f12847601a54.JPG)
+,	created_at : 1455135216.0,	issue : 17,	updated_at : 1455135216.0
+
+ident : 184514057,	user : reachspirit,	text : Frequency of usage.,	created_at : 1455597299.0,	issue : 20,	updated_at : 1455597299.0
+
+ident : 184754322,	user : cleebp,	text : Thanks this is super helpful!,	created_at : 1455640006.0,	issue : 23,	updated_at : 1455640006.0
+
+ident : 184759201,	user : cleebp,	text : Also Chapter 3 of the Atom Flight Manual is the official introduction to "hacking" atom, its a good overview:
+
+https://atom.io/docs/v1.5.3/hacking-atom-tools-of-the-trade,	created_at : 1455640738.0,	issue : 23,	updated_at : 1455640738.0
+
+ident : 185348698,	user : cleebp,	text : Bulk development is done for this plug-in feature. 
+
+Final name I ended on is clipit-cmd and it theoretically should be working though much debugging is needed which is why I'm creating a new issue just for that.,	created_at : 1455735462.0,	issue : 19,	updated_at : 1455735462.0
+
+ident : 185373148,	user : cleebp,	text : Effat did a demo of her panels, making lots of progress!
+
+I did a demo of my debug screens and fatal errors, lots of progress!,	created_at : 1455738466.0,	issue : 25,	updated_at : 1455738466.0
+
+ident : 185373448,	user : cleebp,	text : Great meeting!,	created_at : 1455738519.0,	issue : 25,	updated_at : 1455738519.0
+
+ident : 185373475,	user : trueblue2704,	text : - External application that monitors when there's a copy/paste/cut event.
+- Log active window, copied/pasted content, time.
+,	created_at : 1455738525.0,	issue : 18,	updated_at : 1455738525.0
+
+ident : 185376732,	user : cleebp,	text : Also we can use this issue to post stuff about screen capture resources or what not, if we decide to do the video demo route.,	created_at : 1455738988.0,	issue : 26,	updated_at : 1455738988.0
+
+ident : 185963795,	user : cleebp,	text : Turns out your tabbing in Coffee Script is incredibly critical, spent a day of debugging only to find that I had a block incorrectly tabbed in my main lib file...,	created_at : 1455835399.0,	issue : 24,	updated_at : 1455835399.0
+
+ident : 186901119,	user : effat,	text : Added a right panel, added copy and pasting, time stamp, select items from panel,	created_at : 1456085114.0,	issue : 21,	updated_at : 1456085114.0
+
+ident : 186902395,	user : effat,	text : To be done :- add sticky features for permanent items like email, address.,	created_at : 1456085335.0,	issue : 27,	updated_at : 1456085335.0
+
+ident : 186995726,	user : trueblue2704,	text : Question: Does the Clipit read from the system clipboard or from a local Atom clipboard?,	created_at : 1456114230.0,	issue : 24,	updated_at : 1456114271.0
+
+ident : 186996545,	user : trueblue2704,	text : Okay, nvm. I just tried it with Atom, and found out it stores the last copied item on the system clipboard.,	created_at : 1456114561.0,	issue : 24,	updated_at : 1456114561.0
+
+ident : 187009884,	user : trueblue2704,	text : - Now possible to log all copy/cut events system wide. Stores the string copied, time, and active window (window where the string was copied from).
+- To do: log pastes. 
+    - One solution: integrate paste logging with the extensions since it's the only way (I can think of) that would allow us to only detect pastes in Atom.
+    - Another solution: Check if active window is Atom while pasting, and log only if this is true. (Will look at this first).
+,	created_at : 1456116531.0,	issue : 18,	updated_at : 1456116583.0
+
+ident : 187243513,	user : cleebp,	text : Sorry for late response, this is how it works in the code:
+
+"atom.clipboard.write element" where element is "selectedText = @editor.getSelectedText()", so it is sort of making its own copy functionality, yet since that functionality is through the same keys as system copy, both its wrapper runs and the system copy runs.
+
+At least I think thats how it all works...
+
+,	created_at : 1456156709.0,	issue : 24,	updated_at : 1456156709.0
+
+ident : 187301531,	user : cleebp,	text : Basic functionality is now implemented and working as intended for Clipit-cmd,	created_at : 1456164895.0,	issue : 24,	updated_at : 1456164895.0
+
+ident : 187309082,	user : cleebp,	text : Here is a link to the screencap tool that Atom packages use to create those nice Gifs of the packages in use. Of course our demo might still use videos or some such, but it would probably be nice if we added .gifs of each of the packages running to their respective readme.md's.
+
+I will try it out with mine and report at the meeting my thoughts on the tool.
+
+Link to the tool: http://www.cockos.com/licecap/,	created_at : 1456165997.0,	issue : 26,	updated_at : 1456165997.0
+
+ident : 187309569,	user : cleebp,	text : I will talk about that screen cap .gif creator I mentioned in [this issue](https://github.com/cleebp/csc-510-group-g/issues/26).,	created_at : 1456166099.0,	issue : 28,	updated_at : 1456166099.0
+
+ident : 187455387,	user : trueblue2704,	text : An interesting problem I just encountered:
+
+Integrating the logging with the Atom extension code would result in only the stuff being copied from within Atom being logged, but having it separate would result in us losing information about what is being pasted since the clipboard is local to Atom.
+
+One solution I have is to use a separate logger for logging copy and cut events (basically when the contents of the clipboard change), and having a separate logger that runs from within the extension. This would basically just be a block of code that writes to a file with the same information as the copy logger.
+
+We could then merge the data, and sort based on the timestamp in order to get an accurate representation of how the extension is being used.
+
+I'll have the block of code ready by the 24th, and we can spend the last few days integrating it to make sure it works fine.,	created_at : 1456188284.0,	issue : 18,	updated_at : 1456188284.0
+
+ident : 187516657,	user : reachspirit,	text : Well, I actually I just need to run apm install in current directory and all dependent modules will be installed.  ,	created_at : 1456200363.0,	issue : 29,	updated_at : 1456200363.0
+
+ident : 187983555,	user : trueblue2704,	text : I removed us from the Wed. March 2nd slot with Shaown, since we have to show our work only once.,	created_at : 1456273316.0,	issue : 26,	updated_at : 1456273316.0
+
+ident : 188435616,	user : cleebp,	text : dear god please work,	created_at : 1456344509.0,	issue : 31,	updated_at : 1456344509.0
+
+ident : 188446362,	user : cleebp,	text : RM 3218 Booked from 2pm-4pm.,	created_at : 1456346417.0,	issue : 36,	updated_at : 1456346735.0
+
+ident : 188448174,	user : cleebp,	text : Great meeting guys!,	created_at : 1456346888.0,	issue : 28,	updated_at : 1456346888.0
+
+ident : 189095198,	user : reachspirit,	text : I've been looking for methods of data persistence. The serialize method provided by atom applies typically to classes, while we need to store a global variable history in our case. 
+
+https://www.npmjs.com/package/jsonfile
+
+This package provides a way to read from and write to JSON, but I don't know whether it works with local files, for a browser would forbid cross domain access.,	created_at : 1456457114.0,	issue : 38,	updated_at : 1456498084.0
+
+ident : 189100678,	user : trueblue2704,	text : Definitely possible to use this. You can write to the file when Atom closes, or even when you copy/cut and then read from it when Atom opens again or initializes.
+
+You might want to take a look at https://nodejs.org/api/fs.html as well. It's what I'm using for the telemetry part so if you take a look at the code I've added to the telemetry, you should have an example on how to implement reading/writing to a file.
+
+,	created_at : 1456458948.0,	issue : 38,	updated_at : 1456459023.0
+
+ident : 189101558,	user : trueblue2704,	text : How'd you implement it would be:
+
+1. Add the package to package.json and then run apm install.
+2. Add `fs = require 'fs'` to the top of the file where you're declaring the external modules/packages being used.
+3. Add the readFile function call to the init method and then populate the clipboard, and call appendFile whenever you copy something so that it's stored in the file. (Alternately there might be a shutdown or close method by Atom, and you could just copy the entire contents of the clipboard when this is called.),	created_at : 1456459286.0,	issue : 38,	updated_at : 1456459286.0
+
+ident : 189738519,	user : reachspirit,	text : Thanks for the suggestion! I have managed to preserve the data with serialize method. Not in a standard way, but it's simple and effective.,	created_at : 1456611395.0,	issue : 38,	updated_at : 1456611395.0
+
+ident : 189922908,	user : effat,	text : You can have qsort.
+https://atom.io/packages/todo-show,	created_at : 1456686044.0,	issue : 39,	updated_at : 1456686241.0
+
+ident : 189923351,	user : cleebp,	text : Hey guys running a little late, will be there in ~20ish minutes!,	created_at : 1456686175.0,	issue : 36,	updated_at : 1456686175.0
+
+ident : 189936274,	user : reachspirit,	text : Thanks for the suggestion. I implemented them with some C style functions. They now works.,	created_at : 1456690241.0,	issue : 39,	updated_at : 1456690241.0
+
+ident : 189944102,	user : cleebp,	text : Will discuss demos and such.,	created_at : 1456692827.0,	issue : 37,	updated_at : 1456692827.0
+
+ident : 190317386,	user : trueblue2704,	text : I just checked the calendar and it looks like the same slot (4pm on Thursday) is available with Shaown. We could always switch to that. 3pm works for me though.,	created_at : 1456769774.0,	issue : 43,	updated_at : 1456769985.0
+
+ident : 190318295,	user : effat,	text : I have a class on Thursday at Rick's Hall which ends at 2:45 pm but it
+takes some time to take wolfline bus and come to EB2. Can we choose the
+next slot? Shawon Thursday 3:30-4 pm? If anybody has any conflict with
+3:30-4pm, I can leave my class 10-15 min earlier on Thursday and catch the
+3 pm slot.
+
+Hey guys, Dr. Menzies had something come up during our slot for the demo,
+so he moved us to 3pm on Thursday with Shaown, can everyone make this time?
+
+I know I can but if someone else can't they should speak up with a time
+that does work thats still open.
+
+xD
+
+—
+Reply to this email directly or view it on GitHub
+<https://github.com/cleebp/csc-510-group-g/issues/43>.
+,	created_at : 1456769949.0,	issue : 43,	updated_at : 1456769949.0
+
+ident : 190493378,	user : reachspirit,	text : Thursday afternoon works for me. ,	created_at : 1456797575.0,	issue : 43,	updated_at : 1456797575.0
+
+ident : 190525593,	user : trueblue2704,	text : Integrated with clipit-order.,	created_at : 1456803523.0,	issue : 30,	updated_at : 1456803523.0
+
+ident : 190526674,	user : trueblue2704,	text : Integrated with clipit-cmd.,	created_at : 1456803882.0,	issue : 30,	updated_at : 1456803882.0
+
+ident : 190766265,	user : cleebp,	text : Alright, I'll post on Piazza that we could do any of the other times Thursday afternoon, unfortunately they are all booked.
+
+In case we can't get Thursday afternoon the only other time I know I could make is Wednesday afternoon with Shaown, I guess we could meet with him right after our group meeting?,	created_at : 1456845383.0,	issue : 43,	updated_at : 1456845383.0
+
+ident : 190807947,	user : cleebp,	text : Well that was easier than expected, fully implemented going to commit these changes then play around with the package a bit, maybe try to fix that behavior where after you paste you have to hit the paste command again to get the panel back.,	created_at : 1456851151.0,	issue : 44,	updated_at : 1456851151.0
+
+ident : 190808872,	user : cleebp,	text : Might also try to alter the behavior a bit so that when you hit "cmd-c" (ctrl-c) the item immediately appears in the panel, then when you paste from outside source it'll add to the list as well..,	created_at : 1456851236.0,	issue : 44,	updated_at : 1456851236.0
+
+ident : 190817832,	user : cleebp,	text : Going to start posting in a new issue since the mac integration is technically completed.,	created_at : 1456852144.0,	issue : 44,	updated_at : 1456852144.0
+
+ident : 190818734,	user : cleebp,	text : 2. Working on making the paste command also just paste the most recent item into the editor (work in progress, harder than it should be)
+
+3. Might look at fiddling with the panel .css,	created_at : 1456852347.0,	issue : 45,	updated_at : 1456852347.0
+
+ident : 190819171,	user : trueblue2704,	text : Okay, I'll integrate telemetry once you're done. I can probably do it before, but should probably try and avoid those pesky merge conflicts if possible. xD,	created_at : 1456852444.0,	issue : 45,	updated_at : 1456852444.0
+
+ident : 190819674,	user : cleebp,	text : Sounds good, anything else you think I should look at tweaking for the panel's features?,	created_at : 1456852551.0,	issue : 45,	updated_at : 1456852551.0
+
+ident : 190826059,	user : cleebp,	text : > 1. Working on making the paste command also just paste the most recent item into the editor (work in progress, harder than it should be)
+
+This is now implemented in my most recent commit, new goal:
+
+- Fix behavior after clicking an item in the panel having to "reset" the panel back to the view,	created_at : 1456853702.0,	issue : 45,	updated_at : 1456853712.0
+
+ident : 190834629,	user : cleebp,	text : > Fix behavior after clicking an item in the panel having to "reset" the panel back to the view
+
+Fixed, took awhile to figure out how to do this haha.
+
+Probably taking a break for now, I think the panel is in a good place, I wish I understood the way it displays better and how panels work to make it the full height of the panel, which would help with scrolling through items. But I think its definitely demo-able now!,	created_at : 1456855277.0,	issue : 45,	updated_at : 1456855277.0
+
+ident : 190847197,	user : cleebp,	text : Gonna close this issue since we are theoretically done editing clipit-panel before the demo.,	created_at : 1456857747.0,	issue : 45,	updated_at : 1456857747.0
+
+ident : 190847518,	user : cleebp,	text : Done with my additions to clipit-panel, you are clear for departure captain *walkie talkie static*... I need a life...,	created_at : 1456857786.0,	issue : 47,	updated_at : 1456857786.0
+
+ident : 190882313,	user : cleebp,	text : Were you able to get it working on your machine Arjun?,	created_at : 1456863051.0,	issue : 48,	updated_at : 1456863051.0
+
+ident : 190902614,	user : reachspirit,	text : How do you install the package. I lost all my manually installed packages. I'll test it if I can get them installed again.,	created_at : 1456866119.0,	issue : 48,	updated_at : 1456866119.0
+
+ident : 190903175,	user : cleebp,	text : I go to the directory in terminal where the package is located, type "apm install" then "apm link".,	created_at : 1456866182.0,	issue : 48,	updated_at : 1456866182.0
+
+ident : 190905023,	user : reachspirit,	text : There's something wrong with the program, I'll fix it in a while. Sorry about that.,	created_at : 1456866421.0,	issue : 48,	updated_at : 1456866421.0
+
+ident : 191019892,	user : reachspirit,	text : I found the reason for this bug. All you need to do is go to baseorder.coffee and comment the 'if' statement within 'active'. Reload the program and then restore the code. The bug should be fixed this time. I guess the problem is that I pushed some irregular items to history. So clear history would work.,	created_at : 1456884925.0,	issue : 48,	updated_at : 1456884925.0
+
+ident : 191043981,	user : trueblue2704,	text : Done with the integration!,	created_at : 1456890702.0,	issue : 47,	updated_at : 1456890702.0
+
+ident : 191044075,	user : trueblue2704,	text : Before I forget: Need to merge the telemetry branch with master. We can go over this in the meeting and get it done once we've verified everything works as expected.,	created_at : 1456890757.0,	issue : 37,	updated_at : 1456890757.0
+
+ident : 191044303,	user : trueblue2704,	text : Can you fix that submit a pull request? (Or just commit to master directly, but be careful. xD),	created_at : 1456890895.0,	issue : 48,	updated_at : 1456890922.0
+
+ident : 191323047,	user : trueblue2704,	text : Will probably be 10-15 minutes late today.,	created_at : 1456937557.0,	issue : 37,	updated_at : 1456937557.0
+
+ident : 191367975,	user : cleebp,	text : Our demo time is now 3:30pm with Shaown, will close this thread now.,	created_at : 1456944388.0,	issue : 43,	updated_at : 1456944388.0
+
+ident : 191368292,	user : cleebp,	text : Our demo time is now 3:30pm with Shaown, not sure where exactly though...,	created_at : 1456944447.0,	issue : 26,	updated_at : 1456944447.0
+
+ident : 191368522,	user : cleebp,	text : Going to close this issue since its sort of on our wishlist for the feature but won't actually be included in our final demo tomorrow!,	created_at : 1456944490.0,	issue : 27,	updated_at : 1456944490.0
+
+ident : 191380642,	user : cleebp,	text : AAAAAAAAAAAAAAAAAAAAAAA,	created_at : 1456946178.0,	issue : 50,	updated_at : 1456946178.0
+
+ident : 191381417,	user : trueblue2704,	text : Fixed.,	created_at : 1456946301.0,	issue : 48,	updated_at : 1456946301.0
+
+ident : 191397736,	user : cleebp,	text : Here is a tutorial on how to make an envelope
+
+https://www.youtube.com/watch?v=knwh8ODWqKE,	created_at : 1456948322.0,	issue : 26,	updated_at : 1456948322.0
+
+ident : 191407444,	user : cleebp,	text : we fixed it, ungit to the rescue,	created_at : 1456949736.0,	issue : 51,	updated_at : 1456949736.0
+
+ident : 191409298,	user : trueblue2704,	text : :fire_engine:,	created_at : 1456949918.0,	issue : 51,	updated_at : 1456949918.0
+
+ident : 191874777,	user : cleebp,	text : Just emailed Shaown and he said that the meeting will take place in the TA office, which is in EB2 on the first floor in 1229B.,	created_at : 1457026236.0,	issue : 26,	updated_at : 1457026236.0
+
+ident : 191874987,	user : cleebp,	text : Moved to the TODO in the readme for this feature.,	created_at : 1457026260.0,	issue : 35,	updated_at : 1457026260.0
+
+ident : 191949704,	user : trueblue2704,	text : Where is everyone?!,	created_at : 1457037028.0,	issue : 26,	updated_at : 1457037028.0
+
+ident : 191961533,	user : trueblue2704,	text : SUCCESS.,	created_at : 1457038965.0,	issue : 26,	updated_at : 1457038965.0
+
+ident : 191971740,	user : cleebp,	text : Go team!,	created_at : 1457040462.0,	issue : 26,	updated_at : 1457040462.0
+
+ident : 193593594,	user : effat,	text : Available slots : https://goo.gl/OAOZj2,	created_at : 1457409577.0,	issue : 52,	updated_at : 1457409577.0
+
+ident : 193830273,	user : trueblue2704,	text : I'm alright with anything, have no preference really.,	created_at : 1457451943.0,	issue : 52,	updated_at : 1457451943.0
+
+ident : 193831412,	user : trueblue2704,	text : Maybe 7th (Thursday) would be a good option since we could use the Wednesday meeting to prepare/do a dry run of the presentation?,	created_at : 1457452054.0,	issue : 52,	updated_at : 1457452054.0
+
+ident : 193843324,	user : cleebp,	text : Hi sorry for late response was traveling but am back on my laptop now - Thursday the 7th works for me! Maybe we should do the first slot so we can just get it over with?,	created_at : 1457453577.0,	issue : 52,	updated_at : 1457453577.0
+
+ident : 193844028,	user : cleebp,	text : I have tentatively put us down for slot 1 on the 7th, we can change this of course I just wanted to get us down on that day at least in case other groups start to fill it out.,	created_at : 1457453712.0,	issue : 52,	updated_at : 1457453712.0
+
+ident : 194413455,	user : trueblue2704,	text : Okay, never mind. Managed to shift stuff around and should be able to make it by 2-2:30.,	created_at : 1457544457.0,	issue : 54,	updated_at : 1457544457.0
+
+ident : 194449093,	user : cleebp,	text : So I think the room booking site has been offline all day, and all of the normal rooms we grab are full except 3312.
+
+I'm currently in another group study thingy in Hunt but will swing by for a little bit if we are still having the meeting :D,	created_at : 1457549583.0,	issue : 54,	updated_at : 1457549583.0
+
+ident : 194451302,	user : reachspirit,	text : that's fine with me. I'll be there in a couple of minutes
+On Mar 9, 2016 1:53 PM, "Brian Clee" <notifications@github.com> wrote:
+
+> So I think the room booking site has been offline all day, and all of the
+> normal rooms we grab are full except 3312.
+>
+> I'm currently in another group study thingy in Hunt but will swing by for
+> a little bit if we are still having the meeting :D
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/54#issuecomment-194449093>
+> .
+>
+,	created_at : 1457549789.0,	issue : 54,	updated_at : 1457549789.0
+
+ident : 194451843,	user : trueblue2704,	text : I think we should meet to discuss the experiment so that we can have it
+ready by next week to test on people. 😏
+
+I just reached the library. We could meet at 3312 whenever everyone gets
+here.
+,	created_at : 1457549894.0,	issue : 54,	updated_at : 1457549894.0
+
+ident : 194459740,	user : trueblue2704,	text : We managed to get 3218.,	created_at : 1457550882.0,	issue : 54,	updated_at : 1457550882.0
+
+ident : 194469390,	user : trueblue2704,	text : - Pre survey (google forms)
+- Prep
+- Experiment (Telem + observations + check list)
+- Post survey (google forms),	created_at : 1457551984.0,	issue : 54,	updated_at : 1457551984.0
+
+ident : 196104561,	user : trueblue2704,	text : Ran, Effat. Can one of you checkout the telemetry branch and try running telem-windows.py to see if it works. I haven't been able to test it because I don't have Windows, but I think it should work.
+
+Some pre-requisites:
+
+- Install the dependencies (They appear to be from the same package, so one install should work for both):
+  - http://stackoverflow.com/questions/20113456/installing-win32gui-python-module should help with that.
+  - http://stackoverflow.com/questions/15310121/trying-to-install-module-win32clipboard
+
+Let me know if it doesn't work or if you have any problems.,	created_at : 1457920767.0,	issue : 56,	updated_at : 1457920767.0
+
+ident : 197459590,	user : cleebp,	text : I just created another google document and shared it with everyone called "Experiment Check Sheet". The idea is that we will each print out one of these per experiment and take notes on the experiment to be conducted.
+
+Right now it just has basic information like subject's name, date, start/end time, which experiment is being conducted, etc. But it can be expanded to also include the check sheet for each of the tasks we will perform during the experiment.,	created_at : 1458151233.0,	issue : 55,	updated_at : 1458151233.0
+
+ident : 197480066,	user : trueblue2704,	text : Still stuck in a meeting. When are you guys going to be there till?
+,	created_at : 1458153733.0,	issue : 59,	updated_at : 1458153733.0
+
+ident : 197487942,	user : cleebp,	text : Okay so we have decided that the goal of each experiment will be to take a pretty empty project from the "clipboard-history" package, and eventually through a series of tasks build the final working "clipboard-history" package. Tasks will be designed to test specific things like copy/paste across windows, inside the same window, from outside sources, etc. so that we have a range of data points.
+
+ALSO for each task we will build a spreadsheet detailing these metrics for that task so that we can come up with cool stats:
+- Time to completion
+- # windows switched between
+- Errors?
+
+By getting these stats we can then come up with some sort of ranking algorithm that will give us a concrete score for each package that will essentially tell us which was best (to answer that question). We will also have specific post surveys for each package so we can back up this score with user experiences.,	created_at : 1458154468.0,	issue : 55,	updated_at : 1458154468.0
+
+ident : 197489330,	user : cleebp,	text : Ummm well the room reservation ends at 3pm xD,	created_at : 1458154582.0,	issue : 59,	updated_at : 1458154582.0
+
+ident : 199964127,	user : cleebp,	text : So my gigantic slew of assignments has finally slowed down and I should be able to get a ton of work done on this tonight and tomorrow AM, I'll start with taking the code base and breaking it apart into different source files and commenting the lines we want them to look for in their tasks. I'll put this in a new folder on the github so we all have access to it :D,	created_at : 1458673247.0,	issue : 55,	updated_at : 1458673247.0
+
+ident : 199964344,	user : cleebp,	text : This is old so Imma close it,	created_at : 1458673292.0,	issue : 59,	updated_at : 1458673292.0
+
+ident : 200476205,	user : cleebp,	text : - working on testing python script on a windows machine,	created_at : 1458757117.0,	issue : 61,	updated_at : 1458757117.0
+
+ident : 200476350,	user : cleebp,	text : "nooooooo" - arjun,	created_at : 1458757129.0,	issue : 61,	updated_at : 1458757129.0
+
+ident : 200477095,	user : cleebp,	text : "agggg, okay fine i will fix this..." - arjun,	created_at : 1458757191.0,	issue : 61,	updated_at : 1458757191.0
+
+ident : 200497910,	user : effat,	text : Yeeee...fixed the issue..:) :),	created_at : 1458759814.0,	issue : 60,	updated_at : 1458759814.0
+
+ident : 200500054,	user : reachspirit,	text : Experiments will be conducted during the weekend. ,	created_at : 1458760249.0,	issue : 61,	updated_at : 1458760249.0
+
+ident : 200630228,	user : trueblue2704,	text : Fixed!,	created_at : 1458788007.0,	issue : 57,	updated_at : 1458788007.0
+
+ident : 200630302,	user : trueblue2704,	text : "DONE!" - arjun xD,	created_at : 1458788047.0,	issue : 61,	updated_at : 1458788047.0
+
+ident : 201409196,	user : effat,	text : Modified the post survey, added more questions,	created_at : 1458930872.0,	issue : 66,	updated_at : 1458930872.0
+
+ident : 202118795,	user : trueblue2704,	text : What happens with the telemetry? What error do you get?
+On Mar 27, 2016 14:31, "Ran Tan" <notifications@github.com> wrote:
+
+> While doing experiments with a windows machine, I found that the telemetry
+> doesn't work in windows. The package clipit-cmd works in windows, but there
+> seems to be a problem with 'ctr-shift-j'. I need help with setting up the
+> experiment!
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/69>
+>
+,	created_at : 1459103778.0,	issue : 69,	updated_at : 1459103778.0
+
+ident : 202121038,	user : reachspirit,	text : I couldn't find the output file. How do you terminate the script?
+,	created_at : 1459103957.0,	issue : 69,	updated_at : 1459104064.0
+
+ident : 202123018,	user : trueblue2704,	text : You should just be able to hit ctrl c in the terminal to terminate the
+process. The output file should be in the same directory and named whatever
+you passed in as a command line argument.
+On Mar 27, 2016 14:39, "Ran Tan" <notifications@github.com> wrote:
+
+> I couldn't find the out put file. How do you terminate the script?
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/69#issuecomment-202121038>
+>
+,	created_at : 1459104254.0,	issue : 69,	updated_at : 1459104254.0
+
+ident : 202123490,	user : reachspirit,	text : Yes, I did ctrl c to terminate it and got nothing in the local directory.,	created_at : 1459104354.0,	issue : 69,	updated_at : 1459104354.0
+
+ident : 202123849,	user : reachspirit,	text : I tried again and it's working this time,	created_at : 1459104482.0,	issue : 69,	updated_at : 1459104482.0
+
+ident : 202123927,	user : reachspirit,	text : Thanks for the timely help.,	created_at : 1459104519.0,	issue : 69,	updated_at : 1459104519.0
+
+ident : 202124009,	user : trueblue2704,	text : Did you get clipit-cmd working?,	created_at : 1459104535.0,	issue : 69,	updated_at : 1459104535.0
+
+ident : 202125635,	user : reachspirit,	text : When I hit 'ctrl-shift-k', it just delete the previous line and nothing is pasted.,	created_at : 1459104980.0,	issue : 69,	updated_at : 1459104980.0
+
+ident : 202125880,	user : cleebp,	text : Hey I'm travelling right now but the just hitting ctrl shoft j or k should only change the index not actually paste anything - ctrl v will paste from current index.,	created_at : 1459105247.0,	issue : 69,	updated_at : 1459105247.0
+
+ident : 202125943,	user : reachspirit,	text : But why it deletes the previous line? Is that what you get while testing?,	created_at : 1459105320.0,	issue : 69,	updated_at : 1459105320.0
+
+ident : 202126038,	user : cleebp,	text : No I have never seen that behavior, perhaps the previous line is still highlighted when you hit a command? Not sure iv never tried it like that.,	created_at : 1459105419.0,	issue : 69,	updated_at : 1459105419.0
+
+ident : 202126168,	user : cleebp,	text : Did Effat have any problems running clipit-cmd on windows?,	created_at : 1459105579.0,	issue : 69,	updated_at : 1459105579.0
+
+ident : 202126956,	user : reachspirit,	text : Everything is fine, except the 'ctrl-shift-k' in clipit-cmd. Although I have correct the bug in clipit-order, I would like to explain it again in case of any problem. If you get the '@history undifined' error, just comment 'if state' and '@history=state.data' in clipboard.coffee in lib. That should work.,	created_at : 1459106002.0,	issue : 69,	updated_at : 1459106002.0
+
+ident : 202189479,	user : trueblue2704,	text : That error is actually with the baseorder package. Clipit-panel worked fine for me.,	created_at : 1459130104.0,	issue : 70,	updated_at : 1459130104.0
+
+ident : 202189887,	user : trueblue2704,	text : Also, I don't think any of them work with copying from the browser. With the panel version, I noticed it added it to the panel on pasting.,	created_at : 1459130165.0,	issue : 70,	updated_at : 1459130165.0
+
+ident : 202191141,	user : reachspirit,	text : You can see from the picture that it indeed is a problem with clipit-panel.,	created_at : 1459130292.0,	issue : 70,	updated_at : 1459130292.0
+
+ident : 202191519,	user : trueblue2704,	text : The picture says the error was thrown by the baseorder package.,	created_at : 1459130335.0,	issue : 70,	updated_at : 1459130348.0
+
+ident : 202193102,	user : reachspirit,	text : But I disabled the baseorder package while testing the panel. And baseorder does support copy and paste from webpage.,	created_at : 1459130583.0,	issue : 70,	updated_at : 1459130583.0
+
+ident : 202193246,	user : trueblue2704,	text : Not sure what the problem is then. What I meant by "not work" was that it doesn't add anything to the clipboard while copying from an external source. It gets added only when the text is pasted.,	created_at : 1459130690.0,	issue : 70,	updated_at : 1459130690.0
+
+ident : 202193445,	user : trueblue2704,	text : What time was this again? :stuck_out_tongue: ,	created_at : 1459130805.0,	issue : 62,	updated_at : 1459130805.0
+
+ident : 202193743,	user : reachspirit,	text : It should work when history is not empty, but doesn't work if history is empty. I don't know the reason either.
+,	created_at : 1459131025.0,	issue : 70,	updated_at : 1459131025.0
+
+ident : 202217670,	user : effat,	text :  Thanks for pointing out. I've fixed it.,	created_at : 1459135644.0,	issue : 70,	updated_at : 1459135644.0
+
+ident : 202217828,	user : reachspirit,	text : from 12pm to 2pm
+On Mar 27, 2016 10:06 PM, "Arjun Madan" <notifications@github.com> wrote:
+
+> What time was this again? [image: :stuck_out_tongue:]
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/62#issuecomment-202193445>
+>
+,	created_at : 1459135754.0,	issue : 62,	updated_at : 1459135754.0
+
+ident : 202217845,	user : effat,	text : But there is a bug in the base version...i.e. if you copy and paste something in clipboard, and then clear the history by yourself (without closing the program), then if you again try to copy and paste from external source, it does not work :/,	created_at : 1459135764.0,	issue : 70,	updated_at : 1459135764.0
+
+ident : 202220392,	user : cleebp,	text : Well it looks like we are certainly getting data and feedback - also for tomorrows meeting i just remembered that I have office hours from 12-1 so I wont be able to get there till 1 (ill try to leave early).,	created_at : 1459136802.0,	issue : 70,	updated_at : 1459136802.0
+
+ident : 202220713,	user : trueblue2704,	text : I managed to get all four done! :D
+
+12:30 to 2. Don’t think we’ll have that much to discuss anyway (I hope).
+
+-- 
+Arjun
+
+On March 27, 2016 at 11:46:45 PM, Brian Clee (notifications@github.com) wrote:
+
+Well it looks like we are certainly getting data and feedback - also for tomorrows meeting i just remembered that I have office hours from 12-1 so I wont be able to get there till 1 (ill try to leave early).
+
+—
+You are receiving this because you commented.
+Reply to this email directly or view it on GitHub
+
+,	created_at : 1459136904.0,	issue : 70,	updated_at : 1459136904.0
+
+ident : 202221562,	user : effat,	text : Just a clarification-- copy 2 means copying 2 times?,	created_at : 1459137361.0,	issue : 65,	updated_at : 1459137361.0
+
+ident : 202224538,	user : trueblue2704,	text : If you're talking about task 1 copy 2 or something like that, that's just
+the subtask number.
+On Mar 27, 2016 23:56, "effat" <notifications@github.com> wrote:
+
+> Just a clarification-- copy 2 means copying 2 times?
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/65#issuecomment-202221562>
+>
+,	created_at : 1459138244.0,	issue : 65,	updated_at : 1459138244.0
+
+ident : 202459721,	user : cleebp,	text : Hey guys, I posted this in the other issue but I have office hours till 1 so I'll be a bit late. That being said no one really shows up to these so I'll be in the issues trying to contribute where I can.
+
+Thoughts on stuff to get done today:
+
+- Store the data we did end up collecting into the google sheet "experimental data". Right now that sheet is nearly empty (I just filled in some ideas on the organization, its hard to come up with a way to organize the data by participant and by task) so we will need to fill it out with relevant things to care about and fill it in with the data we collected.
+- Document all of the issues we ran into when testing! This is important, we can use those issues as data points themselves in our paper, all data is data :D Not sure where the best place to do this is, maybe in an issue and then also in a google doc or something? We need something we can look at while writing the paper so the temporary existence of issues is an issue... haha... puns...
+- ... more stuff?,	created_at : 1459180977.0,	issue : 62,	updated_at : 1459181151.0
+
+ident : 202467332,	user : effat,	text : Where are you guys? I'm waiting....I'm facing some troubles with telemetry output..it is saying Access denied to write file or something..:/
+
+,	created_at : 1459181801.0,	issue : 62,	updated_at : 1459181801.0
+
+ident : 202470815,	user : trueblue2704,	text : I'll be there in 5
+On Mar 28, 2016 12:16 PM, "effat" <notifications@github.com> wrote:
+
+> Where are you guys? I'm waiting....I'm facing some troubles with telemetry
+> output..it is saying Access denied to write file or something..:/
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/62#issuecomment-202467332>
+>
+,	created_at : 1459182277.0,	issue : 62,	updated_at : 1459182277.0
+
+ident : 202512111,	user : trueblue2704,	text : If you can't get it to work you can try - http://docs.python-guide.org/en/latest/dev/virtualenvs/,	created_at : 1459188431.0,	issue : 72,	updated_at : 1459188431.0
+
+ident : 202949191,	user : cleebp,	text : Looks like some stuff is really bonkers in my system, pip won't work but the solution online is to use home-brew to install python, turns out my home-brew is broken too - weird stuff,	created_at : 1459264716.0,	issue : 72,	updated_at : 1459264716.0
+
+ident : 202949646,	user : trueblue2704,	text : Oh, that's weird. That makes sense though. Because I used homebrew to install Python. Didn't realize it actually made a difference though. Apple :confounded: ,	created_at : 1459264809.0,	issue : 72,	updated_at : 1459264809.0
+
+ident : 202949790,	user : cleebp,	text : It looks like a lot of these problems are common with the El Capitan update which changed a lot of permissions and such, still digging,	created_at : 1459264839.0,	issue : 72,	updated_at : 1459264839.0
+
+ident : 202950047,	user : trueblue2704,	text : You could try manually installing it. 
+
+https://pythonhosted.org/pyobjc/install.html
+
+It seems like you just have to run a bunch of setup.py files.,	created_at : 1459264886.0,	issue : 72,	updated_at : 1459264886.0
+
+ident : 202950629,	user : trueblue2704,	text : Although they might throw the same errors at you. :unamused: ,	created_at : 1459264988.0,	issue : 72,	updated_at : 1459264988.0
+
+ident : 202959871,	user : cleebp,	text : I was able to get virtualenv installed through easy_install and am going to try to get that to work for this, which version of python are you using?,	created_at : 1459265781.0,	issue : 72,	updated_at : 1459265781.0
+
+ident : 202961878,	user : trueblue2704,	text : 2.7 for sure. Not sure about the minor version, but I don't think there's much difference between them in terms of what we're going to be needing. I'm at work now so don't have access to my computer.,	created_at : 1459265901.0,	issue : 72,	updated_at : 1459265901.0
+
+ident : 202966910,	user : cleebp,	text : So after activating the virtualenv with 2.7 I'm getting literally all of the same errors >.<
+,	created_at : 1459266260.0,	issue : 72,	updated_at : 1459266260.0
+
+ident : 202967252,	user : cleebp,	text : Idea: I let them work through the tasks and have a stopwatch with me, record the start stop and total times of each task manually...,	created_at : 1459266286.0,	issue : 72,	updated_at : 1459266286.0
+
+ident : 202968612,	user : trueblue2704,	text : It might work if you can manage to fix homebrew, and install Python through that.
+
+If you can't/don't have time, using a stopwatch should be fine. You only need to log copies though (pastes are done through atom, except when there is no plugin being used).,	created_at : 1459266431.0,	issue : 72,	updated_at : 1459266431.0
+
+ident : 202969296,	user : cleebp,	text : Alright sounds good, I'll keep trying to get it to work but will fall back on that as a last resort.,	created_at : 1459266516.0,	issue : 72,	updated_at : 1459266516.0
+
+ident : 203039676,	user : cleebp,	text : Cool looks good, I'll add my data after all my experiments are done, one question though.
+
+On the second sheets you have total times that are different than the first sheet?
+
+For my data since its being done with a stopwatch I only have the total time like yours on the second sheet (where timing is only done once they start the task, it doesn't include reading time).,	created_at : 1459276189.0,	issue : 73,	updated_at : 1459276189.0
+
+ident : 203040314,	user : trueblue2704,	text : Yeah I filled up the first sheet and then realised it included the reading
+time and that shouldn't really be included as part of the task. I was just
+too lazy to remove it. :P
+On Mar 29, 2016 14:29, "Brian Clee" <notifications@github.com> wrote:
+
+> Cool looks good, I'll add my data after all my experiments are done, one
+> question though.
+>
+> On the second sheets you have total times that are different than the
+> first sheet?
+>
+> For my data since its being done with a stopwatch I only have the total
+> time like yours on the second sheet (where timing is only done once they
+> start the task, it doesn't include reading time).
+>
+> —
+> You are receiving this because you authored the thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/73#issuecomment-203039676>
+>
+,	created_at : 1459276326.0,	issue : 73,	updated_at : 1459276326.0
+
+ident : 203040433,	user : cleebp,	text : Haha okay,	created_at : 1459276347.0,	issue : 73,	updated_at : 1459276347.0
+
+ident : 203554706,	user : reachspirit,	text : Won't come for the meeting. I'm having a stomachache. I've updated the report with a template structure. I'll be watching any posts on the meeting.,	created_at : 1459360809.0,	issue : 63,	updated_at : 1459360809.0
+
+ident : 203558735,	user : cleebp,	text : experiments conducted,	created_at : 1459361251.0,	issue : 64,	updated_at : 1459361251.0
+
+ident : 203559000,	user : cleebp,	text : Sounds good!,	created_at : 1459361271.0,	issue : 63,	updated_at : 1459361271.0
+
+ident : 203570828,	user : trueblue2704,	text : Outline of paper:
+
+- Abstract (Effat)
+- Introduction (Effat)
+- Synopsis (Arjun)
+  - January updates
+  - Overview of features
+    - Panel
+    - Order
+    - Command
+- Experiment (Arjun)
+  - Design/methodologies
+  - Participants
+  - Pre survey
+- Results (Ran)
+  - Discrete results
+  - Compare results
+  - Tables/graphs
+- Discussion (Brian)
+  - Post survey
+  - Best feature
+  - Future work 
+    - each feature improvements
+- Conclusion (Brian)
+- References
+- Appendix,	created_at : 1459362991.0,	issue : 63,	updated_at : 1459364657.0
+
+ident : 203581896,	user : cleebp,	text : Now till Sunday:
+- Work on paper
+- Have full draft finished
+
+Sunday:
+- Edit paper
+- Outline presentation
+
+Sunday to Wednesday:
+- Work on presentation
+
+Wednesday:
+- Edit presentation
+
+Thursday: 
+- Present,	created_at : 1459364301.0,	issue : 63,	updated_at : 1459364301.0
+
+ident : 203586445,	user : trueblue2704,	text : Outline of paper:
+
+- Abstract (Effat)
+- Introduction (Effat)
+- Synopsis (Arjun)
+  - January updates
+  - Overview of features
+    - Panel
+    - Order
+    - Command
+- Experiment (Arjun)
+  - Design/methodologies
+  - Participants
+  - Pre survey
+- Results (Ran)
+  - Discrete results
+  - Compare results
+  - Tables/graphs
+- Discussion (Brian)
+  - Post survey
+  - Best feature
+  - Future work 
+    - each feature improvements
+- Conclusion (Brian)
+- References
+- Appendix,	created_at : 1459364689.0,	issue : 67,	updated_at : 1459364727.0
+
+ident : 203589762,	user : cleebp,	text : Hey Ran since you are not in the meeting right now I'll just leave some notes here on the section you'll be writing...
+
+So we gave you Results, and like the outline above shows (and the name says) this is where we will actually talk about the data from our experiments (by discrete results we just mean numeric results, see the "experimental data" excel sheet). Also compare results here and try to find interesting correlations (i.e. it took people ~4 tasks to learn the feature then all of their speeds increased). Finally make sure to include relevant tables and graphs from our data and reference them in your discussion.
+
+Also just as a reminder the data is all in the "experimental data" google sheet on drive, there are 2 sheets and the second sheet is actually where the interesting data is because it shows times per task per feature.
+
+Finally one last note is that the person I had for control/normal definitely tried way too hard to finish quickly so her data might throw some stuff off.
+
+Also no need to specifically call out a best feature in your results section, as the discussion section will focus more on which feature was the best, etc.
+
+Hope this helps!,	created_at : 1459365117.0,	issue : 67,	updated_at : 1459365117.0
+
+ident : 204088473,	user : reachspirit,	text : Good job! Thanks for the brief.,	created_at : 1459452345.0,	issue : 67,	updated_at : 1459452345.0
+
+ident : 204805733,	user : cleebp,	text : Hey Arjun for the participants subsection it will probably be good to reference the demographics of the actual participants we got (through the pre-survey responses) so I trimmed (read; deleted) all of the responses we got that we didn't actually get data for, hope this helps!,	created_at : 1459631556.0,	issue : 67,	updated_at : 1459631578.0
+
+ident : 205102972,	user : reachspirit,	text : Finished my part of the report. Seems that the report is done. Yeah!,	created_at : 1459735360.0,	issue : 67,	updated_at : 1459735360.0
+
+ident : 205388884,	user : cleebp,	text : Tiny update: most readme's are now finished, I had to put in a placeholder of our report.pdf to get the correct link, I also had to put in a placeholder for our presentation slides to test out how the pdf from google slides looked on github's preview (spoiler it looks good).
+
+Still need to do some little stuff here and there but its much more submitabble looking now!,	created_at : 1459788588.0,	issue : 77,	updated_at : 1459788588.0
+
+ident : 205474051,	user : cleebp,	text : I'm going to go ahead and close this issue now that the whole report is drafted, and open up a new issue to talk specifically about edits if people come across anything big that needs to be changed!,	created_at : 1459800564.0,	issue : 67,	updated_at : 1459800564.0
+
+ident : 205620664,	user : trueblue2704,	text : Made a couple of changes as well - mostly just fixing typos, and working on the grammar.,	created_at : 1459825637.0,	issue : 78,	updated_at : 1459825637.0
+
+ident : 205864408,	user : cleebp,	text : Closing this issue since we ended up just outlining the presentation as a group on the google slides together in our meeting.,	created_at : 1459871117.0,	issue : 74,	updated_at : 1459871117.0
+
+ident : 205865969,	user : cleebp,	text : The more I think about the appendix the more I think we could just site the webpage for our tasks and not worry about it? ,	created_at : 1459871402.0,	issue : 78,	updated_at : 1459871402.0
+
+ident : 205869304,	user : cleebp,	text : So to experiment I commented out the appendix header, cited the tasks.md page and then went through the report and referenced it whenever we made direct reference to the task discriptions/etc, and I think it looks pretty good. 
+
+It also puts us pretty much exactly 6 full pages so thats pretty cool.,	created_at : 1459871877.0,	issue : 78,	updated_at : 1459871877.0
+
+ident : 205889692,	user : cleebp,	text : Just made a bunch of content additions, drafted out slides 2-7 (introduction stuff up to actual feature discussions), made the example tasks slide (it looks like text is overlaying each other but its on purpose, theres animations so 1 task gets replaced by the other), and did the Future Work slide (again stuff is on top of each other, but the animations make it look good). I also added a questions slide and a funny last slide ^.^
+
+To make this easier I'll post a "ToDo" below here and as we go we can take stuff off of it...
+
+Slides left ToDo:
+- Clipit-order
+- Clipit-panel
+- Clipit-cmd
+- Experimental design
+- Results
+- Best Feature
+
+I'm gonna eat lunch then get back to this and will post updates as I go!,	created_at : 1459874804.0,	issue : 79,	updated_at : 1459883531.0
+
+ident : 205940238,	user : cleebp,	text : Finished clipit-cmd and best feature!
+
+Slides left ToDo:
+- Clipit-order
+- Clipit-panel
+- Experimental design
+- Results,	created_at : 1459881555.0,	issue : 79,	updated_at : 1459883535.0
+
+ident : 205946612,	user : cleebp,	text : Also looking at the notes on piazza it seems like we should have a slide dedicated towards telemetry talking about what we did etc., probably place this in-between experiment/tasks, or after tasks not sure... I have added a blank slide for it for now.
+
+Slides left to do:
+- Clipit-order
+- Clipit-panel
+- Experimental design
+- Telemetry
+- Results,	created_at : 1459882300.0,	issue : 79,	updated_at : 1459883539.0
+
+ident : 205972544,	user : reachspirit,	text : I was trying to write something with clipit-order. The problem is that the gif of clipit-order is different from clipit-cmd, so I can't follow the format of clipit-cmd. Do you think it's okay to vary in formats?,	created_at : 1459887070.0,	issue : 79,	updated_at : 1459887070.0
+
+ident : 205978305,	user : cleebp,	text : "I really want you to walk up here and just go."
+
+"If you go over time I will cut you off.",	created_at : 1459888269.0,	issue : 75,	updated_at : 1459888269.0
+
+ident : 206549670,	user : effat,	text : Hey, I have added contents and figure for clipit-panel.,	created_at : 1459974756.0,	issue : 79,	updated_at : 1459974756.0
+
+ident : 206550512,	user : effat,	text : Also, I have highlighted some texts of other slides by different colors and italics font for each of our features. Please have a look :),	created_at : 1459974849.0,	issue : 79,	updated_at : 1459974849.0
+
+ident : 206551502,	user : cleebp,	text : Awesome looks great!
+
+I'm gonna add the updated pdf version to github and link both that and the report to the submissions page.,	created_at : 1459974914.0,	issue : 79,	updated_at : 1459974914.0
+
+ident : 206558183,	user : cleebp,	text : Uploaded newest version of powerpoint to the hub of git then put the shortened url on the submission page!,	created_at : 1459975502.0,	issue : 79,	updated_at : 1459975502.0
+
+ident : 206558314,	user : cleebp,	text : Uploaded newest version of the paper to the hub of git then put the shortened url on the submission page!,	created_at : 1459975519.0,	issue : 78,	updated_at : 1459975519.0
+
+ident : 206970692,	user : cleebp,	text : Going to close this issue since we are theoretically ready to present!,	created_at : 1460045001.0,	issue : 79,	updated_at : 1460045001.0
+
+ident : 206970813,	user : cleebp,	text : Going to close this issue since our report is theoretically done! ,	created_at : 1460045026.0,	issue : 78,	updated_at : 1460045026.0
+
+ident : 209597428,	user : cleebp,	text : Good meeting! Talking about pokemon now so ima close this!,	created_at : 1460574336.0,	issue : 80,	updated_at : 1460574336.0
+
+ident : 210097639,	user : trueblue2704,	text : Some useful stuff we can get from GitHub (overkill):
+
+	1. Activity
+		a. Events
+			i. Get public events for users
+			ii. Get public events for repositories
+		b. Stars
+			i. List repositories starred by a user
+			ii. List users who star a repository
+		c. Watches
+			i. List repositories watched by a user
+			ii. List users who watch a repository
+	2. Git Data
+		a. Commits
+			i. Get a commit
+				1) Author (person who wrote the code)
+				2) Committer (person who added the code to the repo)
+				3) When it was done
+				4) Commit message
+				5) Parent commit
+	3. Issues (including pull requests)
+		a. List issues for a repository
+			i. Labels
+				1) Name
+			ii. Comments
+				1) Body - content
+				2) User who wrote this
+				3) Time
+			iii. Number
+			iv. State
+				1) Open/Closed
+			v. Title
+			vi. Body
+			vii. Milestone (if assigned)
+			viii. Assignee (people actively working on the project)
+	4. Members
+		a. List members of an organization
+			i. Roles - admin, member
+		b. List public organizations a user belongs to
+	5. Teams (requires authentication - might not work)
+		a. Within an organization
+		b. Get list of members
+			i. Active/Pending
+			ii. Role
+	6. Repositories
+		a. List repositories of a user
+			i. Issue count
+			ii. Stars, forks, watches count
+			iii. Languages used
+			iv. URLs for commits, comments, issues, labels, languages.
+		b. Contributors
+			i. Get contributor, sorted in descending order of contributions
+		c. List languages, teams, branches
+	7. Statistics
+		a. Contributor list
+			i. Additions, deletions, commit count
+		b. Weekly commits
+			i. Additions, deletions, commits
+	8. Users
+		a. Single user
+			i. Followers (list + count)
+			ii. Following (list + count)
+			iii. Company
+			iv. Organizations
+			v. Location
+			vi. Email
+			vii. Bio
+			viii. Stars
+			ix. Watches
+			x. Repos,	created_at : 1460659947.0,	issue : 83,	updated_at : 1460659970.0
+
+ident : 210098070,	user : trueblue2704,	text : One thing I thought we could do is find out who owns what files - ownership can be based on who has contributed the most to a file (number of additions - number of deletions), should be able to query this info and store it.,	created_at : 1460660033.0,	issue : 85,	updated_at : 1460660033.0
+
+ident : 210942447,	user : trueblue2704,	text : Just tried the magic gitable script, and turns out it isn't as magical as we thought. Breaks on page two of commits. I'm trying to figure out why, and hopefully will have the data up tomorrow! ,	created_at : 1460861114.0,	issue : 83,	updated_at : 1460861114.0
+
+ident : 210944290,	user : trueblue2704,	text : And I figured out what's wrong. Turns out it breaks when there's no user attached to a commit - which is what some of the commits look like because of the whole email issue. The other groups I tested it on had it break on commits at the same state. I just verified it ran successfully with a group where there was no commit like this. Time to figure out a workaround!,	created_at : 1460861537.0,	issue : 83,	updated_at : 1460861537.0
+
+ident : 211093342,	user : trueblue2704,	text : Okay so turns out the magic scripts are more magical than previously thought! They do EVERYTHING. One thing we'll have to work on is cleaning some of the data because people used different 'names' while committing - the whole different email address issue. I think this has to be done manually. Anyway, I'm adding some of the files the scripts generated, and we have A LOT of data now! And A LOT of the analysis done. 😄 ,	created_at : 1460921788.0,	issue : 83,	updated_at : 1460921788.0
+
+ident : 211094680,	user : trueblue2704,	text : Data uploaded. Take a look everyone! ,	created_at : 1460922083.0,	issue : 83,	updated_at : 1460922083.0
+
+ident : 211629301,	user : effat,	text : Graph is successfully generated.,	created_at : 1461021981.0,	issue : 84,	updated_at : 1461021981.0
+
+ident : 211989386,	user : cleebp,	text : Oh man thats a ton of data, yeah figuring out the dual user thing might have to be done manually or some such but all being said thats a pretty small problem considering all the data we now have haha.,	created_at : 1461081000.0,	issue : 83,	updated_at : 1461081000.0
+
+ident : 212006208,	user : cleebp,	text : Finished outlining the report, shared the document with everyones sharelatex accounts (Effat I shared it with both your gmail and your ncsu emails because I couldn't remember which one you preferred, Ran I shared it with your gmail, Arjun your ncsu).
+
+The general outline of the report is as follows:
+- Abstract
+- Introduction
+- Data collection
+  - how did we collect our data
+  - what was the process like of taking the data and converting it
+  - I know the magic scripts did all this for us but we should walk through all the steps of what it did (that way they know we did more than just take a script and run)
+  - Anonymization, how did it work
+  - Talk about the multi user same user issue (like how it saw Ran as two users), and how we got around it
+- Small Features Detection
+  - bulk of our data reporting goes in this section
+  - at this point these are just the small individual features we do stats on 
+  - include graphs, figures, etc. REFERENCE THEM and talk about them, no phantom figures
+  - "Define 10-20 feature extractors"
+  - don't talk about combining these features into higher level bad smells yet, thats next section
+- Bad Smell Detection
+  - this isn't the early bad smell detector, rather its the bit about ranking all the groups for bad smells at the end of project 1
+  - "combining the feature extractors, report on the bad smells"
+  - so taking all of our little features we reported on, and combining them into more general bad smell categories and how the groups ranked on these.
+- Early Bad Smell Detection
+  - What method did we come up with detecting bad smells early
+  - Test out our methods on project 1 data at different chronological points: "sort all our data chronologically and map out at what times (t1,t2,etc) these bad smells occur"
+- Conclusion,	created_at : 1461083422.0,	issue : 82,	updated_at : 1461083422.0
+
+ident : 212429397,	user : cleebp,	text : Hey all, I just realized I have a lab meeting at 3pm today so I'll have to leave the group meeting early x.x,	created_at : 1461159762.0,	issue : 81,	updated_at : 1461159762.0
+
+ident : 212471790,	user : effat,	text : I have generated graphs for all categories except 3- milestone delays, open close and preshooting. Actually I don't understand the values for these 3 categories. For example- milestone delay .csv files has issue number and a very large positive/negative number associated with it. The sample project report has issue number and  #of days  delayed reported. How could these data be interpreted? ,	created_at : 1461165248.0,	issue : 84,	updated_at : 1461165248.0
+
+ident : 212475194,	user : effat,	text : I think it is number of seconds....,	created_at : 1461165722.0,	issue : 84,	updated_at : 1461165722.0
+
+ident : 212475535,	user : effat,	text : Got it :),	created_at : 1461165770.0,	issue : 84,	updated_at : 1461165770.0
+
+ident : 212480772,	user : reachspirit,	text : ## Small Features
+Summarize the data;
+Cluster the data on time(per week), ownership(per person);
+* Issues
+ + Issue ID
+ + Issue Name
+ + Creation Time (time of first event)
+ + Action Performed (label/unlabel/milestone/closed, etc)
+ + User associated with action
+* Milestones
+ + Milestone ID
+ + Description
+ + Creation Time
+ + Due Time
+ + Closed Time
+ + User who created it
+* Comments
+ + User
+ + Issue comment was on
+ + Timestamp
+ + Text of the comment
+* Commits
+ + User
+ + Timestamp
+ + Message 
+
+## High Level Features
+1. Progress
+    + issues created per week (line chart)
+    + issues closed per week (line chart)
+    + number of commits per week (line chart)
+    + identify the time of each deliverable: wait until the last minute
+
+    management patterns: waterfall or dev-op
+
+2. Communication
+    + participants per issue (pie chart)
+    + comments per issue (pie chart)
+    + frequency of participation per person (pie chart)
+
+    communication patters: centralized or decentralized
+
+3. Collaboration
+    + Per issue assiginees (pie chart)
+    + contribution to the project in commits: number of commits; number of lines in all commits.
+
+4. Effectiveness
+    + lines changed per commit (mean and variance)
+    + repetition of deleted and added files: number of adds/deletes (total/percentage)
+    + bug fixing issues (total/percentage)
+
+## Bad smells
+* normal distribution (get mean and std deviation for each small feature)
+1. progress: large variance, wait until the last minute
+2. communication: insufficient communication(small mean value), One announcer--centralized
+3. collaboration: lack of information on assignees, One person did all the work
+4. effectiveness: unnecessary commits. no report on bug fixing
+
+
+## Early bad smells
+,	created_at : 1461166567.0,	issue : 85,	updated_at : 1461511983.0
+
+ident : 213986503,	user : reachspirit,	text : Hi Arjun, can you take a look at the proposed features and criteria for bad smells in the draft? Is it possible for you to get all the data mentioned in the draft? If no, try to find some other stats to replace those in the draft. Feel free to make some changes to the draft.,	created_at : 1461512262.0,	issue : 83,	updated_at : 1461512262.0
+
+ident : 214075853,	user : trueblue2704,	text : Is there any specific data that's missing? I think we have everything for the things listed already, but I could be mistaken. I guess one thing I can add is the number of lines added/deleted in a commit.,	created_at : 1461544481.0,	issue : 83,	updated_at : 1461544481.0
+
+ident : 214120777,	user : trueblue2704,	text : I've added information regarding number of additions, deletions and changes (additions - deletions) and the data should be available in their respective folders. Let me know if there's anything else you need.,	created_at : 1461557516.0,	issue : 85,	updated_at : 1461557516.0
+
+ident : 214390693,	user : effat,	text : assignment data of group-g.csv is not relevant. I guess it is the data of bug ratio file. Should I use the old data? I have old data saved in my PC.,	created_at : 1461597740.0,	issue : 83,	updated_at : 1461597740.0
+
+ident : 214402140,	user : trueblue2704,	text : Should be fixed now. I forgot to add the new CSV files to the push.,	created_at : 1461598836.0,	issue : 83,	updated_at : 1461598836.0
+
+ident : 214415781,	user : effat,	text : I have added some graphs under rstuff folder. Please have a look. Will generate rest of the graphs soon.,	created_at : 1461599855.0,	issue : 84,	updated_at : 1461599855.0
+
+ident : 214963322,	user : trueblue2704,	text : Your lab is probably a better idea. I bet there are working markers too! 😛 ,	created_at : 1461729091.0,	issue : 86,	updated_at : 1461729091.0
+
+ident : 214967306,	user : reachspirit,	text : Hi, I just realised that one of my exam begins at 1pm instead of the normal
+4:30. I'm afraid that I can't make it at 2pm. I'll let you know if I finish
+it early.
+On Apr 26, 2016 11:51 PM, "Arjun Madan" <notifications@github.com> wrote:
+
+> Your lab is probably a better idea. I bet there are working markers too!
+> 😛
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-214963322>
+>
+,	created_at : 1461731518.0,	issue : 86,	updated_at : 1461731518.0
+
+ident : 215126182,	user : cleebp,	text : Okay so lets plan on my lab KDL (2nd floor of eb 2 by the elevators).
+
+We could also push the meeting back so that Ran can make it, Im free all day :-),	created_at : 1461771942.0,	issue : 86,	updated_at : 1461771942.0
+
+ident : 215128136,	user : trueblue2704,	text : I'm free all day as well, so I don't mind pushing the meeting back.,	created_at : 1461772314.0,	issue : 86,	updated_at : 1461772314.0
+
+ident : 215142895,	user : effat,	text : Hi, I have my graph theory final tomorrow 8-11 am. It's a tough course, I won't be able to attend today's meeting. I'll look at updates of meeting on github.
+
+  ,	created_at : 1461775299.0,	issue : 86,	updated_at : 1461775299.0
+
+ident : 215149096,	user : trueblue2704,	text : Okay, so I guess delaying the meeting so that Ran is there as well makes sense then. We could push it to tomorrow, but I'll be at work till around 4:30, so we might have to meet after that.,	created_at : 1461776559.0,	issue : 86,	updated_at : 1461776559.0
+
+ident : 215162959,	user : cleebp,	text : Lets definitely meet today at like 3:30 then and Ran can show up when he is done. 
+
+We can see how much progress we make and probably meet tomorrow night if needed.
+
+Good luck on your graph theory final!,	created_at : 1461778423.0,	issue : 86,	updated_at : 1461778423.0
+
+ident : 215178860,	user : reachspirit,	text : Hi, I just got it done. Will be there in 10 minutes
+On Apr 27, 2016 11:51 AM, "Arjun Madan" <notifications@github.com> wrote:
+
+> I'm free all day as well, so I don't mind pushing the meeting back.
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-215128136>
+>
+,	created_at : 1461780922.0,	issue : 86,	updated_at : 1461780922.0
+
+ident : 215198212,	user : cleebp,	text : Alright meeting is starting so I'ma write notes here:
+
+Effat if you could also upload your R scripts to the rstuff folder that would be really helpful, you can just add a folder called "scripts" inside rstuff where you drop your code. For example we don't understand your boxplot or what it means?
+
+For features we have organized them into four categories each with their own features.
+
+For our graphs we will create as many as we can for each feature; however, in our report we will only display 4 graphs at a time that have been trimmed to format nicely in the report. When we can include outliers in these display graphs that way we can discuss them. I'm pretty sure we can get R to do this or we can manually trim them and make graphics ourselves.
+
+,	created_at : 1461784601.0,	issue : 86,	updated_at : 1461784601.0
+
+ident : 215202597,	user : cleebp,	text : Also we need 4 barplots for major data summarization comparing data points across groups:
+- Barplot of total number of commits per group 
+- Barplot of total number of issues per group
+- Barplot of total number of comments per group
+- Barplot of total number of milestones per group 
+ ,	created_at : 1461785427.0,	issue : 86,	updated_at : 1461785427.0
+
+ident : 215203379,	user : cleebp,	text : Also we should anonymizing the group names when we create our graphs as such:
+- Group B -> group1
+- Group C -> group2
+- Group F -> group3
+- Group G -> group4
+- Group I -> group5
+- Group M -> group6
+,	created_at : 1461785606.0,	issue : 86,	updated_at : 1461785606.0
+
+ident : 215213468,	user : trueblue2704,	text : Test successful. Closing issue.,	created_at : 1461787927.0,	issue : 87,	updated_at : 1461787927.0
+
+ident : 215225116,	user : cleebp,	text : Here are the features we need graphs for (in addition to those 4 barplots mentioned above, and recreation of the current ones with group numbers instead of letters), also note these are all one chart per group:
+
+1. Line chart, issues closed per week (data/dmp/group-x_event.csv, filter the action column by "closed")
+2. Line chart, number of commits per week  (data/dmp/group-x_commits.csv. the 2nd column is a timestamp that R should be able to make sense of)
+3. Histogram, Comments (participants) per issue  (data/csv/issue_comment, we care about total number of issues with 1 participant, 2 participants, 3, etc.)
+4. Pie chart, comments per user (this is already done, we just need to change group x to group 1, etc.)
+5. Boxplot of true number of comments per issue (data/csv/issue_numcomments)
+6. Per issue assigneed (we have this, we just need to change group letters to numbers)
+7. Pie chart of changes per user (data/csv/changes_made)
+8. Pie chart of issue creations per user (data/csv/issue_create)
+9. Pie chart, Bugratio per group (data/csv/bugratio)
+10. Histogram (maybe a boxplot?), total changes per commit (data/csv/changes_per_commit)
+,	created_at : 1461790262.0,	issue : 86,	updated_at : 1461791081.0
+
+ident : 215229761,	user : cleebp,	text : It would be helpful Effat if you could get these graphs generated as soon as possible (by tomorrow night?), also having just the graphs as .jpegs is fine, in the documents though could you include other information related to that featuere? Things such as means, standard deviations, etc. would be helpful when we are discussing the related graphs in the report.,	created_at : 1461791289.0,	issue : 86,	updated_at : 1461791332.0
+
+ident : 215242683,	user : effat,	text : I'll upload the graphs by tomorrow :),	created_at : 1461794312.0,	issue : 86,	updated_at : 1461794312.0
+
+ident : 215569552,	user : effat,	text : I have uploaded some graphs. But I have some confusions:
+- No of milestone files for group b is needed.
+
+-issue_create : group b and g has 5 users. Should I generate graph with 5 users?
+
+-change_made -- group i has 5 users.
+
+- No 3-- Histogram or boxplot is appropriate for comment per issue? Because some groups have 50~60 issues where users have commented, but the number of users is really low 1~4. I think boxplot is good for it-where we can visualize a range of users commenting on per issue.
+
+
+  ,	created_at : 1461879189.0,	issue : 86,	updated_at : 1461879226.0
+
+ident : 215588842,	user : reachspirit,	text : you can make a bar chart instead if you don't like histogram. Box plot is
+not very good here.
+On Apr 28, 2016 5:33 PM, "effat" <notifications@github.com> wrote:
+
+> I have uploaded some graphs. But I have some confusions:
+>
+>    - No of milestone files for group b is needed. -issue_create : group b
+>    and g has 5 users. Should I generate graph with 5 users? -change_made --
+>    group i has 5 users.
+>    - No 3-- Histogram or boxplot is appropriate for comment per issue?
+>    Because some groups have 50~60 issues where users have commented, but the
+>    number of users is really low 1~4. I think boxplot is good for it-where we
+>    can visualize a range of users commenting on per issue.
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/86#issuecomment-215569552>
+>
+,	created_at : 1461884922.0,	issue : 86,	updated_at : 1461884922.0
+
+ident : 215603438,	user : effat,	text : OK :) I have made bar charts. Please have a look. Do you have any suggestions for labels of X axis and Y axis?,	created_at : 1461890919.0,	issue : 86,	updated_at : 1461890919.0
+
+ident : 215608160,	user : trueblue2704,	text : There was a bug with the milestone code which made it stop searching for milestones after the first open milestone was found. I fixed it and re-uploaded the databases and dumps, and csvs with the correct information. If you re-run the scripts on the milestone files, you should get the correct output now. Sorry about that.
+
+Also Effat, could you upload the scripts you're using to generate the graphs on GitHub in a folder inside the rscripts folder?,	created_at : 1461893556.0,	issue : 86,	updated_at : 1461893556.0
+
+ident : 215610384,	user : effat,	text : I have uploaded R scripts. I have made only 1 R Script for a specific type of graph, and changed input file name each time. 
+
+grA-- pie chart generation script.
+
+For bar chart, I have made a single file containing all groups info. For example grComment.csv contains total number of comments for each group. I gathered them from respective group files.,	created_at : 1461894899.0,	issue : 86,	updated_at : 1461894899.0
+
+ident : 215615683,	user : effat,	text : Can anyone explain me how I can use the info of .csv file to generate the two line graphs? In data/dmp/group-x_commits.csv, the   2nd row is timestamp, I thought it was the timestamp of commiting. But commit#125 has lower timestamp than commit#1. What does this timestamp correspond to?
+
+Also please explain the data of file data/dmp/group-x_event.csv and how I can use this value to generate # issues closed per week.,	created_at : 1461898541.0,	issue : 86,	updated_at : 1461898541.0
+
+ident : 215615797,	user : trueblue2704,	text : It's possible its in descending order. So commit 1 is actually the latest one.,	created_at : 1461898635.0,	issue : 86,	updated_at : 1461898635.0
+
+ident : 215786534,	user : effat,	text : Uploaded commits per week line charts and corresponding R script,	created_at : 1461946502.0,	issue : 86,	updated_at : 1461946502.0
+
+ident : 215787145,	user : effat,	text : I counted the beginning of 1st week since the time stamp for 1st commit in each group.,	created_at : 1461946549.0,	issue : 86,	updated_at : 1461946549.0
+
+ident : 215791395,	user : effat,	text : data of file data/dmp/group-x_event.csv  has two timestamps on each row. Which one is the closing timestamp?,	created_at : 1461946921.0,	issue : 86,	updated_at : 1461946921.0
+
+ident : 215794131,	user : trueblue2704,	text : There is only one timestamp - column 2. The last column is an ID.,	created_at : 1461947242.0,	issue : 86,	updated_at : 1461947247.0
+
+ident : 215794785,	user : cleebp,	text : Those linecharts look really good!
+
+Going to be working on the report today since I'm moving my roommate tomorrow, going to start with adding all of the graphs as single graphics in chunks to the report and placing the figures in the relevent sections, will post here when I'm done :D,	created_at : 1461947315.0,	issue : 86,	updated_at : 1461947315.0
+
+ident : 215821877,	user : cleebp,	text : Working on adding all the graphs as single images such that we can refer to the entire concept of a feature as a single figure (i.e. all 6 issue assignments pie charts are in the same image and figure that way Figure 6 is just "Figure 6: Issue Assignments").
+
+I think this makes the most sense from an organizational and space standpoint, otherwise we will have like 70000 figures (lol), but it starts to look weird when the graphs are quite large, for example the barplots or linecharts.
+
+From what I can tell this issue will only occur with "changes_per_commit", "commitPerWeek", and "issueComment".
+
+Any ideas on how to get around this with our column format? We could just make individual figures for each group but that adds 18 figures (eek), for "changes_per_commit" I went ahead and made a full graphic with all 6 to show how it looks so you can check it out in the document.
+
+Thoughts?,	created_at : 1461950610.0,	issue : 86,	updated_at : 1461950610.0
+
+ident : 215823104,	user : effat,	text : Uploaded graphs of issues closed per week. Note that I have taken the Start Time= Earliest closing time of all issues, End Time=Latest close time among all issues. And I divided (EndTime-Start Time) into weeks. So the number of total weeks varies among groups. ,	created_at : 1461950917.0,	issue : 86,	updated_at : 1461950917.0
+
+ident : 215823356,	user : effat,	text : Also uploaded relevant R script,	created_at : 1461950980.0,	issue : 86,	updated_at : 1461950980.0
+
+ident : 215848482,	user : cleebp,	text : Okay I have created figures for most of the items which are straight foward and put them in the document, here is a list of the ones I have yet to create figures for (note these are all examples of the types of graphs discussed in my earlier post so I'm holding off on making them till we make a decision):
+- issues closed per week (progress)
+- number of commits per week (progress)
+- participants per issue, "issueComment" (communication)
+- * Total changes per commit, iv made a figure of all these plots together as discussed in the comment above but im not sure its the best way to do it (effectiveness)
+
+I really like the linegraphs for the progress sections so those definitely need to stay, but for participants per issue (issueComment) we could also present this in a boxplot similar to issueNumComment.
+
+Thoughts?
+
+I'm gonna take a break from this stuff till tonight so I can check back and work on figures then. I'll be moving my roommate all day tomorrow but might be able to work on this in the PM and Sunday AM.,	created_at : 1461956262.0,	issue : 86,	updated_at : 1461956295.0
+
+ident : 215850409,	user : trueblue2704,	text : Is it possible to fit two line charts side by side like we’re doing with the pie charts or do they become too small?
+I think changes per commit would look good if it were a box plot.
+
+At work now but I can take a look later in the evening.
+,	created_at : 1461956745.0,	issue : 86,	updated_at : 1461956745.0
+
+ident : 215999802,	user : trueblue2704,	text : I've finished section 3 for the figures that were in the report. That leaves the subsections Brian mentioned in his comment above.
+
+The report also doesn't look the greatest because of the whole two column, lots of images thing, but I guess there's no way around that. I'll try and get some more done later tonight.
+
+Effat - could you generate a box plot for the changes per commit, like the one for comments per issue? I think that might better represent the data we have.,	created_at : 1462055287.0,	issue : 86,	updated_at : 1462055298.0
+
+ident : 216004114,	user : effat,	text : I have uploaded the boxplot for changes per commit. But the boxplot does not look much impressive, Gr-C(or Gr 2) data distribution has wide range of value, so you can see only a dot at 8e+06 level along Y axis for group 2. ,	created_at : 1462061410.0,	issue : 86,	updated_at : 1462061410.0
+
+ident : 216004190,	user : trueblue2704,	text : Yikes! Is it possible to remove outliers and show the boxplot? Or any other suggestions?,	created_at : 1462061534.0,	issue : 86,	updated_at : 1462061534.0
+
+ident : 216004327,	user : reachspirit,	text : I'll try get early bad smells done tonight. It would be great if any of you can provide me the data on those features, but sorted chronologically. Let's get it done!,	created_at : 1462061755.0,	issue : 86,	updated_at : 1462061755.0
+
+ident : 216004412,	user : trueblue2704,	text : I think if you use the csv files in the dump, you can sort by the timestamp column in most cases. That might help get some data.,	created_at : 1462061895.0,	issue : 86,	updated_at : 1462061895.0
+
+ident : 216012905,	user : reachspirit,	text : I need to be there to finish my part with early bad smell detection. So,
+see you guys tomorrow.
+On Apr 30, 2016 11:43 PM, "Brian Clee" <notifications@github.com> wrote:
+
+> Hey guys!
+>
+> So as we know the report is due tomorrow night presumably at midnight. We
+> are really close, need a couple more figures and a bit more writing but its
+> almost done :-D
+>
+> Arjun and I are gonna meet in my lab at 1pm to try to work out the rest of
+> the report, if anyone else can make it that would be awesome but its not a
+> necessity if you have other commitments, etc. We will document our progress
+> through this issue.
+>
+> Oh and my lab is the KDL in EB 2 across from the elevators!
+>
+> —
+> You are receiving this because you are subscribed to this thread.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/88>
+>
+,	created_at : 1462074347.0,	issue : 88,	updated_at : 1462074347.0
+

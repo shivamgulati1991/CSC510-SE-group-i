@@ -1,0 +1,63 @@
+ident,user,text,created_at,updated_at
+177365100,nikraina,"Topic Decided...
+Develop Parking Management system..
+",1454208539.0,1454208539.0
+178373436,citizen-kane,"Repost has been completed and uploaded.
+Feb1 milestone complete.",1454388746.0,1454388746.0
+178373487,nikraina,"collected data in 3 forms : online survey, personal interviews, literature survey/reading",1454388765.0,1454388765.0
+186052142,akhan7,"Android studio setup, API's installed.",1455858041.0,1455858041.0
+186084309,eggman89,Installed anrdoid studio and installed APIs,1455863418.0,1455863418.0
+186085229,eggman89,"There are few good ones on Udemy. For example:
+https://www.udemy.com/learn-android-programming-from-scratch-beta/",1455863562.0,1455863562.0
+186738569,eggman89,"Let's get the API key from here:
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&reusekey=true&pli=1",1456028909.0,1456028909.0
+187571354,nikraina,this is done with last commit,1456210021.0,1456210021.0
+187571875,nikraina,"Basics done, intergrated google maps as well",1456210094.0,1456210094.0
+187574441,nikraina,"done with last commit, have a look at code",1456210511.0,1456210511.0
+187644198,citizen-kane,"this works correctly with the last commit performed by nikraina.
+Closing the Issue.",1456223506.0,1456223506.0
+187644528,citizen-kane,"Lynda.com provides a good course on Android Dev - It also helps with learning how to use Google Map APIs with it. You can create an account with a 10-day free trial run for the same.
+Let us know if you find something good yourself.",1456223612.0,1456223612.0
+187660192,citizen-kane,"Bug resolved via last commit. 
+Removed map:mapType = ""satellite"" from activity_map.xml",1456226720.0,1456226720.0
+187673853,citizen-kane,"Issue resolved with last commit -  ""Moved static code from activity_map.xml to MainActitvity.java""",1456229128.0,1456229128.0
+187680207,citizen-kane,Zoom level updated to 14,1456230422.0,1456230422.0
+187686922,citizen-kane,"This has been implemented via the last commit through ""kagarwa"" branch.",1456231967.0,1456231967.0
+187706019,citizen-kane,This feature has been implemented.,1456235345.0,1456235345.0
+187706410,citizen-kane,"After the last commit, where current location is calculated programatically, the emulator shows that the device is unable to connect when the current location button is clicked.
+This needs to be confirmed via a device",1456235441.0,1456235441.0
+187714251,citizen-kane,This feature has been added.,1456236649.0,1456236649.0
+187847914,eggman89,Let's do it with my device today. It's running on Marshmellow.,1456254906.0,1456254906.0
+187849736,eggman89,"I think that's not necessary, if we use the GPS. 
+We can keep it as a 'nice-to-have' feature.",1456255097.0,1456255119.0
+187851219,nikraina,We need to do it otherwise it will open the app on last opened location and the user might be miles away from that,1456255271.0,1456255271.0
+187997957,citizen-kane,"Confirmed on an android Tablet, the app is working correctly.",1456276581.0,1456276581.0
+188004576,citizen-kane,Functionality Added,1456278440.0,1456278440.0
+188622198,nikraina,"added the markers, but need to get the current location as blue circle",1456378568.0,1456378568.0
+188623873,akhan7,Easy to implement.,1456379085.0,1456379085.0
+188633042,nikraina,issue fixed,1456381327.0,1456381327.0
+188633120,nikraina,"implementation done, can later on adjust the color as well",1456381362.0,1456381362.0
+188641624,nikraina,this is done,1456383643.0,1456383643.0
+188642093,nikraina,Need to do more research why this is happening,1456383717.0,1456383717.0
+189753630,nikraina,done..works now,1456619288.0,1456619288.0
+189753639,nikraina,done..works now,1456619300.0,1456619300.0
+189783581,eggman89,Done,1456634972.0,1456634972.0
+190216025,eggman89,Done,1456753279.0,1456753279.0
+191026821,akhan7,Current location found when connected to device.,1456887020.0,1456887020.0
+191343576,citizen-kane,This was resolved with previous batches of commits.,1456940311.0,1456940311.0
+191343978,citizen-kane,this was resolved with the previous batches of commits.,1456940385.0,1456940385.0
+191344141,citizen-kane,SQLite3 database libraries have been used to save data points as and when required.,1456940422.0,1456940422.0
+191344706,citizen-kane,Design has been discussed and formalised.,1456940535.0,1456940535.0
+191344893,citizen-kane,Locations have been added to a db table and are being used accordingly.,1456940578.0,1456940578.0
+191345154,citizen-kane,"An exhaustive list has been compiled through NCSU TRANSPORTATION website.
+Need to confirm if we have covered all of them.",1456940635.0,1456940635.0
+191932279,nikraina,"Fixed the issue with commit SHA fe447a7d693cd5a6e7a7a631a0dab17086d9d50e
+The new solution is available in solution 2 w logs.. cheers \m/",1457034473.0,1457034473.0
+192108809,citizen-kane,"This issue has been fixed.
+Android xml files had ""android:click"" attributes set in the header due to which this issue was occurring.
+These instances have been removed.",1457068555.0,1457068555.0
+192108875,citizen-kane,User Current Location Capture solution has been added to the system.,1457068578.0,1457068578.0
+192354519,nikraina,"I think, this is done no need to investigate it any further",1457110301.0,1457110301.0
+192354739,nikraina,"March 1 milestones completed, added metrics and logs, working perfectly fine now",1457110353.0,1457110353.0
+192355013,nikraina,Closing this one as i believe everyone should have completed this by now,1457110383.0,1457110383.0
+192355642,nikraina,"This seems redundant at this time, already developed the stuff, so guess we are quite familiar with Android :package: ",1457110454.0,1457110454.0

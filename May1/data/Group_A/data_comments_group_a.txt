@@ -1,0 +1,90 @@
+ident : 184417814,	user : shaowns,	text : @sushmarchandran, @Arjun-Code-Knight, @amurark, @Ssukriti, could any of you please confirm that you met with the professor and discussed your three solutions, or you are looking forward to do so? ,	created_at : 1455574468.0,	issue : 1,	updated_at : 1455574468.0
+
+ident : 184421758,	user : Ssukriti,	text : @shaowns ,
+Yes we met with the professor and discussed our three solutions. As per his suggestions, we have added more complexity to our solutions.
+ 
+     ,	created_at : 1455575051.0,	issue : 1,	updated_at : 1455575051.0
+
+ident : 184423261,	user : shaowns,	text : @Ssukriti, thanks. Closing this.,	created_at : 1455575243.0,	issue : 1,	updated_at : 1455575243.0
+
+ident : 186080541,	user : Arjun-Code-Knight,	text : I have committed the base for the server code. It encompasses the initial support for the uploading and saving the files on the web server. It also uses tess4j api's to extract OCR from the images uploaded,	created_at : 1455862494.0,	issue : 7,	updated_at : 1455862494.0
+
+ident : 186080838,	user : Arjun-Code-Knight,	text : The next task left out is to upload the files from our server into Amazon and store the token and links on Mongodb to maintain user specific data,	created_at : 1455862544.0,	issue : 7,	updated_at : 1455862544.0
+
+ident : 186081125,	user : Arjun-Code-Knight,	text : @sushmarchandran Take a look at the tess4j api's. I have already used it on the server. We can go over the details and objects to be stored on the server.,	created_at : 1455862632.0,	issue : 6,	updated_at : 1455862632.0
+
+ident : 186081266,	user : Arjun-Code-Knight,	text : @amurark  I have set up the server from my end. Only few tasks left out to complete. We can have a discussion and you can branch the code to add additional changes to it to support AWS.,	created_at : 1455862702.0,	issue : 5,	updated_at : 1455862715.0
+
+ident : 186081561,	user : Arjun-Code-Knight,	text : https://sourceforge.net/projects/tess4j/ some really cool api's for OCR.. simple and sweet
+,	created_at : 1455862875.0,	issue : 7,	updated_at : 1455862875.0
+
+ident : 186691449,	user : sushmarchandran,	text : Task Completed,	created_at : 1456006455.0,	issue : 6,	updated_at : 1456006455.0
+
+ident : 186703052,	user : Arjun-Code-Knight,	text : Completed server Setup,	created_at : 1456011777.0,	issue : 7,	updated_at : 1456011777.0
+
+ident : 186703081,	user : Arjun-Code-Knight,	text : AWS api's integration with server complete,	created_at : 1456011814.0,	issue : 5,	updated_at : 1456011814.0
+
+ident : 186737635,	user : amurark,	text : Task completed, using java sdk for amazon aws integration.,	created_at : 1456028233.0,	issue : 5,	updated_at : 1456028233.0
+
+ident : 187454657,	user : sushmarchandran,	text : Task Completed,	created_at : 1456188021.0,	issue : 9,	updated_at : 1456188021.0
+
+ident : 189811588,	user : Ssukriti,	text : complete,	created_at : 1456644292.0,	issue : 8,	updated_at : 1456644292.0
+
+ident : 190121954,	user : amurark,	text : Implemented and executed, able to communicate between the windows.,	created_at : 1456738240.0,	issue : 14,	updated_at : 1456738240.0
+
+ident : 190122115,	user : amurark,	text : Cropping of images done, tested on different machines.,	created_at : 1456738283.0,	issue : 13,	updated_at : 1456738283.0
+
+ident : 190613689,	user : amurark,	text : Bug resolved, marking complete,	created_at : 1456821614.0,	issue : 15,	updated_at : 1456821614.0
+
+ident : 190613922,	user : amurark,	text : Functionality implemented, closing it.,	created_at : 1456821670.0,	issue : 16,	updated_at : 1456821670.0
+
+ident : 191380336,	user : amurark,	text : Implemented,	created_at : 1456946138.0,	issue : 18,	updated_at : 1456946138.0
+
+ident : 191380790,	user : amurark,	text : Implemented.,	created_at : 1456946201.0,	issue : 17,	updated_at : 1456946201.0
+
+ident : 191382617,	user : Arjun-Code-Knight,	text : Closing the issue, task completed,	created_at : 1456946488.0,	issue : 12,	updated_at : 1456946488.0
+
+ident : 191385308,	user : Arjun-Code-Knight,	text : Telemetry implementation complete, closing the issue,	created_at : 1456946757.0,	issue : 10,	updated_at : 1456946757.0
+
+ident : 191586202,	user : Ssukriti,	text : done,	created_at : 1456981393.0,	issue : 19,	updated_at : 1456981393.0
+
+ident : 195619976,	user : Arjun-Code-Knight,	text : Done with assignment and discussion,	created_at : 1457744318.0,	issue : 24,	updated_at : 1457744318.0
+
+ident : 198148306,	user : Arjun-Code-Knight,	text : Need to work with the UI team to define contracts and finish the work,	created_at : 1458262602.0,	issue : 30,	updated_at : 1458262602.0
+
+ident : 199497076,	user : amurark,	text : Client side form created with new fields required for telemetry. Ready to call Rest API,	created_at : 1458596133.0,	issue : 26,	updated_at : 1458596133.0
+
+ident : 200630586,	user : Ssukriti,	text : completed,	created_at : 1458788116.0,	issue : 23,	updated_at : 1458788116.0
+
+ident : 201485952,	user : Arjun-Code-Knight,	text : Created new services to cater login and sign up,	created_at : 1458938226.0,	issue : 30,	updated_at : 1458938226.0
+
+ident : 201486306,	user : Arjun-Code-Knight,	text : Created new service for the login,	created_at : 1458938264.0,	issue : 31,	updated_at : 1458938264.0
+
+ident : 201486916,	user : Arjun-Code-Knight,	text : Created new sign up service and integrated with the telemetry services,	created_at : 1458938332.0,	issue : 32,	updated_at : 1458938332.0
+
+ident : 201499967,	user : Arjun-Code-Knight,	text : created new services to handle the cross search ,	created_at : 1458939672.0,	issue : 30,	updated_at : 1458939672.0
+
+ident : 202168979,	user : amurark,	text : Implemented.,	created_at : 1459121836.0,	issue : 21,	updated_at : 1459121836.0
+
+ident : 202177179,	user : Arjun-Code-Knight,	text : Completed the code base for the server side and tested it with Chrome plugin,	created_at : 1459125645.0,	issue : 20,	updated_at : 1459125645.0
+
+ident : 202177211,	user : Arjun-Code-Knight,	text : completed and tested the code base with the chrome plugin,	created_at : 1459125673.0,	issue : 25,	updated_at : 1459125673.0
+
+ident : 202240180,	user : Ssukriti,	text : sign up form added,	created_at : 1459143012.0,	issue : 27,	updated_at : 1459143012.0
+
+ident : 202240245,	user : Ssukriti,	text : added,	created_at : 1459143061.0,	issue : 28,	updated_at : 1459143061.0
+
+ident : 204552232,	user : amurark,	text : completed !!,	created_at : 1459541617.0,	issue : 34,	updated_at : 1459541617.0
+
+ident : 204574677,	user : Ssukriti,	text : handled,	created_at : 1459546820.0,	issue : 38,	updated_at : 1459546820.0
+
+ident : 204594143,	user : sushmarchandran,	text : Completed task,	created_at : 1459550185.0,	issue : 37,	updated_at : 1459550185.0
+
+ident : 204607960,	user : Arjun-Code-Knight,	text : COmpleted after the meeting,	created_at : 1459553753.0,	issue : 30,	updated_at : 1459553753.0
+
+ident : 204608012,	user : Arjun-Code-Knight,	text : COmpleted after discussion and made changes accordingly,	created_at : 1459553787.0,	issue : 33,	updated_at : 1459553787.0
+
+ident : 207495150,	user : Arjun-Code-Knight,	text : closing the, statistics have been collected,	created_at : 1460131573.0,	issue : 36,	updated_at : 1460131573.0
+
+ident : 207495535,	user : Arjun-Code-Knight,	text : Completed, sync up is completed and presentations have been updated,	created_at : 1460131655.0,	issue : 35,	updated_at : 1460131655.0
+

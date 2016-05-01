@@ -1,0 +1,14 @@
+ident : 1573893,	due_at : 1456722000.0,	created_at : 1455063234.0,	m_title : Solution 1: Web Scraping Application,	m_id : 1,	user : sbalakr2,	closed_at : 1456893446.0,	m_description : Develop a web application that scrapes the reviews from the top 3 websites of the user survey.
+
+ident : 1573934,	due_at : 1456722000.0,	created_at : 1455065176.0,	m_title : Solution 2: Plugin Development(Basic functionality),	m_id : 2,	user : rashmisandilya,	closed_at : 1456894057.0,	m_description : To create a plugin for chrome that pops up the reviews from other websites.
+
+ident : 1576386,	due_at : 1456635600.0,	created_at : 1455135071.0,	m_title : Solution 3: Android application for reviews,	m_id : 3,	user : pranjaldeka,	closed_at : 1456893351.0,	m_description : 
+
+ident : 1616609,	due_at : 1456808400.0,	created_at : 1456873101.0,	m_title : Telemetry ,	m_id : 4,	user : pranjaldeka,	closed_at : 1456893417.0,	m_description : #Log of data collected from your user trials for better user experience and improvement of the solution
+
+ident : 1616971,	created_at : 1456893376.0,	m_title : April 1,	m_id : 5,	user : rashmisandilya,	closed_at : 1460053812.0,	m_description : 
+
+ident : 1688649,	due_at : 1460088000.0,	created_at : 1460000214.0,	m_title : Evaluation plan,	m_id : 6,	user : pranjaldeka,	closed_at : 1461986674.0,	m_description : 
+
+ident : 1688666,	due_at : 1460088000.0,	created_at : 1460001204.0,	m_title : Bad smell code,	m_id : 7,	user : pranjaldeka,	closed_at : 1460053827.0,	m_description : 
+

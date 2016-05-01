@@ -1,0 +1,150 @@
+ident : 182671402,	user : jordy-jose,	text : To check the feasibility of solution 1 as an Android application
+-Started learning Android App development.
+-Developed two simple applications during the process.
+Solution 1 would make more sense as an easy to use, light weight mobile app.
+This is achievable. Hence, closing the issue.,	created_at : 1455155913.0,	issue : 5,	updated_at : 1455155913.0
+
+ident : 182672568,	user : Angelyn,	text : Started learning Database design,	created_at : 1455156463.0,	issue : 6,	updated_at : 1455156463.0
+
+ident : 182721655,	user : jordy-jose,	text : checked in the prototype for the Database Connection module demo, along with user authentication functionality.
+planning to give the demo on 11 FEB 3PM.,	created_at : 1455169305.0,	issue : 10,	updated_at : 1455169305.0
+
+ident : 182888893,	user : stutinanda,	text : Done,	created_at : 1455201090.0,	issue : 13,	updated_at : 1455201090.0
+
+ident : 182895279,	user : stutinanda,	text : http://www.sitepoint.com/twitter-bootstrap-tutorial-handling-complex-designs/,	created_at : 1455202208.0,	issue : 15,	updated_at : 1455202208.0
+
+ident : 183053627,	user : jordy-jose,	text : Demo given!,	created_at : 1455223434.0,	issue : 10,	updated_at : 1455223434.0
+
+ident : 183827732,	user : ssharm,	text : Ran a dummy end to end system with the technologies finalized.,	created_at : 1455430001.0,	issue : 7,	updated_at : 1455430001.0
+
+ident : 183827751,	user : ssharm,	text : Checked in project to git repo.,	created_at : 1455430034.0,	issue : 12,	updated_at : 1455430034.0
+
+ident : 183827764,	user : ssharm,	text : Checked in code.,	created_at : 1455430078.0,	issue : 8,	updated_at : 1455430078.0
+
+ident : 184905604,	user : jordy-jose,	text : Not a good idea to merge to master branch now. Hence, closing the request.,	created_at : 1455662760.0,	issue : 29,	updated_at : 1455662760.0
+
+ident : 184906254,	user : jordy-jose,	text : Completed. Changes checked in to branch Solution1.,	created_at : 1455662923.0,	issue : 26,	updated_at : 1455662923.0
+
+ident : 184906352,	user : jordy-jose,	text : Completed. Changes checked in to branch Solution 1,	created_at : 1455662943.0,	issue : 27,	updated_at : 1455662943.0
+
+ident : 184906520,	user : jordy-jose,	text : Completed. Changes checked in to branch Solution 1.,	created_at : 1455662987.0,	issue : 28,	updated_at : 1455662987.0
+
+ident : 186652378,	user : ssharm,	text : Solution 3 and Solution 2 can share this functionality.,	created_at : 1455987371.0,	issue : 31,	updated_at : 1455987371.0
+
+ident : 187298533,	user : ssharm,	text : Implemented and pushed the changes.,	created_at : 1456164506.0,	issue : 31,	updated_at : 1456164506.0
+
+ident : 187298885,	user : ssharm,	text : Have implemented new LoginHelperService in server code to make data connection.,	created_at : 1456164573.0,	issue : 32,	updated_at : 1456164573.0
+
+ident : 187299093,	user : ssharm,	text : Committed the changes and merged with master,	created_at : 1456164618.0,	issue : 19,	updated_at : 1456164618.0
+
+ident : 187529203,	user : Angelyn,	text : Created A schema with the 2 tables
+One for login
+Another for checking the course requirements for 'Master of Science',	created_at : 1456203040.0,	issue : 30,	updated_at : 1456203040.0
+
+ident : 187831621,	user : Angelyn,	text : Database created ,	created_at : 1456252335.0,	issue : 46,	updated_at : 1456252335.0
+
+ident : 188144560,	user : Angelyn,	text : Created an interface and a new class MsHelper to insert the HashMap data into the database, update the database and also read the table,	created_at : 1456303997.0,	issue : 33,	updated_at : 1456303997.0
+
+ident : 188622227,	user : stutinanda,	text : ![image](https://cloud.githubusercontent.com/assets/13955480/13310857/bb7fddd6-db57-11e5-8b61-d6d29046e013.jpg),	created_at : 1456378588.0,	issue : 43,	updated_at : 1456378588.0
+
+ident : 188622997,	user : stutinanda,	text : ![image2](https://cloud.githubusercontent.com/assets/13955480/13310954/85eac5f4-db58-11e5-87fd-9a0448dc6652.jpg)
+,	created_at : 1456378899.0,	issue : 42,	updated_at : 1456378899.0
+
+ident : 188627453,	user : stutinanda,	text : Done,	created_at : 1456379840.0,	issue : 45,	updated_at : 1456379840.0
+
+ident : 189739291,	user : ssharm,	text : Widgets used can be found under CustomWidgets class,	created_at : 1456611981.0,	issue : 39,	updated_at : 1456611981.0
+
+ident : 189739328,	user : ssharm,	text : Login and logout module can be found under LoginHelperService,	created_at : 1456612021.0,	issue : 38,	updated_at : 1456612021.0
+
+ident : 189739368,	user : ssharm,	text : Created dummy dataset demo on MySql to test the app,	created_at : 1456612060.0,	issue : 18,	updated_at : 1456612060.0
+
+ident : 189739404,	user : ssharm,	text : Created Validator class in server code to do the validation.,	created_at : 1456612094.0,	issue : 17,	updated_at : 1456612094.0
+
+ident : 189739456,	user : ssharm,	text : Implemented some basic xml and html project base page structure,	created_at : 1456612138.0,	issue : 37,	updated_at : 1456612138.0
+
+ident : 189739476,	user : ssharm,	text : Basic css implemented,	created_at : 1456612158.0,	issue : 36,	updated_at : 1456612158.0
+
+ident : 189767685,	user : jordy-jose,	text : implemented and pushed,	created_at : 1456627715.0,	issue : 56,	updated_at : 1456627715.0
+
+ident : 189783980,	user : jordy-jose,	text : Done!,	created_at : 1456635768.0,	issue : 57,	updated_at : 1456635768.0
+
+ident : 189804096,	user : jordy-jose,	text : Done,	created_at : 1456642753.0,	issue : 59,	updated_at : 1456642753.0
+
+ident : 189839925,	user : jordy-jose,	text : Done,	created_at : 1456657176.0,	issue : 60,	updated_at : 1456657176.0
+
+ident : 189864157,	user : jordy-jose,	text : Done!,	created_at : 1456663575.0,	issue : 61,	updated_at : 1456663575.0
+
+ident : 189923910,	user : jordy-jose,	text : Done.,	created_at : 1456686612.0,	issue : 58,	updated_at : 1456686612.0
+
+ident : 189933160,	user : ssharm,	text : Pushed generateReportFunction function for validation,	created_at : 1456689110.0,	issue : 40,	updated_at : 1456689110.0
+
+ident : 189943068,	user : jordy-jose,	text : Done,	created_at : 1456692321.0,	issue : 62,	updated_at : 1456692321.0
+
+ident : 189960572,	user : jordy-jose,	text : Done,	created_at : 1456699196.0,	issue : 64,	updated_at : 1456699196.0
+
+ident : 190052210,	user : jordy-jose,	text : Done,	created_at : 1456723892.0,	issue : 65,	updated_at : 1456723892.0
+
+ident : 190054880,	user : jordy-jose,	text : verified.,	created_at : 1456724496.0,	issue : 66,	updated_at : 1456724496.0
+
+ident : 190054904,	user : jordy-jose,	text : Verified,	created_at : 1456724514.0,	issue : 67,	updated_at : 1456724514.0
+
+ident : 190054930,	user : jordy-jose,	text : Verified,	created_at : 1456724534.0,	issue : 68,	updated_at : 1456724534.0
+
+ident : 190054963,	user : jordy-jose,	text : Verfied,	created_at : 1456724557.0,	issue : 69,	updated_at : 1456724557.0
+
+ident : 190055015,	user : jordy-jose,	text : Verified,	created_at : 1456724584.0,	issue : 70,	updated_at : 1456724584.0
+
+ident : 190055043,	user : jordy-jose,	text : Verified,	created_at : 1456724604.0,	issue : 71,	updated_at : 1456724604.0
+
+ident : 190055071,	user : jordy-jose,	text : Verified,	created_at : 1456724620.0,	issue : 72,	updated_at : 1456724620.0
+
+ident : 190055151,	user : jordy-jose,	text : achieved.,	created_at : 1456724670.0,	issue : 23,	updated_at : 1456724670.0
+
+ident : 190055181,	user : jordy-jose,	text : achieved,	created_at : 1456724688.0,	issue : 24,	updated_at : 1456724688.0
+
+ident : 190055213,	user : jordy-jose,	text : achieved,	created_at : 1456724703.0,	issue : 25,	updated_at : 1456724703.0
+
+ident : 190304402,	user : stutinanda,	text : Providing the context (i.e. through form) as if its coming through my pack itself.,	created_at : 1456767479.0,	issue : 73,	updated_at : 1456767479.0
+
+ident : 190304512,	user : stutinanda,	text : Done,	created_at : 1456767503.0,	issue : 55,	updated_at : 1456767503.0
+
+ident : 190306443,	user : stutinanda,	text : Done,	created_at : 1456767926.0,	issue : 74,	updated_at : 1456767926.0
+
+ident : 190306688,	user : stutinanda,	text : Done,	created_at : 1456767978.0,	issue : 76,	updated_at : 1456767978.0
+
+ident : 190306728,	user : stutinanda,	text : Done,	created_at : 1456767988.0,	issue : 75,	updated_at : 1456767988.0
+
+ident : 190547014,	user : stutinanda,	text : done ,	created_at : 1456808377.0,	issue : 80,	updated_at : 1456808377.0
+
+ident : 190547059,	user : stutinanda,	text : done,	created_at : 1456808397.0,	issue : 77,	updated_at : 1456808397.0
+
+ident : 190547082,	user : stutinanda,	text : done,	created_at : 1456808407.0,	issue : 78,	updated_at : 1456808407.0
+
+ident : 190548551,	user : stutinanda,	text : done,	created_at : 1456808870.0,	issue : 81,	updated_at : 1456808870.0
+
+ident : 190548729,	user : stutinanda,	text : done,	created_at : 1456808943.0,	issue : 82,	updated_at : 1456808943.0
+
+ident : 190985416,	user : stutinanda,	text : Updated the draft. Sending for review. Closing this issue.,	created_at : 1456878029.0,	issue : 83,	updated_at : 1456878029.0
+
+ident : 191015220,	user : jordy-jose,	text : completed.,	created_at : 1456883509.0,	issue : 84,	updated_at : 1456883509.0
+
+ident : 191015248,	user : stutinanda,	text : Reviewed the updates. ,	created_at : 1456883513.0,	issue : 84,	updated_at : 1456883513.0
+
+ident : 191015653,	user : jordy-jose,	text : closing the issue!,	created_at : 1456883634.0,	issue : 84,	updated_at : 1456883634.0
+
+ident : 205359946,	user : stutinanda,	text : Created initial survey questions for solution3. ,	created_at : 1459784818.0,	issue : 87,	updated_at : 1459784818.0
+
+ident : 206420550,	user : stutinanda,	text : @Angelyn Please review the questions and let me know if they need any revisions,	created_at : 1459955573.0,	issue : 87,	updated_at : 1459955573.0
+
+ident : 206459244,	user : ssharm,	text : Closing the issue. Will be documented in report as one of the enhancement.,	created_at : 1459961136.0,	issue : 41,	updated_at : 1459961136.0
+
+ident : 206488635,	user : Angelyn,	text : Users were studied and the usage of Solution2 was evaluated,	created_at : 1459965475.0,	issue : 90,	updated_at : 1459965475.0
+
+ident : 206491364,	user : Angelyn,	text : I have read the questions. Looks good. We can send them out,	created_at : 1459965717.0,	issue : 87,	updated_at : 1459965717.0
+
+ident : 206491694,	user : stutinanda,	text : Thanks! closing this issue.,	created_at : 1459965738.0,	issue : 87,	updated_at : 1459965738.0
+
+ident : 206615953,	user : Angelyn,	text : Survey created and sent out.. ,	created_at : 1459984547.0,	issue : 88,	updated_at : 1459984547.0
+
+ident : 206616540,	user : jordy-jose,	text : Done!,	created_at : 1459984677.0,	issue : 85,	updated_at : 1459984677.0
+

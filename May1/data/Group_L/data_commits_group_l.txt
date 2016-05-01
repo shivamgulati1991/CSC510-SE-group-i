@@ -1,0 +1,165 @@
+sha : 9a93df18ca3cf21602287e28d82db686e34cfc33,	message : may deliverable,	user : ZealGanatra,	time : 1460940505.0
+
+sha : e99466f17b8afa9fb88df4ba0404abbc0aef35d5,	message : May,	user : ZealGanatra,	time : 1460939631.0
+
+sha : ece59fbd77e8694ce8ef667f20bf34b2de7db64b,	message : MAy,	user : ZealGanatra,	time : 1460939566.0
+
+sha : ac21a5caa8c54de8292be2662303863400a98bc3,	message : Updating the presentation,	user : sandz-in,	time : 1460303611.0
+
+sha : c054f5c6743cabca9b1daf571822903e23dcebad,	message : Updating the presentation,	user : sandz-in,	time : 1460303576.0
+
+sha : 81210003b1336854dfd0e5335558de0d61d43b41,	message : Update README.md,	user : sandz-in,	time : 1460080740.0
+
+sha : c34a67da3160ee300b48b2161f32a889af8c9d34,	message : Adding the April deliverable to readme.,	user : sandz-in,	time : 1460080700.0
+
+sha : 1a9e4a068c4cf7908ba7dd360dc037740de35144,	message : Create REAME.md for april deliverable,	user : sandz-in,	time : 1460080635.0
+
+sha : 81bbe58a3e972a586bf9da179984795eaba439ea,	message : Updating april report,	user : sandz-in,	time : 1460080273.0
+
+sha : d3933647acf203a483e4b5b4ef598cc93655700a,	message : Delete Group_L_Report.pdf,	user : okeashwin,	time : 1460079234.0
+
+sha : eeff52e0ed8cbe2b1017044d7e3fe5e891b8107d,	message : Adding Report,	user : okeashwin,	time : 1460079114.0
+
+sha : af1d960cd7530e9c7546a34134e157868bb9cb99,	message : Delete Group_L_Report.pdf,	user : okeashwin,	time : 1460079039.0
+
+sha : 41062af487bbc9ff72b1080d4f218afdb224df51,	message : Adding April deliverables,	user : okeashwin,	time : 1460078878.0
+
+sha : 8d03129f5905b0f01bc18608a693e2eb879ddce9,	message : Create ReadmeApr7.md,	user : okeashwin,	time : 1460078505.0
+
+sha : c3331bbdd7b71725edf991e4160fa54d5d51401f,	message : Apri Deliverable,	user : sandz-in,	time : 1460059333.0
+
+sha : 0bdd208ecc3b288f9295864895d59dbc1e8a2ed1,	message : Updating the telemetry,	user : sandz-in,	time : 1459624276.0
+
+sha : 46db104c7caac69fcfb05d8f5213bffebbc02e6e,	message : #56 Telemetry queries,	user : okeashwin,	time : 1459618557.0
+
+sha : 112411608f63bf2edd2dc6b53d326f5b17d34ae3,	message : #54 Integrating voice flow,	user : okeashwin,	time : 1459194776.0
+
+sha : 28dbeeb25a831afcc63165eb8b6e9aba04067533,	message : #40 Desc from Sms,	user : okeashwin,	time : 1459193308.0
+
+sha : dc061635eb1d8bf95764532655a6e21a4ed1438a,	message : #49 Schema changes to collect the telemetry.,	user : sandz-in,	time : 1459145436.0
+
+sha : 37fe7c8b9279229a18aff676e47ee74dd9af654a,	message : #49 Schema changes to collect the telemetry.,	user : sandz-in,	time : 1459145399.0
+
+sha : 67aecff3edd7214a5540247003b8f129e5397e25,	message : #50 Telemetries from client to server,	user : sandz-in,	time : 1459145325.0
+
+sha : 5d84d57b6f1c39975640252e12d1cd5f7d01e8bd,	message : #51 Correcting the project configuration.,	user : sandz-in,	time : 1459145172.0
+
+sha : 9fc3be65e05ba5983030a2baf782723d7eb5b0c7,	message : #47 Setup,	user : okeashwin,	time : 1459107622.0
+
+sha : 3a0ee52414134576b289a1e809ba487c9b558e68,	message : #48 Adding an ExpenseItem POJO,	user : okeashwin,	time : 1459106511.0
+
+sha : 0851f4aeaf7977fec638a465fd232853a7a0d83a,	message : #44 Added logic for keystroke counts,	user : okeashwin,	time : 1459048149.0
+
+sha : a1e0af8e2bf01994616803a9033e1b8c94f70434,	message : Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+
+Conflicts:
+	.gitignore
+	ExpenseTracking/.idea/vcs.xml
+	ExpenseTracking/app/src/main/java/com/expensetracking/AddExpenses.java,	user : okeashwin,	time : 1459023090.0
+
+sha : 34d0d26910e5cba810e9b49abc6052ef30d3caeb,	message : #44 Framework Setup,	user : okeashwin,	time : 1459022881.0
+
+sha : 369940f68739bf0fbef41f86d0cb41258cbc91ee,	message : #44 Framework Setup,	user : okeashwin,	time : 1459022558.0
+
+sha : c6dbdd7cde9b31d70cbd16f11bdee33bbe98a935,	message : Merge remote-tracking branch 'origin/master',	user : sandz-in,	time : 1459017999.0
+
+sha : 975ea7cc26e65015bf1b1254ef36d4df50d6f555,	message : #41 Duration of expenses.,	user : sandz-in,	time : 1459017983.0
+
+sha : d992ad747f2f589658103611b3bd54b9df7b28a8,	message : voice,	user : poojaasher,	time : 1459011430.0
+
+sha : d09e5ff45980f1a92d3d596794bf19d1dc10b674,	message : Changes in voice input to include only numbers,	user : poojaasher,	time : 1459011142.0
+
+sha : b3001a92578f67f4b63170a661f5803bf915b653,	message : Added voice description to Voice input,	user : poojaasher,	time : 1459010323.0
+
+sha : b65a33bd545e199483548e34ce02fdf676c69c56,	message : Merge remote-tracking branch 'origin/master',	user : sandz-in,	time : 1458086746.0
+
+sha : baee4a67179005354811e54636711538dea0b51c,	message : #41: Telemetry to measure the time.,	user : sandz-in,	time : 1458086585.0
+
+sha : 29c6a107f56169e64d44a3141634064548828254,	message : Update README.md,	user : poojaasher,	time : 1456976910.0
+
+sha : 22e2fe281ae7c5942d6ad1f9fb57d0517a0803ed,	message : UI Tweaks for demo,	user : sandz-in,	time : 1456976884.0
+
+sha : 0a6ae923cf4035ebfb1ac87544567854e7f2d1d8,	message : UI Tweaks for demo,	user : sandz-in,	time : 1456976840.0
+
+sha : cb87d6d680dfa8c3427e3f191e1844cb497d7e4e,	message : Update README.md,	user : poojaasher,	time : 1456976754.0
+
+sha : be4d81f65cebacfc6e3f0f7ee262ff5dddab560b,	message : Updating the telemetry,	user : sandz-in,	time : 1456973215.0
+
+sha : 0cbe27d812cd616022b5c36e8b28965cf022f94c,	message : Bill Type,	user : sandz-in,	time : 1456967141.0
+
+sha : 8cb0d2a48a875348d75dcf7725b338864ab1d562,	message : Merge branch 'master' of github.com:sandz-in/csc510_group_l,	user : sandz-in,	time : 1456896364.0
+
+sha : cc566a9a1306b508e84b313d71b918acfb54815a,	message : #28 Processing the image to improve result.,	user : sandz-in,	time : 1456896322.0
+
+sha : 6800b894e94806d67ac007ea7978572cce4176f9,	message : Update Readme.md,	user : okeashwin,	time : 1456893062.0
+
+sha : 82e9554f30a4187ec96e5108765a3eda939d66a9,	message : Updating the readme for the project.,	user : sandz-in,	time : 1456891983.0
+
+sha : f58f674508d87a1a0fe1e85843b4cdb735fb4afe,	message : Updating the readme for the project.,	user : sandz-in,	time : 1456891885.0
+
+sha : e9ed4721c41a7609bc3b28b1f7ccb4ef96d5b041,	message : #38 Added Bill Submission type logic,	user : okeashwin,	time : 1456890006.0
+
+sha : 542c8c3ad785e322979f016a7fec7f1c0b77c817,	message : #34: On save, send the amount and description to backend by making REST API call.,	user : sandz-in,	time : 1456886018.0
+
+sha : 0fdbb8ca579c8bee5598a2643b7bbc2853ee0d94,	message : #34: On save, send the amount and description to backend by making REST API call.,	user : sandz-in,	time : 1456882385.0
+
+sha : 7a215ec97571af7d85e7761d07629ba12967b097,	message : #34 Communicating with the backend using interface,	user : sandz-in,	time : 1456880228.0
+
+sha : 79a86b3520700fc81406aa16fa40935b2c3819de,	message : #37 Added loggers to Android activities,	user : okeashwin,	time : 1456707877.0
+
+sha : 4e65b17b4f1e833171d68f9fccf79dab8d884a38,	message : Fix: Populating bill amount via voice,	user : okeashwin,	time : 1456706560.0
+
+sha : c54d1f4cce50d8427a33d25ebbe10cdcc436c83f,	message : voice,	user : poojaasher,	time : 1456642762.0
+
+sha : 8bac6c8f52d84853931e3bb38c97a85a8a683e72,	message : Attempting merge conflict resolves,	user : poojaasher,	time : 1456639449.0
+
+sha : 4f56a38fbd2ad864d8a8b612bec44562138bdb39,	message : Integrating camera scan solution,	user : ZealGanatra,	time : 1456639066.0
+
+sha : c5fe6f8dd3ade51577c7c891dc43dd3faaefe097,	message : Attempting merge conflict resolves,	user : ZealGanatra,	time : 1456636516.0
+
+sha : 33db6d1878b21a0844d91abcb36d15f1264ed609,	message : Changed minSdk,	user : okeashwin,	time : 1456635275.0
+
+sha : e98da48542f387834c5d38b0a729990e788a7043,	message : Adding functionality for the saving the bill amount and description,	user : pmukher,	time : 1456633620.0
+
+sha : f2cc563af383f3cf683476b0a429ceb32fac5960,	message : Integrating the expense description,	user : pmukher,	time : 1456631869.0
+
+sha : f45ac648ccb42cd1b043d279a363d8f870a193ac,	message : Integrating SMS Feed,	user : pmukher,	time : 1456630459.0
+
+sha : 987db0a4cee0d4a0d36e66c00690021e6bd6514a,	message : #27: Login screen,	user : sandz-in,	time : 1456629284.0
+
+sha : ec0461912fc2d3101c970ae00fa6fda5e03b28a2,	message : Wrong commit,	user : sandz-in,	time : 1456628982.0
+
+sha : 520641c7d8e9c9dcf4ccc722b4a61423ed4d15aa,	message : Wrong commit,	user : sandz-in,	time : 1456628958.0
+
+sha : 5a69f9326fc55c214c87443d5e81305d832044ac,	message : Wrong commit,	user : sandz-in,	time : 1456628905.0
+
+sha : 9b6640e58320a8ffcc3f16c280377eb539473b9a,	message : Wrong commit,	user : sandz-in,	time : 1456628832.0
+
+sha : 8f0a09bf634eb818333792bb91132bde9d73ae55,	message : Wrong commit,	user : sandz-in,	time : 1456628798.0
+
+sha : 56069649384b2accfc5b35cab86c9ff0415675f5,	message : Wrong commit,	user : sandz-in,	time : 1456628752.0
+
+sha : ec502bc16ed2160fe8d1b53768dad6db59a64a17,	message : Merging,	user : sandz-in,	time : 1456628662.0
+
+sha : 8dcda8feae4ae93e4303cc93afee411709c99312,	message : Deleted Voice app,	user : poojaasher,	time : 1456624935.0
+
+sha : 592c6c225c2f66046a57d4323d9be030d746464f,	message : Demo added,	user : poojaasher,	time : 1456624802.0
+
+sha : 43d5ff5a9f9e270a54e86ec1f55ad077c38720d8,	message : Committing integration changes,	user : pmukher,	time : 1456624413.0
+
+sha : 54402e9943a72b527213159d8f4597c448df00df,	message : Merge branch 'master' of https://github.com/sandz-in/csc510_group_l,	user : poojaasher,	time : 1456621989.0
+
+sha : 07b01ce8dcb6276459f66fe20c56cd02b0092b5b,	message : added voiceApp,	user : poojaasher,	time : 1456621966.0
+
+sha : 6a8d36d6a5948c8ffa006631ee0e5b809be3a6ef,	message : added submodule,	user : ZealGanatra,	time : 1456621493.0
+
+sha : 45e781bca6cf15954e4f8bb535338f53c07496bd,	message : #36 Image CLicker readded,	user : ZealGanatra,	time : 1456621118.0
+
+sha : 797133e2f8743287d9e884b69e3bae60223c77ec,	message : Removing the folder,	user : ZealGanatra,	time : 1456620920.0
+
+sha : 021ca9bc4bbd978c2544c30362f9b2993c8cd365,	message : Deleting Image clicker,	user : ZealGanatra,	time : 1456620160.0
+
+sha : 934e66f30db4202bb3a0d99c9bab448a522bbda5,	message : Merge branch 'master' of https://github.com/sandz-in/csc510_group_l,	user : ZealGanatra,	time : 1456620028.0
+
+sha : 285fe14eb4294244ec6b833445b019fb0420e6b1,	message : #29 Basic 2 pane navigation,	user : okeashwin,	time : 1456619773.0
+

@@ -1,0 +1,248 @@
+sha : 00d11486ae6c168916f4707d8d88f52419f461d3,	message : Added files via upload,	user : effat,	time : 1462061036.0
+
+sha : d7d9c5a81cec3ddb5a73c92892f5f483cca08667,	message : Added files via upload,	user : effat,	time : 1461952296.0
+
+sha : 7db88765e937f77c6ef101bf5776189de0f84b40,	message : Create a.gitkeep,	user : effat,	time : 1461952271.0
+
+sha : 390a9dac5df465ad453fc528427ce9af4d17b4fc,	message : Added files via upload,	user : effat,	time : 1461951990.0
+
+sha : 43e57cbcec383ec6619668890ab31032f38d4740,	message : Create a.gitkeep,	user : effat,	time : 1461951960.0
+
+sha : d25db32328581ac18e9735d0dc8a13977d9b748e,	message : Added files via upload,	user : effat,	time : 1461950952.0
+
+sha : 29f0482f443a172426e39a36d3e629d9b13cdbe0,	message : Added files via upload,	user : effat,	time : 1461950689.0
+
+sha : f0ec335d640cb877c9ddc89731b2662370cc0ddc,	message : Create a.gitkeep,	user : effat,	time : 1461950657.0
+
+sha : 76ff1fb88efbbb0a7867d69235f1708ae3224d48,	message : Added files via upload,	user : effat,	time : 1461946453.0
+
+sha : 22574a4145f7460d1d4cc601957a20df576c0c9c,	message : Added files via upload,	user : effat,	time : 1461946417.0
+
+sha : 794c5c30604ce21b375fb8a67a59a727e40d51d3,	message : Create a.gitkeep,	user : effat,	time : 1461946391.0
+
+sha : 1a8abca730fdb5c4225d147a97eed8a0cca03b53,	message : Added files via upload,	user : effat,	time : 1461899359.0
+
+sha : dc5044fb7ca9fd04816476677d59afec3174709f,	message : Added files via upload
+
+grA --- pie chart generation file.
+For generating barplot, I have copied all relevant data from all groups in a single file. For example, grComment.csv contains total comments of all 6 groups.,	user : effat,	time : 1461894396.0
+
+sha : ddc15ef981b5596d6c962136d1258a7f84f58c3d,	message : Create a.gitkeep,	user : effat,	time : 1461894095.0
+
+sha : d8621905146201a3072ff2e30ddef1350ac35a8a,	message : Added files via upload,	user : effat,	time : 1461893585.0
+
+sha : 89f1844cae0b6cfadd2ab551e789b595bf48bec8,	message : Create a.gitkeep,	user : effat,	time : 1461893561.0
+
+sha : 541a2bae637e76b83ffd55acf38395de071382a3,	message : Fix for milestone scraping,	user : trueblue2704,	time : 1461893420.0
+
+sha : fc042a4368e85cf074366e0d80301608836507ac,	message : Added files via upload,	user : effat,	time : 1461890793.0
+
+sha : 0545172675a221deebe54222e64b57556ad5af2c,	message : Added files via upload,	user : effat,	time : 1461877631.0
+
+sha : b019cf8e5feeaf19bc678e3490cffebea5267615,	message : Create a.gitkeep,	user : effat,	time : 1461877596.0
+
+sha : eead309337cc93a8421d7347ec850e247449bc98,	message : Added files via upload,	user : effat,	time : 1461877438.0
+
+sha : 299b502615729484d6dfb525b593f7d50c680691,	message : Create a.gitkeep,	user : effat,	time : 1461877416.0
+
+sha : b9868dc7061a407a3c8d9b269aa0d06881968341,	message : Added files via upload,	user : effat,	time : 1461877390.0
+
+sha : 42e867ebd87c9dc9117a2459197a9cbdc21dee0f,	message : Create a.gitkeep,	user : effat,	time : 1461877370.0
+
+sha : 9aa7d8fe1682f888a7471860d4d10ac79abaa2f6,	message : Added files via upload,	user : effat,	time : 1461877324.0
+
+sha : e7e09d4a3cfd69aca19044a1e9b54c5c4d5bd22c,	message : Added files via upload,	user : effat,	time : 1461877277.0
+
+sha : eee3a1a6a800faa67d12e3f4fc5347a021a6d826,	message : fix previous commit,	user : trueblue2704,	time : 1461789551.0
+
+sha : 2eedcfcb7c8b77f64d884119a76e3a00977b7237,	message : Merge branch 'master' of https://github.com/cleebp/csc-510-group-g,	user : trueblue2704,	time : 1461789430.0
+
+sha : c3cc668dbca50aaea2ad37840b5d13d35ca6df0b,	message : adding number of changes per commit,	user : trueblue2704,	time : 1461789397.0
+
+sha : f8064d3fe96219c2ce0c4519eac2b46bac70cf6f,	message : adding number of changes per commit,	user : trueblue2704,	time : 1461789347.0
+
+sha : b01d58042216b991c1b3c72966e37669ee4961eb,	message : Added files via upload,	user : effat,	time : 1461599567.0
+
+sha : 4ed0febf30026e9d7e7fd18ae831861236cf12e9,	message : Create a.gitkeep,	user : effat,	time : 1461599524.0
+
+sha : f382a1416edacf913fe5520bba4abf7ccac14e9b,	message : Added files via upload,	user : effat,	time : 1461598761.0
+
+sha : 3972afd9d86d4ca8688b2a24eb906c8521efc0c4,	message : Merge branch 'master' of https://github.com/cleebp/csc-510-group-g,	user : trueblue2704,	time : 1461598709.0
+
+sha : e18889c5fb134d1f86ac8b8c70455a4331fc87de,	message : Update csvs,	user : trueblue2704,	time : 1461598699.0
+
+sha : 8f2f4330506d1e404382aba844899ebcfedd0bde,	message : Create a.gitkeep,	user : effat,	time : 1461598687.0
+
+sha : 6285a912b015f916944fa8e53ab72badfb8b8c59,	message : Added files via upload,	user : effat,	time : 1461598607.0
+
+sha : 24e8a29244dea0e6b8420cb29e8dd0c5e84c5ed3,	message : Create a.gitkeep,	user : effat,	time : 1461598530.0
+
+sha : 4d7462a715ee696daa34b4b740a5338c31d70f5a,	message : Update dbs to include additions, deletions,	user : trueblue2704,	time : 1461557445.0
+
+sha : c02252b81a2825a40fd4921455ce0b0d9f8ab44c,	message : Update group g dmp,	user : trueblue2704,	time : 1461178015.0
+
+sha : 0d50aa7874b77e9c9c23f130322c96e07d447bcb,	message : Update data,	user : trueblue2704,	time : 1461177906.0
+
+sha : 55507eaf583fde8b4ac16ae4efee84cae80e5ec0,	message : Add data, csv, scripts, etc.,	user : trueblue2704,	time : 1460922059.0
+
+sha : 033ccd2cd5bcb42c9ed746f0e65845e4230c1cbf,	message : names r hard,	user : cleebp,	time : 1460574285.0
+
+sha : 8f7a6ce0b86a8d1c18e6de7b1a1746c7a1718ef2,	message : initial may commit
+
+architecture! organization! yay!,	user : cleebp,	time : 1460574155.0
+
+sha : 26fd1ea8b7f7eecc23b029df35d31ac80f1e8c50,	message : updated presentation
+
+most recent version as of 4:42 on 4/6,	user : cleebp,	time : 1459975358.0
+
+sha : 0373f49f6074ef77baa432fc26af11db2518ffef,	message : uploaded 'final' report files from sharelatex
+
+hah “final”,	user : cleebp,	time : 1459974163.0
+
+sha : 0b47606094988d902850cae6b6707f61a9cef0bf,	message : edited tasks.md
+
+There was some placeholder text still hanging around so I cut it loose…,	user : cleebp,	time : 1459871640.0
+
+sha : 228dd56fc3c6dea79ff9907bf543f9e94963f0ef,	message : fixing some links
+
+herp derp trees blobs,	user : cleebp,	time : 1459788419.0
+
+sha : d66bb2f5ffd3b102b6b5f1b286c5e1e0b3476d10,	message : apr7 repo organization and readme creation
+
+added a ton of necessary readmes
+
+tl;dr: stuff is (mostly) documented now,	user : cleebp,	time : 1459788058.0
+
+sha : d31cd7df2798218012d3babb4092b812f4fd1521,	message : Update my-panel1-view.coffee,	user : effat,	time : 1459186206.0
+
+sha : 08ea0e3583d55eacbe06a138e2b7f0a52af8ed0a,	message : Added some telemetry data to apr1/Data,	user : trueblue2704,	time : 1459183681.0
+
+sha : ed9b458cad9a6f6a85e476f8747e24b75a2617cc,	message : Delete unnecessary file,	user : trueblue2704,	time : 1459092410.0
+
+sha : 1f86f51f811de380f6cd06eb5e12434622faa19d,	message : added tasks 9 and 10
+
+tasks complete,	user : cleebp,	time : 1458845991.0
+
+sha : 442890cd7aca132b4212a1cf6c70da0f797181a7,	message : added tasks 7 and 8,	user : cleebp,	time : 1458844890.0
+
+sha : c1537253b8ca9f986f9a1fe8b05730c467140017,	message : Update README.md
+
+Add information about installing dependencies for telem-windows.py,	user : trueblue2704,	time : 1458788311.0
+
+sha : 676d605a13d6276f769977eca9cdde27c879c1c0,	message : Delete clipit.txt
+
+Remove unnecessary log file.,	user : trueblue2704,	time : 1458788141.0
+
+sha : 2dd7b388496c43578cb510a88edbc6268438d166,	message : Merge pull request #68 from cleebp/telemetry
+
+Telemetry,	user : trueblue2704,	time : 1458787986.0
+
+sha : df8761aeb4c88560a6eb226f30f748c2db428dcf,	message : Merge branch 'telemetry' of https://github.com/cleebp/csc-510-group-g into telemetry,	user : trueblue2704,	time : 1458787833.0
+
+sha : df765bf2f774c59ba9e932769031ef7de5905357,	message : Fixed windows clipboard,	user : trueblue2704,	time : 1458787786.0
+
+sha : 2a20e2274b6e1138e0ca9c9259dbd4cf902a429e,	message : added task 5 and 6,	user : cleebp,	time : 1458760356.0
+
+sha : 7bf5d541b3a6022f1abedc6a9dc65661c84d234d,	message : fix the bug of history,	user : reachspirit,	time : 1458759913.0
+
+sha : e33c46ef95620228c10fec741c688f832badcfc8,	message : task 4 added
+
+now just have to make tasks for lib,	user : cleebp,	time : 1458759011.0
+
+sha : 31ea4c4199bc78d283bebf63617c008e17d6b07d,	message : task 2 and 3 added,	user : cleebp,	time : 1458746355.0
+
+sha : f2976a13ecffbc856b699144a12065b3b378493e,	message : first task completed
+
+test commit to see how this looks on master,	user : cleebp,	time : 1458744758.0
+
+sha : bce512724c9fa9423bea72d86aedf223589d2e35,	message : apr1 initial commit
+
+establishing april directories and setting up initial experiment
+directory,	user : cleebp,	time : 1458694781.0
+
+sha : 3cc568a49ab9229af3dc8ace4b1e955b6edb5348,	message : Update README.md,	user : trueblue2704,	time : 1457920819.0
+
+sha : f6e0599d1a2eeefc9ea8d15b24322bff568e8b18,	message : Windows telemetry added,	user : trueblue2704,	time : 1457920414.0
+
+sha : 2cfde1a8b293bab8130cf7f400e703a1b1e588c8,	message : Update README.md,	user : trueblue2704,	time : 1457919219.0
+
+sha : 4d8afb5b04e8212aa3e19e6c24182c29719c8991,	message : Update telemetry to work with custom file names.,	user : trueblue2704,	time : 1457919129.0
+
+sha : c77faec4829faaa89ea4e17f0820a9ab5073d472,	message : fix merge conflicts,	user : trueblue2704,	time : 1457027175.0
+
+sha : eaec277c670cbf5d618b8b5aaa8d1e0ffc6a5d03,	message : Update README.md,	user : trueblue2704,	time : 1457027092.0
+
+sha : 696beb7331ea3dde0e36b7539c028ec426017f27,	message : Update readme for telemetry,	user : trueblue2704,	time : 1457026958.0
+
+sha : 252a63f1058408e751ec0b609103bf724591e90a,	message : readme etc
+
+github has issues with existance,	user : cleebp,	time : 1456951475.0
+
+sha : 94a4953b49b5a5980813ad0197083c22a0611ea3,	message : Fix indentation,	user : trueblue2704,	time : 1456947910.0
+
+sha : f5eebb703cff3d9829d7caf3203b4dfc088f7ecf,	message : Update README.md,	user : reachspirit,	time : 1456947125.0
+
+sha : d60104243aca585a65a159b9da2285f36affd2d3,	message : updated readme's and got rid of teller package
+
+housekeeping,	user : cleebp,	time : 1456946530.0
+
+sha : 7c3b671c9a90c41c68c01e692f553106051ffe60,	message : Merge pull request #50 from cleebp/telemetry
+
+Adding telemtry,	user : trueblue2704,	time : 1456946190.0
+
+sha : 7ce3d36c2619af15fc63a28df7fa79f916a5eea9,	message : renamed a thingy
+
+thingies are descriptive,	user : cleebp,	time : 1456945976.0
+
+sha : 978a2fefa30f328f86a1f3351f1e7c4877d0aa73,	message : commented out data persistence bug
+
+wooooooo,	user : cleebp,	time : 1456945833.0
+
+sha : 8bc56864c5b44ddaa52cd34f07a08b2cd83e20ff,	message : Update README.md,	user : effat,	time : 1456945599.0
+
+sha : d8ce8b386264c6f2e8b54c6dc394c1dd66144df6,	message : Added files via upload,	user : effat,	time : 1456945496.0
+
+sha : b6009b7c386d82d9bcb5f341f9081928d5108da2,	message : formatted readme's
+
+went through and formatted the readme’s of the packages so they were
+all using the same basic style.,	user : cleebp,	time : 1456945216.0
+
+sha : 1617e311c99b2716c3c8cace45f8277cb085100d,	message : Update README.md,	user : effat,	time : 1456931277.0
+
+sha : 7d36068be2add466e0c8e148315e69fcd53982cb,	message : Update README.md,	user : effat,	time : 1456931249.0
+
+sha : e900d8dfb58d1b77a4a3e3ac9b345c259a66b957,	message : Fix telemetry bug where clicks weren't getting logged with clipit-panel,	user : trueblue2704,	time : 1456890659.0
+
+sha : 8e7748598a5075b6bf0e8d408ff35fec54547d53,	message : Merge branch 'master' of https://github.com/cleebp/csc-510-group-g into telemetry,	user : trueblue2704,	time : 1456867020.0
+
+sha : db90f100d5704b5cf2a5976087023a9985756969,	message : fixed display bug after selecting a panel item
+
+tiny hack to force a redisplay whenever an item is selected,	user : cleebp,	time : 1456854670.0
+
+sha : fc0d77d868877357c937c11626b54c5a282b6eaf,	message : panel updates display after copy, paste cmd also pastes most recent item
+
+next step is to fix the behavior after clicking on an item having to
+paste again in order to bring back the panel.,	user : cleebp,	time : 1456853599.0
+
+sha : 489ddb902d2188bcbd72ab16a2a54c3fa6f6c5e3,	message : added mac integration
+
+technically linux too,	user : cleebp,	time : 1456851375.0
+
+sha : 0b5b262d22460382d0eb18b337ea6c2a9901932c,	message : Update README.md,	user : effat,	time : 1456808351.0
+
+sha : 3f680e2fcef276a6ecd61a735e3f7b76ed8aa322,	message : Update README.md,	user : effat,	time : 1456806595.0
+
+sha : 70c2b6b4df0f0ae4b07072da3c57fde02982397a,	message : Update README.md,	user : effat,	time : 1456806566.0
+
+sha : 039cf02a2f66c9d0bc845e1578647f8d89afbf4f,	message : Update README.md,	user : effat,	time : 1456804500.0
+
+sha : 1620646339d913aa1508d1974be4d7a7d43a6e4e,	message : Added files via upload,	user : effat,	time : 1456804389.0
+
+sha : 6e90f93589605ae5eaed6b987943c764a39e5a11,	message : Update README.md,	user : effat,	time : 1456804291.0
+
+sha : 88989f88ceb666fdd7763cb5057a2716693feece,	message : Telemetry added to clipit-cmd,	user : trueblue2704,	time : 1456803817.0
+
+sha : fc6e752bc71f1fae18b2466a28625ad059d110d1,	message : Integrate telemetry with clipit-order,	user : trueblue2704,	time : 1456803435.0
+
+sha : a475a0a66bbeba6534139b285efb8e85973adafa,	message : Update README.md,	user : reachspirit,	time : 1456799149.0
+

@@ -1,0 +1,42 @@
+ident : 1553325,	created_at : 1454208784.0,	m_title : Feb1 - Report Due for Data Collection,	m_id : 1,	user : nikraina,	closed_at : 1454388659.0,	m_description : Create the report and submit before 1st Feb
+
+ident : 1592217,	due_at : 1455858000.0,	created_at : 1455856433.0,	m_title : Complete Android Setup and Tutorial,	m_id : 2,	user : citizen-kane,	closed_at : 1456210050.0,	m_description : 
+
+ident : 1592241,	due_at : 1455944400.0,	created_at : 1455857944.0,	m_title : Complete basic app building using Android Studio,	m_id : 3,	user : akhan7,	closed_at : 1456210056.0,	m_description : 
+
+ident : 1592276,	due_at : 1455944400.0,	created_at : 1455860618.0,	m_title : basic simple app,	m_id : 4,	user : nikraina,	closed_at : 1456210058.0,	m_description : 
+
+ident : 1592277,	due_at : 1456030800.0,	created_at : 1455860636.0,	m_title : basic simple app with google maps API,	m_id : 5,	user : nikraina,	closed_at : 1456210069.0,	m_description : 
+
+ident : 1592278,	due_at : 1456808400.0,	created_at : 1455860663.0,	m_title : check the possibility of having publish subscribe,	m_id : 6,	user : nikraina,	m_description : 
+
+ident : 1595216,	due_at : 1456030800.0,	created_at : 1456024316.0,	m_title : Basic app created - integrate google maps with it,	m_id : 7,	user : citizen-kane,	closed_at : 1456210062.0,	m_description : The basic app has been created and pushed to branch 'kagarwa'
+Need to integrate this with google maps.
+
+ident : 1599066,	created_at : 1456210218.0,	m_title : create map object to use the methods,	m_id : 8,	user : nikraina,	closed_at : 1456210526.0,	m_description : 
+
+ident : 1599084,	due_at : 1456635600.0,	created_at : 1456211534.0,	m_title : App opens with a biased location wrt campus,	m_id : 9,	user : nikraina,	m_description : 
+
+ident : 1599338,	due_at : 1456290000.0,	created_at : 1456223176.0,	m_title : Locate all NCSU parking sites and reflect them on the map,	m_id : 10,	user : citizen-kane,	closed_at : 1456347478.0,	m_description : 
+
+ident : 1599561,	due_at : 1456376400.0,	created_at : 1456231568.0,	m_title : Implement User Current Location Feature,	m_id : 11,	user : citizen-kane,	closed_at : 1456347789.0,	m_description : 
+
+ident : 1603855,	due_at : 1456635600.0,	created_at : 1456347396.0,	m_title : Save NCSU Parking Locations,	m_id : 12,	user : citizen-kane,	m_description : To save Parking locations in NCSU as a sql table/csv file/hard code/any other option.
+
+ident : 1603874,	due_at : 1456808400.0,	created_at : 1456347629.0,	m_title : Implement Cloud feature ,	m_id : 13,	user : citizen-kane,	m_description : Implement cloud feature for saving any kind of USER Data and APP Data which are presently using native app databases.
+
+ident : 1603879,	due_at : 1456635600.0,	created_at : 1456347754.0,	m_title : Introduce DESIGN to parking lots,	m_id : 14,	user : citizen-kane,	m_description : Features:
+Total Space:
+Available Space:
+Reserved Spaces:
+Unusable Spaces:
+
+Future design for March:
+Rate of Charges:
+and idea of user charges per day.
+
+
+ident : 1609039,	created_at : 1456531760.0,	m_title : Have a login and Signup,	m_id : 15,	user : nikraina,	m_description : have a login and sign up screen
+
+ident : 1621564,	due_at : 1457067600.0,	created_at : 1457066519.0,	m_title : Include Telemetry in the system,	m_id : 16,	user : citizen-kane,	m_description : 
+
