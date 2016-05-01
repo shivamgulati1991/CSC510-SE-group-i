@@ -1,8 +1,0 @@
-ident,m_id,m_title,m_description,created_at,due_at,closed_at,user
-1573893,1,Solution 1: Web Scraping Application,Develop a web application that scrapes the reviews from the top 3 websites of the user survey.,1455063234.0,1456722000.0,1456893446.0,sbalakr2
-1573934,2,Solution 2: Plugin Development(Basic functionality),To create a plugin for chrome that pops up the reviews from other websites.,1455065176.0,1456722000.0,1456894057.0,rashmisandilya
-1576386,3,Solution 3: Android application for reviews,,1455135071.0,1456635600.0,1456893351.0,pranjaldeka
-1616609,4,Telemetry ,#Log of data collected from your user trials for better user experience and improvement of the solution,1456873101.0,1456808400.0,1456893417.0,pranjaldeka
-1616971,5,April 1,,1456893376.0,,1460053812.0,rashmisandilya
-1688649,6,Evaluation plan,,1460000214.0,1460088000.0,1461986674.0,pranjaldeka
-1688666,7,Bad smell code,,1460001204.0,1460088000.0,1460053827.0,pranjaldeka

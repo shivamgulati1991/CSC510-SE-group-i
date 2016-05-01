@@ -1,8 +1,0 @@
-ident : 1507858,	created_at : 1452808204.0,	m_title : fir,	m_id : 1,	user : lintingting,	closed_at : 1453586674.0
-
-ident : 1532571,	due_at : 1454302800.0,	created_at : 1453424143.0,	m_title : Feb 1 Project proposal,	m_id : 2,	user : boyzhirui,	closed_at : 1454452536.0,	m_description : Find the problem.
-
-ident : 1532770,	due_at : 1456808400.0,	created_at : 1453431471.0,	m_title : March 1 Coding Coding Coding,	m_id : 3,	user : boyzhirui,	closed_at : 1458332086.0,	m_description : Get up, eat, study, code, sleep
-
-ident : 1532771,	due_at : 1459483200.0,	created_at : 1453431491.0,	m_title : Apr1 Project,	m_id : 4,	user : boyzhirui,	closed_at : 1459524582.0,	m_description : 
-
