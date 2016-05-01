@@ -1,0 +1,68 @@
+sha : 00d11486ae6c168916f4707d8d88f52419f461d3,	message : Added files via upload,	user : effat,	time : 1462061036.0
+
+sha : d7d9c5a81cec3ddb5a73c92892f5f483cca08667,	message : Added files via upload,	user : effat,	time : 1461952296.0
+
+sha : 7db88765e937f77c6ef101bf5776189de0f84b40,	message : Create a.gitkeep,	user : effat,	time : 1461952271.0
+
+sha : 390a9dac5df465ad453fc528427ce9af4d17b4fc,	message : Added files via upload,	user : effat,	time : 1461951990.0
+
+sha : 43e57cbcec383ec6619668890ab31032f38d4740,	message : Create a.gitkeep,	user : effat,	time : 1461951960.0
+
+sha : d25db32328581ac18e9735d0dc8a13977d9b748e,	message : Added files via upload,	user : effat,	time : 1461950952.0
+
+sha : 29f0482f443a172426e39a36d3e629d9b13cdbe0,	message : Added files via upload,	user : effat,	time : 1461950689.0
+
+sha : f0ec335d640cb877c9ddc89731b2662370cc0ddc,	message : Create a.gitkeep,	user : effat,	time : 1461950657.0
+
+sha : 76ff1fb88efbbb0a7867d69235f1708ae3224d48,	message : Added files via upload,	user : effat,	time : 1461946453.0
+
+sha : 22574a4145f7460d1d4cc601957a20df576c0c9c,	message : Added files via upload,	user : effat,	time : 1461946417.0
+
+sha : 794c5c30604ce21b375fb8a67a59a727e40d51d3,	message : Create a.gitkeep,	user : effat,	time : 1461946391.0
+
+sha : 1a8abca730fdb5c4225d147a97eed8a0cca03b53,	message : Added files via upload,	user : effat,	time : 1461899359.0
+
+sha : dc5044fb7ca9fd04816476677d59afec3174709f,	message : Added files via upload
+
+grA --- pie chart generation file.
+For generating barplot, I have copied all relevant data from all groups in a single file. For example, grComment.csv contains total comments of all 6 groups.,	user : effat,	time : 1461894396.0
+
+sha : ddc15ef981b5596d6c962136d1258a7f84f58c3d,	message : Create a.gitkeep,	user : effat,	time : 1461894095.0
+
+sha : d8621905146201a3072ff2e30ddef1350ac35a8a,	message : Added files via upload,	user : effat,	time : 1461893585.0
+
+sha : 89f1844cae0b6cfadd2ab551e789b595bf48bec8,	message : Create a.gitkeep,	user : effat,	time : 1461893561.0
+
+sha : 541a2bae637e76b83ffd55acf38395de071382a3,	message : Fix for milestone scraping,	user : trueblue2704,	time : 1461893420.0
+
+sha : fc042a4368e85cf074366e0d80301608836507ac,	message : Added files via upload,	user : effat,	time : 1461890793.0
+
+sha : 0545172675a221deebe54222e64b57556ad5af2c,	message : Added files via upload,	user : effat,	time : 1461877631.0
+
+sha : b019cf8e5feeaf19bc678e3490cffebea5267615,	message : Create a.gitkeep,	user : effat,	time : 1461877596.0
+
+sha : eead309337cc93a8421d7347ec850e247449bc98,	message : Added files via upload,	user : effat,	time : 1461877438.0
+
+sha : 299b502615729484d6dfb525b593f7d50c680691,	message : Create a.gitkeep,	user : effat,	time : 1461877416.0
+
+sha : b9868dc7061a407a3c8d9b269aa0d06881968341,	message : Added files via upload,	user : effat,	time : 1461877390.0
+
+sha : 42e867ebd87c9dc9117a2459197a9cbdc21dee0f,	message : Create a.gitkeep,	user : effat,	time : 1461877370.0
+
+sha : 9aa7d8fe1682f888a7471860d4d10ac79abaa2f6,	message : Added files via upload,	user : effat,	time : 1461877324.0
+
+sha : e7e09d4a3cfd69aca19044a1e9b54c5c4d5bd22c,	message : Added files via upload,	user : effat,	time : 1461877277.0
+
+sha : eee3a1a6a800faa67d12e3f4fc5347a021a6d826,	message : fix previous commit,	user : trueblue2704,	time : 1461789551.0
+
+sha : 2eedcfcb7c8b77f64d884119a76e3a00977b7237,	message : Merge branch 'master' of https://github.com/cleebp/csc-510-group-g,	user : trueblue2704,	time : 1461789430.0
+
+sha : c3cc668dbca50aaea2ad37840b5d13d35ca6df0b,	message : adding number of changes per commit,	user : trueblue2704,	time : 1461789397.0
+
+sha : f8064d3fe96219c2ce0c4519eac2b46bac70cf6f,	message : adding number of changes per commit,	user : trueblue2704,	time : 1461789347.0
+
+sha : b01d58042216b991c1b3c72966e37669ee4961eb,	message : Added files via upload,	user : effat,	time : 1461599567.0
+
+sha : 4ed0febf30026e9d7e7fd18ae831861236cf12e9,	message : Create a.gitkeep,	user : effat,	time : 1461599524.0
+
+sha : f382a1416edacf913fe5520bba4abf7ccac14e9b,	message : Added files via upload,	user : effat,	time : 14615987

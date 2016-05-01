@@ -1,0 +1,264 @@
+ISSUE 1
+what : Null label,	when : 2016-01-13T18:39:30Z,	issuecreated_at : 1452638598.0,	comments : 6,	milestone : February 1 Deliverable,	duration : 1738701.0,	issueclosed_at : 2016-02-02T01:41:39Z,	action : milestoned,	user : cleebp
+
+ISSUE 2
+what : Null label,	when : 2016-01-13T18:39:22Z,	issuecreated_at : 1452709106.0,	comments : 3,	milestone : February 1 Deliverable,	duration : 1668193.0,	issueclosed_at : 2016-02-02T01:41:39Z,	action : milestoned,	user : cleebp
+
+ISSUE 3
+what : Feb 1,	when : 2016-01-19T01:46:43Z,	issuecreated_at : 1452823546.0,	comments : 0,	milestone : February 1 Deliverable,	duration : 1553753.0,	issueclosed_at : 2016-02-02T01:41:39Z,	action : labeled,	user : reachspirit
+
+ISSUE 4
+what : Null label,	when : 2016-01-30T20:22:50Z,	issuecreated_at : 1453672175.0,	comments : 0,	milestone : February 1 Deliverable,	duration : 705124.0,	issueclosed_at : 2016-02-02T01:41:39Z,	action : milestoned,	user : cleebp
+
+ISSUE 5
+what : question,	when : 2016-01-30T04:41:12Z,	issuecreated_at : 1454128859.0,	comments : 1,	milestone : February 1 Deliverable,	duration : 219656.0,	issueclosed_at : 2016-02-01T17:41:55Z,	action : labeled,	user : trueblue2704
+
+ISSUE 6
+what : question,	when : 2016-02-01T18:14:11Z,	issuecreated_at : 1454350321.0,	comments : 5,	milestone : February 1 Deliverable,	duration : 26978.0,	issueclosed_at : 2016-02-02T01:41:39Z,	action : labeled,	user : cleebp
+
+ISSUE 7
+what : Mar 1,	when : 2016-02-04T21:23:15Z,	issuecreated_at : 1454620995.0,	comments : 8,	milestone : Mar1 Deliverable,	duration : 515799.0,	issueclosed_at : 2016-02-10T20:39:54Z,	action : labeled,	user : trueblue2704
+
+ISSUE 8
+what : help wanted,	when : 2016-02-04T21:26:52Z,	issuecreated_at : 1454621212.0,	comments : 1,	milestone : Mar1 Deliverable,	duration : 515586.0,	issueclosed_at : 2016-02-10T20:39:58Z,	action : labeled,	user : trueblue2704
+
+ISSUE 9
+what : Mar 1,	when : 2016-02-04T21:30:47Z,	issuecreated_at : 1454621447.0,	comments : 0,	milestone : Mar1 Deliverable,	duration : 1725481.0,	issueclosed_at : 2016-02-24T20:48:48Z,	action : labeled,	user : trueblue2704
+
+ISSUE 10
+what : Null label,	when : 2016-02-04T21:32:20Z,	issuecreated_at : 1454621500.0,	comments : 0,	duration : 40.0,	issueclosed_at : 2016-02-04T21:32:20Z,	action : closed,	user : effat
+
+ISSUE 11
+what : Mar 1,	when : 2016-02-04T21:32:36Z,	issuecreated_at : 1454621556.0,	comments : 2,	milestone : Mar1 Deliverable,	duration : 2071226.0,	issueclosed_at : 2016-02-28T20:53:02Z,	action : labeled,	user : trueblue2704
+
+ISSUE 12
+what : Mar 1,	when : 2016-02-04T22:27:42Z,	issuecreated_at : 1454624862.0,	comments : 5,	milestone : Feb10,	duration : 511591.0,	issueclosed_at : 2016-02-10T20:34:13Z,	action : labeled,	user : reachspirit
+
+ISSUE 13
+what : Mar 1,	when : 2016-02-04T22:28:38Z,	issuecreated_at : 1454624918.0,	comments : 5,	milestone : Feb10,	duration : 511532.0,	issueclosed_at : 2016-02-10T20:34:10Z,	action : labeled,	user : reachspirit
+
+ISSUE 14
+what : Mar 1,	when : 2016-02-04T22:30:25Z,	issuecreated_at : 1454625025.0,	comments : 4,	milestone : Feb10,	duration : 511820.0,	issueclosed_at : 2016-02-10T20:40:45Z,	action : labeled,	user : reachspirit
+
+ISSUE 15
+what : Mar 1,	when : 2016-02-04T22:31:29Z,	issuecreated_at : 1454625089.0,	comments : 1,	milestone : Feb10,	duration : 44.0,	issueclosed_at : 2016-02-04T22:32:13Z,	action : labeled,	user : trueblue2704
+
+ISSUE 16
+what : discussion,	when : 2016-02-09T17:03:02Z,	issuecreated_at : 1455037382.0,	comments : 0,	duration : 99087.0,	issueclosed_at : 2016-02-10T20:34:29Z,	action : labeled,	user : cleebp
+
+ISSUE 17
+what : Null label,	when : 2016-02-10T20:51:38Z,	issuecreated_at : 1455132906.0,	comments : 3,	duration : 4592.0,	issueclosed_at : 2016-02-10T20:51:38Z,	action : closed,	user : cleebp
+
+ISSUE 18
+what : Mar 1,	when : 2016-02-10T20:35:59Z,	issuecreated_at : 1455136559.0,	assignee : trueblue2704,	comments : 3,	milestone : Feb24,	duration : 1205870.0,	issueclosed_at : 2016-02-24T19:33:49Z,	action : labeled,	user : trueblue2704
+
+ISSUE 19
+what : Mar 1,	when : 2016-02-10T20:39:16Z,	issuecreated_at : 1455136756.0,	assignee : cleebp,	comments : 1,	milestone : Feb17,	duration : 598706.0,	issueclosed_at : 2016-02-17T18:57:42Z,	action : labeled,	user : cleebp
+
+ISSUE 20
+what : Null label,	when : 2016-02-10T20:40:27Z,	issuecreated_at : 1455136827.0,	assignee : reachspirit,	comments : 1,	milestone : Mar1 Deliverable,	duration : 1555945.0,	issueclosed_at : 2016-02-28T20:52:52Z,	action : assigned,	user : reachspirit
+
+ISSUE 21
+what : Mar 1,	when : 2016-02-10T20:42:11Z,	issuecreated_at : 1455136856.0,	assignee : effat,	comments : 1,	milestone : Feb24,	duration : 1205382.0,	issueclosed_at : 2016-02-24T19:30:38Z,	action : labeled,	user : effat
+
+ISSUE 22
+what : discussion,	when : 2016-02-12T19:25:08Z,	issuecreated_at : 1455305108.0,	comments : 0,	milestone : Feb17,	duration : 430369.0,	issueclosed_at : 2016-02-17T18:57:57Z,	action : labeled,	user : cleebp
+
+ISSUE 23
+what : Mar 1,	when : 2016-02-16T05:14:10Z,	issuecreated_at : 1455599616.0,	comments : 2,	milestone : Feb17,	duration : 138880.0,	issueclosed_at : 2016-02-17T19:48:16Z,	action : labeled,	user : reachspirit
+
+ISSUE 24
+what : Mar 1,	when : 2016-02-17T18:56:42Z,	issuecreated_at : 1455735391.0,	assignee : cleebp,	comments : 5,	milestone : Feb24,	duration : 606042.0,	issueclosed_at : 2016-02-24T19:17:13Z,	action : labeled,	user : cleebp
+
+ISSUE 25
+what : Null label,	when : 2016-02-17T19:05:56Z,	issuecreated_at : 1455735944.0,	comments : 2,	milestone : Feb17,	duration : 2575.0,	issueclosed_at : 2016-02-17T19:48:39Z,	action : milestoned,	user : cleebp
+
+ISSUE 26
+what : Mar 1,	when : 2016-02-17T19:55:56Z,	issuecreated_at : 1455738956.0,	comments : 9,	milestone : Mar1 Demo,	duration : 1300009.0,	issueclosed_at : 2016-03-03T21:02:45Z,	action : labeled,	user : cleebp
+
+ISSUE 27
+what : Mar 1,	when : 2016-02-21T20:07:41Z,	issuecreated_at : 1456085261.0,	assignee : effat,	comments : 2,	duration : 859229.0,	issueclosed_at : 2016-03-02T18:48:10Z,	action : labeled,	user : effat
+
+ISSUE 28
+what : Mar 1,	when : 2016-02-22T18:34:13Z,	issuecreated_at : 1456166053.0,	comments : 2,	milestone : Feb24,	duration : 180835.0,	issueclosed_at : 2016-02-24T20:48:08Z,	action : labeled,	user : cleebp
+
+ISSUE 29
+what : help wanted,	when : 2016-02-23T03:51:34Z,	issuecreated_at : 1456199442.0,	comments : 1,	duration : 1009.0,	issueclosed_at : 2016-02-23T04:07:31Z,	action : labeled,	user : reachspirit
+
+ISSUE 30
+what : enhancement,	when : 2016-02-24T19:31:57Z,	issuecreated_at : 1456342308.0,	assignee : trueblue2704,	comments : 2,	milestone : Mar1 Deliverable,	duration : 510003.0,	issueclosed_at : 2016-03-01T17:11:51Z,	action : labeled,	user : trueblue2704
+
+ISSUE 31
+what : Null label,	when : 2016-02-24T20:05:59Z,	issuecreated_at : 1456344316.0,	assignee : cleebp,	comments : 1,	milestone : Mar1 Deliverable,	duration : 199.0,	issueclosed_at : 2016-02-24T20:08:35Z,	action : milestoned,	user : cleebp
+
+ISSUE 32
+what : Null label,	when : 2016-02-24T20:11:09Z,	issuecreated_at : 1456344661.0,	comments : 0,	duration : 8.0,	issueclosed_at : 2016-02-24T20:11:09Z,	action : referenced,	user : trueblue2704
+
+ISSUE 33
+what : Null label,	when : 2016-02-24T20:12:05Z,	issuecreated_at : 1456344718.0,	comments : 0,	duration : 7.0,	issueclosed_at : 2016-02-24T20:12:05Z,	action : referenced,	user : trueblue2704
+
+ISSUE 34
+what : Null label,	when : 2016-02-24T20:18:23Z,	issuecreated_at : 1456344775.0,	comments : 0,	duration : 328.0,	issueclosed_at : 2016-02-24T20:18:23Z,	action : referenced,	user : trueblue2704
+
+ISSUE 35
+what : bug,	when : 2016-02-24T20:18:03Z,	issuecreated_at : 1456345030.0,	comments : 1,	duration : 681230.0,	issueclosed_at : 2016-03-03T17:31:00Z,	action : labeled,	user : reachspirit
+
+ISSUE 36
+what : Mar 1,	when : 2016-02-24T20:37:48Z,	issuecreated_at : 1456346261.0,	comments : 2,	milestone : Mar1 Deliverable,	duration : 346494.0,	issueclosed_at : 2016-02-28T20:52:35Z,	action : labeled,	user : cleebp
+
+ISSUE 37
+what : Null label,	when : 2016-03-03T17:30:43Z,	issuecreated_at : 1456346468.0,	comments : 3,	duration : 679775.0,	issueclosed_at : 2016-03-03T17:30:43Z,	action : closed,	user : cleebp
+
+ISSUE 38
+what : help wanted,	when : 2016-02-24T20:51:57Z,	issuecreated_at : 1456346716.0,	comments : 4,	milestone : Mar1 Deliverable,	duration : 282046.0,	issueclosed_at : 2016-02-28T03:06:02Z,	action : labeled,	user : reachspirit
+
+ISSUE 39
+what : Null label,	when : 2016-02-28T03:29:09Z,	issuecreated_at : 1456630149.0,	comments : 2,	milestone : Mar1 Deliverable,	duration : 60098.0,	issueclosed_at : 2016-02-28T20:10:47Z,	action : mentioned,	user : history
+
+ISSUE 40
+what : Null label,	when : 2016-02-28T19:38:01Z,	issuecreated_at : 1456687781.0,	comments : 0,	duration : 500.0,	issueclosed_at : 2016-02-28T19:38:01Z,	action : merged,	user : trueblue2704
+
+ISSUE 41
+what : Null label,	when : 2016-02-28T20:19:37Z,	issuecreated_at : 1456690757.0,	comments : 0,	duration : 20.0,	issueclosed_at : 2016-02-28T20:19:37Z,	action : referenced,	user : cleebp
+
+ISSUE 42
+what : Null label,	when : 2016-02-28T20:23:10Z,	issuecreated_at : 1456690985.0,	comments : 0,	duration : 5.0,	issueclosed_at : 2016-02-28T20:23:10Z,	action : referenced,	user : trueblue2704
+
+ISSUE 43
+what : help wanted,	when : 2016-02-29T18:03:18Z,	issuecreated_at : 1456768998.0,	comments : 5,	milestone : Mar1 Demo,	duration : 175390.0,	issueclosed_at : 2016-03-02T18:46:28Z,	action : labeled,	user : cleebp
+
+ISSUE 44
+what : Mar 1,	when : 2016-03-01T16:40:59Z,	issuecreated_at : 1456850459.0,	assignee : cleebp,	comments : 3,	milestone : Mar1 Deliverable,	duration : 1685.0,	issueclosed_at : 2016-03-01T17:09:04Z,	action : labeled,	user : cleebp
+
+ISSUE 45
+what : Mar 1,	when : 2016-03-01T17:12:35Z,	issuecreated_at : 1456852283.0,	assignee : cleebp,	comments : 6,	milestone : Mar1 Deliverable,	duration : 5464.0,	issueclosed_at : 2016-03-01T18:42:27Z,	action : labeled,	user : cleebp
+
+ISSUE 46
+what : Mar 1,	when : 2016-03-01T17:12:23Z,	issuecreated_at : 1456852343.0,	comments : 0,	milestone : Mar1 Deliverable,	duration : 7.0,	issueclosed_at : 2016-03-01T17:12:30Z,	action : labeled,	user : trueblue2704
+
+ISSUE 47
+what : Mar 1,	when : 2016-03-01T17:13:13Z,	issuecreated_at : 1456852393.0,	comments : 2,	milestone : Mar1 Deliverable,	duration : 38309.0,	issueclosed_at : 2016-03-02T03:51:42Z,	action : labeled,	user : trueblue2704
+
+ISSUE 48
+what : bug,	when : 2016-03-01T20:10:06Z,	issuecreated_at : 1456863006.0,	comments : 7,	milestone : Mar1 Deliverable,	duration : 83295.0,	issueclosed_at : 2016-03-02T19:18:21Z,	action : labeled,	user : cleebp
+
+ISSUE 49
+what : discussion,	when : 2016-03-02T03:53:38Z,	issuecreated_at : 1456890818.0,	comments : 0,	milestone : Mar1 Demo,	duration : 55442.0,	issueclosed_at : 2016-03-02T19:17:40Z,	action : labeled,	user : trueblue2704
+
+ISSUE 50
+what : Null label,	when : 2016-03-02T19:16:30Z,	issuecreated_at : 1456946120.0,	comments : 1,	duration : 70.0,	issueclosed_at : 2016-03-02T19:16:30Z,	action : referenced,	user : trueblue2704
+
+ISSUE 51
+what : bug,	when : 2016-03-02T20:11:10Z,	issuecreated_at : 1456949470.0,	comments : 2,	milestone : Mar1 Demo,	duration : 266.0,	issueclosed_at : 2016-03-02T20:15:36Z,	action : labeled,	user : cleebp
+
+ISSUE 52
+what : discussion,	when : 2016-03-08T16:13:19Z,	issuecreated_at : 1457409512.0,	comments : 5,	milestone : Apr 7 Presentation,	duration : 142385.0,	issueclosed_at : 2016-03-09T19:31:37Z,	action : labeled,	user : cleebp
+
+ISSUE 53
+what : Null label,	when : 2016-03-09T17:49:14Z,	issuecreated_at : 1457453996.0,	comments : 0,	duration : 91758.0,	issueclosed_at : 2016-03-09T17:49:14Z,	action : closed,	user : cleebp
+
+ISSUE 54
+what : Null label,	when : 2016-03-16T17:06:44Z,	issuecreated_at : 1457499969.0,	comments : 6,	duration : 648035.0,	issueclosed_at : 2016-03-16T17:06:44Z,	action : closed,	user : cleebp
+
+ISSUE 55
+what : discussion,	when : 2016-03-09T19:24:29Z,	issuecreated_at : 1457551422.0,	comments : 3,	milestone : User testing,	duration : 1635991.0,	issueclosed_at : 2016-03-28T17:50:13Z,	action : labeled,	user : trueblue2704
+
+ISSUE 56
+what : enhancement,	when : 2016-03-09T19:26:27Z,	issuecreated_at : 1457551587.0,	assignee : trueblue2704,	comments : 1,	milestone : User testing,	duration : 1236399.0,	issueclosed_at : 2016-03-24T02:53:06Z,	action : labeled,	user : trueblue2704
+
+ISSUE 57
+what : enhancement,	when : 2016-03-09T19:27:19Z,	issuecreated_at : 1457551639.0,	assignee : trueblue2704,	comments : 1,	milestone : User testing,	duration : 1236368.0,	issueclosed_at : 2016-03-24T02:53:27Z,	action : labeled,	user : trueblue2704
+
+ISSUE 58
+what : enhancement,	when : 2016-03-14T01:35:24Z,	issuecreated_at : 1457919293.0,	comments : 0,	milestone : User testing,	duration : 40.0,	issueclosed_at : 2016-03-14T01:35:33Z,	action : labeled,	user : trueblue2704
+
+ISSUE 59
+what : Null label,	when : 2016-03-22T19:01:32Z,	issuecreated_at : 1458147995.0,	comments : 3,	milestone : User testing,	duration : 525297.0,	issueclosed_at : 2016-03-22T19:01:32Z,	action : closed,	user : cleebp
+
+ISSUE 60
+what : bug,	when : 2016-03-16T18:54:44Z,	issuecreated_at : 1458154484.0,	assignee : reachspirit,	comments : 1,	duration : 605337.0,	issueclosed_at : 2016-03-23T19:03:41Z,	action : labeled,	user : reachspirit
+
+ISSUE 61
+what : discussion,	when : 2016-03-22T19:04:06Z,	issuecreated_at : 1458673446.0,	comments : 5,	milestone : Apr 7 Presentation,	duration : 114601.0,	issueclosed_at : 2016-03-24T02:54:07Z,	action : labeled,	user : cleebp
+
+ISSUE 62
+what : discussion,	when : 2016-03-28T16:11:01Z,	issuecreated_at : 1458761336.0,	comments : 5,	milestone : User testing,	duration : 426406.0,	issueclosed_at : 2016-03-28T17:55:42Z,	action : labeled,	user : cleebp
+
+ISSUE 63
+what : discussion,	when : 2016-03-28T17:56:00Z,	issuecreated_at : 1458761384.0,	comments : 4,	milestone : Apr 7 Report,	duration : 695016.0,	issueclosed_at : 2016-03-31T20:33:20Z,	action : labeled,	user : trueblue2704
+
+ISSUE 64
+what : Apr 1,	when : 2016-03-23T19:33:35Z,	issuecreated_at : 1458761615.0,	comments : 1,	milestone : User testing,	duration : 599636.0,	issueclosed_at : 2016-03-30T18:07:31Z,	action : labeled,	user : cleebp
+
+ISSUE 65
+what : Null label,	when : 2016-03-23T19:34:29Z,	issuecreated_at : 1458761669.0,	comments : 2,	milestone : User testing,	duration : 426040.0,	issueclosed_at : 2016-03-28T17:55:09Z,	action : milestoned,	user : cleebp
+
+ISSUE 66
+what : Apr 1,	when : 2016-03-23T19:35:02Z,	issuecreated_at : 1458761702.0,	assignee : effat,	comments : 1,	milestone : User testing,	duration : 599555.0,	issueclosed_at : 2016-03-30T18:07:37Z,	action : labeled,	user : cleebp
+
+ISSUE 67
+what : Apr 1,	when : 2016-03-23T19:35:53Z,	issuecreated_at : 1458761753.0,	comments : 6,	milestone : Apr 7 Report,	duration : 1038811.0,	issueclosed_at : 2016-04-04T20:09:24Z,	action : labeled,	user : cleebp
+
+ISSUE 68
+what : Null label,	when : 2016-03-24T02:53:06Z,	issuecreated_at : 1458787936.0,	comments : 0,	duration : 50.0,	issueclosed_at : 2016-03-24T02:53:06Z,	action : referenced,	user : trueblue2704
+
+ISSUE 69
+what : Null label,	when : 2016-03-27T19:13:22Z,	issuecreated_at : 1459103473.0,	comments : 13,	duration : 26713.0,	issueclosed_at : 2016-03-28T01:56:26Z,	action : mentioned,	user : history
+
+ISSUE 70
+what : Null label,	when : 2016-03-28T17:53:57Z,	issuecreated_at : 1459129920.0,	comments : 11,	duration : 57717.0,	issueclosed_at : 2016-03-28T17:53:57Z,	action : closed,	user : trueblue2704
+
+ISSUE 71
+what : Null label,	when : 2016-03-28T17:49:08Z,	issuecreated_at : 1459187303.0,	comments : 0,	milestone : Apr 7 Report,	duration : 524671.0,	issueclosed_at : 2016-04-03T19:32:54Z,	action : milestoned,	user : cleebp
+
+ISSUE 72
+what : Null label,	when : 2016-03-30T18:07:18Z,	issuecreated_at : 1459188412.0,	comments : 12,	duration : 172826.0,	issueclosed_at : 2016-03-30T18:07:18Z,	action : closed,	user : cleebp
+
+ISSUE 73
+what : discussion,	when : 2016-03-29T01:15:38Z,	issuecreated_at : 1459214138.0,	comments : 3,	milestone : Apr 7 Report,	duration : 147093.0,	issueclosed_at : 2016-03-30T18:07:11Z,	action : labeled,	user : trueblue2704
+
+ISSUE 74
+what : design,	when : 2016-03-30T19:06:00Z,	issuecreated_at : 1459364750.0,	comments : 1,	milestone : Apr 7 Presentation,	duration : 506367.0,	issueclosed_at : 2016-04-05T15:45:17Z,	action : labeled,	user : cleebp
+
+ISSUE 75
+what : discussion,	when : 2016-03-31T20:33:06Z,	issuecreated_at : 1459456378.0,	comments : 1,	milestone : Apr 7 Presentation,	duration : 520188.0,	issueclosed_at : 2016-04-06T21:02:46Z,	action : labeled,	user : cleebp
+
+ISSUE 76
+what : Apr 1,	when : 2016-04-03T19:29:34Z,	issuecreated_at : 1459711769.0,	comments : 0,	milestone : Apr 7 Presentation,	duration : 264804.0,	issueclosed_at : 2016-04-06T21:02:53Z,	action : labeled,	user : cleebp
+
+ISSUE 77
+what : Null label,	when : 2016-04-04T16:03:53Z,	issuecreated_at : 1459785833.0,	assignee : cleebp,	comments : 1,	milestone : Apr 7 Report,	duration : 190721.0,	issueclosed_at : 2016-04-06T21:02:34Z,	action : assigned,	user : cleebp
+
+ISSUE 78
+what : discussion,	when : 2016-04-04T20:11:17Z,	issuecreated_at : 1459800677.0,	comments : 5,	milestone : Apr 7 Report,	duration : 244349.0,	issueclosed_at : 2016-04-07T16:03:46Z,	action : labeled,	user : cleebp
+
+ISSUE 79
+what : in progress,	when : 2016-04-05T16:01:01Z,	issuecreated_at : 1459872061.0,	comments : 9,	milestone : Apr 7 Presentation,	duration : 172940.0,	issueclosed_at : 2016-04-07T16:03:21Z,	action : labeled,	user : cleebp
+
+ISSUE 80
+what : meeting,	when : 2016-04-07T16:06:12Z,	issuecreated_at : 1460045172.0,	comments : 1,	milestone : May1 Deliverable,	duration : 529164.0,	issueclosed_at : 2016-04-13T19:05:36Z,	action : labeled,	user : cleebp
+
+ISSUE 81
+what : meeting,	when : 2016-04-13T18:50:02Z,	issuecreated_at : 1460573402.0,	comments : 1,	milestone : May1 Deliverable,	duration : 1125190.0,	issueclosed_at : 2016-04-26T19:23:12Z,	action : labeled,	user : cleebp
+
+ISSUE 82
+what : Null label,	when : 2016-04-13T18:52:11Z,	issuecreated_at : 1460573531.0,	assignee : cleebp,	comments : 1,	milestone : May1 Deliverable,	duration : 1382807.0,	issueclosed_at : 2016-04-29T18:58:58Z,	action : assigned,	user : cleebp
+
+ISSUE 83
+what : Null label,	when : 2016-04-13T18:54:16Z,	issuecreated_at : 1460573656.0,	assignee : trueblue2704,	comments : 10,	milestone : May1 Deliverable,	duration : 1326202.0,	issueclosed_at : 2016-04-29T03:17:38Z,	action : assigned,	user : trueblue2704
+
+ISSUE 84
+what : Null label,	when : 2016-04-13T18:57:25Z,	issuecreated_at : 1460573845.0,	assignee : effat,	comments : 5,	milestone : May1 Deliverable,	duration : 1382488.0,	issueclosed_at : 2016-04-29T18:58:53Z,	action : assigned,	user : effat
+
+ISSUE 85
+what : Null label,	when : 2016-04-13T18:59:41Z,	issuecreated_at : 1460573975.0,	assignee : reachspirit,	comments : 3,	milestone : May1 Deliverable,	duration : 1390661.0,	issueclosed_at : 2016-04-29T21:17:16Z,	action : milestoned,	user : reachspirit
+
+ISSUE 86
+what : meeting,	when : 2016-04-26T19:25:47Z,	issuecreated_at : 1461698747.0,	comments : 36,	milestone : May1 Deliverable,	duration : 1461698747.0,	issueclosed_at : 0,	action : labeled,	user : cleebp
+
+ISSUE 87
+what : Null label,	when : 2016-04-27T20:09:56Z,	issuecreated_at : 1461787793.0,	comments : 1,	duration : 134.0,	issueclosed_at : 2016-04-27T20:12:07Z,	action : assigned,	user : trueblue2704
+
+ISSUE 88
+what : meeting,	when : 2016-05-01T03:43:48Z,	issuecreated_at : 1462074228.0,	comments : 1,	milestone : May1 Deliverable,	duration : 1462074228.0,	issueclosed_at : 0,	action : labeled,	user : cleebp
+
