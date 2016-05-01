@@ -1,0 +1,34 @@
+ident : 1558869,	due_at : 1454302800.0,	created_at : 1454425577.0,	m_title : Feb 1,	m_id : 1,	user : asaha1,	closed_at : 1461460097.0,	m_description : 
+
+ident : 1558872,	due_at : 1456808400.0,	created_at : 1454425645.0,	m_title : Mar 1 http://se16.unbox.org/project/mar1.md,	m_id : 2,	user : asaha1,	closed_at : 1461460102.0,	m_description : ##Goals
+
+To implement three different solutions to the problem identified in January.
+To implement the telemetry (data collection) required to assess if any of these three proposed solutions actually matter.
+To learn distributed project methods using Github.
+To plan the March work.
+To start collecting data for the April project.
+
+
+##What NOT to Do
+
+January was about finding a problem.
+February (this month) is building candidate solutions.
+March will be testing those solutions.
+And April will be building tools to reflect on how effective are teams at building software.
+So this month is all about building tools, not trials of these tools. You succeed this month if some code is running (and not that it has been tested on some sample population).
+
+Next month (March) expect dramatic changes to your code base when your user trials start and you realize that you should be doing XYZ not ABC. So be prepared to be very agile in March.
+
+ident : 1558875,	due_at : 1459483200.0,	created_at : 1454425652.0,	m_title : Apr 1,	m_id : 3,	user : asaha1,	closed_at : 1461460104.0,	m_description : 
+
+ident : 1558878,	due_at : 1462075200.0,	created_at : 1454425665.0,	m_title : May 1,	m_id : 4,	user : asaha1,	m_description : 
+
+ident : 1588943,	due_at : 1456376400.0,	created_at : 1455728482.0,	m_title : Solution 1,	m_id : 5,	user : asaha1,	closed_at : 1461460099.0,	m_description : 1. Search a location
+2. add place in search
+3. draw straight line
+4. get real path
+
+ident : 1588944,	created_at : 1455728510.0,	m_title : Solution 2,	m_id : 6,	user : asaha1,	closed_at : 1461458903.0,	m_description : All work in Solution 2
+
+ident : 1588946,	created_at : 1455728524.0,	m_title : Solution 3,	m_id : 7,	user : asaha1,	closed_at : 1461458906.0,	m_description : All work in Solution 3
+

@@ -1,0 +1,531 @@
+sha : 9a943dc4a5cf62f110966f1fe6898c99c2a54939,	message : Poor Communication part done for related badsmell scores,	user : dichen001,	time : 1462079504.0
+
+sha : 84020da67da976fd8c0b4fd1612ba04f55acc288,	message : re-organize files. put bad-smell-score in badSmellScoreCSV,	user : dichen001,	time : 1462077634.0
+
+sha : d7298cdb13c6928ba0fb10bb7441abf1bbfba7c8,	message : re-organize files. put bad-smell-score in badSmellScoreCSV,	user : dichen001,	time : 1462077601.0
+
+sha : 9fdd75ce48f22dc71dbcbcf3ead976259bf9b862,	message : score for Insufficient Discuttion Pariticipants,	user : dichen001,	time : 1462077266.0
+
+sha : c67bf9eddd5dbc88ac0262984f681e2edc1147aa,	message : bad smell score for Few Disction Issue Percentage,	user : dichen001,	time : 1462073267.0
+
+sha : 13d10b0d8fb6f22e40233cdecf70e1b975fe03b2,	message : save,	user : amritbhanu,	time : 1462053624.0
+
+sha : 21a62f589ac3bb9963b44f815de8f994fc2ef50a,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1462053540.0
+
+sha : 636da43f16cc6e2c30049f98c700868af59aaf13,	message : feature: plot of due and close time of  each milestone for each group. Each creation time as start,	user : imaginationsuper,	time : 1462053535.0
+
+sha : 11804730b0d3bc1b58c51b5727ee7c28c70d0128,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1462053455.0
+
+sha : e7803e58d54c88f7d850c05ea7b901154bc6be18,	message : (2) Issues delay for its milestone,	user : dichen001,	time : 1462053450.0
+
+sha : 7639fbbf0c79d5b948529f3d79f445d1d3554345,	message : data collection,	user : azhe825,	time : 1462051311.0
+
+sha : e2fd486e8a6adfae05e469ce61dce09e98df3c10,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1462051228.0
+
+sha : cb4363451ce96f05480c57c9eeedb446312ad309,	message : data collection,	user : azhe825,	time : 1462051198.0
+
+sha : 1cc3d9d78f69f2cbdc3e7edb0395355485b1b8a1,	message : save,	user : amritbhanu,	time : 1462051167.0
+
+sha : 32d1bb13f8421ae3a2be48e8eff6e11a1e7dc75b,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1462048566.0
+
+sha : 6264c2482783905e74ba4bb86c7b602ff0e93d77,	message : add Milestone Dict {groupID, {milestoneID, {t1, t2...}}}, can load directly from DictMilestone.pkl,	user : dichen001,	time : 1462048558.0
+
+sha : 900f0a8111ccaab13e14fd2527ceb7321c0ff319,	message : feature: create, due and close time in milestones,	user : imaginationsuper,	time : 1462048369.0
+
+sha : 224fe32468e362cb131446bfa427a4a07e921a92,	message : remove token,	user : imaginationsuper,	time : 1462046083.0
+
+sha : b75ce5b669f3e41bf6e71caf2ff027f9c899768f,	message : data collection code,	user : imaginationsuper,	time : 1462046011.0
+
+sha : 826ef6c06de067fcaa552e8d83e4135780d2cf5e,	message : save,	user : amritbhanu,	time : 1462045188.0
+
+sha : 4abd330d959e125ce0b3011da0f6ed9b069441ca,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1462043146.0
+
+sha : 13529d5c4064523b5c4d6b4120b9e7ba7f6a173a,	message : (1) Issues Durations,	user : dichen001,	time : 1462043139.0
+
+sha : a866a5b1aa4938e74a407f676e781f736ab6d0f9,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1462042552.0
+
+sha : 1550abf9bbad48acdb8b3f2791a3d101ea9dbbd5,	message : feature: commits accumulated over time for each group,	user : imaginationsuper,	time : 1462042533.0
+
+sha : c0c340fda054f6b4f92b90eb432741e7a6813afc,	message : (8) Number of Comments per Issue,	user : dichen001,	time : 1462039988.0
+
+sha : 2fecc67ff38ded942aea50719be3775fc55b01e0,	message : (11) Participants for each issues,	user : dichen001,	time : 1462038723.0
+
+sha : 2a66e1d17c2aabb7a3712ac454c8b111cdda6262,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1462033720.0
+
+sha : 00e040d632d5649ae07086fc15c9ce964bc9176e,	message : feature: group vs number of issues,	user : imaginationsuper,	time : 1462031289.0
+
+sha : c59b24e20d9bcff9801310fe73d508ccd7970884,	message : extracted (5) Number of People Commenting on an Issue,	user : dichen001,	time : 1462030443.0
+
+sha : b89b8332248a4d6c3cf968325117e5453f9b69e9,	message : feature: group vs number of issues,	user : imaginationsuper,	time : 1462029229.0
+
+sha : a3f8d1f5faf69391f08c637604d031c35d01fa59,	message : csv for Equal Number of Issue Assignees,	user : dichen001,	time : 1461991132.0
+
+sha : 751b47b4b2f0d390ca26670f9badf4592d12249f,	message : process each row of csv to extract different information for feature genearting,	user : dichen001,	time : 1461991095.0
+
+sha : ac17cff8118181d1f16a7cddd4f8b132da10c6b3,	message : fix ascii error,	user : imaginationsuper,	time : 1461985090.0
+
+sha : 54d55fb8de16bcda59bcc4668d524ce7b05c40a1,	message : csv files for data collection,	user : imaginationsuper,	time : 1461944121.0
+
+sha : a67770dfc0ba7994ca4e7009f60a3968817cb8b6,	message : code for convert db to csv, need to fix bug for 'ascii' convertion error,	user : imaginationsuper,	time : 1461944011.0
+
+sha : 32a4f2bed2a9e2ede2be33954e6cd7a62e355f8a,	message : data collected using the example code,	user : imaginationsuper,	time : 1461941024.0
+
+sha : 4ff51cd738a8537c22764262ba976fdfb6970aa0,	message : save,	user : amritbhanu,	time : 1461893413.0
+
+sha : b0e8775a85a66e9dcf12807a807d4b8fda993dd8,	message : gitable,	user : azhe825,	time : 1461759799.0
+
+sha : 818237c3c8d275c7a9c4c7c57836c7ba0bcc7350,	message : badsmell,	user : azhe825,	time : 1461533362.0
+
+sha : 43fe6123db9bc6a769f35faa76b76ac56dd3e122,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : azhe825,	time : 1461533094.0
+
+sha : 04c12fc8ea6428120cf1c8a147ca2bfcc28370c3,	message : badsmell,	user : azhe825,	time : 1461533084.0
+
+sha : 2b400744ba4c29b172addcaf641dad7c59f77928,	message : Update README.md,	user : azhe825,	time : 1461526537.0
+
+sha : 0b3a864e17aae02818bfedfd9f2e8da79bc74a30,	message : badsmell,	user : azhe825,	time : 1461507058.0
+
+sha : 954d16273092243ae12983b427c6910d1dae60f3,	message : badsmell,	user : azhe825,	time : 1461506543.0
+
+sha : 64eb2805d7258050bc39e93e93808da3833f0ec0,	message : badsmell,	user : azhe825,	time : 1461506153.0
+
+sha : 8cfb015ffebaae791be23becdd4812b0b4d97799,	message : badsmell,	user : azhe825,	time : 1461356600.0
+
+sha : 86758710ed765de09155022066d7dba26780decc,	message : badsmell,	user : azhe825,	time : 1461355519.0
+
+sha : 22dc0d8cc08b5282a1894c73a57ac9596b812b80,	message : badsmell,	user : azhe825,	time : 1461351172.0
+
+sha : 2ee455108ff3e45ebcc47fef6dbc773d3bbc010f,	message : badsmell,	user : azhe825,	time : 1461350083.0
+
+sha : aa11154e66e1a53d95de3c0d4efe4cddfeeb5e51,	message : bugfixed,	user : imaginationsuper,	time : 1461099321.0
+
+sha : 62e8709cfceab4f2179dd135f0ac7e0a0b5695af,	message : Added files via upload,	user : imaginationsuper,	time : 1461097371.0
+
+sha : dd3104043d78c4e09e0442725dc7351736428f3a,	message : Added files via upload,	user : imaginationsuper,	time : 1461064592.0
+
+sha : e7ce455ed0c577f2d8f13a3d6bfcd16b8c803f83,	message : update demo link,	user : dichen001,	time : 1461010282.0
+
+sha : d12f2994f0e4fb1cd18cdbb165babdb66d658fb6,	message : update the demo link,	user : dichen001,	time : 1460943123.0
+
+sha : d0d5259a743ae48caaa7de0f4cc558a8bf8d14fc,	message : cor,	user : azhe825,	time : 1460834721.0
+
+sha : 4289bb35ecf309f21a150f7c5512f5e86416571f,	message : cor,	user : azhe825,	time : 1460834596.0
+
+sha : 28991bf93618a02ff23114e941439fbbcac1fca1,	message : minor,	user : azhe825,	time : 1460487221.0
+
+sha : a4a3e1fd75372bd326807ed8e3b86afc448000da,	message : minor,	user : azhe825,	time : 1460487208.0
+
+sha : b1766c8d2932e0d5fad7f0288143644ccc4fa434,	message : correction,	user : azhe825,	time : 1460402743.0
+
+sha : bfa3e881f603522fa9c608aeb08b40f275025e72,	message : correction,	user : azhe825,	time : 1460402727.0
+
+sha : 9eab269c2be3e05bc9704bb79e98effd1cd19e2b,	message : telemetry,	user : azhe825,	time : 1460212070.0
+
+sha : 396eb5eb62544dd36eadf1aaf8a36cd34b8a0caa,	message : telemetry,	user : azhe825,	time : 1460211743.0
+
+sha : 2d70ae920d9a829349bd80290d748bcdac478a75,	message : Update README.md,	user : azhe825,	time : 1460088046.0
+
+sha : 2ed6f830352be102e6a2ee5c4f8596ba81b263ac,	message : Added files via upload,	user : azhe825,	time : 1460088000.0
+
+sha : 55347fba83adb0aef70bb3767cc4f30c76c944e2,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : azhe825,	time : 1460087201.0
+
+sha : 0e076f86982ab77bdd30e5c66ae545ba1fc6c3ef,	message : a,	user : azhe825,	time : 1460087197.0
+
+sha : 715ed6092d5a5f57b8245bc57c403aa2aed6d4d3,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1460083516.0
+
+sha : d952e022373f91b626c6dab1f7fec088f508eee1,	message : enable Right Click on Mac OS,	user : dichen001,	time : 1460083501.0
+
+sha : a1cadc745964da2ee64ba1a877d38b62e004e33b,	message : upload April Report,	user : dichen001,	time : 1460083063.0
+
+sha : b23b157a872d7aa047c17cff42f7b86a36bee49c,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1460081287.0
+
+sha : ccd0023ac3b950ef5452d053727f0f764e2681ea,	message : markdown April,	user : imaginationsuper,	time : 1460081232.0
+
+sha : aa4069fb1c6a5227237358199aa5a299f04eded0,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1460081133.0
+
+sha : 1d2e7c6b4483bc6a86f21f09e6a9bdd6bcade891,	message : modify Popup to show True Label and Original Emails,	user : dichen001,	time : 1460081118.0
+
+sha : 625d2af28cfca7f03147844eca119c7bc52c55a9,	message : markdown April,	user : imaginationsuper,	time : 1460081091.0
+
+sha : 21b17706e0d7ff8c99eb3590e80d10c41b5cad58,	message : markdown April,	user : imaginationsuper,	time : 1460080507.0
+
+sha : ccfbf38bf5dea9b6694ad11fdacccf5b25839b96,	message : markdown April,	user : imaginationsuper,	time : 1460080215.0
+
+sha : 4ed277a84476e286c2128d041258097344e11c71,	message : markdown April,	user : imaginationsuper,	time : 1460080045.0
+
+sha : c9f87c62916a0b2c8ae57dd40e20a799e8e3ca70,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1460079575.0
+
+sha : 0d49a5fa458c60d76ad3de3fa1bf6382625bdc2e,	message : markdown April,	user : imaginationsuper,	time : 1460079566.0
+
+sha : cc55fe594b62994a946afa5bb6c22755f7fce405,	message : save,	user : amritbhanu,	time : 1460065600.0
+
+sha : 058e870ac0ec862670f6b8529bde1cdf78990aa1,	message : gmail,	user : amritbhanu,	time : 1460036910.0
+
+sha : 8fc9d414d029bfb7e1601174a0365064ee145be5,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1459995562.0
+
+sha : cfe31f7baee79589e34797008deace882426193e,	message : fixed right button for mac, but has problem to add button of login and link to online gmail account on the GUI,	user : imaginationsuper,	time : 1459995543.0
+
+sha : 8802e76b197f70bc30bd340de0228094bc25f3f0,	message : Added files via upload,	user : azhe825,	time : 1459991864.0
+
+sha : a6be378d21349906a6e0b78d927a1c4eaa11b5e4,	message : save,	user : amritbhanu,	time : 1459973404.0
+
+sha : c5789a8176be5cbf23099a187522f78185a03268,	message : save,	user : amritbhanu,	time : 1459973320.0
+
+sha : 2967eaa95a492a5420f50c0b2a472e21d7ef5a75,	message : a,	user : azhe825,	time : 1459965601.0
+
+sha : 387cf79fb9fb9dba47ddb67f8dd4ebb4ec414d8c,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1459959089.0
+
+sha : 20d9461c59abfe466489cb9f7945bbed6f903480,	message : gui,	user : amritbhanu,	time : 1459959062.0
+
+sha : d900cb6c41be466a4c2cbcd41294ed2eaae45632,	message : codes to check updated new mails,	user : imaginationsuper,	time : 1459955467.0
+
+sha : 4c161ec4b7aba61797b51f3da8d9833048e3be5e,	message : functions to login and fetch emails from gmail,	user : imaginationsuper,	time : 1459954627.0
+
+sha : d92776a06aa582d170d4d6d19835502fc4ec0f39,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1459954472.0
+
+sha : 24ca73995e71da86afcd78d2115c64449bb75e8c,	message : functions to login and fetch emails from gmail,	user : imaginationsuper,	time : 1459954445.0
+
+sha : 2e062ee3846ed36e1a6d8656bef7757f467de352,	message : inc,	user : azhe825,	time : 1459950333.0
+
+sha : f33137301b7599a9d194acafedf6b3da5f0f11df,	message : incomming,	user : azhe825,	time : 1459949580.0
+
+sha : 8d70a6db4853c10af0b5bb24dfb97c711c30d1ba,	message : ignore Unread Emails Number for Uncertain and Trash,	user : dichen001,	time : 1459914325.0
+
+sha : deb3a96df23fdc4405bdb20c0f9df50e38d4f715,	message : enable Unread Numbers showing in the buttons. Buggy for Uncertain and Trash,	user : dichen001,	time : 1459914180.0
+
+sha : ca33c1792e4a61c6376b52a157d4662a859adae5,	message : gui,	user : amritbhanu,	time : 1459895800.0
+
+sha : da68b8dd24617d66de23c412f29788c277e3bd61,	message : GUI3,	user : azhe825,	time : 1459794139.0
+
+sha : 301dd2def45f1e2103b39ea82af95b4f8c420350,	message : save,	user : amritbhanu,	time : 1459748596.0
+
+sha : 49993ff5e808f3758054a6c37d1b41ca87c79b89,	message : modify Gui2.py accordingly,	user : dichen001,	time : 1459745127.0
+
+sha : 75a140915dd16e01450852c7e959fe9585b73e8c,	message : enable Feature Check Box,	user : dichen001,	time : 1459744770.0
+
+sha : 7fbceb2c31ebc326e9aa47178179e82f06c19916,	message : create to add more features,	user : dichen001,	time : 1459744598.0
+
+sha : 5046a5aac696fa521bab3a7926e394d7033a836b,	message : update code,	user : imaginationsuper,	time : 1459744138.0
+
+sha : e1c8ae47ca45adc027735bfd719d8632fb3c77b2,	message : update,	user : imaginationsuper,	time : 1459743985.0
+
+sha : c97e6e98b86a3a2ad2dce96bf9bdfbe27f1d649c,	message : webUI
+
+in progress,	user : imaginationsuper,	time : 1459743920.0
+
+sha : 65d5fe88d0793df884c76b8ff8bb95ddb5c77db4,	message : webUI by html,	user : imaginationsuper,	time : 1459743670.0
+
+sha : e7454ad6f847ebd654fbd3b8fd100538552c302b,	message : refresh,	user : azhe825,	time : 1459714467.0
+
+sha : 150020d67cbe80ec198da80eef0a71c529646dbb,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : azhe825,	time : 1459611543.0
+
+sha : 8c22d9005e92f4947fcd9f87f507a5ac7eadb9ae,	message : GUI,	user : azhe825,	time : 1459611530.0
+
+sha : 646db9d68fa7375a957ad15e98948c77dd52712a,	message : Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	Mails/struct.txt,	user : imaginationsuper,	time : 1459609392.0
+
+sha : 8c27921ef2357f77ae5064748b3430ab0d2c12df,	message : a,	user : azhe825,	time : 1459605759.0
+
+sha : b874b5b53fd5b6dd589349c38d7b0996b8b41e81,	message : a,	user : azhe825,	time : 1459605705.0
+
+sha : 3cd1058d30186673a60f0ec7ce4b7c0fa2c86ffe,	message : email receiver using another test gmail account,	user : imaginationsuper,	time : 1459541415.0
+
+sha : f445a2f1c00ab5475fba6cb49b144632fd992dd8,	message : Merge remote-tracking branch 'origin/master',	user : imaginationsuper,	time : 1459541332.0
+
+sha : fe0fc3252c07d9987459845276356c6d328f825d,	message : email sender using a test gmail account,	user : imaginationsuper,	time : 1459541321.0
+
+sha : 6651adde6241ab179be5058168fa87f67f1c4226,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1459538154.0
+
+sha : 64c399b62a48d1bd7eff53044f8148f8dd1d74a2,	message : save,	user : amritbhanu,	time : 1459538135.0
+
+sha : f6fe5609a70ad7ed9727f658d9c0ac176afe14a8,	message : update code return original subject, body, and processed subject and body,	user : imaginationsuper,	time : 1459535632.0
+
+sha : d40913172db8d73a564c0b650c2a0666e77ad18c,	message : update code fix bug,	user : imaginationsuper,	time : 1459534492.0
+
+sha : a3d836d90c0ff2d17f7256d4daec03d640230d27,	message : update code with email_parser() to parse original email texts,	user : imaginationsuper,	time : 1459534365.0
+
+sha : b68e888feecab5fc3150cfc6c12a57fcce3b8dfa,	message : update code with email_parser() to parse original email texts,	user : imaginationsuper,	time : 1459534164.0
+
+sha : 13929c978597437af881eb0580538a03b781c330,	message : update code with email_parser() to parse original email texts,	user : imaginationsuper,	time : 1459534048.0
+
+sha : 54ca72bef4d8b79b902ae51cc53d463627025b74,	message : update code,	user : imaginationsuper,	time : 1459533834.0
+
+sha : 4ca8639c8e6e929775f9eb7a32e434b5a673280c,	message : save,	user : amritbhanu,	time : 1459527633.0
+
+sha : 0e9e9acfe89dc9d1679dc57926034c3c40cebdb4,	message : update,	user : amritbhanu,	time : 1459456237.0
+
+sha : af09d546b1392ffca8e13fc76de20bae4af9bbda,	message : gui,	user : amritbhanu,	time : 1459278624.0
+
+sha : 18ba239c0cc9559aeaa6170f31b74333597be50d,	message : Update Gui_support.py,	user : azhe825,	time : 1458397741.0
+
+sha : 6cb6da4a25d9f0bbff9373085b4e46b8b12082eb,	message : Update Gui_support.py,	user : azhe825,	time : 1458329909.0
+
+sha : 1ca29dcfdeb5847f467b82a0ab46188728383e0a,	message : Update Gui_support.py,	user : amritbhanu,	time : 1458328404.0
+
+sha : 6fee01a617dba57c6d74203384d3609718ed44e1,	message : GUI support,	user : azhe825,	time : 1458327813.0
+
+sha : 601ed58887f7a18779f6e0a03e81d8abcb614727,	message : GUI support,	user : azhe825,	time : 1458304507.0
+
+sha : fe7ea06ffa109fe3d96b20112af9edbe4e5c35a1,	message : GUI support,	user : azhe825,	time : 1458256986.0
+
+sha : 0153c2cd5b610507d065c04618566a36aa8e3d06,	message : GUI support,	user : azhe825,	time : 1458256966.0
+
+sha : 3b9d77dbdf71c135181ac532aade9289ae0156be,	message : lda,	user : azhe825,	time : 1457703797.0
+
+sha : ce24f903a592a00f3820e2a69f402b7edc08e8dc,	message : save,	user : amritbhanu,	time : 1457304141.0
+
+sha : f4ca323b2b14e5b7e8e9dd270e6f6f0b735b7348,	message : save,	user : amritbhanu,	time : 1457304022.0
+
+sha : 534f6e99a72922b02fbeec4f777ded100277f474,	message : save,	user : amritbhanu,	time : 1457293341.0
+
+sha : 7c51834eabfd5f705682b255cb327d697faeb1e3,	message : save,	user : amritbhanu,	time : 1457293264.0
+
+sha : 0ed90cc432b4b97eceaeb8e8b8b6417b8bf9c0a6,	message : save,	user : amritbhanu,	time : 1457293141.0
+
+sha : e72d300163f9246e9534336f59ae117714665057,	message : save,	user : amritbhanu,	time : 1457284242.0
+
+sha : 558a12651bcac853d52a626ea4eb665caa77e34c,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1457246141.0
+
+sha : 8ade3c262c50ae0da45b01008e19e87bd3dfdffa,	message : save,	user : amritbhanu,	time : 1457246022.0
+
+sha : 14d416823999cc7cdd8b363b25c44a63bf1c18e6,	message : Update semi-supervised.md,	user : azhe825,	time : 1457102577.0
+
+sha : 96eeafbd1f21f45d13c070254f6cd2c56be180bd,	message : Update semi-supervised.md,	user : azhe825,	time : 1457102536.0
+
+sha : 2ca1c7117680c1992bde21f3d6f7809cf7cf0092,	message : Update semi-supervised.md,	user : azhe825,	time : 1457102498.0
+
+sha : 367ed341797498b2ac62d786d0b71d1ae826eb6c,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : azhe825,	time : 1457102345.0
+
+sha : a5284f1c190c4747777fb46a4668f06c9c6bd450,	message : semi,	user : azhe825,	time : 1457102324.0
+
+sha : 17a57db53211990ae9a77020491afd3b4443878a,	message : Update supervised_learning.md,	user : dichen001,	time : 1457072099.0
+
+sha : d7b948e16e1c1d5a1a0edbb62b570e0c9599f909,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1457071456.0
+
+sha : 5083262342b24477f4992d269c67763e7250c7e8,	message : use doc2vec, performance still very poor...,	user : dichen001,	time : 1457071451.0
+
+sha : e7fbe28aa79b905302e25caed24d6254920f9b8f,	message : save,	user : amritbhanu,	time : 1457059580.0
+
+sha : 258e3f20acd3dbfaeddcbc5bbee90ceea9d10d09,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1457057722.0
+
+sha : 08dbbadd85940dd7f807ccf07f40156cf1d3120b,	message : save,	user : amritbhanu,	time : 1457057704.0
+
+sha : ab00222c7d24a8ed862dc89b45d7b8226a26b36f,	message : Update Mar 1st Report.md,	user : azhe825,	time : 1457049940.0
+
+sha : c0ccbd210812ea078fd5157db96c2345967cb3a3,	message : Update Mar 1st Report.md,	user : azhe825,	time : 1457047896.0
+
+sha : 18678a7bd6ade7c5824e2d9c190d7558d5ceac71,	message : Update semi-supervised.md,	user : azhe825,	time : 1457014792.0
+
+sha : 2fbc65bf824b08f90bff8e17a5c55b112182969b,	message : compare inc,	user : azhe825,	time : 1457014626.0
+
+sha : b7241106f0820e6295267e64edfa765454269227,	message : a,	user : azhe825,	time : 1457014561.0
+
+sha : 200e658c42dd82646ec0d8a566e9adbc65a32b39,	message : Update semi-supervised.md,	user : azhe825,	time : 1457013306.0
+
+sha : 6baa701e988511a6f845b05907f520de6f69cff0,	message : Update semi-supervised.md,	user : azhe825,	time : 1457013217.0
+
+sha : 6024982e9a7bf38c50e5f64b0e45bfd748e470bc,	message : Update semi-supervised.md,	user : azhe825,	time : 1457012104.0
+
+sha : bc086eeb36cc8c1a84ba1c2c653babda11c70645,	message : update my report link,	user : dichen001,	time : 1456967260.0
+
+sha : 6e72e15f5793394411ac1242809caa858f019cd0,	message : upload the Supervised Learning Report,	user : dichen001,	time : 1456967166.0
+
+sha : 624bfed34363db7568fd92df7c4bb9f940fd1784,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1456964362.0
+
+sha : 1bcdff9a2f39cb612b29979f188338b20ce6297c,	message : add comparation results using different classifiers for different folders,	user : dichen001,	time : 1456964338.0
+
+sha : 015c82863d730ecdfe312bb8cfb1ccda7167d847,	message : Update Unsupervised_Learning.md,	user : amritbhanu,	time : 1456955727.0
+
+sha : 772f1945aab0278637e738a0064107f4612cacc7,	message : save,	user : amritbhanu,	time : 1456955481.0
+
+sha : 1768f1fb652084a64a1c39e52f38e4bf1be13a24,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : amritbhanu,	time : 1456954938.0
+
+sha : 6da5ff1388131d9fc78690523dd9a4e92ae724b3,	message : save,	user : amritbhanu,	time : 1456954917.0
+
+sha : ad522ffee686c1d804e5d6fc2a3b3a229b48bf17,	message : save,	user : amritbhanu,	time : 1456946012.0
+
+sha : 4b4782d0b3e59fa2c09d5d8a0e23d64c592ff09e,	message : Update Mar 1st Report.md,	user : amritbhanu,	time : 1456937309.0
+
+sha : c942016b96494a50c3c6084e9ffcbc18309041b6,	message : Create Unsupervised_Learning.md,	user : amritbhanu,	time : 1456937161.0
+
+sha : d22991cb755eb168eff0fecbf4c9885fef6dcf2d,	message : Update Data.Collection.and.Pre-processing.md,	user : imaginationsuper,	time : 1456935684.0
+
+sha : ffcd3b69b9a42309d1f7d984a3d73a384d59b9f7,	message : Update Data.Collection.and.Pre-processing.md,	user : imaginationsuper,	time : 1456935202.0
+
+sha : 11cd6544ff60cb965593e0c584a734b5a74fee4b,	message : Update Data.Collection.and.Pre-processing.md,	user : imaginationsuper,	time : 1456935168.0
+
+sha : 7f9c8e4d9cc201d47983a3101e4a936803cb65f9,	message : Update Mar 1st Report.md,	user : azhe825,	time : 1456932604.0
+
+sha : b66bc91738c51b911ab7ffdc7f3d37dd372ca49f,	message : Update Mar 1st Report.md,	user : azhe825,	time : 1456932568.0
+
+sha : a548867c7ff72fd076cfdb0b067c9bc58a396c12,	message : Update semi-supervised.md,	user : azhe825,	time : 1456931954.0
+
+sha : da50dc0b89e16f535575d48aa11e3d2148168019,	message : Update Data.Collection.and.Pre-processing.md,	user : imaginationsuper,	time : 1456931927.0
+
+sha : 59c14291b5c7d458565b370b6fca8d329d37ee32,	message : Update Mar 1st Report.md,	user : imaginationsuper,	time : 1456931802.0
+
+sha : f7c5b714dbe22eba3cf9e0a1a1ae78a9a7074265,	message : set up linkage,	user : imaginationsuper,	time : 1456931764.0
+
+sha : 9abeb4f5305a47590d76d0c351ac8d3968bbe09f,	message : Update semi-supervised.md,	user : azhe825,	time : 1456931502.0
+
+sha : 724e410561a6513ef1a774cfa8517bc94daffae3,	message : Delete Mar 1st Report,	user : azhe825,	time : 1456931309.0
+
+sha : fdbc0dbf60965c886c540053bb3f8ff87df0caed,	message : Create Mar 1st Report.md,	user : azhe825,	time : 1456931291.0
+
+sha : 45c8aeddf9e88c593f055f456110ce92e1a224b1,	message : Update Mar 1st Report,	user : azhe825,	time : 1456931254.0
+
+sha : bef71f9bdd326b63a58d54a48c7b178374e2201f,	message : Create Mar 1st Report,	user : azhe825,	time : 1456931221.0
+
+sha : 491d2d3d6290957c4bb73fe14ee0613e49091b2f,	message : march report,	user : azhe825,	time : 1456928417.0
+
+sha : 2572b9a016d37aea052913b2f931d4e836608a9d,	message : add draw.py  Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1456887125.0
+
+sha : 0c2c6cbc52f0ccd1cda2696091e5f3f04334ecfa,	message : remove MNB, using Decision Tree instead,	user : dichen001,	time : 1456887022.0
+
+sha : 5854b59c7948ae6597f46084a05115eb643c256f,	message : add pic comparing different classifiers,	user : dichen001,	time : 1456876587.0
+
+sha : 90343e065cf12c0233f3eafd319449b782c56689,	message : save,	user : amritbhanu,	time : 1456861571.0
+
+sha : ad2ca1173565a450d55261eda0ec76bb8f68a67f,	message : add the modified test.py for batch plotting for multipule classifiers,	user : dichen001,	time : 1456860344.0
+
+sha : 82422a666bc3907d45247210dcd16c2fd3992120,	message : add pictures for each classifier,	user : dichen001,	time : 1456860216.0
+
+sha : fe2abe8d5c000c5bd4a6f2bd2513af79afc2555d,	message : fix conflict,	user : azhe825,	time : 1456779022.0
+
+sha : b3564aab648ad5a7d2de93570e043451b1488688,	message : semi,	user : azhe825,	time : 1456778650.0
+
+sha : 71034ced17b11cb9e1589796c2715e81a4654627,	message : save,	user : amritbhanu,	time : 1456771326.0
+
+sha : 376ecf0971bd4c9873820c4d5e8eab3e132c76c0,	message : Update .gitignore,	user : amritbhanu,	time : 1456770890.0
+
+sha : 92e710338aeef50667bd2281e86b4044b8de82be,	message : Update README.md,	user : dichen001,	time : 1456726216.0
+
+sha : 85d13ab46e1dbae8ff4a4fe7edd8f6ee94fdcfb9,	message : Update README.md,	user : dichen001,	time : 1456726164.0
+
+sha : 4c6572d78a2b0488768f922c0bf84943efc24431,	message : add Multinomial Naive-Bayes and the results,	user : dichen001,	time : 1456725518.0
+
+sha : ecca6bf93ff8983699a444d79d3a2dc039caadf0,	message : add the saved results of SVM and KNN,	user : dichen001,	time : 1456723286.0
+
+sha : 82d9a7a27191c8ae3f4ec76ce5c9dc6cb164a127,	message : add KNN, choose k=10 after testing k={5,10,15,20},	user : dichen001,	time : 1456722755.0
+
+sha : db41e2e189c61b495ed0d437a355a55d5df54359,	message : Merge branch 'master' of https://github.com/azhe825/CSC510,	user : dichen001,	time : 1456689841.0
+
+sha : 03f1fc067f735af455b5742f16844790d7b7fa20,	message : processed data for fast running,	user : dichen001,	time : 1456689818.0
+
+sha : 160c806357d5898f51c43db4896305ba5ff1d819,	message : When training only 10 emails, Word Vector performs poorly,	user : dichen001,	time : 1456689442.0
+
+sha : 29680980e8f632a6bc6106c301633fc30e94510b,	message : add new_subdata,	user : dichen001,	time : 1456689105.0
+
+sha : 62b65b84fab84c0c82f7bd319a44040114b44939,	message : normalize,	user : azhe825,	time : 1456667787.0
+
+sha : 5f4257df485adae0192f923f0d7eae1d5cd59461,	message : new_subdata,	user : dichen001,	time : 1456638713.0
+
+sha : 2230b9fb1fa1b56381ae911d3ffeddf9fb0be7d1,	message : use pre-built WordVector model by Google using Google news,	user : dichen001,	time : 1456638522.0
+
+sha : a9d214fdf01405ddf7e6a2618a2b86d05b497ec5,	message : sub-data,	user : dichen001,	time : 1456634223.0
+
+sha : f0b92cb3f68334f2fdf76ff8676f9bd22b196212,	message : part data of WordVector representation for each email and related lables,	user : dichen001,	time : 1456629615.0
+
+sha : b04799a49e22c3eb86a132061498f5d716275085,	message : get the WordVector for the training corpus of each user,	user : dichen001,	time : 1456629164.0
+
+sha : b13d43d864964a150873f1813670c999aa950d68,	message : add the user_corpus.p (containing the corpus for each user),	user : dichen001,	time : 1456622621.0
+
+sha : 535ec27c4884048c142f8e7e3eec4c1551f2bb46,	message : modified for the Cleaned Data uploaded by Zhe,	user : dichen001,	time : 1456622564.0
+
+sha : 7c6e55ac70cf8342d5ae162e6e1bc0b298be34f8,	message : classification use WordVector as Features,	user : dichen001,	time : 1456619299.0
+
+sha : ca76b58481b31fdd889972543795633533ee22cd,	message : get the WordVector model for each user,	user : dichen001,	time : 1456618980.0
+
+sha : 0f579f615e13d21c77a0c2655e029ef769579184,	message : used to get the training corpus for each user,	user : dichen001,	time : 1456618870.0
+
+sha : 970ad1c5cec14e72a760572005703cf19ff6e824,	message : semi,	user : azhe825,	time : 1456615372.0
+
+sha : 4dad439630a6c02f55fb08a9ad42a987d6337354,	message : a,	user : azhe825,	time : 1456607973.0
+
+sha : 46fad2a86d01f0f577912ca70d0609bcc01a6df1,	message : clean,	user : azhe825,	time : 1456601141.0
+
+sha : ea9f9b6cfee20e682175c830edbde121fb5c9ed6,	message : data_cleaning,	user : azhe825,	time : 1456600853.0
+
+sha : 7955fcca0f73b2d1b143cf4a6822284242930115,	message : data_cleaning,	user : azhe825,	time : 1456600820.0
+
+sha : f3e6c625b91d720d3487235844f535c4f7a0cc3e,	message : data_cleaning,	user : azhe825,	time : 1456600745.0
+
+sha : 88d1816b14b18846fef480bb7009bef7e50c7466,	message : data_cleaning,	user : azhe825,	time : 1456600739.0
+
+sha : 49705c2b5c5c656552064cb93d4baf42be2883e7,	message : code update: merge continuous whitespaces,	user : imaginationsuper,	time : 1456508958.0
+
+sha : eb934c8432a38ac571fe56e77ebcb59b6cd44470,	message : Upload new code for data conversion
+
+Reorganize data conversion code to encapsulate all settings inside functions or default values.,	user : imaginationsuper,	time : 1456449975.0
+
+sha : 40320efb35553744c7b23898602f8584f2042e19,	message : Added files via upload,	user : imaginationsuper,	time : 1456438687.0
+
+sha : e55da7cc628d36b7ecfe1033566f47d2c540a616,	message : Update: fix bugs in output format,	user : imaginationsuper,	time : 1456438524.0
+
+sha : bc21f0e80c65d84a16a9e0c047e88b41c8c1515e,	message : make pre-processing 5x faster,	user : dichen001,	time : 1456432754.0
+
+sha : 3fe1eaee4379ac2b15dc90ef4393dce1b4b7fc04,	message : renew,	user : imaginationsuper,	time : 1456431796.0
+
+sha : 63b9cdd3f78d18d89c0141fa0cac03088c7e6533,	message : go back before merge,	user : dichen001,	time : 1456431636.0
+
+sha : ea4c086f2e5daf4be8d1f71c92270e1d1ed088aa,	message : ignore unuseful folders in the first place,	user : dichen001,	time : 1456431513.0
+
+sha : cdb2cff542004af7cf1440b39b96a08ee2772887,	message : Update: add words length filter,	user : imaginationsuper,	time : 1456429908.0
+
+sha : a1d3536671116232cf51f4ca3616862e1090bc9d,	message : Update subject and body separator,	user : imaginationsuper,	time : 1456422382.0
+
+sha : 64de88e0b288c9942b6b12ec0870fee4b3b0a860,	message : Update,	user : imaginationsuper,	time : 1456413469.0
+
+sha : 45ccac1a2e36e8dcf8e7342156a498ea1f8b1996,	message : small bugs in the scikit-learn tokenizer,	user : imaginationsuper,	time : 1456410379.0
+
+sha : ea56ae8de7f7ce555979856604e6e1ed3740f290,	message : add whitespace delimiter after subject,	user : imaginationsuper,	time : 1456161018.0
+
+sha : 7b1ad127c4294f44a64aa2f5b4e7459557da4b98,	message : Code and test data,	user : imaginationsuper,	time : 1455515880.0
+
+sha : 4fde24006d57946ff8cbfe7e675ee8d6b3d144eb,	message : fix,	user : azhe825,	time : 1454296950.0
+
+sha : 6ed9fe0f508a832d817058702b559a01b1616380,	message : fix,	user : azhe825,	time : 1454296681.0
+
+sha : bc9e85459eb20db51b77cb8e89ffe473397b7c7a,	message : fix,	user : azhe825,	time : 1454296197.0
+
+sha : b430b5817d89441e7965b9a6045e93ed2d2028bd,	message : a,	user : azhe825,	time : 1454296161.0
+
+sha : f4b94bc03915d63326e107aadd88320dae008c8a,	message : Feb,	user : azhe825,	time : 1454296044.0
+
+sha : 8a7aec49cc786e54f4322448162e0b53198bd0e4,	message : save,	user : amritbhanu,	time : 1454295007.0
+
+sha : 3c2ab44004344b4713f3dff5688ab1d4ce48f31e,	message : Feb,	user : azhe825,	time : 1454291545.0
+
+sha : 94b208efc9a0d5758b847a2b411ee74a47e195e6,	message : Feb,	user : azhe825,	time : 1454289664.0
+
+sha : abb73e1613a44a34938d040910011438a7665da4,	message : feb,	user : azhe825,	time : 1454289451.0
+
+sha : f72a69db1509b1624ce645c6b4cbdea464bc0a09,	message : Delete .DS_Store,	user : amritbhanu,	time : 1454284582.0
+
+sha : 369f25a72d174a5f77bc6a7f1689e4a8aeeaf448,	message : Delete .DS_Store,	user : amritbhanu,	time : 1454284567.0
+
+sha : e2946cc082e49dec0241f5a612624db81ef6e417,	message : Delete .DS_Store,	user : amritbhanu,	time : 1454284552.0
+
+sha : 60b1a564df3ebbfb27ec27309e36b025d985dd59,	message : status,	user : amritbhanu,	time : 1454283280.0
+
+sha : d10699dcbb22b6bc4efc73fe8d26b7060684fdb3,	message : Create .gitignore,	user : amritbhanu,	time : 1454283183.0
+
+sha : c5c44a2e363e964919f6e8a95eda44def07f25d8,	message : Create README.md,	user : amritbhanu,	time : 1454283099.0
+
+sha : 0f37f585f7c249065f89ab255f5e14aba9584781,	message : Delete README.md,	user : amritbhanu,	time : 1454283088.0
+
+sha : 43d180a11c7926d9c3591ba7d6d82a499e5cb2c7,	message : feb,	user : azhe825,	time : 1454282035.0
+
+sha : 56f7dd7493afadd058b6689cdbdc2620753305da,	message : a,	user : azhe825,	time : 1454267752.0
+
+sha : cbf2c0dbdaced9cd7a4bb942d70138c2970d530b,	message : a,	user : azhe825,	time : 1454267696.0
+
+sha : 46b6ecabfb3b0aa46d8b094ca1ba3fd6cd7d0a5e,	message : Create Feb_Jack.md,	user : dichen001,	time : 1454264417.0
+
+sha : 85235dbcfca8b536dc454f9bcda13d668815fa4a,	message : save,	user : amritbhanu,	time : 1454259131.0
+
+sha : 233b93a7ac8a0cc1fd7d871667c9ed906096099f,	message : Update README.md,	user : azhe825,	time : 1452283742.0
+
+sha : 6787edfbd77a21a33b6f1eb1c7638dbda478d7ec,	message : Initial commit,	user : azhe825,	time : 1452283152.0
+
