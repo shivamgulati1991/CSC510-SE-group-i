@@ -4,6 +4,8 @@ import json
 import re,datetime
 import sys
 import json,csv
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 class L():
   "Anonymous container"
